@@ -112,6 +112,10 @@
     ],
     "guides": [
       {
+        "slug": "hellhole-beginner-guide",
+        "file": "hellhole-beginner-guide"
+      },
+      {
         "slug": "hellhole-how-to-play",
         "file": "hellhole-how-to-play"
       },
@@ -140,10 +144,6 @@
       {
         "slug": "hellhole-money-guide",
         "file": "hellhole-money-guide"
-      },
-      {
-        "slug": "hellhole-progression-guide",
-        "file": "hellhole-progression-guide"
       },
       {
         "slug": "hellhole-upgrade-guide",
@@ -320,10 +320,6 @@
         "file": "hellhole-money-guide"
       },
       {
-        "slug": "hellhole-progression-guide",
-        "file": "hellhole-progression-guide"
-      },
-      {
         "slug": "hellhole-upgrade-guide",
         "file": "hellhole-upgrade-guide"
       }
@@ -406,8 +402,16 @@
         "file": "hellhole-demon-enemies"
       },
       {
+        "slug": "hellhole-enemy-guide",
+        "file": "hellhole-enemy-guide"
+      },
+      {
         "slug": "hellhole-enemy-types",
         "file": "hellhole-enemy-types"
+      },
+      {
+        "slug": "hellhole-hardest-enemies",
+        "file": "hellhole-hardest-enemies"
       }
     ],
     "floors": [
@@ -426,12 +430,20 @@
       {
         "slug": "hellhole-floor-progression",
         "file": "hellhole-floor-progression"
+      },
+      {
+        "slug": "hellhole-map-guide",
+        "file": "hellhole-map-guide"
       }
     ],
     "general": [
       {
         "slug": "hellhole-game",
         "file": "hellhole-game"
+      },
+      {
+        "slug": "hellhole-gameplay",
+        "file": "hellhole-gameplay"
       },
       {
         "slug": "hellhole-review",
@@ -480,10 +492,6 @@
       {
         "slug": "hellhole-money-guide",
         "file": "hellhole-money-guide"
-      },
-      {
-        "slug": "hellhole-progression-guide",
-        "file": "hellhole-progression-guide"
       },
       {
         "slug": "hellhole-upgrade-guide",
@@ -560,8 +568,16 @@
     ],
     "enemies": [
       {
+        "slug": "hellhole-all-enemies",
+        "file": "hellhole-all-enemies"
+      },
+      {
         "slug": "hellhole-demon-enemies",
         "file": "hellhole-demon-enemies"
+      },
+      {
+        "slug": "hellhole-enemy-guide",
+        "file": "hellhole-enemy-guide"
       },
       {
         "slug": "hellhole-enemy-types",
@@ -618,6 +634,10 @@
     ],
     "guides": [
       {
+        "slug": "hellhole-beginner-guide",
+        "file": "hellhole-beginner-guide"
+      },
+      {
         "slug": "hellhole-how-to-play",
         "file": "hellhole-how-to-play"
       },
@@ -646,10 +666,6 @@
       {
         "slug": "hellhole-money-guide",
         "file": "hellhole-money-guide"
-      },
-      {
-        "slug": "hellhole-progression-guide",
-        "file": "hellhole-progression-guide"
       },
       {
         "slug": "hellhole-upgrade-guide",

@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Enemigos de Hellhole: Estrategias de Combate y Clasificación de Mobs",
+  description: "Domina las profundidades con nuestra guía de enemigos de Hellhole. Aprende comportamientos de mobs por bioma, patrones de jefes y las mejores ventajas de supervivencia para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hellhole+Enemy+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Hellhole",
+  keywords: "hellhole, guía de enemigos, mobs, estrategias de combate, supervivencia, jefes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de enemigos de Hellhole**: Se centra en identificar comportamientos de mobs en diferentes biomas para maximizar las tasas de supervivencia.
+- **Priorización de mobs**: Apunta siempre primero a los **Gremlins** de alta velocidad y a los **Archers** (Arqueros) a distancia para evitar daño por desgaste.
+- **Mecánicas de jefes**: Los jefes cuentan con salud escalable y ataques de ácido de área que requieren movimiento constante.
+- **Sinergia de ventajas**: Combina **Reload Healing** (Curación al recargar) con mejoras de **Magazine Size** (Tamaño del cargador) para mantener la salud durante tiroteos intensos.
+- **Conciencia del bioma**: Cada piso introduce amenazas únicas, desde los zombis del Magma Core hasta los magos del Ancient Tomb.
+</Callout>
+
+<Section icon={Map} title="Guía de Enemigos de Hellhole: Navegación y Conceptos Básicos de Mobs">
+
+Sobrevivir al descenso en Hellhole requiere más que solo reflejos rápidos; demanda una comprensión profunda de las diversas amenazas que acechan en cada bioma. A medida que los jugadores caen en el foso, la dificultad aumenta rápidamente, introduciendo enemigos más rápidos, fuertes y mecánicamente complejos. Esta **guía de enemigos de hellhole** sirve como tu recurso principal para identificar estas amenazas antes de que abrumen a tu escuadrón. Ya sea que juegues solo o en un equipo de cuatro, reconocer los patrones de aparición en los primeros pisos es esencial para lograr una partida exitosa.
+
+**Puntos destacados del video:**
+- **Conceptos Básicos para Principiantes**: Descripción general del lobby, la armería y los sistemas de mejora de armas.
+- **Mecánicas de Piso**: Cómo navegar por las salas de tesoros y arenas de combate de manera efectiva.
+- **Variedad de Enemigos**: Primer vistazo a los Charred Zombies, Gremlins y Skeletons.
+- **Encuentro con Jefe**: Un recorrido completo de una pelea contra un jefe en solitario en el Ancient Tomb.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="HELLHOLE FULL GUIDE! (Enemies, Upgrades, Money) - Roblox" />
+
+El ciclo de combate gira en torno a limpiar habitaciones específicas para desbloquear el descenso al siguiente piso. Cada habitación presenta una oleada de enemigos que deben ser derrotados para progresar. Utilizar ventajas como **Recon Optics** te permite ver exactamente cuántos enemigos quedan, evitando sorpresas desagradables de mobs escondidos en rincones oscuros.
+
+| Tipo de Enemigo | Bioma Principal | Nivel de Amenaza | Patrón de Comportamiento |
+| :--- | :--- | :--- | :--- |
+| **Charred Zombie** | Magma Core | Bajo | Persecución lenta cuerpo a cuerpo, fácil de esquivar |
+| **Gremlin** | Fungal Depths | Alto | Extremadamente rápido, hitbox pequeña, enjambres |
+| **Skeleton** | Sunken Ruins | Medio | Velocidad moderada, a menudo aparece en grupos |
+| **Spitter** | Sunken Ruins | Alto | Ataques de ácido a distancia, deja peligros en el suelo |
+| **Withered One** | Ancient Tomb | Medio | Alta durabilidad, movimiento lento |
+| **Brute Wizard** | Ancient Tomb | Muy Alto | Proyectiles mágicos, gran reserva de salud |
+
+<Callout type="tip" title="Consejo Profesional">
+Si tienes problemas con la visibilidad de los enemigos, equipa la ventaja **Recon Optics** en el Rango 1. Proporciona un contador en la interfaz para los enemigos restantes, lo cual es invaluable durante los caóticos pisos finales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategias de Combate Específicas del Bioma">
+
+Cada bioma en Hellhole introduce peligros ambientales específicos y sinergias de enemigos. Comprender estas interacciones marca la diferencia entre un descenso exitoso y una partida fallida. La transición del Magma Core a las Sunken Ruins marca un aumento significativo en la dificultad, ya que los enemigos comienzan a utilizar ataques a distancia y peligros de área.
+
+En las **Fungal Depths** (Profundidades Fúngicas), la principal amenaza es el Gremlin. Estos enemigos son conocidos por su pequeño tamaño y alta velocidad de movimiento. Pueden cerrar la brecha rápidamente y rodear al jugador, lo que hace esenciales las armas de alta capacidad o las mejoras de cadencia de fuego. En contraste, el **Ancient Tomb** (Tumba Antigua) cuenta con el Mago Bruto y los Arqueros, lo que requiere que los jugadores utilicen cobertura y prioricen las amenazas a distancia mientras mantienen a raya a las unidades cuerpo a cuerpo más lentas.
+
+| Nombre del Bioma | Peligros Clave | Enemigos Comunes | Enfoque de Estrategia |
+| :--- | :--- | :--- | :--- |
+| **Magma Core** | Fuego/Lava | Charred Zombies | Kiting básico y tiros a la cabeza |
+| **Sunken Ruins** | Pozos de Ácido | Spitters, Skeletons | Priorización de ataques a distancia |
+| **Fungal Depths** | Baja Visibilidad | Gremlins, Mobs Fúngicos | Alta cadencia de fuego, control de masas |
+| **Ancient Tomb** | Pasillos Estrechos | Brute Wizards, Archers | Uso de cobertura, prioridad de objetivos |
+
+<Callout type="warning" title="Alerta de Peligro">
+El escupitajo de ácido de enemigos como el Spitter no solo inflige daño por impacto; deja un charco persistente en el suelo. Pararse en estos charcos agotará rápidamente tus PV, así que mantente siempre en movimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ventajas Óptimas y Mejoras de Armas">
+
+Para combatir la creciente amenaza de los enemigos de Hellhole, los jugadores deben invertir sus créditos ganados en la Armería y seleccionar las ventajas adecuadas. La pistola por defecto es confiable debido a su munición de reserva infinita, pero su tamaño de cargador limitado puede ser una desventaja al enfrentar hordas de Gremlins.
+
+Mejorar el tamaño de tu cargador y la cadencia de fuego debe ser tu primera prioridad. Sin embargo, el elemento más transformador de tu equipamiento serán las ventajas que elijas al inicio de la partida y las mejoras que encuentres en las salas de tesoros.
+
+<CardGrid cols={3}>
+  <Card title="Build de Supervivencia">
+    - **Ventaja**: Finish Reload Heals
+    - **Enfoque**: PV Máx y Velocidad
+    - **Estilo**: Tanque, avance lento
+  </Card>
+  <Card title="Cañón de Cristal">
+    - **Ventaja**: Bullet Drill
+    - **Enfoque**: Crítico y Cadencia
+    - **Estilo**: DPS alto, frágil
+  </Card>
+  <Card title="Explorador de Utilidad">
+    - **Ventaja**: Recon Optics
+    - **Enfoque**: Precisión y Velocidad de mov.
+    - **Estilo**: Apoyo de equipo, kiting
+  </Card>
+</CardGrid>
+
+| Nombre de la Ventaja | Rango Requerido | Descripción del Efecto | Potencial de Sinergia |
+| :--- | :--- | :--- | :--- |
+| **Reload Heal** | 1 | Cura 5 PV al terminar una recarga | Alto (con cargadores pequeños) |
+| **Recon Optics**| 1 | Muestra el recuento de enemigos restantes | Alto (para speedrunning) |
+| **Bullet Drill** | 35 | Las balas atraviesan para golpear a un segundo objetivo | Extremo (para control de masas) |
+| **Coin Start** | 1 | Comienza cada partida con 150 monedas extra | Medio (acceso temprano a tienda) |
+
+<Callout type="success" title="Recomendación del Meta">
+La ventaja **Finish Reload Heals** es actualmente la herramienta de supervivencia más fuerte para jugadores en solitario. Dado que la pistola requiere recargas frecuentes, esencialmente puedes regenerar toda tu barra de salud simplemente disparando un solo tiro y recargando en un rincón seguro.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a Paso: Dominando el Ciclo de los Pisos">
+
+Para llegar al jefe y descender más, debes dominar el ciclo rítmico de exploración y combate. Cada piso sigue una estructura predecible, pero los elementos aleatorios (RNG) de las salas de tesoros y las opciones de mejora requieren adaptabilidad.
+
+<Steps>
+  <Step num="1" title="Limpieza Inicial de la Habitación">
+    Entra en el piso e identifica los tipos de enemigos. Usa el entorno para canalizar a los mobs cuerpo a cuerpo como los Charred Zombies hacia un punto de estrangulamiento. Mantén la distancia y concéntrate en los tiros a la cabeza para ahorrar tiempo.
+  </Step>
+  <Step num="2" title="Gestión de Tesoros y Tienda">
+    Después de limpiar una habitación, busca cofres de plata y oro. Estos proporcionan los créditos necesarios para las mejoras a mitad de la partida. Visita la tienda para comprar aumentos de **Big Speed** (Gran Velocidad) o **Max HP** (PV Máximos) antes de pasar a la siguiente zona de combate.
+  </Step>
+  <Step num="3" title="Selección de Mejoras">
+    Cuando encuentres una sala de mejoras, elige según tu debilidad actual. Si te cuesta matar mobs rápidamente, prioriza **Crit Damage** (Daño Crítico) o **Fire Rate** (Cadencia de Fuego). Si recibes demasiado daño, elige **Magazine Size** (Tamaño del Cargador) para activar tus curaciones por recarga con más frecuencia.
+  </Step>
+  <Step num="4" title="El Descenso">
+    Una vez que todas las habitaciones obligatorias estén limpias, reúne a tu equipo en el ascensor. Asegúrate de que todos estén curados, ya que la transición entre biomas a menudo implica una caída que puede ser desorientadora si los enemigos aparecen de inmediato.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Consejo de Economía">
+No acumules tus monedas. Los créditos ganados durante una partida están destinados a ser gastados en las tiendas de los pisos. Prioriza primero la **Movement Speed** (Velocidad de Movimiento), ya que te permite esquivar casi todos los proyectiles del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Encuentro con el Jefe: El Guardián de la Tumba Antigua">
+
+El desafío final de una partida estándar es el jefe del piso. En el Ancient Tomb, la pelea contra el jefe tiene lugar en una arena confinada, lo que hace que el movimiento y la conciencia espacial sean críticos. La salud del jefe escala según el tamaño de tu grupo; por ejemplo, un jugador en solitario se enfrentará a un jefe con aproximadamente **4,000 PV**.
+
+| Fase de Ataque | Mecánica | Cómo Contrarrestar |
+| :--- | :--- | :--- |
+| **Fase 1: Cuerpo a Cuerpo** | Persecución directa y golpes | Mantén una trayectoria de kiting circular |
+| **Fase 2: Ácido** | Proyectiles que dejan peligros en el suelo | Vigila el suelo, evita las esquinas |
+| **Fase 3: Enfurecimiento** | Aumento de velocidad y frecuencia de ataque | Usa aumentos de velocidad, prioriza esquivar |
+
+La clave de esta pelea es nunca quedarse quieto. El jefe escupe ácido con frecuencia que permanece en el suelo, reduciendo efectivamente la arena utilizable con el tiempo. Si tienes la ventaja **Reload Heals**, usa los intervalos entre los ataques del jefe para disparar y recargar para mantener tu salud al máximo.
+
+<Callout type="warning" title="Advertencia Crítica">
+Evita quedarte acorralado en la arena del jefe. Si el jefe deja caer un pozo de ácido en la única salida de una esquina, te verás obligado a recibir un daño masivo para escapar. Mantente siempre en el centro o recorre el perímetro.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión y Objetivos">
+
+Para dominar completamente el juego y desbloquear las armas más poderosas como la **Lava Gun** (Pistola de Lava), necesitas alcanzar consistentemente pisos más altos y completar misiones diarias. Usa esta lista de verificación para seguir tu progreso y asegurarte de optimizar tu equipo.
+
+<Checklist
+  id="hellhole-progression"
+  title="Objetivos de Finalización Esenciales:"
+  items={[
+    "Alcanzar el Rango 10 para desbloquear ventajas avanzadas",
+    "Acumular 5,000 créditos para la Lava Gun",
+    "Derrotar al jefe de la Tumba Antigua en solitario",
+    "Completar una partida sin usar una reanimación",
+    "Llegar al Piso 10 en una sola sesión"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo Final">
+La **Lava Gun** cuesta 5,000 créditos pero cuenta con una pasiva legendaria que inflige daño por quemadura. Esto es increíblemente efectivo contra enemigos con muchos PV como el Mago Bruto y los jefes. Concéntrate en partidas de farmeo de créditos para desbloquearla lo antes posible.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor ventaja en esta guía de enemigos de hellhole para principiantes?",
+    answer: "La ventaja 'Finish Reload Heals' es la mejor para principiantes. Proporciona una forma constante de restaurar la salud sin depender de las raras apariciones de corazones de los enemigos."
+  },
+  {
+    question: "¿Cómo lidio con los rápidos enemigos Gremlin?",
+    answer: "Los Gremlins tienen poca salud pero alta velocidad. Usa armas con una alta cadencia de fuego o mejoras que aumenten tu velocidad de movimiento para que puedas retroceder mientras disparas."
+  },
+  {
+    question: "¿Cambia la salud del jefe si juego con amigos?",
+    answer: "Sí, la salud del jefe escala según el número de jugadores en tu equipo. Un jefe en solitario tiene alrededor de 4,000 PV, mientras que un equipo completo se enfrentará a una versión mucho más resistente."
+  },
+  {
+    question: "¿Dónde puedo encontrar la Lava Gun?",
+    answer: "La Lava Gun se puede comprar en la Armería por 5,000 créditos. Es muy recomendable por su daño por quemadura, que ayuda a limpiar oleadas de enemigos más rápido."
+  }
+]} />
+
+</Section>

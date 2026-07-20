@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide des ennemis de Hellhole : Stratégies de combat et classement des monstres",
+  description: "Maîtrisez les profondeurs grâce à notre guide des ennemis de Hellhole. Apprenez le comportement des monstres par biome, les patterns des boss et les meilleurs atouts de survie pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hellhole+Enemy+Guide",
+  date: "2026-07-20",
+  author: "Équipe du Wiki Hellhole"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Guide des ennemis de Hellhole** : Se concentre sur l'identification des comportements des monstres à travers les différents biomes pour maximiser les taux de survie.
+- **Priorisation des monstres** : Ciblez toujours en priorité les **Gremlins** ultra-rapides et les **Archers** à distance pour éviter les dégâts d'usure.
+- **Mécaniques de boss** : Les boss possèdent des points de vie adaptatifs (scaling) et des attaques d'acide de zone qui imposent un mouvement constant.
+- **Synergie d'atouts** : Combinez **Soin au rechargement** (Reload Healing) avec des améliorations de **Taille du chargeur** (Magazine Size) pour maintenir votre santé lors des affrontements intenses.
+- **Conscience du biome** : Chaque étage introduit des menaces uniques, des zombies du Noyau de Magma aux sorciers du Tombeau Antique.
+</Callout>
+
+<Section icon={Map} title="Guide des ennemis de Hellhole : Navigation et bases sur les monstres">
+
+Survivre à la descente dans Hellhole demande bien plus que de simples réflexes rapides ; cela exige une compréhension approfondie des diverses menaces qui rôdent dans chaque biome. À mesure que les joueurs s'enfoncent dans la fosse, la difficulté augmente rapidement, introduisant des ennemis plus rapides, plus forts et plus complexes mécaniquement. Ce **guide des ennemis de Hellhole** vous sert de ressource principale pour identifier ces menaces avant qu'elles ne submergent votre escouade. Que vous jouiez en solo ou en équipe de quatre, reconnaître les patterns d'apparition dans les premiers étages est essentiel pour réussir votre run.
+
+**Points forts de la vidéo :**
+- **Bases pour débutants** : Aperçu du salon, de l'armurerie et des systèmes d'amélioration des armes.
+- **Mécaniques d'étage** : Comment naviguer efficacement dans les salles de trésor et les arènes de combat.
+- **Variété d'ennemis** : Premier aperçu des Zombies calcinés, des Gremlins et des Squelettes.
+- **Affrontement de boss** : Un guide complet d'un combat de boss en solo dans le Tombeau Antique.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="GUIDE COMPLET HELLHOLE ! (Ennemis, Améliorations, Argent) - Roblox" />
+
+La boucle de combat s'articule autour du nettoyage de salles spécifiques pour déverrouiller la descente vers l'étage suivant. Chaque salle présente une vague d'ennemis qui doivent être vaincus pour progresser. L'utilisation d'atouts comme **Optique de reconnaissance** (Recon Optics) vous permet de voir exactement combien d'ennemis il reste, évitant ainsi les mauvaises surprises de monstres cachés dans les coins sombres.
+
+| Type d'ennemi | Biome principal | Niveau de menace | Pattern de comportement |
+| :--- | :--- | :--- | :--- |
+| **Zombie calciné** | Noyau de Magma | Faible | Poursuite au corps à corps lente, facile à kite |
+| **Gremlin** | Profondeurs fongiques | Élevé | Extrêmement rapide, petite hitbox, attaque en groupe |
+| **Squelette** | Ruines englouties | Moyen | Vitesse modérée, apparaît souvent en groupe |
+| **Cracheur** | Ruines englouties | Élevé | Attaques d'acide à distance, laisse des zones dangereuses au sol |
+| **Le Flétri** | Tombeau Antique | Moyen | Haute durabilité, déplacement lent |
+| **Sorcier Brute** | Tombeau Antique | Très élevé | Projectiles magiques, grande quantité de PV |
+
+<Callout type="tip" title="Conseil de pro">
+Si vous avez du mal avec la visibilité des ennemis, équipez l'atout **Optique de reconnaissance** (Recon Optics) au rang 1. Il fournit un compteur à l'écran du nombre d'ennemis restants, ce qui est inestimable lors des étages supérieurs chaotiques.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Stratégies de combat spécifiques aux biomes">
+
+Chaque biome dans Hellhole introduit des dangers environnementaux spécifiques et des synergies d'ennemis. Comprendre ces interactions fait toute la différence entre une descente réussie et une run ratée. La transition du Noyau de Magma aux Ruines englouties marque une augmentation significative de la difficulté, car les ennemis commencent à utiliser des attaques à distance et des zones de dégâts.
+
+Dans les **Profondeurs fongiques**, la menace principale est le Gremlin. Ces ennemis sont redoutables en raison de leur petite taille et de leur vitesse de déplacement élevée. Ils peuvent rapidement combler la distance et encercler un joueur, rendant les armes à grande capacité ou les améliorations de cadence de tir indispensables. En revanche, le **Tombeau Antique** abrite le Sorcier Brute et des Archers, ce qui oblige les joueurs à utiliser les abris et à prioriser les menaces à distance tout en distançant les unités de mêlée plus lentes.
+
+| Nom du biome | Dangers clés | Ennemis communs | Priorité stratégique |
+| :--- | :--- | :--- | :--- |
+| **Noyau de Magma** | Feu/Lave | Zombies calcinés | Kite basique et tirs à la tête |
+| **Ruines englouties** | Flaques d'acide | Cracheurs, Squelettes | Priorisation des cibles à distance |
+| **Profondeurs fongiques** | Faible visibilité | Gremlins, monstres fongiques | Cadence de tir élevée, contrôle des foules |
+| **Tombeau Antique** | Couloirs étroits | Sorciers Brutes, Archers | Utilisation des abris, priorité des cibles |
+
+<Callout type="warning" title="Alerte de danger">
+Les crachats d'acide d'ennemis comme le Cracheur ne causent pas seulement des dégâts d'impact ; ils laissent une flaque persistante sur le sol. Rester dans ces flaques réduira rapidement vos PV, alors restez toujours en mouvement.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Atouts optimaux et améliorations d'armes">
+
+Pour lutter contre la menace croissante des ennemis de Hellhole, les joueurs doivent investir leurs crédits durement gagnés dans l'Armurerie et choisir les bons atouts. Le pistolet par défaut est fiable grâce à ses munitions de réserve infinies, mais la taille limitée de son chargeur peut être un handicap face à des hordes de Gremlins.
+
+Améliorer la taille de votre chargeur et votre cadence de tir devrait être votre première priorité. Cependant, l'élément le plus transformateur de votre build sera les atouts que vous choisirez au début de la run et les améliorations trouvées dans les salles de trésor.
+
+<CardGrid cols={3}>
+  <Card title="Build Survie">
+    - **Atout** : Soin en fin de rechargement
+    - **Priorité** : PV max & Vitesse
+    - **Style** : Résistant, progression lente
+  </Card>
+  <Card title="Canon de verre">
+    - **Atout** : Pénétration de balle
+    - **Priorité** : Coup critique & Cadence de tir
+    - **Style** : DPS élevé, fragile
+  </Card>
+  <Card title="Éclaireur utilitaire">
+    - **Atout** : Optique de reconnaissance
+    - **Priorité** : Précision & Vitesse de déplacement
+    - **Style** : Soutien d'équipe, kiting
+  </Card>
+</CardGrid>
+
+| Nom de l'atout | Rang requis | Description de l'effet | Potentiel de synergie |
+| :--- | :--- | :--- | :--- |
+| **Soin au rechargement** | 1 | Soigne de 5 PV à la fin d'un rechargement | Élevé (avec de petits chargeurs) |
+| **Optique de reconnaissance**| 1 | Affiche le nombre d'ennemis restants | Élevé (pour le speedrun) |
+| **Pénétration de balle** | 35 | Les balles percent pour toucher une deuxième cible | Extrême (pour le contrôle des foules) |
+| **Départ fortuné** | 1 | Commence chaque run avec 150 pièces supplémentaires | Moyen (accès rapide à la boutique) |
+
+<Callout type="success" title="Recommandation de la Meta">
+L'atout **Soin en fin de rechargement** (Finish Reload Heals) est actuellement le meilleur outil de survie pour les joueurs solo. Comme le pistolet nécessite des rechargements fréquents, vous pouvez pratiquement régénérer toute votre barre de santé en tirant une seule balle et en rechargeant dans un coin sûr.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Étape par étape : Maîtriser la boucle de l'étage">
+
+Pour atteindre le boss et descendre plus bas, vous devez maîtriser la boucle rythmée d'exploration et de combat. Chaque étage suit une structure prévisible, mais les éléments aléatoires (RNG) des salles de trésor et des choix d'améliorations exigent de la flexibilité.
+
+<Steps>
+  <Step num="1" title="Nettoyage initial de la salle">
+    Entrez dans l'étage et identifiez les types d'ennemis. Utilisez l'environnement pour canaliser les monstres de mêlée comme les Zombies calcinés dans un point d'étranglement. Gardez vos distances et visez la tête pour gagner du temps.
+  </Step>
+  <Step num="2" title="Gestion des trésors et de la boutique">
+    Après avoir nettoyé une salle, cherchez les coffres en argent et en or. Ils fournissent les crédits nécessaires aux améliorations en cours de partie. Visitez la boutique pour acheter des bonus de **Grande Vitesse** ou de **PV Max** avant de passer à la zone de combat suivante.
+  </Step>
+  <Step num="3" title="Sélection des améliorations">
+    Lorsque vous rencontrez une salle d'amélioration, choisissez en fonction de vos faiblesses actuelles. Si vous avez du mal à éliminer rapidement les monstres, donnez la priorité aux **Dégâts critiques** ou à la **Cadence de tir**. Si vous subissez trop de dégâts, augmentez la **Taille du chargeur** pour déclencher vos soins de rechargement plus souvent.
+  </Step>
+  <Step num="4" title="La descente">
+    Une fois toutes les salles obligatoires nettoyées, rassemblez votre équipe à l'ascenseur. Assurez-vous que tout le monde est soigné, car la transition entre les biomes implique souvent une chute qui peut être désorientante si des ennemis apparaissent immédiatement.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Conseil économique">
+Ne thésaurisez pas vos pièces. Les crédits gagnés pendant une run sont faits pour être dépensés dans les boutiques d'étage. Priorisez d'abord la **Vitesse de déplacement**, car elle vous permet d'esquiver presque tous les projectiles du jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Affrontement de boss : Le Gardien du Tombeau Antique">
+
+Le défi ultime d'une run classique est le boss de l'étage. Dans le Tombeau Antique, le combat de boss se déroule dans une arène confinée, rendant le mouvement et la conscience de l'espace cruciaux. Les PV du boss s'adaptent à la taille de votre groupe ; par exemple, un joueur solo affrontera un boss ayant environ **4 000 PV**.
+
+| Phase d'attaque | Mécanique | Comment contrer |
+| :--- | :--- | :--- |
+| **Phase 1 : Corps à corps** | Poursuite directe et coups | Maintenez une trajectoire circulaire pour le kite |
+| **Phase 2 : Acide** | Projectiles laissant des dangers au sol | Surveillez le sol, évitez les coins |
+| **Phase 3 : Enragé** | Vitesse et fréquence d'attaque accrues | Utilisez des boosts de vitesse, priorisez l'esquive |
+
+La clé de ce combat est de ne jamais rester immobile. Le boss crache fréquemment de l'acide qui stagne au sol, réduisant de fait la taille utile de l'arène au fil du temps. Si vous possédez l'atout de **Soin au rechargement** (Reload Heals), profitez des intervalles entre ses attaques pour tirer et recharger afin de maintenir vos points de vie au maximum.
+
+<Callout type="warning" title="Avertissement critique">
+Évitiez de vous faire coincer dans les coins de l'arène. Si le boss dépose une flaque d'acide sur la seule issue d'un angle, vous serez contraint de subir d'énormes dégâts pour vous échapper. Restez toujours au centre ou tournez autour du périmètre.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de progression et objectifs">
+
+Pour maîtriser pleinement le jeu et débloquer les armes les plus puissantes comme le **Pistolet à lave** (Lava Gun), vous devez atteindre régulièrement les étages supérieurs et accomplir les quêtes quotidiennes. Utilisez cette liste pour suivre votre progression et optimiser votre équipement.
+
+<Checklist
+  id="hellhole-progression"
+  title="Objectifs de complétion essentiels :"
+  items={[
+    "Atteindre le rang 10 pour débloquer les atouts avancés",
+    "Accumuler 5 000 crédits pour le Pistolet à lave",
+    "Vaincre le boss du Tombeau Antique en solo",
+    "Terminer une run sans utiliser de réapparition",
+    "Atteindre l'étage 10 en une seule session"
+  ]}
+/>
+
+<Callout type="tip" title="Dernier conseil">
+Le **Pistolet à lave** (Lava Gun) coûte 5 000 crédits mais possède un effet passif légendaire qui inflige des dégâts de brûlure. C'est incroyablement efficace contre les ennemis à PV élevés comme le Sorcier Brute et les boss. Concentrez-vous sur les runs de farm de crédits pour le débloquer le plus tôt possible.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Quel est le meilleur atout pour les débutants selon ce guide des ennemis de Hellhole ?",
+    answer: "L'atout 'Soin en fin de rechargement' (Finish Reload Heals) est le meilleur pour les débutants. Il offre un moyen fiable de restaurer de la santé sans dépendre des rares apparitions de cœurs sur les ennemis."
+  },
+  {
+    question: "Comment gérer les ennemis Gremlins très rapides ?",
+    answer: "Les Gremlins ont peu de PV mais une vitesse élevée. Utilisez des armes à cadence de tir élevée ou des améliorations qui augmentent votre vitesse de déplacement afin de pouvoir reculer tout en tirant."
+  },
+  {
+    question: "La santé du boss change-t-elle si je joue avec des amis ?",
+    answer: "Oui, la santé du boss s'adapte en fonction du nombre de joueurs dans votre équipe. Un boss en solo a environ 4 000 PV, tandis qu'une équipe complète fera face à une version beaucoup plus résistante."
+  },
+  {
+    question: "Où puis-je trouver le Pistolet à lave (Lava Gun) ?",
+    answer: "Le Pistolet à lave peut être acheté dans l'Armurerie pour 5 000 crédits. Il est fortement recommandé pour ses dégâts de brûlure, qui aident à éliminer les vagues d'ennemis plus rapidement."
+  }
+]} />
+
+</Section>

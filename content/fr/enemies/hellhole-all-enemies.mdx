@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tous les ennemis de Hellhole : Bestiaire 2026 et guide de stratégie de combat",
+  description: "Maîtrisez chaque rencontre dans Hellhole avec notre guide complet des ennemis 2026. Apprenez les schémas d'attaque, les mécaniques de boss et les meilleures améliorations pour survivre.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hellhole+All+Enemies+Guide",
+  date: "2026-07-20",
+  author: "L'équipe du Wiki Hellhole",
+  keywords: "ennemis hellhole, bestiaire, stratégie de combat, guide de survie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Tous les ennemis de Hellhole** vont des basiques **Zombies calcinés** aux complexes **Sorciers brutes** et aux boss d'étage.
+- **Cibles prioritaires** : Éliminez toujours les **Gremlins** et les **Cracheurs** en premier en raison de leur grande vitesse et de leur poison de zone.
+- **Essentiels du combat** : Utilisez l'atout **Optique de reconnaissance** pour suivre les ennemis restants et privilégiez les améliorations de **Soin par rechargement** pour la survie.
+- **Stratégie de boss** : Restez en mouvement dans la petite arène pour éviter les flaques de poison et concentrez-vous sur des armes à cadence de tir élevée pour venir à bout des plus de 4 000 PV.
+- **Progression des étages** : Chaque étage (Cœur de magma, Ruines englouties, Profondeurs fongiques) introduit des variantes élémentaires et des dangers uniques.
+</Callout>
+
+<Section icon={Map} title="Bestiaire de Hellhole : Comprendre la Horde">
+
+Pour survivre à la descente dans Hellhole, les joueurs doivent comprendre que l'environnement est tout aussi mortel que les créatures qui l'habitent. À mesure que vous progressez à travers les différentes couches — en partant du Cœur de magma jusqu'au Tombeau antique — la complexité des comportements ennemis augmente considérablement. Reconnaître ces menaces tôt permet à votre équipe de gérer les ressources efficacement et d'éviter les réanimations inutiles.
+
+**Points forts de la vidéo :**
+- **Variétés d'ennemis** : Aperçu des menaces standard, élites et boss sur plusieurs étages.
+- **Synergie des améliorations** : Comment choisir les critiques, les dégâts et la cadence de tir pour contrer des types d'ennemis spécifiques.
+- **Solo vs Groupe** : Différences dans l'échelonnement des ennemis et des points de vie en jouant seul.
+- **Mécaniques de boss** : Un guide du combat en arène incluant les schémas de mouvement et les dangers au sol.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="HELLHOLE FULL GUIDE! (Enemies, Upgrades, Money)" />
+
+<Callout type="tip" title="Conscience Stratégique">
+Équiper l'atout **Optique de reconnaissance** au rang 1 est vital pour les nouveaux joueurs. Il fournit un compteur sur l'interface en haut de l'écran indiquant exactement combien de **tous les ennemis de Hellhole** il reste dans une vague, vous empêchant d'être surpris par un Gremlin solitaire caché dans l'ombre.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Types d'ennemis standards et comportements">
+
+La plupart des rencontres dans Hellhole consistent en des « mobs de base » qui servent à grignoter votre santé avant d'atteindre le boss de l'étage. Bien qu'individuellement faibles, leur force réside dans leur nombre et leur synergie environnementale. Par exemple, un **Zombie calciné** est lent, mais lorsqu'il est associé à un **Squelette cracheur**, vous pouvez voir vos mouvements restreints par des flaques d'acide, faisant de vous une cible facile pour la horde de mêlée.
+
+| Nom de l'ennemi | Attaque principale | Niveau de danger | Vitesse de déplacement | Traits spéciaux |
+|:---|:---|:---|:---|:---|
+| **Zombie calciné** | Coup de mêlée | Faible | Lent | Santé élevée, chair à canon de base |
+| **Squelette cracheur** | Projectile acide | Moyen | Modérée | Laisse des flaques de poison au sol |
+| **Gremlin** | Mêlée rapide | Élevé | Très rapide | Petite hitbox, difficile à suivre |
+| **Archer squelette** | Flèche à distance | Moyen | Modérée | Haute précision, reste à distance |
+| **Variante gelée** | Toucher glaçant | Moyen | Lent | Peut ralentir la vitesse du joueur |
+| **Le Flétri** | Drain de vie | Élevé | Modérée | Présent dans les étages du Tombeau antique |
+
+<Callout type="warning" title="Danger d'acide">
+Les flaques de poison laissées par les **Squelettes cracheurs** infligent des dégâts sur la durée. Dans les couloirs étroits ou les petites salles de trésor, celles-ci peuvent rapidement mettre fin à une partie si vous n'avez pas assez d'améliorations de **Boost de vitesse** pour manœuvrer autour d'elles.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Menaces d'élite et entités spéciales">
+
+En atteignant des étages plus profonds comme les **Profondeurs fongiques** ou le **Tombeau antique**, le jeu introduit des ennemis d'élite. Ces unités possèdent souvent des capacités spéciales qui nécessitent des contre-stratégies spécifiques. Le **Sorcier brute**, par exemple, combine une santé élevée avec des projectiles magiques, forçant les joueurs à équilibrer positionnement défensif et production de dégâts agressive.
+
+<CardGrid cols={3}>
+  <Card title="Sorcier brute">
+    - **Points de vie élevés** : Nécessite un tir soutenu.
+    - **Sortilèges** : Lance de la magie à tête chercheuse ou de zone.
+    - **Priorité** : Haute. Tuez-les avant qu'ils n'encombrent l'arène.
+  </Card>
+  <Card title="Le Flétri">
+    - **Mouvement furtif** : Se fond souvent dans l'environnement sombre.
+    - **Affaiblissement** : Peut réduire temporairement les dégâts du joueur.
+    - **Taux d'apparition** : Augmente dans les Tombeaux antiques (couche orange).
+  </Card>
+  <Card title="Âmes noyées">
+    - **Synergie aquatique** : Présentes dans les Ruines englouties.
+    - **Résistance** : Haute résistance aux impacts de balles standards.
+    - **Faiblesse** : Vulnérables aux coups critiques et aux effets de brûlure.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Recommandation d'arme">
+L'**Arme de lave** (disponible pour 5 000 Crédits) est particulièrement efficace contre les ennemis d'élite. Son passif légendaire applique un effet de **Brûlure**, qui inflige des dégâts basés sur un pourcentage au fil du temps, ce qui la rend idéale pour les cibles à PV élevés comme les Brutes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rencontre de Boss : Le guide de l'arène">
+
+Le point culminant d'une descente réussie est le combat contre le boss, se déroulant généralement dans une petite arène fermée. Cette rencontre s'adapte à la taille de votre groupe. Un joueur solo affrontera un boss avec environ 4 000 PV, tandis qu'une équipe complète fera face à une réserve de santé beaucoup plus importante. Le défi principal n'est pas seulement la santé du boss, mais le manque d'espace pour éviter ses attaques de zone (AoE).
+
+<Steps>
+  <Step num="1" title="Préparation avant le boss">
+    Visitez la dernière boutique avant l'arène. Priorisez les **PV Max** et les **Boosts de vitesse**. Si vous avez assez d'engrenages, achetez des améliorations de **Cadence de tir** ou de **Précision** pour maximiser votre DPS dans l'espace confiné.
+  </Step>
+  <Step num="2" title="Mobilité constante">
+    Le boss crache fréquemment du poison ou lance des projectiles qui couvrent le sol. Ne restez jamais immobile. Tournez autour du périmètre de l'arène pour garder le boss au centre tout en restant à l'écart des dangers.
+  </Step>
+  <Step num="3" title="Gestion du chargeur">
+    Avec un pool de 4 000 PV en solo, vous aurez besoin de plusieurs rechargements. Utilisez l'atout **Soin par rechargement** pour récupérer 5 PV chaque fois que vous changez de chargeur, vous assurant de rester en forme même si vous prenez un coup perdu.
+  </Step>
+  <Step num="4" title="Exécuter et descendre">
+    Une fois que le boss atteint 25 % de sa santé, il peut entrer dans un état frénétique. Concentrez tous vos tirs sur la tête pour des dégâts critiques (surtout si vous avez l'amélioration **Coups critiques mortels**) afin de terminer le combat rapidement.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mécaniques d'échelonnement">
+La santé du boss s'adapte dynamiquement. Si des coéquipiers quittent la partie en cours de route, la santé du boss peut rester calée sur l'échelonnement du groupe supérieur, rendant le combat en solo nettement plus difficile. Assurez-vous que votre équipe est engagée avant d'entamer la descente finale.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Améliorations optimales pour la gestion des ennemis">
+
+Choisir les bonnes améliorations à la fin de chaque étage fait la différence entre une réussite et une fin prématurée. Puisque **tous les ennemis de Hellhole** ont des faiblesses différentes, un build équilibré est généralement supérieur au cumul d'une seule statistique. Cependant, certaines améliorations de niveau « Épique » doivent toujours être prioritaires.
+
+| Type d'amélioration | Effet | Efficace contre | Priorité |
+|:---|:---|:---|:---|
+| **Coups critiques mortels** | +25% de chances de critique | Boss et Brutes | Haute |
+| **Munitions lourdes** | Recul augmenté | Gremlins et Zombies | Moyenne |
+| **Adrénaline** | Vitesse après élimination | Grandes hordes | Moyenne |
+| **Taille du chargeur** | +5 à +10 balles | Tous les ennemis | Haute |
+| **Balles perforantes** | Touche un deuxième ennemi | Vagues denses | Très haute |
+| **Résistance à l'acide** | Dégâts de poison réduits | Cracheurs et Boss | Situationnelle |
+
+<Callout type="tip" title="Synergie de rechargement">
+L'atout **Soin par rechargement** est sans doute l'outil de survie le plus puissant du jeu. En le combinant avec les améliorations de **Taille du chargeur** et de **Cadence de tir**, vous pouvez efficacement « spammer » les rechargements pour maintenir votre santé au maximum tout en infligeant des dégâts constants à la horde.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de progression et FAQ">
+
+Pour devenir un maître de Hellhole, vous devriez viser à débloquer tous les atouts et toutes les armes en augmentant votre rang. Chaque partie rapporte des Engrenages (Crédits) et de l'XP, même si vous n'atteignez pas le dernier étage.
+
+<Checklist
+  id="hellhole-progression"
+  title="Jalons de survie :"
+  items={[
+    "Atteindre le rang 5 pour débloquer les atouts de mouvement de base",
+    "Acquérir l'Arme de lave pour 5 000 Crédits",
+    "Réussir en solo une rencontre de boss à l'étage 7",
+    "Terminer une partie avec l'atout Optique de reconnaissance équipé",
+    "Débloquer l'atout Balles perforantes au rang 35"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Comment gérer les petits Gremlins rapides dans Hellhole ?",
+    answer: "Les Gremlins sont des cibles de haute priorité. Utilisez l'amélioration Munitions lourdes pour le recul ou des armes à haute cadence de tir pour suivre leurs mouvements. Si vous avez l'atout Optique de reconnaissance, surveillez le compteur d'ennemis pour vous assurer qu'aucun ne se faufile derrière vous."
+  },
+  {
+    question: "Quel est le meilleur moyen de farmer des Engrenages pour de nouvelles armes ?",
+    answer: "Concentrez-vous sur le nettoyage des salles de trésor et l'ouverture des coffres en or/argent. Jouer en groupe complet augmente le butin total trouvé, et accomplir les quêtes quotidiennes (comme vaincre 80 ennemis) offre des bonus d'équipement significatifs."
+  },
+  {
+    question: "Puis-je ressusciter si je suis tué par les ennemis de Hellhole ?",
+    answer: "Oui, vous pouvez ressusciter en utilisant des Robux ou en regardant une publicité selon la plateforme. Cependant, si toute votre équipe est éliminée, la partie s'arrête. Il est préférable d'utiliser l'atout Soin par rechargement pour maintenir sa santé tout au long de la descente."
+  },
+  {
+    question: "Quel étage est le plus difficile pour les débutants ?",
+    answer: "Les Profondeurs fongiques surprennent souvent les débutants à cause des dangers d'explosions de spores et de l'introduction de variantes d'ennemis plus rapides comme les Gremlins. Assurez-vous d'avoir au moins une amélioration de vitesse avant d'entrer dans cet étage."
+  }
+]} />
+
+</Section>

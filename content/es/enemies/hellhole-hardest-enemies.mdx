@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Los enemigos más difíciles de Hellhole: Guía de supervivencia y estrategias de combate",
+  description: "Domina las profundidades de Hellhole aprendiendo a derrotar a los enemigos y jefes más difíciles. Tácticas de expertos para el principal shooter de terror PvE de Roblox en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7f1d1d/fff?text=Hardest+Enemies+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Hellhole",
+  keywords: "hellhole, enemigos más difíciles, guía de supervivencia, estrategias de combate, roblox"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los enemigos más difíciles de Hellhole**: Concéntrate en identificar los tipos de demonios y los jefes de piso desde el principio para gestionar la distancia de manera eficaz.
+- **Prioridad de combate**: Apunta siempre a los "Acechadores" (Stalkers) de gran movilidad antes de concentrarte en los demonios "Brutos" (Brute) más resistentes.
+- **Gestión de recursos**: Guarda la munición de gran calibre para los pisos 15 e inferiores, donde la escala de salud de los enemigos aumenta significativamente.
+- **Estrategia de movimiento**: No te detengas nunca; la IA de Hellhole está diseñada para castigar a los jugadores estáticos mediante flanqueos ambientales.
+- **Requisito de equipamiento**: Asegúrate de que tu arma principal sea al menos de Nivel 3 antes de intentar enfrentamientos con jefes de pisos profundos.
+</Callout>
+
+<Section icon={Target} title="Navegando por los niveles de amenaza de Hellhole">
+
+En los pasillos oscuros y claustrofóbicos de Hellhole, comprender la jerarquía de las amenazas es la diferencia entre un descenso exitoso y un viaje rápido de regreso al lobby. Como shooter de terror PvE, el juego escala la dificultad no solo a través de las barras de salud, sino también a través de una compleja IA de los enemigos y sinergias ambientales. Los **enemigos más difíciles de Hellhole** suelen ser aquellos que interrumpen tu movimiento o te obligan a adoptar posiciones desfavorables.
+
+**Puntos destacados del video:**
+- Identificación de patrones de demonios al principio y al final del juego.
+- Posicionamiento estratégico para evitar ser acorralado por las amenazas del piso.
+- Consejos de eficiencia de armas para conservar munición contra hordas de élite.
+
+<YouTubeEmbed videoId="mPnmG7ZqwrA" title="Hellhole Enemy Types and Survival Tips" />
+
+El sistema de descenso asegura que cada piso introduzca nuevos obstáculos mecánicos. Mientras que los primeros niveles sirven como tutorial, los pisos intermedios y profundos introducen variantes de "Élite" que poseen mejoras de aura únicas, como mayor velocidad o resistencia al daño. Reconocer estas pistas visuales a tiempo es vital para la supervivencia.
+
+<Callout type="warning" title="Peligro ambiental">
+Los niveles de amenaza de los enemigos se multiplican por las condiciones de iluminación del piso. En los pisos con "Apagón" (Blackout), incluso los enemigos de nivel bajo pueden volverse letales si te atrapan sin una fuente de luz o visión térmica.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Nivel 1: Carne de cañón">
+    - **Gran número**
+    - Rutas predecibles
+    - Débiles al cuerpo a cuerpo/pistolas
+  </Card>
+  <Card title="Nivel 2: Especialistas">
+    - **Ataques a distancia/Área (AOE)**
+    - Requieren enfoque prioritario
+    - Barras de salud moderadas
+  </Card>
+  <Card title="Nivel 3: Élites">
+    - **Habilidades únicas**
+    - Daño masivo
+    - Requieren equipamiento mejorado
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Perfiles detallados de enemigos demoníacos">
+
+El núcleo del desafío radica en las entidades demoníacas que habitan en los pisos inferiores. Estas criaturas se clasifican por su comportamiento y la amenaza específica que representan para tu partida. Para sobrevivir a los **enemigos más difíciles de Hellhole**, debes memorizar sus ventanas de ataque y tiempos de recarga.
+
+| Nombre del enemigo | Tipo | Amenaza principal | Estrategia de contraataque |
+|:---|:---|:---|:---|
+| **Void Crawler** | Acechador | Alta velocidad/Invisibilidad | Usa bengalas o sensores de movimiento |
+| **Blight Spitter** | Ranged | Daño de área tóxico/Visión borrosa | Mantén la distancia, desplázate a la izquierda |
+| **Gore Brute** | Tanque | Frente blindado/Carga | Flanquea o usa explosivos |
+| **Echo Screamer** | Soporte | Aturde al jugador/Invocaciones | Siléncialo rápidamente con tiros a la cabeza |
+| **Soul Weaver** | Lanzador | Teletransportación/Drenaje | Sigue los rastros de partículas para predecir |
+
+El Gore Brute sigue siendo uno de los encuentros más frustrantes para los jugadores en solitario. Su escudo frontal anula la mayor parte del daño balístico estándar, lo que te obliga a usar el entorno para crear oportunidades de flanqueo. Por el contrario, el Void Crawler confía en la presión psicológica, a menudo haciendo ruido en los conductos de ventilación antes de atacar por la espalda.
+
+<Callout type="tip" title="Sinergia de tiros a la cabeza">
+La mayoría de los demonios en Hellhole tienen un multiplicador de daño de 2.5x en su "Núcleo" o cabeza brillante. Usar un arma de precisión como el Fusil de Tirador (Marksman Rifle) puede eliminar de un solo disparo a la mayoría de los especialistas de Nivel 2.
+</Callout>
+
+| Rango de pisos | Amenazas comunes | Tasa de aparición de élites | Tipo de munición recomendada |
+|:---|:---|:---|:---|
+| **Pisos 1-5** | Crawlers, Thralls | 5% | Balística estándar |
+| **Pisos 6-12** | Spitters, Brutes | 15% | Perforante de blindaje |
+| **Pisos 13-20** | Screamers, Weavers | 30% | Incendiaria/Plasma |
+| **Pisos 21+** | Todas las variantes | 50%+ | Altamente explosiva/Experimental |
+
+</Section>
+
+<Section icon={Map} title="Progresión táctica para descensos profundos">
+
+Sobrevivir a los **enemigos más difíciles de Hellhole** no es solo cuestión de puntería; se trata del camino que tomas y de cómo te preparas para el siguiente piso. El lema "la única salida es hacia abajo" enfatiza que no puedes retroceder una vez que comienza la transición de piso.
+
+<Steps>
+  <Step num="1" title="Explora el perímetro">
+    Antes de enfrentarte a cualquier grupo, identifica las salidas y las apariciones de botiquines de salud. Nunca inicies un combate en una habitación sin salida.
+  </Step>
+  <Step num="2" title="Prioriza al Screamer">
+    Si hay un Echo Screamer presente, debe morir primero. Su habilidad para pedir refuerzos puede convertir una pelea manejable en una derrota total en cuestión de segundos.
+  </Step>
+  <Step num="3" title="Gestiona el ciclo de recarga">
+    Coordina las recargas con tu movimiento. Usa obstáculos para romper la línea de visión mientras cambias de cargador para evitar que te atrapen a mitad de la animación.
+  </Step>
+  <Step num="4" title="Ejecuta eliminaciones de élites">
+    Usa granadas o artillería pesada para despojar del blindaje a los enemigos de élite antes de acabar con ellos con armas principales de altas RPM.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Pistas de audio">
+Hellhole utiliza audio espacial para anunciar la ubicación de los enemigos. Los clics agudos suelen indicar que hay un Void Crawler a menos de 10 metros, mientras que los golpes rítmicos y graves indican la presencia de un Gore Brute.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guía de jefes: Superando a los guardianes del piso">
+
+Cada cinco pisos, los jugadores se enfrentan a un jefe que actúa como guardián. Estos son, sin duda, los **enemigos más difíciles de Hellhole**, con combates de múltiples fases y mecánicas que afectan a toda la arena. La preparación es la clave para la victoria aquí, ya que no puedes reabastecerte una vez que entras en la arena del jefe.
+
+| Nombre del jefe | Mecánica principal | Debilidad | Mejor equipamiento |
+|:---|:---|:---|:---|
+| **The Gatekeeper** | Golpes contra el suelo/Ondas | Pecho expuesto durante el golpe | Escopeta / Alto daño explosivo |
+| **Famine Stalker** | Oscuridad/Clones de sombra | Fuentes de luz/Bengalas | Subfusil (SMG) / Alta cadencia de fuego |
+| **Abyssal Heart** | Tentáculos/Invocación de esbirros | Tallos oculares en el techo | Francotirador / Largo alcance |
+
+<Checklist
+  id="boss-prep"
+  title="Lista de verificación previa al jefe:"
+  items={[
+    "Recargar todos los cargadores principales y secundarios",
+    "Equipar al menos dos botiquines grandes (Large Medkits)",
+    "Asegurar que tu armadura esté al 100% de durabilidad",
+    "Desplegar una torreta portátil si está disponible",
+    "Comprobar el estado de enfriamiento de las habilidades de los compañeros de equipo"
+  ]}
+/>
+
+El Famine Stalker es particularmente famoso por su "Fase de Sombra" (Shadow Phase), donde apaga todas las luces que llevan los jugadores. Durante esta fase, debes confiar en las bengalas químicas o en los breves destellos de los disparos para seguir su movimiento. La coordinación del equipo es esencial para garantizar que las bengalas se distribuyan bien y mantener la visibilidad durante todo el combate.
+
+<Callout type="success" title="Recompensas de victoria">
+Derrotar a un jefe de piso otorga un "Fragmento de núcleo" (Core Fragment), que se puede usar en la superficie para mejorar permanentemente la salud de tu personaje o la capacidad de munición inicial.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamientos óptimos para sobrevivir a enemigos difíciles">
+
+Tu equipamiento dicta cómo interactúas con los **enemigos más difíciles de Hellhole**. Un equipamiento equilibrado debe cubrir el control de masas a corta distancia y la precisión a larga distancia. En el meta actual de 2026, se prefieren las construcciones híbridas por su versatilidad en diferentes tipos de pisos.
+
+| Categoría de arma | Efectividad | Mejor contra | Eficiencia de munición |
+|:---|:---|:---|:---|
+| **Fusiles de asalto** | Excelente | Especialistas de medio alcance | Moderada |
+| **Escopetas** | Alta | Brutos/Hordas a corta distancia | Baja |
+| **Fusiles de francotirador** | Muy alta | Jefes/Screamers | Alta |
+| **Subfusiles (SMGs)** | Moderada | Crawlers/Carne de cañón | Muy baja |
+
+<CardGrid cols={2}>
+  <Card title="La build 'Exorcista'">
+    Se centra en munición **altamente explosiva** y armadura pesada. Ideal para jugadores que prefieren liderar la carga y resistir los golpes del Gore Brute.
+  </Card>
+  <Card title="La build 'Espectro'">
+    Utiliza armas con **silenciador** y mejoras de velocidad. Dirigida a jugadores que quieren eliminar a los Screamers y Weavers antes de que puedan reaccionar.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Prioridad de mejora">
+Prioriza siempre las mejoras de "Tamaño del cargador" y "Velocidad de recarga" en primer lugar. En Hellhole, el tiempo que pasas sin disparar es el momento en el que eres más vulnerable a ser abrumado.
+</Callout>
+
+| Tipo de mejora | Prioridad de costo | Impacto en enemigos difíciles | Mejor caso de uso |
+|:---|:---|:---|:---|
+| **Placas de armadura** | Alta | Sobrevivir a cargas de Brutos | Rondas en pisos profundos |
+| **Luz táctica** | Media | Rastrear Void Crawlers | Pisos con apagón |
+| **Mira térmica** | Baja | Detectar amenazas ocultas | Francotirador de largo alcance |
+| **Bolsa de médico** | Alta | Sostenibilidad del equipo | Sesiones multijugador |
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el enemigo individual más difícil de Hellhole?",
+    answer: "La mayoría de los jugadores veteranos consideran que el Soul Weaver es el enemigo común más difícil debido a su habilidad para teletransportarse detrás de los jugadores y drenar su salud directamente, ignorando las placas de armadura estándar."
+  },
+  {
+    question: "¿Cómo me enfrento a los enemigos que tienen escudos?",
+    answer: "La mejor manera de lidiar con el Gore Brute y otras variantes con escudo es usar explosivos o hacer que un jugador atraiga su atención mientras otro lo flanquea para dispararle por la espalda en su punto débil."
+  },
+  {
+    question: "¿Los enemigos vuelven a aparecer si me quedo en un piso demasiado tiempo?",
+    answer: "Sí, Hellhole cuenta con un 'Medidor de horda' (Horde Meter) que se llena con el tiempo. Si te demoras en un piso más de 10 minutos, los enemigos más difíciles comenzarán a aparecer en oleadas infinitas."
+  },
+  {
+    question: "¿Puedo correr más rápido que un Void Crawler?",
+    answer: "Generalmente, no. Los Void Crawlers son más rápidos que la velocidad de movimiento base del jugador. Debes usar aturdimientos, ralentizaciones o matarlos antes de que acorten la distancia."
+  }
+]} />
+
+<Callout type="success" title="Consejo final">
+El éxito en Hellhole es un maratón, no un sprint. Tómate tu tiempo para aprender los patrones de los **enemigos más difíciles de Hellhole** en los pisos superiores antes de intentar el agotador descenso al abismo. Buena suerte, y recuerda: la única salida es hacia abajo.
+</Callout>
+
+</Section>
