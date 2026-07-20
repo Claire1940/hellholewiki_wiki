@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hellhole Alle Gegner: Bestiarium & Kampfstrategie-Guide 2026",
+  description: "Meistere jede Begegnung in Hellhole mit unserem umfassenden Gegner-Guide für 2026. Lerne Angriffsmuster, Boss-Mechaniken und die besten Upgrades zum Überleben.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hellhole+All+Enemies+Guide",
+  date: "2026-07-20",
+  author: "hellhole Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Alle Gegner in Hellhole** reichen von einfachen **Verkohlten Zombies** bis hin zu komplexen **Brutalen Zauberern** und Etagenbossen.
+- **Prioritätsziele**: Eliminiere **Gremlins** und **Spucker** immer zuerst aufgrund ihrer hohen Geschwindigkeit und des giftigen Bereichseffekts.
+- **Kampf-Grundlagen**: Nutze die **Aufklärungsoptik**, um verbleibende Gegner aufzuspüren, und priorisiere **Nachlade-Heilung** für mehr Ausdauer.
+- **Boss-Strategie**: Bleibe in der kleinen Arena ständig in Bewegung, um Giftpfützen auszuweichen, und konzentriere dich auf Waffen mit hoher Feuerrate für den über 4.000 HP großen Lebensbalken.
+- **Etagen-Fortschritt**: Jede Etage (Magmakern, Versunkene Ruinen, Pilztiefen) führt einzigartige elementare Varianten und Gefahren ein.
+</Callout>
+
+<Section icon={Map} title="Hellhole-Bestiarium: Die Horde verstehen">
+
+Um den Abstieg in Hellhole zu überleben, müssen die Spieler verstehen, dass die Umgebung ebenso tödlich ist wie die Kreaturen darin. Während du dich durch die verschiedenen Ebenen kämpfst – angefangen beim Magmakern bis hin zum Alten Grabmal –, nimmt die Komplexität des Gegnerverhaltens erheblich zu. Wenn du diese Bedrohungen frühzeitig erkennst, kann deine Crew Ressourcen effektiv verwalten und unnötige Wiederbelebungen vermeiden.
+
+**Video-Highlights:**
+- **Gegnervarianten**: Übersicht über Standard-, Elite- und Boss-Bedrohungen auf mehreren Etagen.
+- **Upgrade-Synergie**: Wie man kritische Treffer, Schaden und Feuerrate wählt, um bestimmten Gegnertypen entgegenzuwirken.
+- **Solo vs. Gruppe**: Unterschiede bei der Gegnerskalierung und den Lebensbalken beim Solospiel.
+- **Boss-Mechaniken**: Ein Walkthrough des Arenakampfs inklusive Bewegungsmustern und Bodengefahren.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="HELLHOLE KOMPLETTER GUIDE! (Gegner, Upgrades, Geld)" />
+
+<Callout type="tip" title="Strategisches Bewusstsein">
+Das Ausrüsten des Perks **Aufklärungsoptik** auf Rang 1 ist für neue Spieler überlebenswichtig. Es bietet eine UI-Anzeige am oberen Bildschirmrand, die genau anzeigt, wie viele **Gegner in Hellhole** in einer Welle verbleiben. So wird verhindert, dass du von einem einzelnen Gremlin überrascht wirst, der sich im Schatten versteckt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Standard-Gegnertypen und Verhalten">
+
+Die meisten Begegnungen in Hellhole bestehen aus einfachen Gegnern (Trash Mobs), die dazu dienen, deine Gesundheit langsam zu dezimieren, bevor du den Etagenboss erreichst. Obwohl sie einzeln schwach sind, liegt ihre Stärke in der Masse und der Synergie mit der Umgebung. Ein **Verkohlter Zombie** ist beispielsweise langsam, aber in Kombination mit einem **Spucker-Skelett** kann deine Bewegung durch Säurepfützen eingeschränkt werden, was dich zu einem leichten Ziel für die Nahkampfhorde macht.
+
+| Gegnername | Primärangriff | Gefahrenstufe | Bewegungsgeschwindigkeit | Besondere Eigenschaften |
+|:---|:---|:---|:---|:---|
+| **Verkohlter Zombie** | Nahkampfhieb | Niedrig | Langsam | Hohe Gesundheit, einfaches Kanonenfutter |
+| **Spucker-Skelett** | Säureprojektil | Mittel | Moderat | Hinterlässt Giftpfützen auf dem Boden |
+| **Gremlin** | Schneller Nahkampf | Hoch | Sehr schnell | Kleine Hitbox, schwer anzuvisieren |
+| **Skelettbogenschütze** | Fernkampf-Pfeil | Mittel | Moderat | Hohe Genauigkeit, bleibt auf Distanz |
+| **Gefrorene Variante** | Frostige Berührung | Mittel | Langsam | Kann die Bewegungsgeschwindigkeit des Spielers verringern |
+| **Der Verwelkte** | Lebensentzug | Hoch | Moderat | Auf den Etagen des Alten Grabmals zu finden |
+
+<Callout type="warning" title="Säuregefahr">
+Die von **Spucker-Skeletten** hinterlassenen Giftpfützen verursachen Schaden über Zeit. In engen Korridoren oder kleinen Schatzkammern können diese einen Run schnell beenden, wenn du nicht genügend **Geschwindigkeits-Boost**-Upgrades hast, um um sie herumzumanövrieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Elite-Bedrohungen und Spezialwesen">
+
+Sobald du tiefere Etagen wie die **Pilztiefen** oder das **Alte Grabmal** erreichst, führt das Spiel Elite-Gegner ein. Diese Einheiten verfügen oft über Spezialfähigkeiten, die bestimmte Gegenstrategien erfordern. Der **Brutale Zauberer**, beispielsweise, kombiniert eine hohe Gesundheit mit magischen Projektilen, was die Spieler dazu zwingt, eine defensive Positionierung mit aggressivem Schaden auszubalancieren.
+
+<CardGrid cols={3}>
+  <Card title="Brutaler Zauberer">
+    - **Großer HP-Balken**: Erfordert kontinuierliches Feuer.
+    - **Zaubern**: Feuert zielsuchende Magie oder Bereichseffekte ab.
+    - **Priorität**: Hoch. Töten, bevor sie die Arena überfüllen.
+  </Card>
+  <Card title="Die Verwelkten">
+    - **Heimliche Bewegung**: Verschmilzt oft mit der dunklen Umgebung.
+    - **Debuff**: Kann die Schadensausgabe des Spielers vorübergehend verringern.
+    - **Spawn-Rate**: Erhöht sich in den orangefarbenen Etagen des Alten Grabmals.
+  </Card>
+  <Card title="Ertrunkene Seelen">
+    - **Wassersynergie**: In den Versunkenen Ruinen zu finden.
+    - **Resistenz**: Hohe Resistenz gegen normalen Kugeleinschlag.
+    - **Schwäche**: Anfällig für kritische Treffer und Verbrennungseffekte.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Waffenempfehlung">
+Die **Lavawaffe** (erhältlich für 5.000 Credits) ist besonders effektiv gegen Elite-Gegner. Ihre legendäre passive Eigenschaft wendet einen **Verbrennungseffekt** an, der prozentualen Schaden über Zeit verursacht, was sie ideal für Ziele mit viel Gesundheit wie die Brutalen Zauberer macht.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Boss-Begegnung: Der Arena-Guide">
+
+Der Höhepunkt eines erfolgreichen Abstiegs ist der Bosskampf, der normalerweise in einer kleinen, geschlossenen Arena stattfindet. Diese Begegnung skaliert basierend auf deiner Gruppengröße. Ein Solospieler steht einem Boss mit etwa 4.000 HP gegenüber, während eine vollständige Crew mit einem weitaus größeren Lebensbalken konfrontiert wird. Die größte Herausforderung ist nicht nur die Gesundheit des Bosses, sondern der Platzmangel, um seinen Bereichsangriffen (AoE) auszuweichen.
+
+<Steps>
+  <Step num="1" title="Vorbereitung vor dem Boss">
+    Besuche den letzten Shop vor der Arena. Priorisiere **Max HP** und **Geschwindigkeits-Boosts**. Wenn du genug Zahnräder hast, kaufe Upgrades für **Feuerrate** oder **Präzision**, um deinen Schaden pro Sekunde (DPS) auf engem Raum zu maximieren.
+  </Step>
+  <Step num="2" title="Ständige Mobilität">
+    Der Boss spuckt häufig Gift oder feuert Projektile ab, die den Boden bedecken. Bleibe niemals stehen. Umkreise den Rand der Arena, um den Boss in der Mitte zu halten, während du den Gefahren ausweichst.
+  </Step>
+  <Step num="3" title="Magazin-Management">
+    Bei einem Solo-HP-Pool von 4.000 wirst du mehrfach nachladen müssen. Nutze den Perk **Nachlade-Heilung**, um jedes Mal, wenn du das Magazin wechselst, 5 HP zu regenerieren. So bleibst du voll geheilt, selbst wenn dich ein Streifschuss trifft.
+  </Step>
+  <Step num="4" title="Eliminieren und Absteigen">
+    Sobald der Boss 25% Gesundheit erreicht, kann er in einen wilden Zustand übergehen. Konzentriere das gesamte Feuer auf den Kopf für kritischen Schaden (besonders wenn du das Upgrade **Tödliche Crits** hast), um den Kampf schnell zu beenden.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Skalierungsmechaniken">
+Die Boss-Gesundheit skaliert dynamisch. Wenn Teammitglieder mitten im Run das Spiel verlassen, bleibt die Boss-Gesundheit möglicherweise auf der höheren Gruppenskalierung, was das Solospiel erheblich erschwert. Stelle sicher, dass dein Team fest entschlossen ist, bevor ihr den letzten Abstieg antretet.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimale Upgrades für das Gegnermanagement">
+
+Die Wahl der richtigen Upgrades am Ende jeder Etage entscheidet über einen erfolgreichen Run oder ein vorzeitiges Ende. Da **alle Gegner in Hellhole** unterschiedliche Schwächen haben, ist ein ausgewogener Build meist besser, als nur einen einzigen Wert zu maximieren. Bestimmte Upgrades der Stufe „Episch“ sollten jedoch immer bevorzugt werden.
+
+| Upgrade-Typ | Effekt | Bestens gegen | Priorität |
+|:---|:---|:---|:---|
+| **Tödliche Crits** | +25% Krit-Chance | Bosse und Brutale | Hoch |
+| **Schwere Patronen** | Erhöhter Rückstoß | Gremlins und Zombies | Mittel |
+| **Adrenalin** | Geschwindigkeit bei Kill | Große Horden | Mittel |
+| **Magazingröße** | +5 bis +10 Patronen | Alle Gegner | Hoch |
+| **Durchschlagende Kugeln** | Trifft zweiten Gegner | Dicht gedrängte Wellen | Sehr hoch |
+| **Säureresistenz** | Reduzierter Schaden über Zeit | Spucker und Bosse | Situationsabhängig |
+
+<Callout type="tip" title="Nachlade-Synergie">
+Der Perk **Nachlade-Heilung** ist wohl das stärkste Überlebenswerkzeug im Spiel. Durch die Kombination mit Upgrades für **Magazingröße** und **Feuerrate** kannst du das Nachladen effektiv „spammen“, um deine Gesundheit auf dem Maximum zu halten, während du der Horde kontinuierlich Schaden zufügst.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritts-Checkliste und FAQ">
+
+Um ein Meister von Hellhole zu werden, solltest du darauf abzielen, alle Perks und Waffen freizuschalten, indem du deinen Rang erhöhst. Jeder Run bringt dir Zahnräder (Credits) und EP, selbst wenn du die letzte Etage nicht erreichst.
+
+<Checklist
+  id="hellhole-progression"
+  title="Überlebens-Meilensteine:"
+  items={[
+    "Erreiche Rang 5, um grundlegende Bewegungs-Perks freizuschalten",
+    "Erwirb die Lavawaffe für 5.000 Credits",
+    "Meistere erfolgreich eine Bossbegegnung auf Etage 7 im Alleingang",
+    "Schließe einen Run mit ausgerüstetem Aufklärungsoptik-Perk ab",
+    "Schalte den Perk „Durchschlagende Kugeln“ auf Rang 35 frei"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Wie gehe ich mit den kleinen, schnellen Gremlins in Hellhole um?",
+    answer: "Gremlins sind Ziele mit hoher Priorität. Nutze das Upgrade „Schwere Patronen“ für Rückstoß oder Waffen mit hoher Feuerrate, um ihren Bewegungen zu folgen. Wenn du den Perk „Aufklärungsoptik“ hast, behalte den Gegnerzähler im Auge, um sicherzustellen, dass sich niemand von hinten an dich heranschleicht."
+  },
+  {
+    question: "Wie farmt man am besten Zahnräder für neue Waffen?",
+    answer: "Konzentriere dich darauf, Schatzkammern zu säubern und Gold-/Silbertruhen zu öffnen. Das Spielen in einer vollen Gruppe erhöht die gefundene Gesamtbeute, und das Abschließen täglicher Quests (wie das Besiegen von 80 Gegnern) bringt erhebliche Zahnrad-Boni."
+  },
+  {
+    question: "Kann ich mich wiederbeleben, wenn ich von Gegnern in Hellhole getötet werde?",
+    answer: "Ja, du kannst dich je nach Plattform mit Robux oder durch das Ansehen einer Werbung wiederbeleben. Wenn jedoch deine gesamte Gruppe ausgelöscht wird, endet der Run. Es ist besser, den Perk „Nachlade-Heilung“ zu nutzen, um deine Gesundheit während des gesamten Abstiegs hochzuhalten."
+  },
+  {
+    question: "Welche Etage ist für Anfänger am schwierigsten?",
+    answer: "Die Pilztiefen überraschen Anfänger oft wegen der explosiven Sporengefahren und der Einführung schnellerer Gegnervarianten wie den Gremlins. Stelle sicher, dass du mindestens ein Geschwindigkeits-Upgrade hast, bevor du diese Etage betrittst."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide stratégique de hellhole : Conseils de progression et soluce",
+  description: "Maîtrisez Roblox Hellhole grâce à notre guide de progression. Découvrez les meilleurs atouts, améliorations d'armes et tactiques de boss en solo ou coop.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/581c87/fff?text=Progression+Walkthrough",
+  date: "2026-07-20",
+  author: "L'équipe du Wiki hellhole"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Objectif principal** : Descendre à travers plusieurs étages aléatoires pour vaincre le boss final dans une arène étroite.
+- **Améliorations d'armes** : Économisez vos engrenages pour débloquer de puissantes armes élémentaires comme l'arme de Lave dans l'Armurerie.
+- **Synergie d'atouts** : Équipez des atouts utilitaires comme Optiques de reconnaissance (Recon Optics) et Rechargement final (Finishing Reload) pour maintenir vos PV et votre perception de la situation.
+- **Mouvements en combat** : Restez constamment en mouvement pendant les vagues pour éviter les Gremlins rapides et les flaques d'acide laissées par les Cracheurs (Spitters).
+- **Conseil d'économie** : Priorisez la vitesse de déplacement et les améliorations de PV max dans les boutiques en cours de partie pour augmenter votre taux de survie.
+</Callout>
+
+<Section icon={Map} title="Guide stratégique de hellhole : Bien commencer et boucle de jeu">
+
+Bienvenue dans ce **guide stratégique complet de hellhole**, conçu pour vous aider à naviguer dans les profondeurs de ce roguelite de survie intense sur Roblox. Dans Hellhole, les joueurs sont parachutés dans une fosse profonde où ils doivent combattre à travers des étages générés de manière procédurale, collecter des ressources, améliorer leur équipement et affronter de redoutables boss. Comprendre la boucle de jeu principale et les mécaniques de préparation est essentiel pour survivre dans les couches les plus profondes et les plus dangereuses.
+
+Lorsque vous lancez le jeu pour la première fois, vous pouvez choisir entre rejoindre une Partie rapide (Quick Match) ou créer un Salon de créateur personnalisé (Creator Lobby). Pour les joueurs solo ou ceux qui cherchent à plonger directement dans l'action, la Partie rapide est fortement recommandée. Le jeu suit votre progression permanente via un système de classement, qui vous récompense avec des Engrenages (Gears)—la monnaie principale en dehors des parties. Les quêtes quotidiennes, telles que vaincre un nombre spécifique d'ennemis, ouvrir des coffres au trésor ou vaincre des boss dans un temps imparti, offrent d'excellentes opportunités d'accumuler rapidement ces Engrenages.
+
+**Points clés de la vidéo :**
+- Apprenez la boucle de jeu principale et comment naviguer à travers les étages descendants.
+- Découvrez les meilleurs atouts de départ pour booster votre survie et votre perception de la carte.
+- Découvrez comment gérer votre économie grâce aux améliorations en cours de partie et aux achats en boutique.
+- Regardez une démonstration de combat de boss réussi en solo dans l'arène étroite.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="HELLHOLE FULL GUIDE! (Enemies, Upgrades, Money) - Roblox" />
+
+Chaque partie consiste à descendre de plus en plus profondément dans la fosse. À mesure que votre profondeur augmente, l'environnement transitionne à travers différentes couches thématiques, chacune présentant des dangers, des configurations et des types d'ennemis uniques. Le tableau ci-dessous présente la progression principale des étages que vous rencontrerez lors de votre descente.
+
+| Nom de l'étage | Couleur de la profondeur | Danger clé | Potentiel de butin |
+| --- | --- | --- | --- |
+| Noyau de magma | Rouge | Zombies calcinés | Faible |
+| Ruines englouties | Vert | Flaques de poison | Moyen |
+| Profondeurs fongiques | Sarcelle | Nuages de spores | Moyen |
+| Temple d'os | Bleu | Haute densité d'ennemis | Élevé |
+| Tombeau antique | Orange | Brutes flétries | Élevé |
+
+<Callout type="warning" title="Dangers environnementaux">
+Lorsque vous passez d'un étage à l'autre, faites très attention aux indices visuels de l'environnement. Les étages teintés de vert comme les Ruines englouties comportent généralement des cracheurs qui laissent des flaques d'acide persistantes sur le sol. Rester dans ces flaques épuisera rapidement votre jauge de PV.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Armes de l'armurerie et sélection des atouts">
+
+La progression permanente dans Hellhole est gérée via l'Armurerie et la Boutique d'atouts. Avant de commencer une partie, vous devriez dépenser vos Engrenages durement gagnés pour débloquer des armes plus efficaces et équiper des atouts passifs qui correspondent à votre style de jeu préféré. Vous commencez chaque partie avec un pistolet par défaut, qui dispose de munitions de réserve illimitées mais souffre d'une faible capacité de chargeur et de dégâts modérés.
+
+Débloquer des armes de palier supérieur dans l'Armurerie réduit considérablement la difficulté des étages plus profonds. Par exemple, l'arme de Lave, qui coûte 5 000 Engrenages, dispose d'un effet de brûlure passif légendaire qui inflige des dégâts sur la durée aux cibles touchées. Ce passif est extrêmement efficace pour gérer de grands groupes de zombies et réduire progressivement les PV des boss.
+
+| Nom de l'atout | Rang requis | Effet | Note |
+| --- | --- | --- | --- |
+| Optiques de reconnaissance | Rang 1 | Affiche le nombre d'ennemis restants | ★★★☆☆ |
+| Départ fortuné | Rang 1 | Commence la partie avec 150 pièces bonus | ★★★★☆ |
+| Rechargement final | Rang 2 | Recharger soigne de 5 PV | ★★★★★ |
+| Balles perforantes | Rang 35 | Les balles transpercent pour toucher une deuxième cible | ★★★★★ |
+
+<CardGrid cols={3}>
+  <Card title="Build Survivant">
+    - Atout **Rechargement final**
+    - Priorité aux améliorations de PV max
+    - Fortement recommandé pour le jeu en solo
+  </Card>
+  <Card title="Build Speedrunner">
+    - Atout **Départ fortuné**
+    - Priorité à la vitesse de déplacement
+    - Excellent pour esquiver les ennemis rapides
+  </Card>
+  <Card title="Build Tireur d'élite">
+    - Atout **Balles perforantes**
+    - Priorité aux dégâts élevés et aux coups critiques
+    - Idéal pour éliminer des vagues massives
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Synergie d'atouts">
+Pour la progression en début de jeu, associer les Optiques de reconnaissance avec le Rechargement final offre un excellent équilibre entre perception de la situation et régénération de santé. Savoir exactement combien d'ennemis il reste vous permet de rythmer vos rechargements et de déclencher les soins au moment le plus sûr.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Améliorations en partie et stratégie de boutique">
+
+Bien que les atouts permanents et les armes posent les bases, votre succès lors d'une partie spécifique dépend fortement de la façon dont vous gérez votre économie en jeu et vos choix d'améliorations. Pendant une partie, vous collectez des pièces d'or temporaires en ouvrant des coffres au trésor en or et en argent. Contrairement aux Engrenages, ces pièces sont perdues à la fin de la partie, vous devez donc les dépenser librement dans les boutiques.
+
+Des salles d'amélioration apparaissent périodiquement, vous offrant le choix entre trois bonus aléatoires. Ces améliorations peuvent modifier considérablement les performances de votre arme, en augmentant des statistiques telles que les dégâts, les chances de coup critique, la vitesse de rechargement et la capacité du chargeur.
+
+<Steps>
+  <Step num="1" title="Collecter des pièces">
+    Ouvrez automatiquement chaque coffre en or et en argent en passant à côté pendant l'élimination des vagues.
+  </Step>
+  <Step num="2" title="Choisir les améliorations">
+    Sélectionnez des bonus de dégâts ou de taille de chargeur dans les salles d'amélioration pour augmenter vos dégâts globaux.
+  </Step>
+  <Step num="3" title="Visiter la boutique">
+    Dépensez les pièces accumulées dans des bonus de vitesse et des améliorations de PV max pour renforcer votre capacité de survie.
+  </Step>
+  <Step num="4" title="Se soigner">
+    Utilisez le Rechargement final ou achetez des soins complets à la boutique avant de descendre à l'étage suivant.
+  </Step>
+</Steps>
+
+Équilibrer vos améliorations offensives et défensives est crucial. Bien que cumuler les dégâts vous permette de nettoyer les vagues plus rapidement, négliger votre vitesse de déplacement et vos PV max vous rendra vulnérable dans les étages plus profonds, où les ennemis se déplacent plus vite et frappent beaucoup plus fort.
+
+| Amélioration | Rareté | Boost de stats | Priorité |
+| --- | --- | --- | --- |
+| Boost de dégâts | Rare | +16% de dégâts par balle | Élevée |
+| Taille du chargeur | Commun | +5 munitions max | Élevée |
+| Cadence de tir | Peu commun | +12% de vitesse d'attaque | Moyenne |
+| Précision | Commun | Dispersion des balles réduite | Faible |
+
+<Callout type="success" title="Optimisation de l'économie">
+Donnez toujours la priorité à l'achat de bonus de vitesse de déplacement dans la boutique. Une vitesse de déplacement élevée vous permet de distancer facilement les unités de mêlée rapides comme les Gremlins et de vous repositionner rapidement lors des combats de boss chaotiques.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Bestiaire des ennemis et tactiques de combat">
+
+Les couches les plus profondes de la fosse abritent une variété de créatures agressives. Comprendre leurs schémas de déplacement, leurs styles d'attaque et leurs niveaux de menace est essentiel pour préserver vos PV et terminer vos parties efficacement. Les ennemis vont des unités de mêlée lentes aux attaquants à distance agiles qui peuvent rapidement perturber votre positionnement.
+
+Les Gremlins figurent parmi les ennemis communs les plus dangereux en raison de leur petite hitbox et de leur vitesse de déplacement rapide. Ils apparaissent souvent en groupe et peuvent rapidement encercler un joueur non préparé. Les unités à distance comme les Cracheurs (Spitters) et les Archers doivent également être ciblées en priorité, car leurs projectiles peuvent vous forcer à abandonner vos positions de tir sûres.
+
+| Type d'ennemi | Style d'attaque | Niveau de menace | Priorité |
+| --- | --- | --- | --- |
+| Zombie calciné | Attaques de mêlée lentes | Faible | Faible |
+| Cracheur | Crachat d'acide à distance | Moyen | Élevée |
+| Gremlin | Assaut de mêlée rapide | Élevé | Critique |
+| Sorcier brute | Sorts de zone | Élevé | Élevée |
+| Squelette archer | Flèches physiques à distance | Moyen | Moyenne |
+
+Lorsque vous faites face à des vagues mixtes, utilisez toujours votre vitesse de déplacement pour distancer les unités de mêlée plus lentes tout en concentrant vos tirs sur les Gremlins rapides et les Cracheurs à distance. Garder une ligne de mire dégagée et éviter les impasses dans le terrain vous empêchera d'être acculé.
+
+<Callout type="info" title="Priorisation des cibles">
+Si vous êtes submergé par une vague mixte, concentrez-vous d'abord sur l'élimination des Cracheurs (Spitters). Leurs projectiles acides laissent des obstacles persistants au sol qui limitent vos mouvements, ce qui rend l'esquive des autres attaquants de mêlée beaucoup plus difficile.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guide du combat de boss et stratégies solo">
+
+À la fin de votre descente, vous entrerez dans une petite arène restreinte pour affronter le boss de l'étage. Cette rencontre est un véritable test pour les dégâts de votre build et vos mécaniques de déplacement. Les PV totaux du boss s'adaptent dynamiquement en fonction de la taille de votre groupe, ce qui rend les tentatives en solo difficiles mais extrêmement gratifiantes si elles sont menées correctement.
+
+Le boss utilise plusieurs attaques de zone, crachant régulièrement des flaques de poison qui couvrent de grandes parties du sol de l'arène. L'espace de combat étant restreint, il est fortement déconseillé de rester immobile. Vous devez maintenir un mouvement circulaire constant sur les bords extérieurs de l'arène pour éviter ces dangers tout en tirant continuellement sur le boss.
+
+<Checklist
+  id="boss-prep"
+  title="Liste de préparation pour le combat de boss :"
+  items={[
+    "Achetez un soin complet et une amélioration de PV max dans la boutique avant le boss",
+    "Équipez vos améliorations de dégâts et de taille de chargeur les plus élevées",
+    "Assurez-vous que votre vitesse de déplacement est augmentée pour faciliter l'esquive",
+    "Rythmez vos rechargements pour déclencher la régénération de santé de vos atouts"
+  ]}
+/>
+
+Pendant le combat, concentrez-vous sur l'esquive du boss en décrivant un large cercle. Lorsque le boss s'apprête à cracher du poison, changez rapidement de direction ou élargissez votre cercle pour éviter le projectile entrant. Si vous jouez en solo, n'oubliez pas que vous n'avez pas de coéquipiers pour attirer l'attention du boss, ce qui signifie que vous devez gérer vos phases de rechargement avec soin pour éviter d'être pris au dépourvu.
+
+<Callout type="warning" title="Ajustement pour le jeu solo">
+Bien que les PV du boss soient plus bas lors des parties en solo, l'absence de réanimation par des coéquipiers signifie qu'une seule erreur peut mettre fin à votre partie. Ne soyez pas trop gourmand en dégâts ; donnez la priorité à l'esquive des attaques et à l'élimination des sbires mineurs qui apparaissent pendant le combat.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Comment débloquer de nouvelles armes dans Hellhole ?",
+    answer: "Les nouvelles armes se débloquent de manière permanente dans l'Armurerie à l'aide d'Engrenages, que vous gagnez en terminant des parties et en accomplissant des quêtes quotidiennes."
+  },
+  {
+    question: "Quel est le meilleur atout de départ pour les débutants ?",
+    answer: "Le Rechargement final (Finishing Reload) est fortement recommandé pour les débutants, car il restaure 5 PV à chaque fois que vous terminez un rechargement, offrant ainsi une excellente régénération de santé."
+  },
+  {
+    question: "Les PV du boss s'adaptent-ils à la taille du groupe ?",
+    answer: "Oui, les PV du boss final s'adaptent dynamiquement en fonction du nombre de joueurs actifs dans votre équipe, ce qui rend les combats en solo tout à fait surmontables."
+  },
+  {
+    question: "Sur quoi dois-je concentrer mes pièces dans la boutique en cours de partie ?",
+    answer: "Vous devriez donner la priorité aux bonus de vitesse de déplacement et aux améliorations de PV max, car une grande mobilité et une jauge de santé plus importante sont essentielles pour survivre dans les étages profonds."
+  }
+]} />
+
+<Callout type="info" title="Dernier conseil de progression">
+Accomplir régulièrement vos quêtes quotidiennes est le moyen le plus rapide d'accumuler les Engrenages nécessaires pour obtenir des armes d'Armurerie de haut niveau. Concentrez-vous sur ces objectifs dès le début pour accélérer votre progression.
+</Callout>
+
+</Section>

@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Toutes les armes de Hellhole : Tier List et comparaison des statistiques",
+  description: "Maîtrisez l'arsenal de Hellhole. Découvrez les statistiques détaillées des armes, les voies d'amélioration et les stratégies d'équipement pour ce jeu d'action classique.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/ffffff?text=Hellhole+All+Weapons+Guide",
+  date: "2026-07-20",
+  author: "L'équipe du Wiki Hellhole"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Arme principale** : Comprendre **toutes les armes de Hellhole** est crucial pour survivre aux pics de difficulté brutaux du jeu.
+- **Mécanique clé** : Les armes dépendent de réserves de munitions spécifiques qui doivent être gérées avec soin à travers les niveaux.
+- **Meilleure stratégie** : Priorisez toujours l'amélioration du Canon à plasma pour les combats de boss et les vagues d'ennemis à haute densité.
+- **Conseil critique** : Mourir réinitialise le niveau actuel de votre arme, ce qui rend le jeu prudent très gratifiant.
+- **Meilleur choix** : Le Rayon photonique offre les dégâts par seconde les plus élevés, mais consomme rapidement l'énergie.
+</Callout>
+
+<Section icon={Map} title="Aperçu du système d'armes">
+
+Dans le jeu de tir d'action classique Hellhole, maîtriser vos options offensives fait toute la différence entre terminer un niveau et faire face à un écran de game over. Le jeu propose une variété d'armements, chacun adapté à des scénarios de combat spécifiques, aux comportements des ennemis et aux dangers environnementaux. Pour maximiser votre efficacité au combat, vous devez comprendre comment la vitesse des projectiles, la dispersion des tirs et la consommation de munitions interagissent lors des affrontements effrénés.
+
+**Points forts de la vidéo :**
+- Présente l'intégralité des mécaniques de jeu et l'agencement des niveaux.
+- Montre la cadence de tir des armes et le comportement des projectiles en temps réel.
+- Met en évidence le positionnement des ennemis et les zones sûres pour déployer vos armes.
+
+<YouTubeEmbed videoId="4I8Zy7KBTkA" title="Gameplay complet de Hellhole (C64) [50 FPS]" />
+
+Chaque arme du jeu possède des caractéristiques distinctes qui affectent vos mouvements et votre positionnement. Certaines armes ralentissent votre progression, tandis que d'autres permettent des tirs en déplacement rapides. Ramasser les icônes de bonus dispersées dans les niveaux améliorera la cadence de tir, les dégâts ou la zone de dispersion de votre arme actuelle. Gérer ces améliorations tout en évitant les projectiles ennemis constitue le cœur de l'expérience de jeu.
+
+<Callout type="warning" title="Avertissement de perte d'amélioration">
+Perdre une vie rétrogradera instantanément votre arme active à son niveau de base. Lorsque vous traversez des zones à haut risque, jouez défensivement pour préserver votre puissance de feu améliorée.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tier List complète et statistiques des armes">
+
+Pour vous aider à décider quelles armes prioriser durant votre partie, nous avons compilé une tier list détaillée. Ce classement prend en compte les dégâts globaux, l'efficacité des munitions, la facilité d'utilisation et la polyvalence à travers les différents niveaux.
+
+| Arme | Dégâts | Cadence de tir | Type de munitions | Rang |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rayon photonique** | **Très élevé** | **Très élevé** | Cellules d'énergie | **S** |
+| **Canon à plasma** | **Élevé** | **Faible** | Noyaux de plasma | **S** |
+| **Fusil laser** | **Moyen** | **Élevé** | Cellules d'énergie | **A** |
+| **Tir dispersé** | **Moyen** | **Moyen** | Cartouches | **A** |
+| **Blaster standard** | **Faible** | **Moyen** | Infinies | **B** |
+
+### Armes de rang S
+
+Le **Rayon photonique** représente le summum du DPS sur cible unique. Il projette un flux continu de particules à haute énergie qui désintègrent les ennemis d'élite et les boss en quelques secondes. Cependant, sa forte consommation d'énergie signifie que vous devez le réserver pour les affrontements critiques plutôt que pour le nettoyage général des niveaux.
+
+Le **Canon à plasma** est votre outil principal pour le contrôle des foules. Il tire des sphères de plasma lentes mais puissantes qui explosent à l'impact, infligeant d'immenses dégâts de zone aux ennemis regroupés. Il est extrêmement efficace pour nettoyer les couloirs étroits.
+
+### Armes de rang A
+
+Le **Fusil laser** offre une excellente précision et une grande portée. La vitesse élevée de ses projectiles le rend très fiable contre les cibles aériennes rapides. Bien qu'il manque de dégâts de zone, ses capacités de pénétration d'armure en font un choix solide contre les unités terrestres protégées par un bouclier.
+
+Le **Tir dispersé** projette plusieurs projectiles en cône. Cette arme est idéale pour le jeu défensif, vous permettant de détruire les projectiles ennemis et les petits adversaires sur une large zone sans avoir besoin de viser précisément.
+
+### Armes de rang B
+
+Le **Blaster standard** est votre armement par défaut. Il dispose de munitions infinies, vous garantissant de ne jamais être totalement sans défense. Cependant, ses faibles dégâts le rendent inadapté pour les niveaux avancés et les combats de boss.
+
+<Callout type="success" title="Astuce de synergie d'armes">
+Utilisez le Tir dispersé pour éliminer les ennemis mineurs, puis passez rapidement au Rayon photonique pour terrasser les cibles d'élite restantes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Voies d'amélioration et classes d'armes">
+
+Améliorer votre arsenal nécessite de collecter des noyaux d'armes lâchés par les mini-boss et les conteneurs de cargaison cachés. Chaque classe d'arme évolue différemment, modifiant son comportement au combat aux niveaux supérieurs.
+
+| Niveau d'amélioration | Coût en ressources | Effet du Rayon photonique | Effet du Canon à plasma |
+| :--- | :--- | :--- | :--- |
+| **Niveau 1** | Base | Largeur de rayon standard | Faible rayon d'explosion |
+| **Niveau 2** | 3 noyaux | Rayon plus large, +15 % de dégâts | Explosion moyenne, +20 % de dégâts |
+| **Niveau 3** | 6 noyaux | Rayon perforant, +30 % de dégâts | Grande explosion, laisse une zone de feu |
+| **Niveau 4** | 10 noyaux | Double rayon, +50 % de dégâts | Explosion géante, se divise en éclats |
+
+<CardGrid cols={3}>
+  <Card title="Armes à énergie">
+    - **Grande précision**
+    - Projectiles instantanés
+    - Excellent pour les boss
+  </Card>
+  <Card title="Armes cinétiques">
+    - **Aucun coût en munitions**
+    - Dégâts modérés
+    - Choix de secours solide
+  </Card>
+  <Card title="Armes explosives">
+    - **Effet de zone**
+    - Dégâts d'impact élevés
+    - Idéal pour les foules
+  </Card>
+</CardGrid>
+
+Les améliorations doivent être réparties en fonction des exigences de votre niveau actuel. Par exemple, les niveaux avec une grande verticalité bénéficient davantage de la large couverture des armes explosives améliorées, tandis que les couloirs linéaires favorisent les capacités de perforation des armes à énergie améliorées.
+
+<Callout type="tip" title="Dépense prioritaire">
+Consacrez vos 6 premiers noyaux d'armes à l'amélioration du Canon à plasma au niveau 3. L'effet de zone de feu persistante offre un excellent contrôle passif du terrain.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Équipements par niveau et secrets">
+
+Les différents niveaux présentent des défis environnementaux uniques qui nécessitent des configurations d'armes spécifiques. Choisir la mauvaise arme peut rendre certaines sections nettement plus difficiles qu'elles ne devraient l'être.
+
+| Niveau | Arme recommandée | Cible principale | Stratégie |
+| :--- | :--- | :--- | :--- |
+| **Niveau 1 : Surface** | Fusil laser | Drones de patrouille | Garder ses distances, éliminer les cibles aériennes de loin |
+| **Niveau 2 : Profondeurs** | Tir dispersé | Essaims | Tirer en continu tout en reculant |
+| **Niveau 3 : Noyau** | Canon à plasma | Mechas lourds | Utiliser les dégâts de zone dans les angles |
+| **Niveau 4 : Chambre** | Rayon photonique | La Sentinelle | Concentrer le tir sur l'œil central |
+
+Pour maximiser votre efficacité, suivez ces étapes spécifiques afin de déverrouiller la variante d'arme cachée dans les derniers niveaux.
+
+<Steps>
+  <Step num="1" title="Localiser la cache secrète">
+    Au Niveau 3, dirigez-vous vers le couloir inférieur gauche avant la salle du mini-boss et tirez sur la dalle de mur fissurée.
+  </Step>
+  <Step num="2" title="Récupérer le disque de données">
+    Ramassez le disque de données bleu tombé du conteneur caché à l'intérieur du mur.
+  </Step>
+  <Step num="3" title="Apporter au terminal">
+    Transportez le disque jusqu'à la fin du niveau sans mourir et insérez-le dans la console du terminal.
+  </Step>
+  <Step num="4" title="Équiper le prototype">
+    L'arme prototype remplacera désormais votre Blaster standard pour le reste de la partie.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Emplacement du terminal">
+La console du terminal est située directement derrière l'arène du boss du Niveau 3. Ne déclenchez pas le portail de sortie avant d'avoir interagi avec elle.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Faiblesses des ennemis et liste de préparation au combat">
+
+Exploiter les vulnérabilités des ennemis vous permet d'économiser des munitions pour vos armes de haut niveau. Utilisez le tableau ci-dessous pour associer les ennemis à leurs contre-armes correspondantes.
+
+| Type d'ennemi | Faiblesse | Résistant à | Conseil de combat |
+| :--- | :--- | :--- | :--- |
+| **Scarabée blindé** | Canon à plasma | Fusil laser | Attaquer par derrière pour contourner l'armure |
+| **Chercheur volant** | Fusil laser | Tir dispersé | Abattre avant qu'ils ne se rapprochent |
+| **Générateur de bouclier** | Rayon photonique | Tirs cinétiques | Détruire d'abord les nœuds de bouclier |
+| **Mecha Colosse** | Canon à plasma | Blaster standard | Viser le noyau d'énergie exposé |
+
+Pour vous assurer que vous êtes pleinement préparé pour l'affrontement avec le boss final, passez en revue cette liste de préparation au combat.
+
+<Checklist
+  id="combat-readiness"
+  title="Exigences du niveau final :"
+  items={[
+    "Améliorer au moins une arme de rang S au niveau 4",
+    "Sécuriser un minimum de 50 cellules d'énergie de réserve",
+    "Localiser l'arme prototype au Niveau 3",
+    "Mémoriser les patterns d'attaque du boss dans la Chambre"
+  ]}
+/>
+
+<Callout type="warning" title="Gestion des munitions">
+N'utilisez pas le Rayon photonique sur les ennemis mineurs. Tomber à court de cellules d'énergie avant le combat contre le boss final rendra l'affrontement extrêmement difficile.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Où puis-je trouver toutes les armes dans Hellhole ?",
+    question: "Comment déverrouiller l'arme prototype secrète ?",
+    answer: "L'arme prototype se déverrouille en récupérant le disque de données caché au Niveau 3 et en l'insérant dans la console du terminal située derrière l'arène du boss."
+  },
+  {
+    question: "Les améliorations d'armes sont-elles conservées après la mort ?",
+    answer: "Non. Mourir réinitialise votre arme active à son niveau de base. Cependant, toutes les classes d'armes déverrouillées restent disponibles dans votre inventaire."
+  },
+  {
+    question: "Quelle arme est la meilleure pour éliminer de grands groupes d'ennemis faibles ?",
+    answer: "Le Tir dispersé est fortement recommandé pour le contrôle des foules en raison de son large cône de tir et de sa cadence de tir décente, vous permettant de balayer rapidement les couloirs."
+  },
+  {
+    question: "Puis-je améliorer le Blaster standard ?",
+    answer: "Le Blaster standard ne peut pas être amélioré. Il sert uniquement d'arme de secours avec des munitions infinies lorsque les autres ressources sont épuisées."
+  }
+]} />
+
+<Callout type="success" title="Préparation finale">
+Grâce à ces connaissances sur les armes, les statistiques et les voies d'amélioration, vous êtes prêt à affronter les profondeurs les plus sombres du jeu. Choisissez judicieusement votre équipement et économisez vos munitions lourdes.
+</Callout>
+
+</Section>

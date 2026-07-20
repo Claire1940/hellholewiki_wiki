@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Hellhole Comment Débloquer des Armes : Guide de Progression et d'Équipement",
+  description: "Apprenez à débloquer des armes dans Hellhole. Découvrez les paliers d'étages, les prix en boutique, les voies d'amélioration et les meilleurs équipements pour vos explorations.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/09090b/fff?text=Unlock+Weapons+Guide",
+  date: "2026-07-20",
+  author: "Équipe du Wiki Hellhole",
+  keywords: "Hellhole, débloquer armes, guide progression, arsenal, équipements combat"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mécanique Principale** : Les armes sont débloquées en atteignant des paliers d'étages spécifiques et en les achetant avec de l'argent à l'Armurerie.
+- **Priorité de Déblocage** : Concentrez-vous sur le déblocage du Pistolet-mitrailleur à l'Étage 5 et du Fusil d'Assaut à l'Étage 10 pour une progression optimale.
+- **Stratégie de Ressources** : Économisez votre argent durement gagné des premiers étages au lieu de le dépenser dans des consommables de survie temporaires.
+- **Priorité d'Amélioration** : Priorisez toujours l'amélioration des Dégâts de l'arme par rapport à la Capacité du Chargeur lors de vos premières descentes.
+</Callout>
+
+<Section icon={Map} title="Comment Débloquer des Armes dans Hellhole : Étages et Argent Requis">
+
+Pour survivre aux profondeurs terrifiantes de ce jeu de tir d'horreur PvE, maîtriser **comment débloquer des armes dans Hellhole** est votre priorité absolue. À mesure que vous descendez étage par étage dans le monde souterrain démoniaque, votre pistolet de départ perdra rapidement de son efficacité contre les ennemis démoniaques agressifs et les boss d'étage. Pour obtenir une puissance de feu supérieure, vous devez comprendre le double système de progression de Hellhole : atteindre des paliers d'étages spécifiques et accumuler suffisamment d'argent pour acheter les armes débloquées à l'Armurerie.
+
+Chaque descente réussie vous récompense avec de l'argent basé sur les ennemis vaincus et les ressources collectées. Cependant, atteindre un étage n'est que la moitié de la bataille. Une fois qu'un palier d'étage est franchi, l'arme devient disponible de manière permanente à l'achat au terminal de l'Armurerie dans le lobby. Si vous mourez avant d'avoir acheté une arme débloquée, vous conservez le droit de l'acheter, à condition d'avoir économisé assez d'argent lors de vos parties.
+
+| Arme | Déblocage (Étage) | Coût en Argent | Rôle de Combat Principal |
+|---|---|---|---|
+| Pistolet de Départ | Étage 1 (Défaut) | Gratuit | Défense de secours et farming des premiers étages |
+| Fusil à Pompe | Étage 3 | 800 $ | Dégâts de zone élevés à courte portée contre les démons brutes |
+| Pistolet-mitrailleur (SMG) | Étage 5 | 1 800 $ | Contrôle de foule à tir rapide pour les essaims |
+| Fusil d'Assaut (AR) | Étage 10 | 4 500 $ | Dégâts polyvalents à moyenne portée et combats de boss |
+| Mitrailleuse Légère (LMG) | Étage 15 | 8 500 $ | Tir de suppression soutenu pour les étages profonds |
+| Lance-flammes | Étage 20 (Drop Boss) | 15 000 $ | Dégâts de zone ultimes et dégâts sur la durée |
+
+<Callout type="warning" title="Surveillez votre Portefeuille">
+Ne gaspillez pas votre argent en achetant des stimulants temporaires ou des grenades de bas niveau en début de partie. Économisez chaque dollar des Étages 1 à 4 afin de pouvoir acheter immédiatement le Pistolet-mitrailleur dès que vous terminez l'Étage 5.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide de Progression des Armes Étape par Étape">
+
+Débloquer votre première arme de haut niveau nécessite une approche structurée des descentes en début de partie. Se précipiter dans le monde souterrain sans améliorer votre arsenal est le meilleur moyen de terminer votre partie prématurément. Suivez cette route de progression éprouvée pour optimiser vos gains d'argent et débloquer vos armes efficacement.
+
+<Steps>
+  <Step num="1" title="Farmer les Premiers Étages">
+    Commencez vos parties en nettoyant soigneusement les Étages 1 et 2. Utilisez votre pistolet de départ pour placer des tirs précis dans la tête des créatures hostiles lentes. Évitez de vous faire acculer et collectez toutes les caches de ressources lumineuses dispersées dans les couloirs sombres pour maximiser vos réserves d'argent initiales.
+  </Step>
+  <Step num="2" title="Terminer l'Étage 3 et Acheter le Fusil à Pompe">
+    Une fois que vous atteignez l'Étage 3, le Fusil à Pompe se débloque à l'Armurerie. Si vous avez collecté au moins 800 $, retournez à l'ascenseur du lobby et achetez cette arme. Le fusil à pompe est essentiel pour faire face aux démons agressifs qui commencent à apparaître à l'Étage 4.
+  </Step>
+  <Step num="3" title="Pousser jusqu'à l'Étage 5 pour le SMG">
+    Équipez votre nouveau fusil à pompe et traversez l'Étage 4. En terminant l'Étage 5, le Pistolet-mitrailleur devient disponible. Le SMG offre la cadence de tir rapide nécessaire pour survivre aux apparitions soudaines de hordes dans les étages plus profonds et plus sombres.
+  </Step>
+  <Step num="4" title="Vaincre le Boss de l'Étage 10 pour le Fusil d'Assaut">
+    L'Étage 10 présente votre premier combat de boss majeur. Vaincre ce boss débloque le Fusil d'Assaut, qui est l'arme la plus équilibrée et la plus fiable pour les parties de milieu et de fin de jeu. Assurez-vous d'avoir amélioré les dégâts de votre SMG avant de tenter ce combat.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Stratégie de Retraite par l'Ascenseur">
+Si votre santé est basse et que vous avez accumulé suffisamment d'argent pour débloquer votre prochaine arme, utilisez l'ascenseur de l'étage pour retourner au lobby. Il est toujours plus sûr d'encaisser vos gains et d'acheter votre nouvelle arme que de risquer de perdre votre bonus de partie face à une menace des étages profonds.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Classes d'Armes et Stratégies de Combat">
+
+Chaque classe d'arme dans Hellhole sert un objectif tactique spécifique. Comprendre quand déployer vos armes vous gardera en vie lorsque les couloirs seront inondés d'entités démoniaques. Votre équipement devrait toujours se composer d'une arme à dégâts élevés pour cible unique et d'une option fiable pour le contrôle de foule.
+
+<CardGrid cols={3}>
+  <Card title="Puissance à Courte Portée">
+    - **Armes** : Fusil à Pompe, Lance-flammes
+    - **Idéal pour** : Nettoyer les couloirs étroits et arrêter les brutes qui chargent.
+    - **Stratégie** : Laissez les ennemis approcher, tirez à bout portant, puis reculez immédiatement pour recharger en toute sécurité.
+  </Card>
+  <Card title="Polyvalence à Moyenne Portée">
+    - **Armes** : SMG, Fusil d'Assaut
+    - **Idéal pour** : Exploration standard et gestion des variantes de démons agiles.
+    - **Stratégie** : Tirez par rafales courtes et contrôlées pour maintenir la précision tout en gardant une distance de sécurité.
+  </Card>
+  <Card title="Puissance de Feu Lourde">
+    - **Armes** : LMG, Ordonnance Spéciale
+    - **Idéal pour** : Combats de boss et défense des ascenseurs d'extraction.
+    - **Stratégie** : Trouvez une position défensive sûre, visez les points de passage obligés et déclenchez un tir de suppression soutenu.
+  </Card>
+</CardGrid>
+
+Pour vous aider à décider quelles armes prioriser, analysez les mesures de performance ci-dessous. Ces valeurs représentent les statistiques de base de chaque arme avant toute amélioration au lobby.
+
+| Nom de l'Arme | Dégâts de Base | Cadence de Tir | Vitesse de Rechargement | Capacité Munitions |
+|---|---|---|---|---|
+| Pistolet de Départ | 15 | Lente | Rapide | 12 Balles |
+| Fusil à Pompe | 80 (Dispersion) | Très Lente | Lente (Cartouche par cartouche) | 6 Cartouches |
+| Pistolet-mitrailleur (SMG) | 22 | Très Rapide | Rapide | 30 Balles |
+| Fusil d'Assaut (AR) | 35 | Rapide | Moyenne | 30 Balles |
+| Mitrailleuse Légère (LMG) | 40 | Rapide | Très Lente | 100 Balles |
+
+<Callout type="success" title="L'Équipement Meta">
+L'équipement actuel le plus puissant pour l'exploration des étages profonds est le Fusil d'Assaut associé au Fusil à Pompe. Utilisez le Fusil d'Assaut pour nettoyer les salles standard et passez au Fusil à Pompe pour éliminer instantanément les ennemis à haute menace qui vous tendent des embuscades dans les espaces restreints.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Voies d'Amélioration et Systèmes de Progression">
+
+Débloquer une arme n'est que la première étape ; l'améliorer est ce qui vous permet de survivre à l'augmentation brutale de la difficulté des étages profonds. Une fois qu'une arme est débloquée et achetée, vous pouvez dépenser de l'argent à la Station d'Amélioration dans le lobby pour améliorer ses attributs de façon permanente. Ces améliorations sont conservées pour toutes vos futures parties.
+
+Les améliorations sont divisées en trois catégories principales : Dégâts, Capacité et Maniement. Comme les ennemis gagnent des points de vie substantiels dans les étages profonds, l'augmentation de vos dégâts devrait toujours être votre priorité absolue.
+
+| Niveau d'Amélioration | Coût en Argent | Augmentation Dégâts | Bonus Vitesse Recharg. | Augmentation Mun. Max |
+|---|---|---|---|---|
+| Niveau 1 | 500 $ | +10% | +5% | +10% |
+| Niveau 2 | 1 200 $ | +20% | +10% | +20% |
+| Niveau 3 | 3 000 $ | +35% | +15% | +30% |
+| Niveau 4 | 6 500 $ | +50% | +25% | +40% |
+| Niveau 5 (Max) | 12 000 $ | +75% | +40% | +50% |
+
+<Callout type="info" title="Règle de Priorité d'Amélioration">
+Améliorez toujours les Dégâts de votre arme au Niveau 3 avant d'investir de l'argent dans la Vitesse de Rechargement ou les Munitions Max. Tuer les ennemis plus rapidement réduit la quantité de munitions nécessaires par rencontre, résolvant naturellement les pénuries de munitions du début de jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Déblocage des Armes et Jalons de Maîtrise">
+
+Pour les joueurs cherchant à conquérir totalement Hellhole, débloquer chaque arme et maximiser leurs voies d'amélioration est l'objectif ultime de fin de jeu. Utilisez la liste de contrôle ci-dessous pour suivre votre progression à mesure que vous descendez plus loin dans le monde souterrain démoniaque.
+
+<Checklist
+  id="weapon-mastery-goals"
+  title="Objectifs de Déblocage et Maîtrise d'Armes :"
+  items={[
+    "Atteindre l'Étage 3 et acheter le Fusil à Pompe",
+    "Atteindre l'Étage 5 et acheter le Pistolet-mitrailleur",
+    "Vaincre le Boss de l'Étage 10 et acheter le Fusil d'Assaut",
+    "Atteindre l'Étage 15 et acheter la Mitrailleuse Légère",
+    "Vaincre le Boss de l'Étage 20 et obtenir le Lance-flammes",
+    "Améliorer complètement au moins une arme principale au Niveau 5"
+  ]}
+/>
+
+<Callout type="tip" title="Pièces d'Armes Secrètes">
+Gardez un œil sur les caisses jaunes brillantes cachées derrière des murs destructibles aux Étages 6 à 9. Ces caisses contiennent des composants d'armes rares qui accordent une réduction permanente de 5 % sur toutes les améliorations d'armes à la station du lobby.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire Aux Questions">
+
+Pour vous assurer d'avoir toutes les informations nécessaires pour optimiser votre progression, nous avons compilé les réponses aux questions les plus courantes concernant le déblocage des armes et les systèmes de progression.
+
+<FAQ items={[
+  {
+    question: "Quelle est la méthode la plus rapide pour débloquer des armes dans Hellhole ?",
+    answer: "La méthode la plus rapide consiste à effectuer des speed-runs des Étages 1 à 3, en évitant les combats inutiles et en se concentrant entièrement sur la collecte des caches d'argent. Une fois que vous avez accumulé 1 800 $, foncez directement à l'Étage 5 pour débloquer et acheter le SMG, ce qui accélérera considérablement vos futures sessions de farming."
+  },
+  {
+    question: "Les déblocages et améliorations d'armes persistent-ils après ma mort ?",
+    answer: "Oui. Une fois que vous débloquez une arme en atteignant son palier d'étage désigné et que vous l'achetez à l'Armurerie du lobby, elle est débloquée en permanence. Tout l'argent dépensé pour des améliorations permanentes à la Station d'Amélioration est également conservé après la mort."
+  },
+  {
+    question: "Puis-je débloquer les armes des étages profonds en jouant en coopération multijoueur ?",
+    answer: "Oui, les paliers d'étages peuvent être atteints aussi bien en solo qu'en multijoueur. Si votre équipe atteint l'Étage 10, tous les joueurs de la session débloqueront le Fusil d'Assaut à l'achat, peu importe qui a le plus contribué à la descente."
+  },
+  {
+    question: "Que se passe-t-il si je tombe à court de munitions lors d'une descente profonde ?",
+    answer: "Si vous manquez de munitions principales, passez à votre pistolet de départ, qui possède une réserve infinie de munitions de base. Alternativement, cherchez dans les coins sombres des caisses de munitions vertes brillantes, ou retournez au lobby via un ascenseur pour refaire le plein."
+  }
+]} />
+
+<Callout type="warning" title="Avertissement de Connexion à l'Ascenseur">
+Assurez-vous toujours de quitter votre partie via un ascenseur d'extraction désigné. Si vous vous déconnectez du jeu ou fermez votre client Roblox alors que vous êtes dans un étage de combat, vous perdrez tout l'argent collecté au cours de cette session spécifique.
+</Callout>
+
+</Section>

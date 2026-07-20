@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Hellhole Spielanleitung: 2026 Anfänger-Walkthrough & Überlebens-Tipps",
+  description: "Lernen Sie in unserem Leitfaden für 2026, wie Sie Hellhole meistern, einschließlich Kampfmechaniken, Ressourcenmanagement und wichtiger Überlebensstrategien für neue Spieler.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Hellhole+Survival+Guide",
+  date: "2026-07-20",
+  author: "hellhole Wiki-Team",
+  keywords: "Hellhole, Spielanleitung, Überlebens-Guide, Anfänger-Tipps, 2026"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hellhole Spielanleitung**: Meistern Sie den Abstieg, indem Sie Lichtressourcen, Stealth und aggressive Ressourcensuche geschickt ausbalancieren.
+- **Kernmechanik**: Verwalten Sie Ihre **Geistige Gesundheit (Sanity Meter)**, indem Sie in der Nähe von Lichtquellen bleiben und längeren Kontakt mit der Dunkelheit vermeiden.
+- **Beste Strategie**: Priorisieren Sie frühzeitig **Ausdauer-Upgrades**, um sicherzustellen, dass Sie Bedrohungen auf hohem Niveau entkommen können.
+- **Kritischer Tipp**: Betreten Sie niemals eine neue Ebene ohne mindestens zwei **Leuchtfackel-Packs** und eine vollständig reparierte Nahkampfwaffe.
+- **Top-Empfehlung**: Die **Späher-Klasse** wird Anfängern aufgrund ihrer hohen Bewegungsgeschwindigkeit und Erkennungsboni empfohlen.
+</Callout>
+
+<Section icon={Map} title="Erste Schritte: Hellhole Spielanleitung">
+
+Um die **Hellhole Spielanleitung** zu verstehen, ist ein grundlegender Umbruch in Ihrer Herangehensweise an das Survival-Horror-Genre erforderlich. Im Gegensatz zu traditionellen Dungeon-Crawlern betont dieses Spiel das Umweltbewusstsein und die Ressourcenschonung gegenüber roher Kampfkraft. Ihr Hauptziel ist es, durch verschiedene Schichten eines sich ständig verändernden unterirdischen Abgrunds abzusteigen und dabei Ihre körperliche Gesundheit und geistige Stabilität zu bewahren.
+
+<CardGrid cols={3}>
+  <Card title="Der Späher">
+    - **Hohe Mobilität**
+    - Verbesserte Sicht bei schlechtem Licht
+    - Bestens geeignet für Solo-Erkundungen
+  </Card>
+  <Card title="Der Vollstrecker">
+    - **Hohe Widerstandsfähigkeit**
+    - Erhöhter Nahkampfschaden
+    - Ideal für teambasierte Verteidigung
+  </Card>
+  <Card title="Der Techniker">
+    - **Ressourceneffizienz**
+    - Kann Lichtquellen schneller reparieren
+    - Essentiell für langfristiges Überleben
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Profi-Tipp">
+Priorisieren Sie bei der Auswahl Ihrer Startausrüstung immer eine **Hochleistungs-Taschenlampe** gegenüber zusätzlicher Munition. In den tieferen Schichten ist Sichtbarkeit Ihr wertvollstes Verteidigungsgut.
+</Callout>
+
+Bevor Sie in die Tiefe abtauchen, müssen Sie die grundlegenden UI-Elemente verstehen. Ihre **Gesundheit** wird durch einen roten Balken dargestellt, während Ihre **Ausdauer** blau ist. Am wichtigsten ist das **Sanity Meter** (lila), das bestimmt, wie Ihr Charakter die Umgebung wahrnimmt. Eine niedrige geistige Gesundheit führt zu Halluzinationen und erhöhtem Schaden durch Umweltgefahren.
+
+| Ressourcentyp | Hauptverwendung | Erwerbsmethode | Seltenheit |
+| :--- | :--- | :--- | :--- |
+| **Lichtkristalle** | Betrieb permanenter Lampen | Abbau von Wandknoten | Häufig |
+| **Rationen** | Wiederherstellung von Gesundheit/Ausdauer | Durchsuchen von Kisten | Ungewöhnlich |
+| **Sanity-Pillen** | Wiederherstellung der geistigen Gesundheit | Medizinschränke | Selten |
+| **Schrottmetall** | Reparatur von Ausrüstung/Waffen | Zerstören der Umgebung | Häufig |
+| **Sauerstofftanks** | Überleben in tiefen Zonen | Versorgungslieferungen | Episch |
+
+</Section>
+
+<Section icon={Target} title="Kern-Gameplay-Loop und Fortschritt">
+
+Das Herzstück des Spiels liegt im Zyklus aus Abstieg, Plünderung und Sicherung. Um die Mechaniken zu meistern, müssen Sie auf jeder Ebene diszipliniert vorgehen. Jedes Level im Abgrund wird prozedural generiert, was bedeutet, dass sich das Layout bei jedem Durchgang ändert, aber die fundamentale Logik des Überlebens gleich bleibt.
+
+<Steps>
+  <Step num="1" title="Einen Brückenkopf errichten">
+    Suchen Sie beim Betreten einer neuen Ebene den nächstgelegenen **Safe Zone Hub**. Nutzen Sie Ihre Ressourcen, um die zentrale Lichtsäule zu aktivieren, die einen Respawn-Punkt und einen Ort zum Lagern von überschüssiger Beute bietet.
+  </Step>
+  <Step num="2" title="Systematische Plünderung">
+    Bewegen Sie sich vom Hub aus spiralförmig nach außen. Markieren Sie erkundete Korridore mit **Kreidemarkierungen**, um sich nicht in der wechselnden Geometrie zu verlieren. Sammeln Sie allen sichtbaren Schrott und Verbrauchsmaterialien.
+  </Step>
+  <Step num="3" title="Ressourcenextraktion">
+    Sobald Ihr Inventar zu 80 % gefüllt ist, kehren Sie zum Hub zurück. Priorisieren Sie das Upgrade Ihres **Sauerstofffilters** und der **Lichtdauer**, bevor Sie versuchen, den Ausgang zur nächsten Schicht zu finden.
+  </Step>
+  <Step num="4" title="Der finale Abstieg">
+    Suchen Sie den **Extraktions-Aufzug**. Dies beinhaltet normalerweise ein "Hold the Line"-Event, bei dem Sie den Aufzug gegen Wellen von Feinden verteidigen müssen, während er hochfährt.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Kritische Warnung">
+Die Umgebung wird während der "Extraktionsphase" deutlich feindseliger. Stellen Sie sicher, dass alle Ihre Verteidigungsgeschütze vollständig repariert sind, bevor Sie die Aufzugssequenz einleiten.
+</Callout>
+
+Überleben bedeutet nicht nur Kämpfen; es geht auch darum, zu wissen, wann man sich verstecken muss. Die "Schleichmechanik" ermöglicht es Ihnen, hochgefährliche Feinde zu umgehen, indem Sie im Schatten bleiben, was jedoch langsam an Ihrer geistigen Gesundheit zehrt. Das Abwägen dieser beiden Risiken ist die zentrale Herausforderung im Mid-Game.
+
+| Aktion | Ausdauerkosten | Sanity-Auswirkung | Geräuschpegel |
+| :--- | :--- | :--- | :--- |
+| **Sprinten** | Hoch | Neutral | Hoch |
+| **Geducktes Gehen** | Niedrig | Geringer Abzug | Lautlos |
+| **Kampfschwung** | Mittel | Neutral | Moderat |
+| **Fackel nutzen** | Keine | Hoher Gewinn | Moderat |
+| **Im Spind verstecken** | Erholung | Hoher Abzug | Lautlos |
+
+</Section>
+
+<Section icon={Swords} title="Kampfstrategien und Gegnermanagement">
+
+Der Kampf im Abgrund ist brutal und oft tödlich, wenn man ihn unvorsichtig angeht. Die meisten Feinde haben spezifische Muster und Schwachstellen, die ausgenutzt werden können. Der Kampf gegen mehrere Gegner gleichzeitig ist fast immer ein Todesurteil, es sei denn, Sie besitzen hochwertige AOE-Waffen (Flächenschaden).
+
+<Callout type="info" title="Taktische Informationen">
+Nutzen Sie die **Umgebung** zu Ihrem Vorteil. Viele Feinde reagieren empfindlich auf Licht; das Werfen einer Leuchtfackel in einen dunklen Raum kann sie betäuben und ein Zeitfenster für eine schnelle Exekution oder einen sicheren Rückzug bieten.
+</Callout>
+
+Der Nahkampf nutzt ein "Gewichtssystem". Schwerere Waffen wie der **Vorschlaghammer** verursachen massiven Schaden und können Rüstungen brechen, machen Sie aber anfällig für schnelle "Stalker". Leichtere Waffen wie das **Kampfmesser** ermöglichen schnelle Schläge und Paraden, erfordern aber Präzision, um Schwachstellen zu treffen.
+
+| Gegnertyp | Bedrohungsstufe | Hauptschwachstelle | Empfohlene Waffe |
+| :--- | :--- | :--- | :--- |
+| **Schattenkriecher** | Niedrig | Helles Licht / Fackeln | Jede Nahkampfwaffe |
+| **Der Koloss** | Hoch | Rückseitige Schwachstelle | Schrotflinte / Schwere Axt |
+| **Sirene** | Mittel | Fernangriffe | Scharfschützengewehr |
+| **Schwärmer** | Niedrig | Feuer / Explosivstoffe | Molotow / Flammenwerfer |
+| **Der Wärter** | Extrem | Umweltfallen | Schwere Artillerie |
+
+Wenn Sie einem **Koloss** gegenüberstehen, greifen Sie niemals von vorne an. Warten Sie auf seinen Überkopf-Schlag, weichen Sie nach links aus und treffen Sie die leuchtenden Pusteln auf seinem Rücken. Achten Sie bei **Sirenen** auf das hohe Summen. Sie können Sie aus der Ferne betäuben, daher ist das Unterbrechen der Sichtlinie Ihre erste Priorität, bevor Sie die Distanz verringern.
+
+</Section>
+
+<Section icon={Shield} title="Ausrüstung und Handwerks-Essentials">
+
+Ihre Ausrüstung ist das Einzige, was zwischen Ihnen und den Schrecken der Grube steht. Das Crafting-System ist modular aufgebaut und ermöglicht es Ihnen, verschiedene "Erweiterungen" (Augments) an Ihren Basiswaffen und Rüstungen anzubringen. Diese können Schadensarten ändern, die Haltbarkeit erhöhen oder nützliche Funktionen wie Wärmebild hinzufügen.
+
+| Ausrüstungsstück | Basiswert | Upgrade-Priorität | Spezialfähigkeit |
+| :--- | :--- | :--- | :--- |
+| **Verstärkte Weste** | +20 Verteidigung | Hoch | Explosionsschutz |
+| **Gürteltasche** | +4 Slots | Mittel | Schnelles Nachladen |
+| **Nachtsichtgerät** | Sichtbarkeit | Niedrig | Wärmebild-Tracking |
+| **Schwere Stiefel** | +10 Ausdauer | Mittel | Gefahrenimmunität |
+| **Sauerstoffmaske** | Atemzeit | Extrem | Giftgasfilter |
+
+<Callout type="success" title="Optimierungstipp">
+Tragen Sie immer mindestens ein **Reparaturset** bei sich. Waffen verlieren an Wirksamkeit, wenn ihre Haltbarkeit unter 50 % fällt, und eine kaputte Waffe mitten in einem Bosskampf führt meist zu einem gescheiterten Run.
+</Callout>
+
+Das Handwerk wird an **Werkbänken** in Safe Zones durchgeführt. Sie können ungewollte Beute zerlegen, um Komponenten für hochwertige Rezepte zu erhalten. In der Meta von 2026 ist die Erweiterung "Schockinduzierend" für Nahkampfwaffen sehr beliebt, da sie einen konsistenten Crowd-Control-Effekt gegen die häufigsten Gegnertypen bietet.
+
+| Handwerksrezept | Benötigte Materialien | Ergebnis | Dauer/Anwendungen |
+| :--- | :--- | :--- | :--- |
+| **Fortgeschrittenes Medkit** | 2 Stoff, 1 Alkohol | Volle Heilung | Einmalige Nutzung |
+| **Robuste Fackel** | 1 Magnesium, 1 Plastik | Lang anhaltendes Licht | 5 Minuten |
+| **Rüstungsplatte** | 3 Schrottmetall | 25 % Rüstungsreparatur | Einmalige Nutzung |
+| **Sanity-Gebräu** | 2 Pilze, 1 Wasser | 50 % Sanity-Heilung | Einmalige Nutzung |
+| **Munitionskiste** | 5 Blei, 2 Pulver | Zufällige Munition | Einmalige Nutzung |
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritts-Meilensteine und Checkliste">
+
+Um Ihren Erfolg im Abgrund zu verfolgen, sollten Sie bestimmte Meilensteine anstreben, die permanente Kontoboni freischalten. Diese "Vermächtnis-Upgrades" bleiben bestehen, selbst wenn Ihr aktueller Charakter stirbt, was nachfolgende Durchgänge erheblich erleichtert.
+
+<Checklist
+  id="hellhole-progression"
+  title="Wichtige Überlebensziele:"
+  items={[
+    "Erreichen Sie die dritte Ebene des Abgrunds",
+    "Erfolgreiche Extraktion mit vollem Inventar",
+    "Besiegen Sie den Wärter-Boss, ohne ein Gliedmaß zu verlieren",
+    "Schalten Sie die Handwerksstation der Stufe 3 frei",
+    "Behalten Sie auf einer gesamten Ebene 90 % geistige Gesundheit bei",
+    "Sammeln Sie alle 10 Lore-Logs in der ersten Zone"
+  ]}
+/>
+
+<Callout type="info" title="Vermächtnis-Belohnungen">
+Das Abschließen des Meilensteins "Besiege den Wärter" schaltet den **Permanenten Sauerstofftank** frei, der die Basis-Atemzeit für alle zukünftigen Charaktere um 25 % erhöht. Dies ist ein entscheidender Vorteil für Tiefsee- oder Giftgaszonen.
+</Callout>
+
+Je tiefer Sie vordringen, desto höher wird der "Verderbnisgrad" der Welt. Diese Mechanik führt neue Umweltgefahren wie **Leurenrisse** und **Gliedmaßenfäule** ein. Ein vielfältiges Set an Ausrüstung zum Wechseln ist entscheidend, um die unterschiedlichen Herausforderungen der unteren Tiefen zu überleben.
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Was ist der beste Weg, um die Hellhole Spielanleitung zu üben?",
+    answer: "Beginnen Sie im 'Entdeckermodus', um die Kartenlayouts und Gegnermuster ohne den Druck eines permanenten Todes kennenzulernen. Konzentrieren Sie sich zuerst darauf, das Timing für Paraden gegen Schattenkriecher zu meistern."
+  },
+  {
+    question: "Kann ich Hellhole mit Freunden spielen?",
+    answer: "Ja, das Spiel unterstützt Koop für bis zu 4 Spieler. Der Schwierigkeitsgrad skaliert mit der Anzahl der Spieler, daher werden Kommunikation und Rollenspezialisierung (Sanitäter, Tank, Späher) lebenswichtig."
+  },
+  {
+    question: "Wie verhindere ich, dass meine geistige Gesundheit so schnell sinkt?",
+    answer: "Bleiben Sie im Radius permanenter Lichtquellen, nutzen Sie regelmäßig Sanity-Gebräue und vermeiden Sie es, die 'Eldritch-Schrecken' in den tieferen Schichten direkt anzustarren."
+  },
+  {
+    question: "Was passiert, wenn ich im Abgrund sterbe?",
+    answer: "Im Standardmodus verlieren Sie Ihr aktuelles Inventar und die ausgerüstete Ausrüstung. Alle 'Vermächtnis-Upgrades' oder im Safe Zone Hub gelagerten Gegenstände bleiben jedoch für Ihren nächsten Charakter verfügbar."
+  }
+]} />
+
+<Callout type="tip" title="Abschließender Rat">
+Überstürzen Sie nichts. Der Abgrund bestraft Ungeduld. Nehmen Sie sich Zeit, um jede Ecke zu sichern, verwalten Sie Ihre Ressourcen und haben Sie immer eine Exit-Strategie, bevor Sie einen neuen Raum betreten.
+</Callout>
+
+</Section>

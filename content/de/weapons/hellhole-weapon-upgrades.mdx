@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hellhole Waffen-Upgrades: 2026 Kampf- & Fortschritts-Guide",
+  description: "Meistere Hellhole Waffen-Upgrades mit unserem detaillierten Guide zu Arsenal-Freischaltungen, In-Run-Buffs und essenziellen Perks zum Überleben in den tiefsten Etagen.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7f1d1d/fff?text=Weapon+Upgrades+Guide",
+  date: "2026-07-20",
+  author: "Hellhole Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hellhole Waffen-Upgrades** sind unterteilt in permanente Arsenal-Freischaltungen und RNG-basierte In-Run-Buffs.
+- **Prioritäts-Stats** für die meisten Runs umfassen Schaden, Kritische Trefferchance und Magazingröße, um Schwärme im Late-Game zu bewältigen.
+- **Essenzielle Perks** wie „Nachlade-Heilung“ bieten lebenswichtige Nachhaltigkeit beim Erkunden tiefer Etagen wie dem Antiken Grab.
+- **Währungsmanagement** ist entscheidend; spare Gears für Waffenfreischaltungen und nutze Gold für Shop-Buffs während des Runs.
+- **Boss-Skalierung** hängt von deiner Gruppengröße ab, was Solo-Runs herausfordernd, aber mit hoher Feuerrate machbar macht.
+</Callout>
+
+<Section icon={Swords} title="Permanente Arsenal-Freischaltungen und Waffenauswahl">
+
+Das Fundament deines Erfolgs in der Grube beginnt im Arsenal. Im Gegensatz zu den temporären Buffs, die du beim Abstieg findest, stellen Arsenal-Freischaltungen einen permanenten Fortschritt für deinen Charakter dar. Du beginnst deine Reise mit einer Standard-Pistole, die unbegrenzte Munition bietet, aber häufiges Nachladen erfordert. Um die schwierigeren Etagen wie die Versunkenen Ruinen oder die Pilztiefen zu bewältigen, musst du deine hart verdienten Gears in überlegene Feuerkraft investieren.
+
+**Video-Highlights:**
+- Übersicht über das Arsenal-System und die Waffen-Stats (Schaden, RPM, Magazin).
+- Demonstration der Lava-Waffe und ihrer legendären Brand-Passiven.
+- Erklärung des Rang-Systems und wie es hochrangige Perks freischaltet.
+- Tipps zum Abschließen täglicher Quests, um Gears effizient zu farmen.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="HELLHOLE VOLLSTÄNDIGER GUIDE! (Gegner, Upgrades, Geld) - Roblox" />
+
+Jede Waffe im Arsenal verfügt über unterschiedliche Stats, die ihren Spielstil definieren. Zum Beispiel ist die Lava-Waffe, die 5.000 Gears kostet, eine erstklassige Wahl aufgrund ihrer „Brand“-Passiven, die Schaden über Zeit verursacht. Dies ist besonders effektiv gegen Ziele mit hohen HP wie den Brute-Magier oder Bosse, denen man auf Etage sieben begegnet.
+
+| Waffentyp | Basisschaden | Spezielle Passive | Gear-Kosten |
+| :--- | :--- | :--- | :--- |
+| **Standard-Pistole** | Moderat | Keine (Unbegrenzte Munition) | Kostenlos |
+| **Lava-Gewehr** | Hoch | Legendäres Brennen (DOT) | 5.000 |
+| **Gefrorene MP** | Niedrig | Verlangsamt Gegner bei Treffer | 3.500 |
+| **Verwelkter Bogen** | Sehr Hoch | Rüstungsdurchdringung | 4.500 |
+
+<Callout type="warning" title="Rang-Anforderungen">
+Viele hochrangige Waffen und Perks sind hinter deinem Account-Rang gesperrt. Stelle sicher, dass du tägliche Quests abschließt, wie das Besiegen von 80 Gegnern oder zwei Bossen, um die XP zu erhalten, die für Rang 35 und darüber hinaus benötigt werden.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="In-Run Hellhole Waffen-Upgrades und RNG-Mechaniken">
+
+Sobald du in den Magmakern hinabsteigst, verlagert sich dein Fokus auf **Hellhole Waffen-Upgrades**, die dynamisch während des Runs erscheinen. Diese Upgrades werden in speziellen „Upgrade-Räumen“ gefunden und bieten die Wahl zwischen drei zufälligen Buffs. Das Verständnis der Synergie zwischen diesen Buffs entscheidet über einen gescheiterten Run oder das Erreichen der Kristalletage.
+
+Upgrades sind nach Seltenheit kategorisiert: Gewöhnlich, Selten und Episch. Ein episches Schadens-Upgrade kann einen massiven Boost von 16 % bieten, der signifikant skaliert, wenn du ihn mit Modifikatoren für kritischen Schaden kombinierst.
+
+| Upgrade-Name | Effektbeschreibung | Seltenheitsstufe |
+| :--- | :--- | :--- |
+| **Tödliche Krits** | Erhöht die Chance auf kritische Treffer um 25 % | Selten |
+| **Schwere Munition** | Erhöht den rohen Basisschaden | Gewöhnlich/Selten |
+| **Adrenalin** | Erhöht das Nachladetempo nach einem Kill | Gewöhnlich |
+| **Epischer Schaden** | Massiver +16 % Boost auf allen Schaden | Episch |
+| **Erweitertes Magazin** | Fügt +5 Schuss zum aktuellen Magazin hinzu | Gewöhnlich |
+| **Schnellfeuer** | Erhöht die Feuerrate (RPM) um 12 % | Selten |
+
+<Callout type="tip" title="Synergie-Strategie">
+Wenn du die Standard-Pistole verwendest, priorisiere **Magazingröße** und **Nachladetempo**. Da die Pistole ein kleines Basismagazin hat, ermöglicht eine Erhöhung auf 17 oder 22 Schuss, dass du „Beim-Nachladen“-Perks seltener auslöst, aber in Gremlin-Schwärmen länger im Kampf bleibst.
+</Callout>
+
+Achte bei der Wahl deines Pfades immer auf die Raumsymbole. Wenn du ein Upgrade-Symbol und ein Schatzkammer-Symbol zusammen siehst, priorisiere zuerst das Upgrade, um sicherzustellen, dass du stark genug bist, um die folgende Kampfwelle zu überstehen.
+
+</Section>
+
+<Section icon={Shield} title="Strategische Perks und Charakteranpassung">
+
+Perks sind die zweite Ebene deines Builds. Vor Beginn eines Matches kannst du spezifische Perks ausrüsten, die deine Spielmechanik verändern. Mit steigendem Rang schaltest du mehr Slots und mächtigere Optionen frei. In der aktuellen Meta von 2026 sind Nachhaltigkeit und Mobilität die am meisten geschätzten Eigenschaften.
+
+<CardGrid cols={3}>
+  <Card title="Aufklärungsoptik">
+    - **Effekt**: Verbleibende Gegner sehen
+    - **Bestens geeignet für**: Taktische Positionierung
+    - **Freischaltung**: Rang 1
+  </Card>
+  <Card title="Nachlade-Heilung">
+    - **Effekt**: Heilt +5 HP beim Nachladen
+    - **Bestens geeignet für**: Solo-Überlebensfähigkeit
+    - **Freischaltung**: Früher Rang
+  </Card>
+  <Card title="Bohrmunition">
+    - **Effekt**: Kugeln durchschlagen einen Gegner
+    - **Bestens geeignet für**: Crowd Control
+    - **Freischaltung**: Rang 35
+  </Card>
+</CardGrid>
+
+Der Perk „Nachlade-Heilung“ ist wohl der wichtigste für Anfänger. In Hellhole sind Heilungs-Drops von Gegnern unbeständig. Durch das Ausrüsten dieses Perks wird jedes Nachladen zu einer Heilquelle, die es dir ermöglicht, Fehler in intensiven Bosskämpfen auszugleichen.
+
+| Perk-Name | Nutzentyp | Strategie-Empfehlung |
+| :--- | :--- | :--- |
+| **Wohlhabender Start** | Wirtschaft | Starte mit 150 extra Gold |
+| **Schneller Reflex** | Mobilität | Permanenter Bewegungsgeschwindigkeits-Buff |
+| **Gehärtete Schale** | Verteidigung | Erhöht Max HP um 15 % |
+
+<Callout type="info" title="Expertenbeobachtung">
+Bewegungsgeschwindigkeit wird oft übersehen, ist aber entscheidend. Viele Gegner, wie die Gremlins, sind unglaublich schnell. Wenn deine Bewegungsgeschwindigkeit zu niedrig ist, wirst du unabhängig von deinem Waffenschaden überwältigt.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung zur Maximierung der Gear-Einnahmen">
+
+Um dir die besten **Hellhole Waffen-Upgrades** leisten zu können, benötigst du einen stetigen Strom an Gears. Gears sind die Hauptwährung, die im Shop des Hauptmenüs verwendet wird, und sie werden primär durch Leistung und Erkundung verdient.
+
+<Steps>
+  <Step num="1" title="Schatzkammern räumen">
+    Suche immer nach den goldenen und silbernen Truhen, die in Nebenräumen versteckt sind. Diese bieten sowohl sofortiges Gold für den Run als auch Gears für dein permanentes Konto.
+  </Step>
+  <Step num="2" title="Tägliche Missionen abschließen">
+    Prüfe die linke untere Ecke des Lobby-Bildschirms auf deine täglichen Aufgaben. Diese belohnen oft mit 100-500 Gears nach Abschluss und werden alle 24 Stunden zurückgesetzt.
+  </Step>
+  <Step num="3" title="Tiefergelegene Etagen erreichen">
+    Die Menge der belohnten Gears skaliert mit der Tiefe deines Runs. Das Erreichen des Antiken Grabs oder der Kristalletage bringt deutlich mehr Währung ein als das Sterben im Magmakern.
+  </Step>
+  <Step num="4" title="Bosse besiegen">
+    Bosse lassen ein großes Depot an Gears fallen. Selbst wenn du kurz nach einem Bosskampf stirbst, wird die durch diesen Kill verdiente Währung dauerhaft deinem Konto gutgeschrieben.
+  </Step>
+</Steps>
+
+| Währungsquelle | Durchschnittlicher Ertrag | Schwierigkeit |
+| :--- | :--- | :--- |
+| **Silberne Truhen** | 10-20 Gears | Sehr Einfach |
+| **Goldene Truhen** | 50-100 Gears | Einfach |
+| **Tägliche Quests** | 200+ Gears | Mittel |
+| **Etagen-Bosse** | 500+ Gears | Schwer |
+
+<Callout type="success" title="Wirtschafts-Tipp">
+Wenn du Schwierigkeiten hast, Gears zu verdienen, konzentriere dich auf „Speedruns“ bis Etage 3. Der Schwierigkeitsgrad ist niedrig, und du kannst schnell Truhen sammeln und zurücksetzen, um dein stündliches Gear-Einkommen zu maximieren.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mid-Run Shops und Überlebens-Buffs">
+
+Während du die verschiedenen Schichten der Grube erkundest, wirst du auf NPC-Shops stoßen. Diese Shops nutzen das Gold, das du *während dieses spezifischen Runs* sammelst. Im Gegensatz zu Gears geht Gold verloren, sobald der Run endet, also solltest du es großzügig ausgeben, um das Überleben auf der nächsten Etage zu sichern.
+
+<Checklist
+  id="shop-priorities"
+  title="Mid-Run Kaufpriorität:"
+  items={[
+    "Großer Geschwindigkeits-Boost (Hohe Priorität zum Ausweichen bei Bossen)",
+    "Max HP Erhöhung (Essenziell für die Skalierung im Late-Game)",
+    "Vollständige Heilung (Nur wenn unter 40 % Gesundheit)",
+    "Kleiner Geschwindigkeits-Boost (Wenn Gold begrenzt ist)"
+  ]}
+/>
+
+Das Shop-Inventar ist beständig, aber die Preise können leicht variieren. Wenn du dein Gold effektiv verwaltest, kannst du Max-HP-Buffs stapeln und so deine Startgesundheit bis zum Endboss potenziell verdoppeln.
+
+| Shop-Gegenstand | Kosten (Gold) | Permanent für den Run? |
+| :--- | :--- | :--- |
+| **Vollständige Heilung** | 50-100 | Nein (Sofort) |
+| **Max HP +15** | 250-400 | Ja |
+| **Kleiner Speed** | 150-200 | Ja |
+| **Großer Speed** | 500+ | Ja |
+
+<Callout type="tip" title="Profi-Shop-Strategie">
+Halte immer mindestens 100 Gold als Reserve für eine Notfallheilung bereit. Wenn du einen Bossraum mit wenig Gesundheit und ohne Gold betrittst, sinken deine Überlebenschancen erheblich, selbst mit den besten Upgrades.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie erhalte ich die besten Hellhole Waffen-Upgrades?",
+    answer: "Die besten Upgrades findest du in Truhen epischer Seltenheit oder in Upgrade-Räumen. Suche nach 'Epischer Schaden' oder 'Tödliche Krits', um deinen DPS zu maximieren. Spare außerdem Gears im Hauptmenü, um legendäre Waffen wie das Lava-Gewehr freizuschalten."
+  },
+  {
+    question: "Bleiben Upgrades nach meinem Tod erhalten?",
+    answer: "Nein. In-Run-Upgrades (wie +16 % Schaden) und Gold gehen verloren, wenn du stirbst. Nur Waffenfreischaltungen aus dem Arsenal, Perks und Gears sind permanent."
+  },
+  {
+    question: "Was ist die beste Waffe für Solo-Spieler?",
+    answer: "Die Standard-Pistole ist überraschend stark für Solo-Spieler, wenn sie mit dem Perk 'Nachlade-Heilung' kombiniert wird. Die Gefrorene MP ist jedoch ebenfalls exzellent für das Solo-Spiel, da sie schnelle Gegner wie Gremlins verlangsamt und dir mehr Reaktionszeit gibt."
+  },
+  {
+    question: "Wie skaliert die Boss-Gesundheit in Hellhole?",
+    answer: "Die Boss-Gesundheit skaliert basierend auf deiner Gruppengröße. Ein Solo-Spieler trifft auf einen Boss mit etwa 4.000 HP, während eine volle Vierer-Gruppe auf einen Boss mit deutlich höheren HP trifft, um die Herausforderung aufrechtzuerhalten."
+  }
+]} />
+
+<Callout type="info" title="Schlusswort">
+Die Meta für **Hellhole Waffen-Upgrades** entwickelt sich ständig weiter, da neue Etagen hinzugefügt werden. Experimentiere immer mit verschiedenen Perk-Kombinationen, um einen Spielstil zu finden, der deinem mechanischen Geschick entspricht.
+</Callout>
+
+</Section>

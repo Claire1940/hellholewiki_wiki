@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hellhole-Gegnertypen: Kampfstrategien & Schwachstellen",
+  description: "Meistere die Kampfstrategien und Schwachstellen aller Hellhole-Gegnertypen. Lerne Bedrohungsstufen, Waffenempfehlungen und Überlebensstrategien kennen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Hellhole+Enemy+Types",
+  date: "2026-07-20",
+  author: "hellhole Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Identifiziere die Bedrohungsstufen** der verschiedenen Hellhole-Gegnertypen, um Ziele in intensiven Gefechten zu priorisieren.
+- **Visiere Schwachstellen an** wie freiliegende Gliedmaßen oder ungepanzerte Köpfe, um die Munitionseffizienz zu maximieren.
+- **Nutze spezialisierte Waffen** wie Schrotflinten für Mutanten im Nahkampf und Gewehre für korrumpiertes Personal in der Ferne.
+- **Wende Taktiken zur Massenkontrolle an**, indem du Gasgranaten nutzt, um überwältigende Gegnergruppen vorübergehend auszuschalten.
+</Callout>
+
+<Section icon={Map} title="Anatomy of the Sanitarium Facility">
+
+Beim Hinabsteigen in die dunklen Korridore der Einrichtung ist das Verständnis der verschiedenen **Hellhole-Gegnertypen** überlebenswichtig. Die unterirdische Anlage, umgangssprachlich als „Hellhole“ bekannt, beherbergt fehlgeschlagene medizinische Experimente, mutiertes Personal und aggressive Sicherheitssysteme. Jede Zone weist einzigartige Umweltgefahren auf, die mit den Angriffsmustern der Gegner synergieren und die Spieler zwingen, ihre Taktiken ständig anzupassen.
+
+Das Navigieren in diesen Sektoren erfordert scharfe Beobachtungsgabe. Feindliche Entitäten verstecken sich oft in Lüftungsschächten, lassen sich von Deckenplatten fallen oder stellen sich auf dem Boden tot. Durch das Erkennen der akustischen Signale und visuellen Anzeichen jeder Bedrohung können Spieler ihre Verteidigung vorbereiten, bevor die Begegnung beginnt.
+
+**Video-Highlights:**
+- **Atmosphärische Präsentation**, die die dunklen, klaustrophobischen Korridore der Einrichtung zeigt.
+- **Thematische Einführung** in das korrumpierte medizinische Personal und die Versuchsobjekte.
+- **Visuelle Hinweise**, die auf die Horrorelemente und Umweltgefahren hindeuten, denen die Spieler begegnen werden.
+
+<YouTubeEmbed videoId="NTV2ErDXWh0" title="Hellhole (1985) - Offizieller Trailer (HD)" />
+
+Das Layout der Einrichtung ändert sich, je tiefer die Spieler vordringen. Die oberen Ebenen bieten enge Flure und Büros, während sich die unteren Ebenen in riesige Versuchsbottiche und Eindämmungskammern öffnen. Jeder Bereich verändert die Effektivität bestimmter Waffen, was die Positionierung ebenso wichtig macht wie das Zielen.
+
+<Callout type="info" title="Navigation in der Einrichtung">
+Halte die Batterie deiner Taschenlampe immer geladen. Lichtquellen können bestimmte Mutanten niedrigerer Stufen abschrecken, ziehen aber auch Raubtiere höherer Stufen an.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Hellhole Enemy Types and Threat Assessment">
+
+Die Liste der Feinde ist basierend auf ihrer Herkunft und ihrem Kampfverhalten in verschiedene Kategorien unterteilt. Sie ohne klaren Plan zu bekämpfen, führt zu einer raschen Erschöpfung der Ressourcen. Die folgende Tabelle zeigt die primären Bedrohungsstufen und Grundeigenschaften der Standardgegner in der Einrichtung.
+
+| Gegnername | Lebenspunkte | Bewegungsgeschwindigkeit | Bedrohungsstufe | Primärer Angriff |
+| --- | --- | --- | --- | --- |
+| **Crawler** | Niedrig | Sehr schnell | ★★☆☆☆ | Nahkampf-Hieb |
+| **Korrupte Krankenschwester** | Mittel | Schnell | ★★★☆☆ | Säurespucken |
+| **Sanatoriums-Wache** | Hoch | Mittel | ★★★★☆ | Elektroschocker |
+| **Das Experiment** | Sehr hoch | Langsam | ★★★★★ | Bodenschlag |
+
+Das Verständnis der physischen Resistenzen dieser Entitäten ermöglicht es den Spielern, den richtigen Munitionstyp zu wählen. Die Verwendung der falschen Waffe gegen schwer gepanzerte Ziele führt oft zu verschwendeten Ressourcen.
+
+| Gegnername | Physische Resistenz | Feuerresistenz | Schwachstelle | Empfohlene Waffe |
+| --- | --- | --- | --- | --- |
+| **Crawler** | Niedrig | Sehr niedrig | Kopf | Pistole |
+| **Korrupte Krankenschwester** | Mittel | Niedrig | Brust | Schrotflinte |
+| **Sanatoriums-Wache** | Hoch | Mittel | Ungepanzerte Beine | Gewehr |
+| **Das Experiment** | Extrem | Niedrig | Leuchtender Kern | Flammenwerfer |
+
+<Callout type="warning" title="Flankieren erforderlich">
+Greife Sanatoriums-Wachen nicht direkt von vorne an. Ihre Frontschilde blockieren einen erheblichen Teil des eingehenden physischen Schadens.
+</Callout>
+
+Um besser zu verstehen, wie sich diese Feinde in Gruppen verhalten, sollten Spieler sie in drei Hauptarchetypen einteilen. Jeder Archetyp erfordert eine andere taktische Herangehensweise bei Kampfbegegnungen.
+
+<CardGrid cols={3}>
+  <Card title="Experimentelle Mutanten">
+    - **Hohe Geschwindigkeit** und unberechenbare Bewegungsmuster.
+    - Niedrige individuelle Gesundheit, greifen aber in großen Gruppen an.
+    - Anfällig für Feuer und Sprengstoffe mit Flächenwirkung.
+  </Card>
+  <Card title="Korruptes medizinisches Personal">
+    - **Fernkämpfer**, die chemische Projektile verwenden.
+    - Moderate Lebenspunkte und taktische Positionierung.
+    - Kann benachbarte Gegner niedrigerer Stufen heilen, wenn sie nicht schnell eliminiert werden.
+  </Card>
+  <Card title="Schwere Sicherheitseinheiten">
+    - **Starke Panzerung**, die den vorderen Oberkörper bedeckt.
+    - Langsame Bewegung, aber verheerende Nahkampf-Fähigkeiten.
+    - Erfordern Flankierungsmanöver, um die ungeschützte Rückseitenpanzerung anzuvisieren.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Tactical Engagement Protocols">
+
+Das Überleben von Begegnungen mit mehreren Feinden erfordert ein strukturiertes Vorgehen. Spieler sollten sich nicht nur auf rohe Feuerkraft verlassen. Positionelles Bewusstsein, Engpässe und Statuseffekte spielen eine ebenso entscheidende Rolle beim Säubern von Räumen.
+
+<Steps>
+  <Step num="1" title="Den Raum auskundschaften">
+    Nutze den Sonar-Scanner, um feindliche Hitzesignaturen zu lokalisieren, bevor du versiegelte Türen öffnest.
+  </Step>
+  <Step num="2" title="Engpass einrichten">
+    Ziehe dich in enge Korridore zurück, um sich schnell bewegende Mutanten in einer einzigen Schusslinie zu bündeln.
+  </Step>
+  <Step num="3" title="Zielpriorisierung">
+    Eliminiere zuerst Fernkampf-Unterstützungseinheiten, um zu verhindern, dass sich chemische Debuffs stapeln.
+  </Step>
+  <Step num="4" title="Ressourcen sammeln">
+    Durchsuche besiegte Gegner sofort nach Schlüsselkarten, Munition und medizinischen Vorräten.
+  </Step>
+</Steps>
+
+Statuseffekte können das Blatt im Kampf wenden, wenn man in der Unterzahl ist. Die Nutzung von Umweltgefahren oder Hilfsgegenständen zur Anwendung dieser Effekte wird dringend empfohlen.
+
+| Statuseffekt | Dauer | Bestens gegen | Gegenmaßnahme |
+| --- | --- | --- | --- |
+| **Brennen** | 8 Sekunden | Mutanten | Feuerlöscher |
+| **Eingefroren** | 5 Sekunden | Schnelle Feinde | Thermoladungen |
+| **Säurekorrosion** | 10 Sekunden | Schwere Gegner | Gegengiftspritze |
+
+<Callout type="tip" title="Umweltgefahren">
+Schieße auf freiliegende Dampfrohre, wenn Feinde an ihnen vorbeigehen. Der entweichende Dampf verursacht massiven Brandschaden und bringt mittlere Ziele ins Wanken.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Recommended Loadouts and Preparation">
+
+Die Vorbereitung der richtigen Ausrüstung vor dem Abstieg in tiefere Sektoren bestimmt den Erfolg des Runs. Das Ausbalancieren des Schadensausstoßes mit Hilfsgegenständen stellt die Bereitschaft für jede Kombination von Feinden sicher.
+
+| Ausrüstungsklasse | Primärwaffe | Sekundärwaffe | Hilfsgegenstand | Kampfrolle |
+| --- | --- | --- | --- | --- |
+| **Aufklärer** | Sturmgewehr | Schalldämpfer-Pistole | Sonar-Scanner | Massenkontrolle & Aufklärung |
+| **Schwerer Angreifer** | Schrotflinte | Granatwerfer | Schwere Rüstung | Frontlinien-Verteidigung |
+| **Unterstützungs-Sanitäter** | Maschinenpistole | Pfeilgewehr | Medikit | Heilung & Buffen |
+
+Verschiedene Sektoren der Einrichtung liefern spezifische Ressourcen, die für die Herstellung hochwertiger Ausrüstung benötigt werden. Spieler sollten ihre Routen basierend auf ihren aktuellen Upgrade-Anforderungen planen.
+
+| Sektor | Primäre Ressource | Gefahrenstufe | Empfohlene Ausrüstungsstufe |
+| --- | --- | --- | --- |
+| **Sektor A** | Metallschrott | Niedrig | Ausrüstungsstufe 10+ |
+| **Sektor B** | Chemische Flüssigkeiten | Mittel | Ausrüstungsstufe 25+ |
+| **Sektor C** | Tech-Komponenten | Hoch | Ausrüstungsstufe 45+ |
+
+Vor dem Starten eines Raids auf den unteren Ebenen sollten Spieler ihr Inventar überprüfen, um sicherzustellen, dass alle notwendigen Vorräte ausgerüstet sind.
+
+<Checklist
+  id="combat-milestones"
+  title="Checkliste vor dem Raid:"
+  items={[
+    "Rüste Rüstungssets mit hoher Haltbarkeit aus",
+    "Stelle mindestens drei mittlere Medikits her",
+    "Überprüfe, ob die Munitionsreserven über achtzig Prozent liegen",
+    "Koordiniere Hilfsgegenstände mit Teammitgliedern"
+  ]}
+/>
+
+<Callout type="success" title="Koop-Synergie">
+Vergewissere dich beim Spielen im Koop-Modus, dass mindestens ein Spieler den Sonar-Scanner trägt, um Hinterhalte aus Lüftungsschächten zu verhindern.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Combat Tactics and FAQ">
+
+Das Meistern der Kampfmechaniken erfordert das Verständnis der verborgenen Verhaltensweisen verschiedener Feinde. Der folgende Abschnitt beantwortet häufige Fragen, die bei tiefen Durchgängen in der Einrichtung auftreten.
+
+<FAQ items={[
+  {
+    question: "Was ist der effektivste Weg, um mit gepanzerten Hellhole-Gegnertypen umzugehen?",
+    answer: "Verwende panzerbrechende Munition oder Sprengladungen, um zuerst die Panzerung abzusprengen. Alternativ kannst du das Ziel flankieren, um auf seine ungepanzerten Schwachstellen am Rücken zu schießen."
+  },
+  {
+    question: "Wie hindere ich die korrupte Krankenschwester daran, andere Feinde zu heilen?",
+    answer: "Konzentriere das Feuer sofort auf die Krankenschwester, sobald sie ihre grün leuchtende Kanalisierungsanimation startet. Ein Nahkampfangriff oder ein Kopfschuss unterbricht den Heilungsprozess."
+  },
+  {
+    question: "Können Umweltgefahren Feinden Schaden zufügen?",
+    answer: "Ja, Umweltgefahren wie Dampfventile, unter Strom stehendes Wasser und explosive Fässer fügen allen feindlichen Entitäten Eigenschaden zu."
+  }
+]} />
+
+<Callout type="info" title="Abschließende Zusammenfassung">
+Geduld und Koordination sind deine besten Waffen. Blindlings in Räume zu stürmen, ist der schnellste Weg, um einen Trupp-Wipe auszulösen.
+</Callout>
+
+</Section>

@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ennemis démoniaques de Hellhole : Guide du Lore et de la Stratégie de Combat",
+  description: "Maîtrisez les ennemis démoniaques de Hellhole grâce à notre guide complet. Découvrez le Prieur, le Sous-prieur et les menaces rituelles du sanatorium.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ff4444?text=Hellhole+Demon+Enemies",
+  date: "2026-07-20",
+  author: "Équipe du Wiki Hellhole",
+  keywords: "hellhole, ennemis démoniaques, baphomet, guide de combat, lore, sanatorium"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Ennemis démoniaques de Hellhole** : Les principales menaces incluent le clergé corrompu et la résurrection finale de Baphomet.
+- **Le Rituel** : La progression est liée à la consommation de sept pécheurs et au sang d'une vierge innocente.
+- **Focus sur le Combat** : La discrétion et l'infiltration sont plus efficaces que la confrontation directe face à l'avantage numérique du monastère.
+- **Conseil Critique** : Les « exorcismes » sont des distractions frauduleuses ; concentrez-vous sur les passages souterrains pour découvrir la véritable menace démoniaque.
+- **Boss Final** : La transformation de Marek en bouc du sabbat représente la rencontre ultime marquant la fin du monde.
+</Callout>
+
+<Section icon={Map} title="Les antagonistes du sanatorium : Vue d'ensemble du monastère">
+
+Comprendre les **ennemis démoniaques de Hellhole** nécessite une plongée profonde dans le monastère polonais de 1957, un établissement se faisant passer pour un sanatorium pour possédés. Alors que les prêtres prétendent chasser le mal, ils sont en réalité les principaux architectes d'une résurrection démoniaque. Les joueurs et les passionnés de lore doivent reconnaître que l'environnement lui-même est conçu pour supprimer la technologie moderne, s'appuyant sur des rituels anciens et une manipulation psychologique pour briser leurs « réceptacles ».
+
+**Points forts de la vidéo :**
+- **L'infiltration** : L'arrivée de Merrick et l'inspection initiale des objets interdits.
+- **Le faux exorcisme** : Analyse détaillée des arnaques mécaniques utilisées pour simuler une présence démoniaque.
+- **La sombre vérité** : Découverte de la nature cannibale du clergé et du stockage des victimes « récoltées ».
+
+<YouTubeEmbed videoId="VKDopIXRRt0" title="Man Is Chosen As Vessel for Monster Resurrection and Opens Portal to Hell |HELLHOLE EXPLAINED" />
+
+| Classe d'ennemi | Menace principale | Modèle de comportement | Difficulté |
+| :--- | :--- | :--- | :--- |
+| **Le Prieur** | Direction du rituel | Manipulateur, utilise l'autorité pour forcer l'obéissance | ★★★★☆ |
+| **Père Dawid** | Exécuteur physique | Agressif, utilise la force brute et les contentions | ★★★☆☆ |
+| **Le Sous-prieur** | Déception / Espionnage | Prétend être un allié pour gagner la confiance | ★★★★★ |
+| **Les Moines** | Soutien numérique | Attaques de groupe, chants rituels, surveillance | ★★☆☆☆ |
+
+<Callout type="warning" title="Danger Environnemental">
+Le monastère manque d'électricité et de téléphones. Votre visibilité est limitée aux lampes de poche et aux bougies, ce qui facilite les embuscades des moines dans les couloirs après l'heure du coucher.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Profils des ennemis d'élite : Le clergé corrompu">
+
+Le cœur des **ennemis démoniaques de Hellhole** réside dans la direction du sanatorium. Ce ne sont pas de simples figures religieuses, mais des membres de haut rang d'un culte qui attendent l'« Élu » depuis 800 ans. Leur style de combat est un mélange de guerre psychologique, de druggage des victimes et de contention physique coordonnée.
+
+<CardGrid cols={3}>
+  <Card title="Le Prieur">
+    - **Maître de la tromperie** : Orchestre de faux miracles pour obtenir des fonds du Vatican.
+    - **Connaissance rituelle** : Possède les anciens textes latins requis pour l'invocation démoniaque.
+    - **Faiblesse** : Excès de confiance dans la prophétie menant à une instabilité mentale.
+  </Card>
+  <Card title="Père Dawid">
+    - **La Brute** : S'occupe du « traitement » physique des femmes disparues.
+    - **Style de combat** : Utilise la force brute et des contentions lourdes pour maîtriser les cibles.
+    - **Faiblesse** : Modèles de mouvement prévisibles et dépendance à la dominance physique.
+  </Card>
+  <Card title="Le Sous-prieur">
+    - **L'Infiltrateur** : Spécialisé dans la manipulation psychologique et les pièges à « empathie ».
+    - **Tactiques** : Utilise la méthode du « tuyau anonyme » pour attirer les enquêteurs dans le piège.
+    - **Faiblesse** : Motivé par l'ambition personnelle et la jalousie envers le Prieur.
+  </Card>
+</CardGrid>
+
+| Attribut | Le Prieur | Père Dawid | Le Sous-prieur |
+| :--- | :--- | :--- | :--- |
+| **Santé** | Modérée | Élevée | Modérée |
+| **Vitesse** | Lente | Modérée | Rapide |
+| **Furtivité** | Faible | Faible | Très Élevée |
+| **Influence** | Absolue | Subordonné | Croissante |
+
+<Callout type="tip" title="Note Stratégique">
+Lorsque vous traitez avec le Sous-prieur, ne révélez jamais votre véritable identité ou votre mission. Il utilise la « confession » comme un outil pour extraire des informations qui seront plus tard utilisées pour vous piéger dans les tunnels souterrains.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Le Rituel de l'Élu">
+
+La transformation d'un humain en l'un des plus puissants **ennemis démoniaques de Hellhole** suit une progression stricte et macabre. Ce rituel est la pièce centrale du lore du jeu et détermine l'état de l'« Ordre Mondial ».
+
+<Steps>
+  <Step num="1" title="La naissance et la cicatrice">
+    Le réceptacle doit naître lors d'une éclipse et posséder une cicatrice spécifique sur la poitrine. S'il n'est pas tué avec une dague sacrée à la naissance, le cycle commence.
+  </Step>
+  <Step num="2" title="Les sept pécheurs">
+    Le réceptacle doit consommer la chair de sept individus, chacun représentant un péché capital. Dans le monastère, il s'agit des femmes disparues, récoltées et stockées dans le congélateur de la cuisine.
+  </Step>
+  <Step num="3" title="Le sang innocent">
+    Le catalyseur final nécessite le sang d'une vierge. Les prêtres le collectent dans la chapelle pour finaliser le lien démoniaque.
+  </Step>
+  <Step num="4" title="La descente dans le puits">
+    La « mort » du réceptacle et son élimination ultérieure dans le puits du monastère déclenchent l'évolution finale en Baphomet.
+  </Step>
+</Steps>
+
+| Phase du rituel | Ingrédient | Résultat | Statut |
+| :--- | :--- | :--- | :--- |
+| **Phase 1** | Naissance sous éclipse | Sélection du réceptacle | Terminé |
+| **Phase 2** | Chair de 7 pécheurs | Corruption interne | Terminé |
+| **Phase 3** | Sang de vierge | Invitation démoniaque | Terminé |
+| **Phase 4** | Mort physique | Résurrection | Boss Final |
+
+<Callout type="success" title="Aperçu du Lore">
+Les prêtres croient que Satan et Dieu siègent côte à côte. Leur objectif n'est pas le « mal » au sens traditionnel, mais le châtiment de l'humanité par l'arrivée du Nouvel Ordre Mondial.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tactiques de survie et contre-mesures">
+
+Pour survivre face aux **ennemis démoniaques de Hellhole**, il faut comprendre les outils à sa disposition. Bien que la milice fournisse un équipement de base, l'influence surnaturelle du monastère peut rendre les armes traditionnelles moins efficaces.
+
+**Objets de survie essentiels :**
+- **Lampe torche** : Cruciale pour naviguer dans les couloirs sombres et trouver des compartiments cachés.
+- **Pistolet** : Efficace contre les moines isolés, mais les munitions sont extrêmement limitées.
+- **Coupures de journaux** : Utiles pour suivre l'affaire des « femmes disparues » et identifier les cibles potentielles du rituel.
+- **Textes anciens** : Nécessaires pour comprendre les prières latines utilisées pour faciliter ou entraver le rituel.
+
+| Nom de l'objet | Utilité | Emplacement | Rareté |
+| :--- | :--- | :--- | :--- |
+| **Dague sacrée** | Seule arme capable de tuer l'Élu | Archives cachées | Unique |
+| **Seringue vide** | Preuve de faux exorcismes | Sous les lits des patients | Commun |
+| **Os oculaire** | Déclencheur d'hallucination rituelle | Trous muraux cachés | Rare |
+| **Livre latin** | Prophétie et instructions rituelles | Bibliothèque du monastère | Unique |
+
+<Callout type="warning" title="Alerte aux Hallucinations">
+Une exposition prolongée à la « nourriture » du monastère (chair humaine) déclenchera de graves hallucinations. Si vous vous voyez sous forme de vomi ou si le miroir se brise sans cause, votre jauge de santé mentale est à un niveau critique.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="L'évolution finale : Baphomet">
+
+La forme ultime parmi les **ennemis démoniaques de Hellhole** est le bouc cornu du sabbat, Baphomet. Cette entité représente la fin du monde tel que nous le connaissons. Une fois que Merrick termine sa transformation, le gameplay passe du survival-horror à un événement d'horreur cosmique.
+
+**Capacités de Baphomet :**
+- **Lévitation** : Contrôle les corps de toutes les personnes à proximité, les positionnant comme des croix inversées.
+- **Essaim de mouches** : Peut se dissoudre et se reformer en utilisant des millions de mouches, rendant les attaques physiques inutiles.
+- **Altération de la réalité** : Fait bourgeonner les arbres stériles et brise le ciel, signifiant l'état de « gouffre infernal » de la Terre.
+- **Manipulation de la gravité** : Retourne toute la chapelle et ses habitants pour marquer son arrivée.
+
+| Capacité | Effet | Contre |
+| :--- | :--- | :--- |
+| **Lévitation de masse** | Immobilise tous les ennemis/joueurs | Aucun (Événement scripté) |
+| **Morphose en mouches** | Invulnérabilité aux balles | Feu / Incendiaire |
+| **Inversion** | Désorientation et mort instantanée | Prière sacrée |
+
+<Callout type="info" title="Note de Fin">
+La résurrection des morts et la mort des vivants se produisent simultanément une fois que le Nouvel Ordre Mondial commence. Le crucifix de Jésus se tournant face au démon symbolise le basculement total du pouvoir spirituel.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle de complétion">
+
+Utilisez cette liste pour vous assurer d'avoir découvert tous les secrets concernant les **ennemis démoniaques de Hellhole** et la sombre histoire du monastère.
+
+<Checklist
+  id="hellhole-completion"
+  title="Objectifs de l'enquête au monastère :"
+  items={[
+    "Identifier les 8 femmes disparues et leurs péchés capitaux assignés",
+    "Exposer les arnaques mécaniques (ventilateur, briquet, seringue) dans la salle d'exorcisme",
+    "Localiser les archives cachées dans le bureau du Prieur",
+    "Découvrir la « récolte » amputée dans le congélateur de la cuisine",
+    "Assister à la transformation complète de Merrick en Baphomet",
+    "Récupérer l'ancien livre latin dans la bibliothèque"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Qui est le plus fort des ennemis démoniaques de Hellhole ?",
+    answer: "Baphomet (la forme évoluée de Merrick) est l'entité la plus forte, possédant le pouvoir d'altérer la réalité, de contrôler la gravité et de commander des essaims de mouches."
+  },
+  {
+    question: "Peut-on arrêter le rituel dans le monastère ?",
+    answer: "Selon le lore, le rituel ne peut être arrêté que si l'Élu est tué à la naissance avec la dague sacrée et la prière correcte. Une fois que les sept pécheurs sont consommés, le processus est largement inévitable."
+  },
+  {
+    question: "Quel est le rôle des mouches dans Hellhole ?",
+    answer: "Les mouches agissent comme des messagers et des manifestations physiques du malin. Elles émergent du « réceptacle » et sont utilisées par Baphomet pour se téléporter ou reformer son corps physique."
+  },
+  {
+    question: "Les exorcismes pratiqués par les prêtres sont-ils réels ?",
+    answer: "Non, les exorcismes sont des arnaques élaborées impliquant des drogues, des leviers cachés pour le vent et des briquets intégrés dans les crucifix pour extorquer de l'argent au Vatican."
+  }
+]} />
+
+</Section>

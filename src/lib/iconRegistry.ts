@@ -31,6 +31,8 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Skull: LucideIcons.Skull,
   Lightbulb: LucideIcons.Lightbulb,
   Crown: LucideIcons.Crown,
+  Layers: LucideIcons.Layers,
+  Gift: LucideIcons.Gift,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,

@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Juego Hellhole: Guía de supervivencia paso a paso y mejores equipamientos",
+  description: "Domina el descenso en el juego Hellhole con nuestra guía de supervivencia. Aprende mecánicas de pisos, mejoras de armas y estrategias contra jefes para este shooter de terror PvE en Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/b91c1c/fff?text=Hellhole+Survival+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Hellhole"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **juego Hellhole** es un shooter de terror PvE de alta intensidad en Roblox donde el objetivo principal es descender a través de pisos subterráneos cada vez más peligrosos.
+- **Bucle principal**: Combate criaturas hostiles, recolecta recursos e invierte en mejoras de armas entre partidas para alcanzar niveles más profundos.
+- **Estrategia de supervivencia**: Prioriza la conservación de munición y el movimiento; quedarse quieto es la forma más rápida de terminar una partida en el inframundo demoníaco.
+- **Mecánica clave**: El sistema "La única salida es hacia abajo" obliga a los jugadores a avanzar hacia lo desconocido en lugar de retroceder.
+- **Consejo clave**: Mejora siempre la fiabilidad de tu arma principal antes de concentrarte en el daño puro para poder manejar oleadas continuas de enemigos.
+</Callout>
+
+<Section icon={Map} title="Juego Hellhole: Fundamentos de supervivencia para principiantes">
+
+El **juego Hellhole** ofrece una combinación única de disparos tácticos y terror atmosférico dentro del motor de Roblox. Como experiencia PvE, tu éxito depende por completo de tu habilidad para leer los patrones de los enemigos y gestionar tus recursos limitados a medida que desciendes piso por piso. A diferencia de los shooters tradicionales, Hellhole enfatiza el pavor a lo desconocido, donde cada viaje en ascensor hacia abajo trae demonios más agresivos y peligros ambientales.
+
+**Puntos destacados del video:**
+- **Movimiento básico**: Dominar la transición de esprintar a apuntar para objetivos rápidos.
+- **Generación de recursos**: Identificar dónde suelen aparecer las cajas de munición y los botiquines en los primeros pisos.
+- **Agro de enemigos**: Cómo atraer a enemigos individuales fuera de un grupo para evitar ser abrumado.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="Guía para principiantes y jugabilidad de Hellhole" />
+
+Antes de comenzar tu primer descenso, debes familiarizarte con la interfaz y las mecánicas básicas de interacción. El juego utiliza una interfaz de usuario diegética siempre que es posible, manteniéndote inmerso en entornos oscuros con texturas de piedra.
+
+| Acción | Control (PC) | Nivel de prioridad | Notas |
+| :--- | :--- | :--- | :--- |
+| **Movimiento** | Teclas WASD | Alto | Esencial para kitear demonios |
+| **Interactuar** | Tecla E | Medio | Se usa para puertas y botín |
+| **Recargar** | Tecla R | Alto | Recarga siempre entre enfrentamientos |
+| **Inventario** | G / Tab | Medio | Revisa recursos y mejoras |
+| **Linterna** | Tecla F | Esencial | Crucial para navegar por pisos oscuros |
+
+<Callout type="tip" title="Consejo profesional para principiantes">
+No te lances al centro de un nuevo piso. Pégate a las paredes y despeja primero el perímetro. Esto evita que los enemigos te flanqueen mientras te concentras en saquear las cajas centrales.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecánicas de juego principales y sistemas de pisos">
+
+La progresión en el **juego Hellhole** es lineal pero implacable. Cada piso actúa como un desafío independiente que debe completarse para desbloquear el camino hacia abajo. La escala de dificultad es agresiva, lo que significa que las tácticas que funcionaron en el Piso 1 probablemente fallarán en el Piso 5. Comprender el "Sistema de Descenso" es vital para la progresión a largo plazo.
+
+<CardGrid cols={3}>
+  <Card title="Descenso de pisos">
+    - **Peligro creciente**: Los enemigos ganan vida y velocidad.
+    - **Luz limitada**: Los pisos más profundos presentan mayor oscuridad.
+    - **Sin retroceso**: Una vez que bajas, te quedas abajo.
+  </Card>
+  <Card title="Combate PvE">
+    - **Física de proyectiles**: Las balas tienen tiempo de viaje y caída.
+    - **Sistema de puntos débiles**: Los tiros a la cabeza infligen 2.5 veces más daño.
+    - **Mecánica de aturdimiento**: Las armas pesadas pueden interrumpir ataques.
+  </Card>
+  <Card title="Sistema económico">
+    - **Botín de dinero**: Se obtiene al matar demonios.
+    - **Cajas de botín**: Contienen mejoras temporales o munición.
+    - **Estaciones de mejora**: Se encuentran en zonas seguras entre pisos.
+  </Card>
+</CardGrid>
+
+El entorno en sí suele ser tan peligroso como los monstruos. Algunos pisos presentan "Hellcracks" (grietas del infierno): fisuras de color rojo brillante que infligen daño continuo si te acercas demasiado.
+
+| Tipo de peligro | Indicación visual | Efecto | Contramedida |
+| :--- | :--- | :--- | :--- |
+| **Hellcracks** | Suelo rojo brillante | Daño continuo | Mantente en los caminos de piedra negra |
+| **Rejillas brumosas** | Nubes de humo gris | Visibilidad reducida | Usa linterna / bengalas |
+| **Fosas del vacío** | Agujeros negros puros | Muerte instantánea | Plataformeo cuidadoso |
+| **Tótems malditos** | Calaveras flotantes | Aura de mejora de enemigos | Destruye el tótem primero |
+
+<Callout type="warning" title="Peligro ambiental">
+Ten cuidado con los pisos que tengan el modificador "Eclipse". La batería de tu linterna se agotará el doble de rápido y el rango de detección de los enemigos aumentará significativamente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guía de armas y estrategia de combate">
+
+El combate en el **juego Hellhole** requiere un equilibrio entre agresividad y precaución. Tu equipo inicial es escaso, pero la ruta de mejoras permite crear especializaciones. Ya sea que prefieras un enfoque de "Cañón de cristal" o una configuración de "Superviviente tanque", tu elección de armas definirá tu partida.
+
+<Steps>
+  <Step num="1" title="Selección del equipamiento inicial">
+    Comienza con el rifle estándar. Tiene estadísticas equilibradas y tipos de munición comunes, lo que lo convierte en la herramienta más confiable para los primeros tres pisos.
+  </Step>
+  <Step num="2" title="Acumulación de recursos">
+    Concéntrate en "bajas limpias" (tiros a la cabeza) para maximizar la obtención de dinero. Evita usar granadas contra objetivos individuales; guárdalas para las hordas que aparecen cerca de las puertas del ascensor.
+  </Step>
+  <Step num="3" title="Mejoras estratégicas">
+    Visita la estación de mejoras después del Piso 3. Prioriza la "Capacidad del cargador" y la "Velocidad de recarga" sobre el daño puro al principio. Sobrevivir a una horda es más fácil cuando no te quedas atrapado en una animación de recarga.
+  </Step>
+  <Step num="4" title="Armamento especializado">
+    Para el Piso 7, haz la transición a un arma secundaria como la escopeta para encuentros con demonios a corta distancia o el rifle de francotirador para eliminar a los "Screamers" (chillones) desde lejos.
+  </Step>
+</Steps>
+
+| Clase de arma | Mejor caso de uso | Daño infligido | Dificultad |
+| :--- | :--- | :--- | :--- |
+| **Rifle de asalto** | Propósito general | Moderado | Fácil |
+| **Escopeta** | Distancias cortas / Jefes | Muy alto | Moderado |
+| **Subfusil (SMG)** | Despeje de hordas | Bajo (Alto DPS) | Fácil |
+| **Francotirador** | Amenazas a larga distancia | Extremo | Difícil |
+| **Pistola** | Respaldo de emergencia | Bajo | Moderado |
+
+<Callout type="info" title="Gestión de munición">
+La munición se comparte entre clases de armas en algunas versiones del juego. Revisa tu inventario con frecuencia para asegurarte de no agotar tus reservas con un subfusil de alta cadencia antes de llegar a un jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Enciclopedia de enemigos y tácticas contra jefes">
+
+Los habitantes del **juego Hellhole** son variados, desde cáscaras sin mente hasta comandantes demoníacos inteligentes. Cada tipo de enemigo tiene una señal de sonido específica; aprenderlas marca la diferencia entre la vida y la muerte.
+
+**Puntos destacados del video:**
+- **Patrones de ataque de jefes**: Identificar la "señal" antes de un ataque importante de área de efecto.
+- **Exposición de puntos débiles**: Cuando el jefe del Piso 10 abre su cavidad torácica para recibir el máximo daño.
+- **Tácticas de movimiento**: Usar el método de "ametrallamiento en círculo" para evitar a los enemigos que vomitan proyectiles.
+
+<YouTubeEmbed videoId="mPnmG7ZqwrA" title="Guía de enemigos y jefes de Hellhole" />
+
+<Checklist
+  id="boss-prep"
+  title="Lista de verificación antes del jefe:"
+  items={[
+    "Recargar por completo todas las armas principales y secundarias",
+    "Asegurarse de que la salud esté al 90% o más",
+    "Equipar al menos dos explosivos",
+    "Revisar los niveles de batería de la linterna",
+    "Identificar la cobertura más cercana en la arena del jefe"
+  ]}
+/>
+
+| Nombre del enemigo | Comportamiento | Estrategia | Debilidad |
+| :--- | :--- | :--- | :--- |
+| **Cáscara (Husk)** | Lento, enfocado en cuerpo a cuerpo | Mantener distancia; tiro a la cabeza | Poca salud |
+| **Saltador (Leaper)** | Salta desde las paredes | Esperar a que aterrice; escopeta | Vulnerabilidad en el aire |
+| **Vomitador (Vomiter)** | Ataque de ácido a distancia | Esquivar proyectiles lateralmente | Garganta brillante |
+| **Comandante (Commander)** | Mejora a las cáscaras cercanas | Concentrar el fuego primero | Batería montada en la espalda |
+| **El Guardián (The Gatekeeper)** | Jefe del Piso 5 | Combate basado en fases | El ojo durante la carga del láser |
+
+<Callout type="success" title="Consejo para la victoria">
+Durante las peleas contra jefes, no te limites a disparar. Concéntrate en los enemigos menores (adds) que genera el jefe. Si dejas que la arena se llene, perderás la movilidad necesaria para esquivar los ataques pesados del jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión y metamejoras">
+
+El éxito a largo plazo en el **juego Hellhole** no depende solo de la habilidad del jugador; se trata de las mejoras permanentes que desbloqueas a lo largo de múltiples partidas. Incluso una partida fallida otorga "Fragmentos de alma" o dinero que se puede usar para mejorar tus estadísticas básicas.
+
+<CardGrid cols={2}>
+  <Card title="Aumentos de estadísticas permanentes">
+    - **Reserva de salud**: Aumenta tus PS máximos para sobrevivir a un golpe adicional.
+    - **Resistencia (Stamina)**: Corre por más tiempo y esquiva con mayor frecuencia.
+    - **Munición inicial**: Comienza las partidas con cargadores adicionales.
+  </Card>
+  <Card title="Desbloqueos de utilidad">
+    - **Linterna mejorada**: Haz de luz más ancho y mayor duración de batería.
+    - **Eficiencia de botiquines**: Los objetos de curación restauran un 20% más de salud.
+    - **Sentido de carroñero**: Resalta cajas de botín a través de las paredes.
+  </Card>
+</CardGrid>
+
+Se recomienda encarecidamente invertir en el árbol de "Carroñero" al principio. Al encontrar más recursos en los primeros pisos, podrás permitirte mejoras de armas de nivel alto mucho más rápido, lo que hará que el descenso al final del juego sea significativamente más llevadero.
+
+<Callout type="tip" title="Prioridad de mejora">
+Si tienes problemas para sobrevivir, concéntrate por completo en las mejoras de **Resistencia**. En Hellhole, ser capaz de dejar atrás una amenaza suele ser más valioso que poder matarla rápidamente.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Es el juego Hellhole gratuito?",
+    answer: "Sí, Hellhole es una experiencia gratuita en Roblox, aunque puede ofrecer compras opcionales dentro del juego para cosméticos o una progresión más rápida."
+  },
+  {
+    question: "¿Puedo jugar a Hellhole solo o es únicamente cooperativo?",
+    answer: "Aunque el juego está diseñado para ofrecer una experiencia desafiante en solitario, se recomienda encarecidamente jugar en un escuadrón de 2 a 4 jugadores para los pisos más profundos, donde aumenta la densidad de enemigos."
+  },
+  {
+    question: "¿Qué pasa cuando muero en Hellhole?",
+    answer: "La muerte generalmente resulta en el fin de la partida actual. Perderás tu progreso temporal en el piso, pero conservarás cualquier moneda permanente o metamejora obtenida durante el descenso."
+  },
+  {
+    question: "¿Cuántos pisos hay actualmente en el juego Hellhole?",
+    answer: "A partir de las últimas actualizaciones de 2026, el juego cuenta con múltiples capas temáticas con docenas de pisos, que culminan en encuentros con jefes únicos cada cinco o diez niveles."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Types d'ennemis de Hellhole : Stratégies de combat et faiblesses",
+  description: "Maîtrisez les stratégies de combat et les faiblesses de tous les types d'ennemis de Hellhole. Apprenez les niveaux de menace, les recommandations d'armes et les tactiques de survie.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Hellhole+Enemy+Types",
+  date: "2026-07-20",
+  author: "Équipe du Wiki Hellhole"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Identifiez les niveaux de menace** des différents types d'ennemis de Hellhole pour prioriser les cibles lors des affrontements intenses.
+- **Ciblez les points faibles** tels que les membres exposés ou les têtes sans armure pour maximiser l'efficacité des munitions.
+- **Utilisez des armes spécialisées** comme les fusils à pompe pour les mutants à courte portée et les fusils pour le personnel corrompu à distance.
+- **Exécutez des tactiques de contrôle de foule** à l'aide de grenades à gaz pour neutraliser temporairement les groupes d'ennemis submergents.
+</Callout>
+
+<Section icon={Map} title="Anatomie du sanatorium">
+
+Lors de la descente dans les sombres couloirs du complexe, comprendre les différents **types d'ennemis de Hellhole** est crucial pour la survie. L'installation souterraine, familièrement appelée le Hellhole, abrite des expériences médicales ratées, du personnel muté et des systèmes de sécurité agressifs. Chaque zone présente des dangers environnementaux uniques qui entrent en synergie avec les patterns d'attaque des ennemis, forçant les joueurs à adapter constamment leurs tactiques.
+
+Naviguer dans ces secteurs nécessite une observation attentive. Les entités hostiles se cachent souvent dans les conduits d'aération, tombent des dalles du plafond ou font semblant d'être mortes sur le sol. En reconnaissant les indices sonores et visuels de chaque menace, les joueurs peuvent préparer leurs défenses avant le début de l'affrontement.
+
+**Points forts de la vidéo :**
+- **Présentation atmosphérique** montrant les couloirs sombres et claustrophobiques du complexe.
+- **Introduction thématique** au personnel médical corrompu et aux sujets expérimentaux.
+- **Indices visuels** indiquant les éléments d'horreur et les dangers environnementaux que les joueurs rencontreront.
+
+<YouTubeEmbed videoId="NTV2ErDXWh0" title="Hellhole (1985) - Bande-annonce officielle (HD)" />
+
+La disposition du complexe change à mesure que les joueurs descendent plus profondément. Les premiers niveaux présentent des couloirs étroits et des bureaux, tandis que les niveaux inférieurs s'ouvrent sur des cuves expérimentales massives et des chambres de confinement. Chaque zone modifie l'efficacité de certaines armes, rendant le positionnement tout aussi important que la visée.
+
+<Callout type="info" title="Navigation dans le complexe">
+Gardez toujours la batterie de votre lampe de poche chargée. Les sources de lumière peuvent dissuader certains mutants de bas niveau, mais elles attirent également les prédateurs de haut niveau.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Types d'ennemis de Hellhole et évaluation des menaces">
+
+Le catalogue des hostiles est divisé en catégories distinctes basées sur leur origine et leur comportement de combat. Les affronter sans un plan clair entraîne une usure rapide des ressources. Le tableau ci-dessous présente les principaux niveaux de menace et les attributs de base des hostiles standards rencontrés dans le complexe.
+
+| Nom de l'ennemi | Points de vie | Vitesse de déplacement | Niveau de menace | Attaque principale |
+| --- | --- | --- | --- | --- |
+| **Crawler** | Faible | Très rapide | ★★☆☆☆ | Griffure de mêlée |
+| **Infirmière corrompue** | Moyen | Rapide | ★★★☆☆ | Crachat d'acide |
+| **Gardien d'asile** | Élevé | Moyen | ★★★★☆ | Bâton paralysant |
+| **L'Expérience** | Très élevé | Lent | ★★★★★ | Écrasement au sol |
+
+Comprendre les résistances physiques de ces entités permet aux joueurs de choisir le bon type de munition. Utiliser la mauvaise arme contre des cibles lourdement blindées entraîne souvent un gaspillage de ressources.
+
+| Nom de l'ennemi | Résist. physique | Résist. au feu | Point faible | Arme recommandée |
+| --- | --- | --- | --- | --- |
+| **Crawler** | Faible | Très faible | Tête | Pistolet |
+| **Infirmière corrompue** | Moyen | Faible | Poitrine | Fusil à pompe |
+| **Gardien d'asile** | Élevé | Moyen | Jambes sans armure | Fusil |
+| **L'Expérience** | Extrême | Faible | Noyau brillant | Lance-flammes |
+
+<Callout type="warning" title="Contournement requis">
+N'affrontez pas les Gardiens d'asile de front. Leurs boucliers avant bloquent une partie importante des dégâts physiques entrants.
+</Callout>
+
+Pour mieux comprendre comment ces hostiles se comportent en groupe, les joueurs doivent les classer en trois archétypes principaux. Chaque archétype nécessite une approche tactique différente lors des combats.
+
+<CardGrid cols={3}>
+  <Card title="Mutants expérimentaux">
+    - **Grande vitesse** et mouvements erratiques.
+    - Santé individuelle faible mais attaquent en grandes meutes.
+    - Vulnérables au feu et aux explosifs à zone d'effet.
+  </Card>
+  <Card title="Personnel médical corrompu">
+    - **Attaquants à distance** utilisant des projectiles chimiques.
+    - Santé modérée et positionnement tactique.
+    - Peuvent soigner les ennemis adjacents de bas niveau s'ils ne sont pas éliminés rapidement.
+  </Card>
+  <Card title="Unités de sécurité lourdes">
+    - **Blindage lourd** couvrant l'avant du torse.
+    - Déplacement lent mais capacités de mêlée dévastatrices.
+    - Nécessitent des manœuvres de contournement pour cibler le blindage arrière non protégé.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Protocoles d'engagement tactique">
+
+Survivre aux affrontements avec plusieurs hostiles nécessite une exécution structurée. Les joueurs ne doivent pas se fier uniquement à la puissance de feu brute. La conscience du positionnement, les points d'étranglement et les effets d'état jouent un rôle tout aussi crucial dans le nettoyage des pièces.
+
+<Steps>
+  <Step num="1" title="Éclairez la pièce">
+    Utilisez le scanner sonar pour localiser les signatures thermiques ennemies avant d'ouvrir les portes scellées.
+  </Step>
+  <Step num="2" title="Configuration du point d'étranglement">
+    Retirez-vous dans des couloirs étroits pour canaliser les mutants rapides dans une seule ligne de mire.
+  </Step>
+  <Step num="3" title="Priorisation des cibles">
+    Éliminez d'abord les unités de soutien à distance pour empêcher l'accumulation de malus chimiques.
+  </Step>
+  <Step num="4" title="Collecte de ressources">
+    Fouillez immédiatement les ennemis vaincus pour trouver des cartes d'accès, des munitions et des fournitures médicales.
+  </Step>
+</Steps>
+
+Les effets d'état peuvent inverser le cours de la bataille en cas d'infériorité numérique. Il est fortement recommandé d'utiliser les dangers environnementaux ou les objets utilitaires pour appliquer ces effets.
+
+| Effet d'état | Durée | Efficace contre | Contre-mesure |
+| --- | --- | --- | --- |
+| **Brûlure** | 8 secondes | Mutants | Extincteur |
+| **Gelé** | 5 secondes | Ennemis rapides | Charges thermiques |
+| **Corrosion acide** | 10 secondes | Ennemis lourds | Seringue d'antidote |
+
+<Callout type="tip" title="Dangers environnementaux">
+Tirez sur les tuyaux de vapeur exposés lorsque les ennemis passent devant. La vapeur qui s'échappe inflige d'importants dégâts de brûlure et déstabilise les cibles moyennes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Équipements recommandés et préparation">
+
+Préparer le bon équipement avant de descendre dans les secteurs plus profonds détermine le succès de la session. Équilibrer les dégâts infligés avec les objets utilitaires garantit d'être prêt face à n'importe quelle combinaison d'hostiles.
+
+| Classe d'équipement | Arme principale | Arme secondaire | Objet utilitaire | Rôle de combat |
+| --- | --- | --- | --- | --- |
+| **Éclaireur de reconnaissance** | Fusil d'assaut | Pistolet silencieux | Scanner sonar | Contrôle de foule et reconnaissance |
+| **Assaut lourd** | Fusil à pompe | Lance-grenades | Armure lourde | Défense de première ligne |
+| **Médecin de soutien** | Pistolet-mitrailleur | Pistolet à fléchettes | Trousse de soins | Soin et bonus |
+
+Différents secteurs du complexe fournissent des ressources spécifiques nécessaires à la fabrication d'équipements de haut niveau. Les joueurs doivent planifier leurs itinéraires en fonction de leurs besoins d'amélioration actuels.
+
+| Secteur | Ressource principale | Niveau de danger | Niveau d'équipement recommandé |
+| --- | --- | --- | --- |
+| **Secteur A** | Ferraille | Faible | Niveau d'équipement 10+ |
+| **Secteur B** | Fluides chimiques | Moyen | Niveau d'équipement 25+ |
+| **Secteur C** | Composants technologiques | Élevé | Niveau d'équipement 45+ |
+
+Avant de lancer un raid dans les niveaux inférieurs, les joueurs doivent vérifier leur inventaire pour s'assurer que toutes les fournitures nécessaires sont équipées.
+
+<Checklist
+  id="combat-milestones"
+  title="Liste de préparation avant le raid :"
+  items={[
+    "Équiper des ensembles d'armure à haute durabilité",
+    "Fabriquer au moins trois trousses de soins moyennes",
+    "Vérifier que les réserves de munitions dépassent les quatre-vingts pour cent",
+    "Coordonner les objets utilitaires avec les membres de l'équipe"
+  ]}
+/>
+
+<Callout type="success" title="Synergie en coop">
+Lorsque vous jouez en coop, assurez-vous qu'au moins un joueur transporte le scanner sonar pour éviter les embuscades depuis les conduits d'aération.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tactiques de combat avancées et FAQ">
+
+Maîtriser les mécaniques de combat nécessite de comprendre les comportements cachés des différents hostiles. La section suivante répond aux questions courantes rencontrées lors des explorations profondes du complexe.
+
+<FAQ items={[
+  {
+    question: "Quelle est la méthode la plus efficace pour éliminer les types d'ennemis blindés de Hellhole ?",
+    answer: "Utilisez des munitions perforantes ou des charges explosives pour retirer d'abord les plaques de blindage. Vous pouvez également contourner la cible pour tirer sur ses points faibles arrière non protégés."
+  },
+  {
+    question: "Comment puis-je empêcher l'Infirmière corrompue de soigner d'autres ennemis ?",
+    answer: "Concentrez vos tirs sur l'infirmière dès qu'elle commence son animation de canalisation verte brillante. Une attaque de mêlée ou un tir à la tête interrompra le processus de soin."
+  },
+  {
+    question: "Les dangers environnementaux peuvent-ils blesser les ennemis ?",
+    answer: "Oui, les dangers environnementaux tels que les jets de vapeur, l'eau électrifiée et les barils explosifs infligent des dégâts de tir ami à toutes les entités hostiles."
+  }
+]} />
+
+<Callout type="info" title="Résumé final">
+La patience et la coordination sont vos meilleures armes. Se précipiter aveuglément dans les pièces est le moyen le plus rapide de provoquer l'élimination de toute l'escouade.
+</Callout>
+
+</Section>

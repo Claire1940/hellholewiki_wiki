@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hellhole Game: Step-by-Step Survival Guide & Best Loadouts",
+  description: "Master the descent in Hellhole game with our survival guide. Learn floor mechanics, weapon upgrades, and boss strategies for this Roblox PvE horror shooter.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/b91c1c/fff?text=Hellhole+Survival+Guide",
+  date: "2026-07-20",
+  author: "hellhole Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Hellhole game** is a high-intensity Roblox PvE horror shooter where the primary objective is to descend through increasingly dangerous underground floors.
+- **Core Loop**: Combat hostile creatures, collect resources, and invest in weapon upgrades between runs to reach deeper levels.
+- **Survival Strategy**: Prioritize ammo conservation and movement; standing still is the fastest way to end a run in the demonic underworld.
+- **Key Mechanic**: The "Only Way Out is Down" system forces players to progress forward into the unknown rather than backtracking.
+- **Top Tip**: Always upgrade your primary weapon's reliability before focusing on raw damage to handle sustained enemy waves.
+</Callout>
+
+<Section icon={Map} title="Hellhole Game: Beginner Survival Fundamentals">
+
+The **hellhole game** offers a unique blend of tactical shooting and atmospheric horror within the Roblox engine. As a PvE experience, your success depends entirely on your ability to read enemy patterns and manage your limited resources as you descend floor by floor. Unlike traditional shooters, Hellhole emphasizes the dread of the unknown, where every elevator ride down brings more aggressive demons and environmental hazards.
+
+**Video Highlights:**
+- **Basic Movement**: Mastering the sprint-to-aim transition for fast-moving targets.
+- **Resource Spawning**: Identifying where ammo crates and health packs typically appear on early floors.
+- **Enemy Aggro**: How to pull single enemies away from a pack to avoid being swarmed.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="Hellhole Beginner Guide and Gameplay" />
+
+Before you begin your first descent, you must familiarize yourself with the interface and basic interaction mechanics. The game utilizes a diegetic UI where possible, keeping you immersed in the dark, stone-textured environments.
+
+| Action | Control (PC) | Priority Level | Notes |
+| :--- | :--- | :--- | :--- |
+| **Movement** | WASD Keys | High | Essential for kiting demons |
+| **Interact** | E Key | Medium | Used for doors and loot |
+| **Reload** | R Key | High | Always reload between encounters |
+| **Inventory** | G / Tab | Medium | Check resources and upgrades |
+| **Flashlight** | F Key | Essential | Crucial for dark floor navigation |
+
+<Callout type="tip" title="Pro Tip for Starters">
+Don't rush into the center of a new floor. Hug the walls and clear the perimeter first. This prevents enemies from flanking you while you are focused on looting central crates.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core Gameplay Mechanics and Floor Systems">
+
+The progression in the **hellhole game** is linear but punishing. Each floor acts as a self-contained challenge that must be cleared to unlock the path downward. The difficulty scaling is aggressive, meaning the tactics that worked on Floor 1 will likely fail by Floor 5. Understanding the "Descent System" is vital for long-term progression.
+
+<CardGrid cols={3}>
+  <Card title="Floor Descent">
+    - **Increasing Danger**: Enemies gain health and speed.
+    - **Limited Light**: Deeper floors feature more darkness.
+    - **No Backtracking**: Once you go down, you stay down.
+  </Card>
+  <Card title="PvE Combat">
+    - **Projectile Physics**: Bullets have travel time and drop.
+    - **Weak Point System**: Headshots deal 2.5x damage.
+    - **Stagger Mechanics**: Heavy weapons can interrupt attacks.
+  </Card>
+  <Card title="Economy System">
+    - **Money Drops**: Earned by killing demons.
+    - **Loot Crates**: Contain temporary buffs or ammo.
+    - **Upgrade Stations**: Found in safe zones between floors.
+  </Card>
+</CardGrid>
+
+The environment itself is often as dangerous as the monsters. Some floors feature "Hellcracks"—glowing red fissures that deal damage over time if you stand too close.
+
+| Hazard Type | Visual Cue | Effect | Countermeasure |
+| :--- | :--- | :--- | :--- |
+| **Hellcracks** | Glowing red floor | Damage over time | Stay on black stone paths |
+| **Misty Vents** | Grey smoke clouds | Reduced visibility | Use flashlight / flares |
+| **Void Pits** | Pure black holes | Instant death | Careful platforming |
+| **Cursed Totems** | Floating skulls | Enemy buff aura | Destroy totem first |
+
+<Callout type="warning" title="Environmental Hazard">
+Be wary of floors with the "Eclipse" modifier. Your flashlight battery will drain twice as fast, and enemy detection range is significantly increased.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Weapons Guide and Combat Strategy">
+
+Combat in the **hellhole game** requires a balance of aggression and caution. Your starting equipment is meager, but the upgrade path allows for specialized builds. Whether you prefer a "Glass Cannon" approach or a "Tanky Survivor" setup, your choice of weapons will define your run.
+
+<Steps>
+  <Step num="1" title="Initial Loadout Selection">
+    Start with the standard-issue rifle. It has balanced stats and common ammo types, making it the most reliable tool for the first three floors.
+  </Step>
+  <Step num="2" title="Resource Accumulation">
+    Focus on "clean kills" (headshots) to maximize money drops. Avoid using grenades on single targets; save them for the swarms that appear near elevator gates.
+  </Step>
+  <Step num="3" title="Strategic Upgrading">
+    Visit the Upgrade Station after Floor 3. Prioritize "Magazine Capacity" and "Reload Speed" over raw damage initially. Surviving a swarm is easier when you aren't stuck in a reload animation.
+  </Step>
+  <Step num="4" title="Specialized Weaponry">
+    By Floor 7, transition into a secondary weapon like the Shotgun for close-range demon encounters or the Sniper for picking off "Screamers" from a distance.
+  </Step>
+</Steps>
+
+| Weapon Class | Best Use Case | Damage Output | Difficulty |
+| :--- | :--- | :--- | :--- |
+| **Assault Rifle** | General purpose | Moderate | Easy |
+| **Shotgun** | Close-quarters / Bosses | Very High | Moderate |
+| **SMG** | Mob clearing | Low (High DPS) | Easy |
+| **Sniper** | Long-range threats | Extreme | Hard |
+| **Pistol** | Emergency backup | Low | Moderate |
+
+<Callout type="info" title="Ammo Management">
+Ammo is shared across weapon classes in some versions of the game. Check your inventory frequently to ensure you aren't burning through your reserves with a high-fire-rate SMG before reaching a boss.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Enemy Encyclopedia and Boss Tactics">
+
+The inhabitants of the **hellhole game** are varied, ranging from mindless husks to intelligent demon commanders. Each enemy type has a specific sound cue—learning these is the difference between life and death.
+
+**Video Highlights:**
+- **Boss Attack Patterns**: Identifying the "Telegraph" before a major area-of-effect attack.
+- **Weak Point Exposure**: When the Floor 10 Boss opens its chest cavity for maximum damage.
+- **Movement Tactics**: Using the "Circle Strafe" method to avoid projectile-vomiting enemies.
+
+<YouTubeEmbed videoId="mPnmG7ZqwrA" title="Hellhole Enemy and Boss Guide" />
+
+<Checklist
+  id="boss-prep"
+  title="Pre-Boss Checklist:"
+  items={[
+    "Fully reload all primary and secondary weapons",
+    "Ensure health is at 90% or higher",
+    "Equip at least two explosive ordinances",
+    "Check flashlight battery levels",
+    "Identify the nearest cover in the boss arena"
+  ]}
+/>
+
+| Enemy Name | Behavior | Strategy | Weakness |
+| :--- | :--- | :--- | :--- |
+| **Husk** | Slow, melee focused | Keep distance; headshot | Low health |
+| **Leaper** | Jumps from walls | Wait for landing; shotgun | Mid-air vulnerability |
+| **Vomiter** | Ranged acid attack | Side-step projectiles | Glowing throat |
+| **Commander** | Buffs nearby husks | Focus fire first | Back-mounted battery |
+| **The Gatekeeper** | Floor 5 Boss | Phase-based combat | Eye during laser charge |
+
+<Callout type="success" title="Victory Tip">
+During boss fights, don't just shoot. Focus on the "Adds" (smaller enemies) that the boss spawns. If you let the arena get crowded, you'll lose the mobility needed to dodge the boss's heavy attacks.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progression and Meta-Upgrades">
+
+Long-term success in the **hellhole game** isn't just about player skill; it's about the permanent upgrades you unlock over multiple runs. Even a failed run provides "Soul Fragments" or currency that can be used to improve your base stats.
+
+<CardGrid cols={2}>
+  <Card title="Permanent Stat Boosts">
+    - **Health Pool**: Increase your maximum HP to survive one extra hit.
+    - **Stamina**: Run longer and dodge more frequently.
+    - **Starting Ammo**: Begin runs with extra magazines.
+  </Card>
+  <Card title="Utility Unlocks">
+    - **Improved Flashlight**: Wider beam and longer battery life.
+    - **Medkit Efficiency**: Healing items restore 20% more health.
+    - **Scavenger Sense**: Highlight loot crates through walls.
+  </Card>
+</CardGrid>
+
+Investing in the "Scavenger" tree early on is highly recommended. By finding more resources in the early floors, you can afford high-tier weapon upgrades much faster, making the late-game descent significantly smoother.
+
+<Callout type="tip" title="Upgrade Priority">
+If you are struggling with survival, focus entirely on **Stamina** upgrades. In Hellhole, being able to outrun a threat is often more valuable than being able to kill it quickly.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Is Hellhole game free to play?",
+    answer: "Yes, Hellhole is a free-to-play Roblox experience, though it may offer optional in-game purchases for cosmetics or faster progression."
+  },
+  {
+    question: "Can I play Hellhole solo or is it co-op only?",
+    answer: "While the game is designed for a challenging solo experience, playing in a squad of 2-4 players is highly recommended for deeper floors where enemy density increases."
+  },
+  {
+    question: "What happens when I die in Hellhole?",
+    answer: "Death usually results in the end of the current run. You will lose your temporary floor progress but retain any permanent currency or meta-upgrades earned during the descent."
+  },
+  {
+    question: "How many floors are currently in the Hellhole game?",
+    answer: "As of the latest 2026 updates, the game features multiple themed layers with dozens of floors, culminating in unique boss encounters every five to ten levels."
+  }
+]} />
+
+</Section>

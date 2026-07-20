@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Codes Hellhole : Commandes de Console Essentielles pour la Version Oubliée",
+  description: "Maîtrisez les codes hellhole et les commandes de console essentiels pour accéder, naviguer et survivre dans la légendaire anomalie oubliée du Hell Hole dans Subnautica.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Hellhole+Codes+Guide",
+  date: "2026-07-20",
+  author: "Équipe du Wiki Hellhole",
+  keywords: "Subnautica, codes hellhole, commandes console, Hell Hole, version 2015, guide de survie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Les **codes hellhole** permettent aux joueurs de contourner les restrictions et d'explorer l'anomalie de la carte de l'Early Access de 2015.
+- Les **commandes de console** comme la téléportation et l'apparition d'objets sont nécessaires pour naviguer en toute sécurité dans la géométrie instable.
+- Les structures du **Château de Lave** (Lava Castle) et les zones de proto-lave sont accessibles directement via des coordonnées de profondeur spécifiques.
+- Des **mesures de sécurité** doivent être prises car plusieurs Léviathans Faucheurs gardent l'entrée sous l'Aurora.
+</Callout>
+
+<Section icon={Map} title="Explorer la Version de Juillet 2015 avec les Codes Hellhole">
+
+Pendant les premières phases de développement de Subnautica, plus précisément autour de la version Early Access de juillet 2015, la carte présentait plusieurs configurations de terrain uniques qui ont été modifiées ou entièrement supprimées par la suite. La plus légendaire de ces anomalies est le « Hell Hole », un immense abysse vertical situé directement sous le site du crash de l'Aurora. Contrairement à la version moderne du jeu où le fond marin sous l'Aurora est relativement peu profond et plat, cette version historique contenait une chute abrupte descendant au-delà de 1200 mètres dans une zone de proto-lave inachevée.
+
+Pour accéder et explorer avec succès cette caractéristique géologique terrifiante, les joueurs s'appuient sur des **codes hellhole** spécialisés — des commandes de console de développeur qui contournent les barrières physiques, font apparaître instantanément des véhicules de haut niveau et empêchent une mort soudaine due aux dangers environnementaux ou à la faune agressive. Comme cette version utilisait une itération précoce du terrain basé sur les voxels du moteur Unity, naviguer dans l'abysse sans ces commandes entraîne souvent une chute à travers la carte ou un blocage dans une géométrie non rendue.
+
+**Points Forts de la Vidéo :**
+- **Anomalies de Terrain** : Découverte de fosses de pierre bloquées dans les Grassy Plateaus indiquant des tests de développement précoces.
+- **Clusters de Faucheurs** : Navigation à travers des concentrations anormalement élevées de Léviathans Faucheurs gardant la zone de transition de l'Aurora.
+- **La Descente** : Visualisation de la chute verticale vertigineuse de 400 mètres jusqu'au sol non optimisé de 1200 mètres.
+- **Zone de Proto-Lave** : Exploration de l'itération précoce et creuse de la structure du Château de Lave avant l'application des textures modernes.
+
+<YouTubeEmbed videoId="NwvtlZIVE-o" title="J'ai trouvé le terrifiant HELL HOLE dans une version OUBLIÉE de Subnautica" />
+
+La transition entre les hauts-fonds sécurisés et l'océan profond dans cette version de 2015 souligne à quel point les développeurs ont radicalement modifié le flux structurel de la carte. Dans la version finale, le chemin vers la Zone de Lave est une série de systèmes de grottes organiques interconnectés comme la Lost River. En revanche, le Hell Hole était un puits vertical direct et brutal, taillé directement dans la grille de la carte.
+
+| Aspect de la Version | Spécification de l'Early Access | Statut de la Version Moderne | Niveau de Stabilité |
+|---|---|---|---|
+| **Profondeur Principale** | Chute verticale de 400m à 1200m | Remplacé par la Lost River | Très Instable |
+| **Style de Terrain** | Découpe voxel nette | Transitions organiques douces | Faibles Performances |
+| **Danger Principal** | Apparitions denses de Faucheurs | Léviathans Fantômes et Chaleur | Danger Élevé |
+| **Méthode d'Accès** | Sélection de version legacy & codes | Progression standard | Expérimental |
+
+<Callout type="warning" title="Danger : Apparitions de Léviathans">
+La zone entourant l'entrée du Hell Hole sous l'Aurora présente une densité extrêmement élevée de Léviathans Faucheurs qui apparaissent instantanément. Assurez-vous d'avoir activé les codes d'invincibilité avant de tenter une descente directe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Codes Hellhole Essentiels pour la Navigation et l'Apparition">
+
+L'activation de la console de développeur est la première étape pour exécuter les **codes hellhole** dans les versions legacy. Pour ouvrir la console dans la version de juillet 2015, appuyez sur la touche **F3** pour afficher le menu des paramètres graphiques, puis appuyez sur **F8** pour déverrouiller le curseur de votre souris. Décochez la case « Disable Console » en haut à gauche de l'écran. Une fois déverrouillée, vous pouvez ouvrir la boîte de saisie de texte en appuyant sur la touche **Tilde (~)** ou sur la touche **Entrée**.
+
+Étant donné que le moteur physique des premières versions est hautement expérimental, vous rencontrerez fréquemment des situations où votre véhicule se retrouve coincé dans un terrain inachevé ou l'environnement ne parvient pas à se charger entièrement. Les tableaux suivants présentent les codes de développeur les plus critiques requis pour naviguer, survivre et analyser ce secteur sous-marin oublié.
+
+| Commande | Syntaxe | Fonction Principale | Indice de Sécurité |
+|---|---|---|---|
+| **nodamage** | nodamage | Active/désactive l'invincibilité du joueur et des véhicules | 5/5 |
+| **nocost** | nocost | Permet la fabrication et la construction gratuites | 5/5 |
+| **oxygen** | oxygen | Octroie un approvisionnement illimité en oxygène | 5/5 |
+| **fog** | fog | Active/désactive le brouillard sous-marin pour maximiser la visibilité | 4/5 |
+| **freecam** | freecam | Détache la caméra pour inspecter la géométrie non rendue | 3/5 |
+
+L'utilisation de ces commandes de navigation vous permet de contourner le processus long et fastidieux de collecte de ressources et de fabrication de combinaisons de plongée de haut niveau qui pourraient même ne pas fonctionner correctement dans cette version de développement spécifique.
+
+| Cible d'Apparition | Code Spécifique | Utilité Pratique | Notes |
+|---|---|---|---|
+| **Sous-marin Cyclops** | spawn cyclops | Élevée | Fait apparaître une base mobile entièrement fonctionnelle |
+| **Submersible Seamoth** | spawn seamoth | Moyenne | Voyage rapide, mais très vulnérable à l'écrasement par la profondeur |
+| **Combinaison Anti-Radiations** | item radiationsuit | Élevée | Essentielle pour survivre à la proximité de l'Aurora |
+| **Fusil à Stase** | item stasisrifle | Moyenne | Utile pour geler la faune agressive |
+
+<Callout type="tip" title="Astuce Pro : Exploration en Freecam">
+Lors de la descente au-delà de 800 mètres, utilisez la commande `freecam` pour repérer les lieux. La géométrie de collision dans la zone de proto-lave est incomplète, et tomber à travers le sol peut corrompre votre fichier de sauvegarde actif.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide de Descente Étape par Étape Utilisant les Coordonnées">
+
+Atteindre le fond du Hell Hole nécessite une exécution précise. Comme la carte manque de marqueurs d'interface et de balises modernes, suivre un chemin structuré est essentiel pour éviter de se perdre dans le vide noir sous l'Aurora.
+
+<Steps>
+  <Step num="1" title="Initialiser le Mode Sandbox Expérimental">
+    Lancez une nouvelle partie en mode Créatif ou Liberté dans la version de juillet 2015. Une fois apparu dans les Safe Shallows, ouvrez la console de développeur et saisissez `nodamage` suivi de `oxygen` pour assurer une sécurité totale pendant votre descente.
+  </Step>
+  <Step num="2" title="Faire Apparaître et Équiper le Matériel Nécessaire">
+    Saisissez le code `item radiationsuit` pour vous protéger contre la zone de retombées nucléaires entourant l'Aurora. Ensuite, tapez `spawn cyclops` face à l'eau libre pour générer votre véhicule de transport abyssal principal.
+  </Step>
+  <Step num="3" title="Localiser l'Entrée du Site du Crash de l'Aurora">
+    Pilotez votre Cyclops vers le côté tribord de l'Aurora. Naviguez vers le bas au-delà de la barre des 300 mètres jusqu'à trouver l'énorme découpe rectangulaire dans le fond marin. C'est l'entrée du Hell Hole.
+  </Step>
+  <Step num="4" title="Exécuter les Codes de Navigation Abyssale">
+    À mesure que vous pénétrez dans l'abysse, l'eau s'assombrira considérablement. Saisissez la commande `fog` pour désactiver les filtres de rendu environnemental. Cela vous permettra de voir les parois rocheuses abruptes et d'éviter de percuter les murs sans texture.
+  </Step>
+  <Step num="5" title="Explorer la Zone de Proto-Lave et le Château de Lave">
+    Continuez à descendre verticalement jusqu'à ce que votre jauge de profondeur indique environ 1200 mètres. Vous émergerez dans une immense caverne présentant des textures de lave orange vif primitives et une structure géométrique creuse représentant le premier Château de Lave.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Abysse Atteint">
+Une fois que vous avez atteint le sol de 1200 mètres, vous avez navigué avec succès jusqu'au point le plus profond de la version legacy. Utilisez cette zone pour inspecter comment les premiers développeurs envisageaient les environnements de progression de fin de jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mécaniques du Hell Hole Précoce vs Subnautica Moderne">
+
+L'analyse des différences structurelles entre le Hell Hole de juillet 2015 et la version moderne de Subnautica révèle comment les développeurs ont abordé la construction du monde et l'optimisation au fil du temps. La conception originale était hautement verticale, privilégiant une progression rapide en profondeur plutôt qu'une exploration atmosphérique.
+
+<CardGrid cols={3}>
+  <Card title="Terrain Voxel Inachevé">
+    - **Géométries Creuses** : De nombreuses formations rocheuses manquent de collision interne.
+    - **Chutes Soudaines** : Des parois verticales abruptes remplacent les pentes naturelles.
+    - **Tas de Débris** : Des piliers de pierre aléatoires bloquent les zones inachevées.
+  </Card>
+  <Card title="Placement Erratique de la Faune">
+    - **Essaims de Faucheurs** : Des dizaines de Faucheurs patrouillent dans des couloirs étroits.
+    - **Pas de Dragons des Mers** : Le super-prédateur des profondeurs n'était pas encore codé.
+    - **Requins-Sable Agressifs** : Présents beaucoup plus profondément que leur habitat naturel.
+  </Card>
+  <Card title="Éclairage Non Optimisé">
+    - **Vides Noir de Jais** : Absence de bioluminescence ambiante.
+    - **Textures de Lave Plates** : Les flux volcaniques manquent d'effets de distorsion thermique.
+    - **Pas d'Échelle de Brouillard** : La profondeur ne filtre pas naturellement la lumière.
+  </Card>
+</CardGrid>
+
+Les implications sur l'histoire (lore) de cette configuration précoce sont également fascinantes. Dans le jeu final, les squelettes de Léviathans Faucheurs sont dispersés dans la Zone de Lave, les entrées du PDA suggérant que les Léviathans Dragons des Mers les ont entraînés depuis la surface pour se nourrir. Le large puits vertical dégagé du Hell Hole fournit une explication physique parfaite sur la manière dont ces créatures massives auraient pu facilement transporter des proies de surface vers les profondeurs extrêmes de l'océan.
+
+| Comparaison des Fonctionnalités | Anomalie Hell Hole 2015 | Zones Abyssales Modernes |
+|---|---|---|
+| **Style de Transition** | Puits vertical direct | Réseaux de grottes biomiqes sinueux |
+| **Limite de Profondeur Max** | Arrêt net à 1200 mètres | S'étend au-delà de 1700 mètres |
+| **Structures Volcaniques** | Château de Lave creux, non rendu | Cheminées volcaniques très détaillées |
+| **Audio Atmosphérique** | Boucles ambiantes abyssales génériques | Bandes-son uniques spécifiques aux biomes |
+| **Facilité de Navigation** | Extrêmement difficile sans codes | Gérable avec des véhicules standards |
+
+<Callout type="info" title="Histoire du Développement">
+Le Hell Hole a finalement été supprimé car le moteur de terrain basé sur les voxels provoquait de graves chutes de framerate. Les développeurs sont passés à une conception de carte statique, faite à la main, pour garantir des performances stables sur le matériel grand public.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Liste de Contrôle de Survie et Bonnes Pratiques">
+
+Avant de tenter de lancer des versions legacy et d'exécuter des commandes de développeur, il est vital de préparer votre système et de comprendre les limites des premières versions du jeu. Ces versions manquent des filets de sécurité et des fonctionnalités de sauvegarde automatique présentes dans les versions modernes.
+
+<Checklist
+  id="pre-flight-checklist"
+  title="Préparation à l'Exploration Legacy :"
+  items={[
+    "Sauvegardez vos fichiers de sauvegarde Subnautica modernes pour éviter les conflits de répertoire.",
+    "Sélectionnez la version de juillet 2015 dans le menu des options bêta de Steam.",
+    "Vérifiez l'intégrité des fichiers du jeu avant de lancer l'exécutable legacy.",
+    "Activez la console de développeur immédiatement après être apparu dans les hauts-fonds."
+  ]}
+/>
+
+Pour vous assurer de ne pas perdre votre progression ou de ne pas faire planter votre client en explorant l'abysse profond, référez-vous à cet équipement optimisé. Faire apparaître ces objets à l'aide des commandes de console garantit une survivabilité maximale contre la physique instable de la version précoce.
+
+| Équipement | Code d'Apparition Console | Priorité | Objectif d'Exploration |
+|---|---|---|---|
+| **Combinaison de Plongée Renforcée** | item reinforceddivingsuit | Élevée | Protège contre les bugs de collision des premières versions |
+| **Palmes Ultra Glisse** | item ultraglidefins | Moyenne | Maximise la vitesse de nage dans les secteurs étroits |
+| **Seaglide** | spawn seaglide | Élevée | Essentiel pour une remontée verticale rapide si les véhicules buggent |
+| **Soudeur (Outil de Réparation)** | item welder | Élevée | Répare le Cyclops lorsqu'il est endommagé par le clipping du terrain |
+
+<Callout type="warning" title="Avertissement sur les Fichiers de Sauvegarde">
+N'essayez pas de charger un fichier de sauvegarde moderne tout en exécutant la version de juillet 2015. Cela corromprait de manière permanente vos données de sauvegarde en raison de structures de données de terrain incompatibles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire Aux Questions">
+
+<Callout type="tip" title="Besoin d'Aide ?">
+Si vous rencontrez des problèmes pour activer la console de développeur ou exécuter des commandes, consultez la foire aux questions ci-dessous pour des étapes de dépannage rapides.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Comment activer les codes hellhole si la console ne s'ouvre pas ?",
+    answer: "Dans la version de juillet 2015, vous devez appuyer sur F3, puis sur F8 pour libérer le curseur de votre souris. Décochez la case 'Disable Console' dans le menu en haut à gauche. Après avoir fermé les menus, appuyez sur la touche Tilde (~) ou Entrée pour ouvrir la boîte de saisie des commandes."
+  },
+  {
+    question: "Pourquoi mon Cyclops subit-il continuellement des dégâts à l'intérieur du Hell Hole ?",
+    answer: "Les limites physiques du Hell Hole dans les premières versions sont très instables. Le vaisseau entre souvent en collision avec un terrain invisible et non rendu. Activez la commande 'nodamage' dans la console pour empêcher votre sous-marin d'exploser."
+  },
+  {
+    question: "Puis-je accéder au Hell Hole dans la version moderne de Subnautica ?",
+    answer: "Non, le Hell Hole a été complètement supprimé et remplacé par les systèmes de la Lost River et de la Zone de Lave Inactive. Pour l'explorer, vous devez utiliser les propriétés bêta de Steam pour télécharger la version legacy de juillet 2015."
+  },
+  {
+    question: "Y a-t-il des créatures uniques à l'intérieur du Château de Lave legacy ?",
+    answer: "Dans cette version spécifique, le Château de Lave est complètement creux et dépourvu de faune ou de ressources uniques. Le Léviathan Dragon des Mers et les Lézards de Lave n'avaient pas encore été implémentés, bien que vous puissiez trouver des Faucheurs égarés ayant traversé les murs par bug."
+  }
+]} />
+
+</Section>

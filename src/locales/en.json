@@ -10,7 +10,16 @@
       "twitterDescription": "Hellhole Wiki provides horror game guides, walkthroughs, secrets, and gameplay tips for the Roblox PvE horror shooter Hellhole."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guides": "Guides",
+    "weapons": "Weapons",
+    "enemies": "Enemies",
+    "boss": "Boss",
+    "floors": "Floors",
+    "upgrades": "Upgrades",
+    "general": "General"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -363,125 +372,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
+    "codes": {
+      "title": "Hellhole Codes",
+      "description": "Latest working Hellhole codes for free gems, coins, and rewards. Updated regularly with active codes for the Roblox PvE horror shooter.",
+      "metaTitle": "Hellhole Codes - Free Gems & Rewards (2026)",
+      "metaDescription": "Get free gems, coins, and rewards with active Hellhole codes. Updated with verified working codes for the Roblox PvE horror shooter.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Hellhole Codes?",
+      "whatIsDescription": "Hellhole codes are promotional redeem keys released by the developers that grant free gems, coins, weapon upgrades, and survival resources to help you push deeper into the demonic underworld.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free Resources",
+        "step1Description": "Instantly receive gems, coins, and upgrades without grinding early floors",
+        "step2Title": "Faster Progression",
+        "step2Description": "Spend saved resources on stronger weapons to survive deeper encounters",
+        "step3Title": "Stay Updated",
+        "step3Description": "Claim every active code to keep pace with new floors and balance changes"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
     "guides": {
       "title": "Hellhole Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
+      "description": "Complete Hellhole guides covering controls, descent mechanics, survival strategies, and tips for new and experienced players.",
       "metaTitle": "Hellhole Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Hellhole guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "metaDescription": "Complete Hellhole guides covering beginner basics, descent mechanics, survival strategies, and expert tips for the Roblox PvE horror shooter.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIs": "What are Hellhole Guides?",
+      "whatIsDescription": "Hellhole guides walk you through core mechanics, the floor-by-floor descent system, combat fundamentals, and survival strategies so you can progress efficiently and avoid common mistakes.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Description": "Understand descent, combat, and resource systems before pushing deeper",
+        "step2Title": "Survive Longer",
+        "step2Description": "Follow proven strategies to reach deeper floors and tougher bosses",
+        "step3Title": "Avoid Mistakes",
+        "step3Description": "Skip beginner pitfalls that waste resources and end runs early"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Hellhole Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Hellhole Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Hellhole Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "weapons": {
+      "title": "Hellhole Weapons",
+      "description": "Detailed Hellhole weapon guides covering stats, tier lists, upgrade paths, and loadout strategies for every floor of the descent.",
+      "metaTitle": "Hellhole Weapons - Tier List, Stats & Upgrades",
+      "metaDescription": "Master every Hellhole weapon with detailed stats, tier rankings, upgrade paths, and loadout strategies for surviving each floor.",
+      "categoryLabel": "WEAPONS & LOADOUTS",
+      "whatIs": "What are Hellhole Weapons?",
+      "whatIsDescription": "Hellhole weapons are your primary tools for surviving hostile encounters across every floor. Guides cover weapon stats, upgrade paths, ammo management, and loadout choices for different enemy and boss situations.",
+      "why": "Why study weapons?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Pick the Right Loadout",
+        "step1Description": "Choose weapons that match each floor's enemies and layout",
+        "step2Title": "Upgrade Efficiently",
+        "step2Description": "Invest resources in weapons that scale well into deeper floors",
+        "step3Title": "Manage Ammo",
+        "step3Description": "Balance damage output with ammo conservation for long runs"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Weapons"
     },
-    "items": {
-      "title": "Hellhole Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Hellhole Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Hellhole including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "enemies": {
+      "title": "Hellhole Enemies",
+      "description": "Complete bestiary of Hellhole enemies including demon types, attack patterns, weaknesses, and combat strategies for every floor.",
+      "metaTitle": "Hellhole Enemies - Bestiary & Combat Strategies",
+      "metaDescription": "Learn every Hellhole enemy type including demons, attack patterns, weaknesses, and combat strategies to survive each floor.",
+      "categoryLabel": "ENEMY BESTIARY",
+      "whatIs": "What are Hellhole Enemies?",
+      "whatIsDescription": "Hellhole enemies are the hostile creatures and demons that populate each floor of the underworld. Bestiary guides cover enemy types, attack patterns, threat levels, and the most effective strategies for taking them down.",
+      "why": "Why learn enemies?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Read Attack Patterns",
+        "step1Description": "Recognize enemy tells so you can dodge and counter effectively",
+        "step2Title": "Exploit Weaknesses",
+        "step2Description": "Target enemy vulnerabilities to win fights faster",
+        "step3Title": "Prioritize Threats",
+        "step3Description": "Know which enemies to eliminate first in chaotic encounters"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Enemies"
     },
-    "biomes": {
-      "title": "Hellhole Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Hellhole Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Hellhole biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "boss": {
+      "title": "Hellhole Boss",
+      "description": "Hellhole boss guides covering attack patterns, phases, weaknesses, recommended loadouts, and strategies for every major boss encounter.",
+      "metaTitle": "Hellhole Boss Guide - Patterns, Weaknesses & Strategies",
+      "metaDescription": "Master every Hellhole boss with attack pattern breakdowns, weaknesses, recommended loadouts, and proven strategies for each fight.",
+      "categoryLabel": "BOSS BATTLES",
+      "whatIs": "What are Hellhole Bosses?",
+      "whatIsDescription": "Hellhole bosses are powerful enemies that guard key progression points on deeper floors. Boss guides break down attack patterns, fight phases, weaknesses, and the loadouts and tactics needed to bring them down.",
+      "why": "Why prepare for bosses?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Learn the Patterns",
+        "step1Description": "Study each boss attack sequence to find safe damage windows",
+        "step2Title": "Build the Right Loadout",
+        "step2Description": "Equip weapons and upgrades suited to each boss's weaknesses",
+        "step3Title": "Survive the Phases",
+        "step3Description": "Adapt your strategy as boss fights escalate through multiple phases"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Bosses"
     },
-    "building": {
-      "title": "Hellhole Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Hellhole Building - Qualia & Base Construction",
-      "metaDescription": "Master Hellhole building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "floors": {
+      "title": "Hellhole Floors",
+      "description": "Hellhole floor guides covering progression, enemies, bosses, loot, and survival strategies for every floor of the demonic descent.",
+      "metaTitle": "Hellhole Floors - Progression & Walkthrough Guide",
+      "metaDescription": "Explore every Hellhole floor with progression guides, enemy layouts, boss encounters, loot locations, and survival strategies.",
+      "categoryLabel": "FLOOR PROGRESSION",
+      "whatIs": "What are Hellhole Floors?",
+      "whatIsDescription": "Hellhole is built around a floor-by-floor descent where each layer grows more dangerous than the last. Floor guides map out progression, enemy density, boss locations, and the safest routes to the deepest floors.",
+      "why": "Why study floors?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Plan Your Descent",
+        "step1Description": "Know what to expect on each floor before you drop deeper",
+        "step2Title": "Find the Loot",
+        "step2Description": "Locate valuable resources and upgrades hidden on each level",
+        "step3Title": "Reach the Deepest Floors",
+        "step3Description": "Use proven routes to push further into the underworld safely"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Floors"
     },
-    "support": {
-      "title": "Hellhole Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Hellhole Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Hellhole including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "upgrades": {
+      "title": "Hellhole Upgrades",
+      "description": "Hellhole upgrade and progression guides covering money farming, weapon upgrades, perks, and efficient spending strategies.",
+      "metaTitle": "Hellhole Upgrades - Money, Weapons & Progression",
+      "metaDescription": "Master Hellhole upgrades with money farming routes, weapon upgrade paths, perk choices, and efficient spending strategies.",
+      "categoryLabel": "UPGRADES & PROGRESS",
+      "whatIs": "What are Hellhole Upgrades?",
+      "whatIsDescription": "Hellhole upgrades let you strengthen weapons, unlock perks, and improve your loadout between runs using money and resources earned in the descent. Upgrade guides cover farming routes, perk priorities, and smart spending.",
+      "why": "Why optimize upgrades?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Farm Money Faster",
+        "step1Description": "Use efficient routes to earn coins and resources quickly",
+        "step2Title": "Spend Strategically",
+        "step2Description": "Prioritize upgrades that deliver the biggest survival boost",
+        "step3Title": "Build Long-Term Power",
+        "step3Description": "Create a progression path that scales into the deepest floors"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Upgrades"
+    },
+    "general": {
+      "title": "Hellhole General",
+      "description": "General Hellhole information covering gameplay overview, Roblox details, review analysis, and core facts about the PvE horror shooter.",
+      "metaTitle": "Hellhole General - Game Info & Overview",
+      "metaDescription": "General Hellhole information including gameplay overview, Roblox details, review analysis, and core facts about the PvE horror shooter.",
+      "categoryLabel": "GENERAL INFO",
+      "whatIs": "What is Hellhole?",
+      "whatIsDescription": "Hellhole is a Roblox PvE horror shooter where players descend floor by floor into a demonic underworld, battling enemies and bosses, upgrading weapons, and surviving the depths. General guides cover the core gameplay loop, platform details, and what makes the game unique.",
+      "why": "Why start here?",
+      "whySteps": {
+        "step1Title": "Understand the Game",
+        "step1Description": "Get a clear overview of Hellhole's core loop and appeal",
+        "step2Title": "Know the Platform",
+        "step2Description": "Learn how to access and play Hellhole on Roblox",
+        "step3Title": "Plan Your First Run",
+        "step3Description": "Use the overview to choose your first guides and loadout"
+      },
+      "featured": "Featured & Essential",
+      "all": "All General Articles"
     }
   }
 }

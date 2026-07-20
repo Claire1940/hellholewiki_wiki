@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide des boss de Hellhole : Tactiques d'experts pour chaque affrontement d'étage",
+  description: "Maîtrisez chaque affrontement d'étage grâce à notre guide des boss de Hellhole. Apprenez les patterns d'attaque des démons, les équipements recommandés et les stratégies de survie pour la méta 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7f1d1d/fff?text=Hellhole+Boss+Guide",
+  date: "2026-07-20",
+  author: "L'équipe du Wiki Hellhole"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Guide des boss de Hellhole** : Le succès dépend de l'identification des patterns d'attaque télégraphiés et du maintien de la distance pendant les phases de démons à haute pression.
+- **Mécanique centrale** : Les boss utilisent un système d'échelle basé sur la descente d'étages, ce qui signifie que la difficulté et les points de vie augmentent considérablement à mesure que vous vous enfoncez.
+- **Meilleure stratégie** : Priorisez tôt les améliorations de vitesse de déplacement et d'endurance pour vous assurer de pouvoir esquiver les attaques de zone (AoE) agressives.
+- **Conseil critique** : N'entrez jamais dans une arène de boss avec moins de 50 % de munitions ; l'épuisement des ressources est la principale cause d'échec dans le monde souterrain démoniaque.
+- **Meilleur choix** : Un équipement équilibré comprenant une arme principale à grande capacité et une arme secondaire axée sur les dégâts de burst est optimal pour la plupart des gardiens d'étage.
+</Callout>
+
+<Section icon={Target} title="Comprendre les mécaniques des boss de Hellhole">
+
+Dans le monde sombre de Hellhole, le mantra « La seule issue est vers le bas » s'applique très strictement aux affrontements de boss. Ces menaces majeures servent de gardiens entre les étages, testant votre maîtrise du combat, votre gestion des ressources et les améliorations de votre équipement. Contrairement aux créatures hostiles standard, les boss disposent de barres de vie à plusieurs phases et de dangers environnementaux uniques qui nécessitent plus que de la simple force de frappe pour être surmontés.
+
+<CardGrid cols={3}>
+  <Card title="Reconnaissance des patterns">
+    - **Attaques télégraphiées** : Surveillez les lueurs rouges ou les animations spécifiques.
+    - **Transitions de phase** : Les boss deviennent plus agressifs à 50 % de santé.
+    - **Conscience de l'arène** : Évitez de vous coincer dans les zones sombres.
+  </Card>
+  <Card title="Gestion des ressources">
+    - **Rareté des munitions** : Les boss sont des sacs à PV ; chaque tir compte.
+    - **Fenêtres de soin** : Ne vous soignez que pendant les animations de récupération spécifiques.
+    - **Contrôle de l'endurance** : Économisez les esquives pour les attaques lourdes inévitables.
+  </Card>
+  <Card title="Progression de l'équipement">
+    - **Impact des améliorations** : Les étages supérieurs nécessitent des armes de palier 2+.
+    - **Synergie d'équipement** : Adaptez votre arme secondaire à la faiblesse du boss.
+    - **Efficacité financière** : Réinvestissez les récompenses des boss dans des augmentations immédiates de DPS.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil de pro">
+Avant d'affronter un boss, nettoyez le périmètre immédiat des démons standard. Les combats de boss dans Hellhole déclenchent souvent des bruits environnementaux qui attirent les « menaces d'étage » à proximité, ce qui peut vous submerger si vous n'y prenez pas garde.
+</Callout>
+
+| Type d'affrontement | Niveau de difficulté | Menace principale | Stratégie recommandée |
+| :--- | :--- | :--- | :--- |
+| **Gardien du début** | ★★☆☆☆ | Charges au corps à corps | Maintenir la distance, utiliser le tir principal |
+| **Boss démon d'élite** | ★★★☆☆ | Rafales de projectiles | Déplacement latéral, dégâts de burst |
+| **Traqueur des profondeurs** | ★★★★☆ | Dangers environnementaux | Grande mobilité, conservation des ressources |
+| **Archidémon abyssal** | ★★★★★ | AoE multi-phase | Équipement amélioré, timing parfait |
+
+</Section>
+
+<Section icon={Swords} title="Affrontements de boss d'étage : Stratégies de combat">
+
+Le boss d'étage standard représente le premier obstacle majeur pour les joueurs qui descendent dans le monde souterrain démoniaque. Ces affrontements se concentrent sur les comportements de base des « ennemis démoniaques », mais amplifiés par d'immenses réserves de points de vie et des attaques au corps à corps infligeant de lourds dégâts. Ce **guide des boss de Hellhole** souligne que la clé de ces premières victoires réside dans la patience plutôt que dans l'agressivité.
+
+**Points forts de la vidéo :**
+- Identifier le signal de « fente » des démons des premiers étages.
+- Techniques de kiting efficaces pour minimiser les dégâts subis.
+- Quand passer des armes principales aux outils secondaires à gros dégâts.
+
+<YouTubeEmbed videoId="mPnmG7ZqwrA" title="Guide des ennemis et des boss de Hellhole" />
+
+Les premiers boss s'appuient souvent sur une boucle prévisible. Ils tenteront de réduire la distance avec une charge, suivie d'un combo de trois coups. Une fois le combo terminé, le boss entre dans un état « Vulnérable » pendant environ 3 secondes. C'est votre fenêtre pour déclencher vos attaques les plus puissantes.
+
+| Phase du boss | Pattern de comportement | Réponse du joueur |
+| :--- | :--- | :--- |
+| **Phase 1 (100-50%)** | Fentes sur cible unique, récupération lente | Déplacement latéral et dégâts progressifs |
+| **Transition** | Effet de rugissement/repoussement | Esquiver immédiatement vers l'arrière |
+| **Phase 2 (50-0%)** | Attaques plus rapides, apparition de sbires | Éliminer d'abord les sbires, puis le boss |
+
+<Callout type="warning" title="Avertissement">
+Les boss démoniaques dans Hellhole obtiennent un buff de « Rage » si le combat dure plus de trois minutes. Cela augmente leur vitesse de déplacement de 25 %, ce qui rend presque impossible de les distancer sans des améliorations d'endurance maximales.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Défis des étages profonds : Survivre à l'abîme">
+
+À mesure que vous descendez plus profondément dans Hellhole, les défis passent du simple combat à des énigmes de survie complexes. Les boss des étages profonds introduisent des mécaniques environnementales, telles que des dalles de sol qui se transforment en lave ou des nuages de ténèbres qui obscurcissent votre vision. Ces affrontements exigent un haut niveau de « préparation pour les descentes profondes ».
+
+<Steps>
+  <Step num="1" title="Reconnaître l'arène">
+    Avant l'apparition du boss, identifiez les « zones sûres » exemptes de dangers environnementaux. Il s'agit généralement de plateformes surélevées ou de zones mieux éclairées.
+  </Step>
+  <Step num="2" title="Gérer les sbires">
+    Les boss des étages profonds invoquent fréquemment des démons mineurs. Utilisez votre arme principale pour éliminer rapidement ces ennemis supplémentaires afin d'éviter d'être submergé tout en vous concentrant sur la cible principale.
+  </Step>
+  <Step num="3" title="Exploiter les faiblesses environnementales">
+    Certaines arènes contiennent des barils explosifs ou des pièges de lumière. Attirer le boss dans ces zones peut lui infliger des dégâts massifs et l'étourdir pendant un moment.
+  </Step>
+  <Step num="4" title="Exécuter la phase finale">
+    Les derniers 20 % de vie d'un boss d'étage profond sont les plus dangereux. Utilisez votre compétence ultime ou vos armes secondaires les plus puissantes pour passer cette phase le plus rapidement possible.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Succès stratégique">
+Les joueurs qui investissent dans les améliorations de « Vision nocturne » ou de « Scanner » trouvent les boss des étages profonds beaucoup plus faciles, car ces outils révèlent la position des boss même à travers les écrans de fumée démoniaques.
+</Callout>
+
+| Type d'amélioration | Priorité | Avantage pour les boss | Rentabilité |
+| :--- | :--- | :--- | :--- |
+| **Dégâts d'arme** | **Élevée** | Raccourcit la durée du combat | Excellente |
+| **Santé max** | **Moyenne** | Permet plus d'erreurs | Bonne |
+| **Vitesse de rechargement** | **Élevée** | Essentielle pour un DPS soutenu | Essentielle |
+| **Régén. d'endurance** | **Très élevée** | Cruciale pour esquiver les AoE | Meilleure valeur |
+
+</Section>
+
+<Section icon={Shield} title="Équipements recommandés pour terrasser les boss">
+
+Vos choix d'équipement dans Hellhole dictent vos chances de survie bien plus que vos compétences mécaniques. Un bon équipement doit équilibrer des dégâts constants pour éliminer les sbires et un fort potentiel de burst pour les fenêtres de dégâts sur les boss. Selon la méta 2026, les configurations d'équipement suivantes sont recommandées pour les différentes étapes de votre descente.
+
+<CardGrid cols={2}>
+  <Card title="L'Avant-garde (Début de descente)">
+    - **Principale** : Fusil semi-automatique (Précision)
+    - **Secondaire** : Fusil à pompe à canon scié (Burst)
+    - **Priorité d'amélioration** : Dégâts et capacité de munitions
+    - **Idéal pour** : Boss des étages 1 à 10
+  </Card>
+  <Card title="L'Exterminateur (Descente profonde)">
+    - **Principale** : Carabine automatique (Soutenu)
+    - **Secondaire** : Lance-grenades lourd (AoE)
+    - **Priorité d'amélioration** : Vitesse de rechargement et mobilité
+    - **Idéal pour** : Archidémons de l'étage 20+
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Information">
+L'argent gagné lors des runs standards doit toujours être priorisé pour les améliorations de « croissance à long terme ». Les buffs temporaires sont utiles, mais l'augmentation permanente du palier des armes est le seul moyen de survivre aux points de vie croissants des boss plus profonds.
+</Callout>
+
+| Classe d'arme | Meilleur cas d'utilisation sur boss | Faiblesse |
+| :--- | :--- | :--- |
+| **Fusils** | Kiting à longue portée | Faibles dégâts de burst |
+| **Fusils à pompe** | Fenêtres de vulnérabilité au corps à corps | Risque élevé, temps de rechargement |
+| **Explosifs** | Élimination de sbires et étourdissements | Munitions limitées, auto-dégâts |
+| **Énergie** | Contournement de l'armure démoniaque | Coût en ressources élevé |
+
+</Section>
+
+<Section icon={Trophy} title="Liste de préparation avant un boss">
+
+Le succès dans Hellhole se détermine avant même d'appuyer sur la gâchette. Utilisez cette liste pour vous assurer que vous êtes pleinement préparé aux défis qui vous attendent en dessous.
+
+<Checklist
+  id="boss-prep"
+  title="Prérequis avant le boss :"
+  items={[
+    "Réserves de munitions à 90 % ou plus",
+    "Au moins deux objets de soin dans les emplacements rapides",
+    "Arme principale améliorée au palier de l'étage actuel",
+    "Barre d'endurance entièrement rechargée",
+    "Zone environnante débarrassée des démons errants"
+  ]}
+/>
+
+<Callout type="tip" title="Conseil d'expert">
+Si vous échouez constamment face à un boss spécifique, arrêtez de vouloir descendre plus bas. Consacrez 2 à 3 runs à « farmer » des étages plus faciles pour accumuler assez d'argent pour une amélioration majeure de palier d'arme. Dans Hellhole, les statistiques brutes l'emportent souvent sur le manque de compétences.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment savoir quand un boss est sur le point d'attaquer ?",
+    answer: "La plupart des boss de Hellhole ont une mécanique de « lueur ». Leurs yeux ou leur poitrine émettent des pulsations de lumière rouge environ 1,5 seconde avant une attaque majeure. Apprendre ces indices visuels spécifiques est le cœur de tout guide des boss de Hellhole."
+  },
+  {
+    question: "Puis-je passer les combats de boss pour atteindre les étages profonds plus rapidement ?",
+    answer: "Non. Les boss agissent comme des barrières strictes. Vous devez vaincre le gardien de l'étage pour déverrouiller l'ascenseur ou l'escalier menant au niveau suivant. Passer les combats n'est pas une option dans la boucle PvE actuelle."
+  },
+  {
+    question: "Quelle est la meilleure amélioration pour les combats de boss ?",
+    answer: "La vitesse de déplacement est sans doute la meilleure amélioration. Bien que les dégâts soient importants, la plupart des attaques de boss dans Hellhole peuvent être entièrement évitées si votre vitesse de déplacement de base est assez élevée pour dépasser le rayon de l'AoE."
+  },
+  {
+    question: "Les boss lâchent-ils du butin unique ?",
+    answer: "Les boss offrent la plus grande concentration d'argent et lâchent occasionnellement des « éclats de démon » utilisés pour les augmentations d'armes en fin de partie. Ils constituent la principale source de monnaie de progression."
+  }
+]} />
+
+</Section>

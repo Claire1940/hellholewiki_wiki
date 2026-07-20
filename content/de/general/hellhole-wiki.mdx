@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "hellhole wiki: Stufenaufstieg & Überlebensstrategie-Guide",
+  description: "Meistere die dunklen Tiefen von Hellhole mit unserem offiziellen Guide für Stufenaufstieg, Klassenausrüstung und Überlebensstrategien.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b1c1c/fff?text=Hellhole+Wiki+Guide",
+  date: "2026-07-20",
+  author: "hellhole Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- Nutze das **hellhole wiki**, um Fortschrittsrouten zu meistern, Klassen-Builds zu optimieren und versteckte Überlebensausrüstung effizient zu finden.
+- Wähle die **Scout-Klasse** für hohe Mobilität und schnelle Kartennavigation in den frühen Erkundungsphasen des Spiels.
+- Priorisiere die Verbesserung von **Schutzschilden** und Waffenschaden, um hochintensive Wellen in tieferen Sektoren zu überleben.
+- Folge den strukturierten **Fortschrittsmeilensteinen**, um fortgeschrittene Handwerksrezepte und legendäre Ausrüstungsstufen freizuschalten.
+</Callout>
+
+<Section icon={Map} title="Einführung in Hellhole & Kernmechaniken">
+
+Das Navigieren in den gefährlichen Umgebungen dieses anspruchsvollen Überlebensspiels erfordert ein solides Verständnis des Ressourcenmanagements, der Kampfsysteme und der Umgebungsnavigation. Dieser Guide enthält wichtige mechanische Daten, Fortschrittssysteme und Strategieentwürfe, die Spielern helfen, in den dunklen Sektoren zu überleben. Das Überleben hängt davon ab, deine lebenswichtigen Systeme betriebsbereit zu halten und dich gleichzeitig gegen feindliche Kreaturen zu verteidigen, die in den Korridoren patrouillieren.
+
+**Video-Highlights:**
+- Überblick über das höllische Thema und die Umweltgefahren, denen Spieler begegnen werden.
+- Einblicke in den schwarzen Humor und die chaotischen Begegnungen, die für das Setting charakteristisch sind.
+- Visuelle Demonstration von Fluchtwegen und Taktiken zur Gefahrenvermeidung.
+
+<YouTubeEmbed videoId="Il4dC4OfAYw" title="Eddsworld - Hello Hellhole" />
+
+Der Spielablauf erfordert ständige Wachsamkeit. Spieler müssen Gesundheit, Ausdauer und Rüstungsintegrität ausbalancieren, während sie durch sich verändernde Korridore navigieren. Die Kenntnis des Layouts jedes Sektors verhindert unnötiges Zurücklaufen und Ressourcenverschwendung. Siehe dir die unten stehende Struktur der Spielmodi an, um den passenden Schwierigkeitsgrad für dein Team auszuwählen.
+
+| Modus | Schwierigkeit | Zielzeit | Ressourcenrate | Permanenter Tod |
+| :--- | :--- | :--- | :--- | :--- |
+| **Scout** | Leicht | 20 Min. | **150%** | Deaktiviert |
+| **Survivor** | Normal | 35 Min. | **100%** | Deaktiviert |
+| **Enforcer** | Schwer | 50 Min. | **75%** | Aktiviert |
+| **Nightmare** | Extrem | 90 Min. | **50%** | Aktiviert |
+
+<Callout type="warning" title="Gefahrenwarnung">
+Das Spielen im Enforcer- oder Nightmare-Modus aktiviert den permanenten Tod. Stelle sicher, dass deine Ausrüstung vollständig aufgewertet ist, bevor du diese Sektoren betrittst.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Klassenauswahl & Ausrüstungsstrategie">
+
+Die Wahl der richtigen Klasse bestimmt deine aktiven Fähigkeiten, passiven Boni und deine Startausrüstung. Jeder Archetyp zeichnet sich in bestimmten Szenarien aus, was die Teamzusammensetzung für Multiplayer-Matches entscheidend macht. Solospieler sollten sich auf ausgewogene Builds konzentrieren, die Selbsterhaltung mit anständigen Offensivkapazitäten kombinieren, um unvorhersehbare Begegnungen zu meistern.
+
+<CardGrid cols={3}>
+  <Card title="Survivor-Klasse">
+    - **Ausgewogene Werte** für Solospiel
+    - Zugang zu Selbstheilungsfähigkeiten
+    - Moderate Rüstungswerte
+  </Card>
+  <Card title="Scout-Klasse">
+    - **Hohe Bewegungsgeschwindigkeit**
+    - Fortgeschrittene Ressourcenerkennung
+    - Tarnmechaniken zum Ausweichen
+  </Card>
+  <Card title="Enforcer-Klasse">
+    - **Schwere Rüstungskapazitäten**
+    - Hohe Schadensgrenze
+    - Fähigkeiten zur Gruppenkontrolle
+  </Card>
+</CardGrid>
+
+Nach der Auswahl einer Klasse müssen Spieler ihre Ausrüstung optimieren. Waffen und Hilfsgegenstände können vor dem Einsatz am Hauptterminal angepasst werden. Die Kombination sich ergänzender Ausrüstung stellt sicher, dass du sowohl mit Einzelziel-Bossen als auch mit großen Horden von Feinden fertig wirst.
+
+| Klasse | Gesundheit | Geschwindigkeit | Rüstung | Startwaffe | Spezialfähigkeit |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Survivor** | **120** | Normal | Mittel | Pistole | Lebensregeneration |
+| **Scout** | **90** | **Schnell** | Leicht | SMG | Radar-Scan |
+| **Enforcer** | **150** | Langsam | **Schwer** | Schrotflinte | Schildwall |
+
+<Callout type="tip" title="Synergie-Bonus">
+Die Kombination eines Scouts mit einem Enforcer ermöglicht es dem Scout, Ziele zu markieren, während der Enforcer Schaden absorbiert und Gegnergruppen ausschaltet.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Sektorfortschritt">
+
+Der Fortschritt durch die Sektoren erfordert das Abschließen bestimmter Aufgaben in einer strengen Reihenfolge. Wer überstürzt zum Ausgang rennt, ohne wichtige Ressourcen zu sichern, wird für die Bossbegegnungen unterpowered sein. Folge dieser strukturierten Roadmap, um deine Überlebensrate zu maximieren und hochrangige Belohnungen freizuschalten.
+
+<Steps>
+  <Step num="1" title="Landezone sichern">
+    Säubere die unmittelbare Umgebung von kleineren Feinden und aktiviere das lokale Stromnetz, um die Terminals hochzufahren.
+  </Step>
+  <Step num="2" title="Wichtige Ressourcen sammeln">
+    Finde Sauerstofftanks, Batteriepacks und Altmetall, um grundlegende Überlebensausrüstung und Munition herzustellen.
+  </Step>
+  <Step num="3" title="Einen Außenposten errichten">
+    Stelle Verteidigungsgeschütze und Barrikaden in der Nähe des Sektor-Aufzugs auf, um dich gegen ankommende Wellen zu verteidigen.
+  </Step>
+  <Step num="4" title="Das Sektortor entriegeln">
+    Hacke das primäre Sicherheitsterminal, während du die Position verteidigst, und rücke dann zur nächsten Ebene vor.
+  </Step>
+</Steps>
+
+Jeder Schritt bietet einzigartige Belohnungen und Erfahrungspunkte. Durch das Sammeln dieser Ressourcen kannst du permanente Upgrades am Haupt-Hub erwerben, was nachfolgende Durchläufe erheblich erleichtert.
+
+| Sektor | Primärziel | Hauptgefahr | Belohnungsstufe | Gewährte EP |
+| :--- | :--- | :--- | :--- | :--- |
+| **Sektor 1** | Stromaktivierung | Toxisches Gas | Gewöhnlich | **1.000 EP** |
+| **Sektor 2** | Sicherheitsüberbrückung | Hitzewellen | Selten | **2.500 EP** |
+| **Sektor 3** | Kernstabilisierung | Strahlung | **Episch** | **5.000 EP** |
+| **Sektor 4** | Boss-Eliminierung | Leerensturm | **Legendär** | **10.000 EP** |
+
+<Callout type="success" title="Meilenstein erreicht">
+Das Erreichen von Sektor 4 schaltet die Herstellungsblaupausen für legendäre Waffen am Terminal des Haupt-Hubs frei.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fortgeschrittene Überlebens-Taktiken">
+
+Um in den tiefsten Sektoren zu überleben, müssen Spieler fortgeschrittene Mechaniken wie Ausdauermanagement, Gefahrenminimierung und das Kiten von Feinden meistern. Umweltgefahren stellen eine ebenso große Bedrohung dar wie die feindlichen Kreaturen. Zu wissen, wie man diesen Elementen entgegenwirkt, entscheidet über einen erfolgreichen Durchlauf oder das Scheitern.
+
+| Gefahrenart | Effekt | Gegenmaßnahme | Empfohlene Ausrüstung |
+| :--- | :--- | :--- | :--- |
+| **Toxisches Gas** | Schaden über Zeit | Gasmaske | Filter-Upgrade |
+| **Extreme Hitze** | Ausdauerentzug | Kühlpack | Kryo-Rüstung |
+| **Strahlung** | Reduzierung der max. Gesundheit | Strahlenschild | Bleiverkleidung |
+| **Leerensturm** | Schildstörung | Erdungsstab | Isolierte Stiefel |
+
+Behalte während eines Durchlaufs immer eine Checkliste der aktiven Ziele im Auge. Die Konzentration auf diese Ziele stellt sicher, dass du keine wertvolle Zeit mit dem Umherwandern in gefährlichen Zonen verschwendest. Nutze die folgende Checkliste, um deinen Fortschritt während Standardoperationen zu verfolgen.
+
+<Checklist
+  id="survival-checklist"
+  title="Standard-Missionsziele:"
+  items={[
+    "Sichere drei Energiezellen in der Umgebung",
+    "Werte die Primärwaffe auf Stufe 3 auf",
+    "Stelle zwei automatische Verteidigungsgeschütze auf",
+    "Evakuiere sicher mit der gesamten gesammelten Fracht"
+  ]}
+/>
+
+<Callout type="info" title="Ressourcenmanagement">
+Behalte immer mindestens ein Batteriepack in Reserve, um im Falle einer Abriegelung Nottüren mit Strom zu versorgen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="hellhole wiki FAQ & Ressourcen">
+
+Das Navigieren durch die komplexen Systeme dieses Überlebensspiels kann für neue Spieler eine Herausforderung sein. Die Community hat Antworten auf die häufigsten Fragen zusammengestellt, um dir den Einstieg zu erleichtern. Greife auf diese Lösungen zurück, wann immer du auf ein Hindernis bei deinem Fortschritt stößt.
+
+<FAQ items={[
+  {
+    question: "Wo finde ich die offizielle hellhole wiki-Datenbank?",
+    answer: "Das offizielle hellhole wiki wird von der Community gepflegt, um aktuelle Statistiken, Patchnotizen und detaillierte Karten mit Fundorten von Gegenständen bereitzustellen."
+  },
+  {
+    question: "Wie schalte ich den Schwierigkeitsgrad Nightmare frei?",
+    answer: "Du musst einen vollständigen Durchlauf auf dem Schwierigkeitsgrad Enforcer mit aktivem permanentem Tod erfolgreich abschließen, um den Nightmare-Modus freizuschalten."
+  },
+  {
+    question: "Was ist die beste Waffenkombination für Solospieler?",
+    answer: "Die Schrotflinte in Kombination mit der Kryo-Granate bietet eine hervorragende Gruppenkontrolle und hohen Berstschaden für das Solo-Überleben."
+  },
+  {
+    question: "Kann ich meine Charakterstufe oder Klassenfähigkeiten zurücksetzen?",
+    answer: "Ja, du kannst deinen Fähigkeitenbaum am Terminal des Haupt-Hubs gegen eine kleine Gebühr an gesammeltem Altmetall zurücksetzen."
+  }
+]} />
+
+<Callout type="tip" title="Community-Tipp">
+Tritt den offiziellen Diskussionskanälen bei, um Ausrüstungsdesigns zu teilen und Multiplayer-Durchläufe mit anderen Überlebenden zu koordinieren.
+</Callout>
+
+</Section>

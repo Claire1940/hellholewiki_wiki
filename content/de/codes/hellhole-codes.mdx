@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hellhole-Codes: Essentielle Konsolenbefehle für den vergessenen Build",
+  description: "Meistern Sie die essentiellen Hellhole-Codes und Konsolenbefehle, um die legendäre vergessene Hell-Hole-Anomalie in Subnautica zu betreten, zu navigieren und zu überleben.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Hellhole+Codes+Guide",
+  date: "2026-07-20",
+  author: "hellhole Wiki-Team",
+  keywords: "Hellhole-Codes, Subnautica, Konsolenbefehle, Hell Hole, Early Access 2015"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hellhole-Codes** ermöglichen es Spielern, Beschränkungen zu umgehen und die tiefe Map-Anomalie aus dem Early Access 2015 zu erkunden.
+- **Konsolenbefehle** wie Teleportation und Spawning sind erforderlich, um sicher durch die instabile Geometrie zu navigieren.
+- **Lavaschloss**-Strukturen und Proto-Lavazonen können direkt über spezifische Tiefenkoordinaten erreicht werden.
+- **Sicherheitsmaßnahmen** sind zwingend erforderlich, da mehrere Reaper-Leviathane den Eingang unter der Aurora bewachen.
+</Callout>
+
+<Section icon={Map} title="Erkundung des Builds vom Juli 2015 mit Hellhole-Codes">
+
+Während der frühen Entwicklungsphasen von Subnautica, speziell um den Early Access Build vom Juli 2015, wies die Karte mehrere einzigartige Terrain-Layouts auf, die später geändert oder vollständig entfernt wurden. Die legendärste dieser Anomalien ist das „Hell Hole“, ein massiver, vertikaler Abgrund direkt unter der Absturzstelle der Aurora. Im Gegensatz zur modernen Version des Spiels, in der der Meeresboden unter der Aurora relativ flach und seicht ist, enthielt dieser historische Build einen steilen Abfall, der über 1200 Meter tief in eine unfertige Proto-Lavazone hinabführte.
+
+Um dieses furchterregende geologische Merkmal erfolgreich zu erreichen und zu erkunden, verlassen sich Spieler auf spezialisierte **Hellhole-Codes** – Entwickler-Konsolenbefehle, die physische Barrieren umgehen, High-Tier-Fahrzeuge sofort spawnen und den plötzlichen Tod durch Umweltgefahren oder aggressive Fauna verhindern. Da dieser Build eine frühe Iteration des Voxel-basierten Terrains der Unity-Engine verwendete, führt das Navigieren im Abgrund ohne diese Befehle oft dazu, dass man durch die Karte fällt oder in nicht gerenderter Geometrie stecken bleibt.
+
+**Video-Highlights:**
+- **Terrain-Anomalien**: Entdeckung blockierter Steinlöcher in den Grassy Plateaus, die auf frühe Entwicklungstests hindeuten.
+- **Reaper-Cluster**: Navigation vorbei an abnormal hohen Konzentrationen von Reaper-Leviathanen, die die Aurora-Übergangszone bewachen.
+- **Der Abstieg**: Visualisierung des schieren vertikalen Abfalls von 400 Metern hinunter zum nicht optimierten Boden auf 1200 Metern.
+- **Proto-Lavazone**: Erkundung der frühen, hohlen Iteration der Lavaschloss-Struktur, bevor moderne Texturen angewendet wurden.
+
+<YouTubeEmbed videoId="NwvtlZIVE-o" title="I Found The Terrifying HELL HOLE In A FORGOTTEN Subnautica Build" />
+
+Der Übergang von den sicheren Untiefen zum tiefen Ozean in diesem Build von 2015 verdeutlicht, wie radikal die Entwickler den strukturellen Fluss der Karte verändert haben. In der finalen Version ist der Weg zur Lavazone eine Reihe von miteinander verbundenen, organischen Höhlensystemen wie der Lost River. Im Gegensatz dazu war das Hell Hole ein direkter, brutaler vertikaler Schacht, der direkt aus dem Raster der Karte geschnitten wurde.
+
+| Build-Aspekt | Early Access Spezifikation | Status im modernen Release | Stabilitätsniveau |
+|---|---|---|---|
+| **Primäre Tiefe** | 400m bis 1200m vertikaler Abfall | Ersetzt durch Lost River | Höchst instabil |
+| **Terrain-Stil** | Steiler Voxel-Ausschnitt | Weiche organische Übergänge | Niedrige Performance |
+| **Hauptgefahr** | Dichte Reaper-Leviathan-Spawns | Geister-Leviathane & Hitze | Hohe Gefahr |
+| **Zugriffsmethode** | Legacy-Build-Auswahl & Codes | Standard-Progression | Experimentell |
+
+<Callout type="warning" title="Gefahr: Leviathan-Spawns">
+Der Bereich um den Eingang zum Hell Hole unter der Aurora weist eine extrem hohe Dichte an Reaper-Leviathanen auf, die sofort spawnen. Stellen Sie sicher, dass Sie Unverwundbarkeits-Codes aktiviert haben, bevor Sie einen direkten Abstieg versuchen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Zentrale Hellhole-Codes für Navigation und Spawning">
+
+Die Aktivierung der Entwicklerkonsole ist der erste Schritt zur Ausführung von **Hellhole-Codes** in Legacy-Builds. Um die Konsole im Build vom Juli 2015 zu öffnen, drücken Sie die **F3**-Taste, um das Grafikeinstellungsmenü aufzurufen, und dann **F8**, um Ihren Mauszeiger freizuschalten. Deaktivieren Sie das Kontrollkästchen „Disable Console“ oben links auf dem Bildschirm. Sobald sie entsperrt ist, können Sie das Texteingabefeld durch Drücken der **Tilde (~)** oder der **Enter**-Taste öffnen.
+
+Da die Physik-Engine in frühen Builds hochgradig experimentell ist, werden Sie häufig auf Situationen stoßen, in denen Ihr Fahrzeug in unfertigem Terrain stecken bleibt oder die Umgebung überhaupt nicht geladen wird. Die folgenden Tabellen führen die kritischsten Entwickler-Codes auf, die erforderlich sind, um diesen vergessenen Tiefsee-Sektor zu navigieren, zu überleben und zu analysieren.
+
+| Befehl | Syntax | Primärfunktion | Sicherheitsbewertung |
+|---|---|---|---|
+| **nodamage** | nodamage | Schaltet Unverwundbarkeit für Spieler und Fahrzeuge um | 5/5 |
+| **nocost** | nocost | Ermöglicht kostenloses Crafting und Bauen | 5/5 |
+| **oxygen** | oxygen | Gewährt unbegrenzten Sauerstoffvorrat | 5/5 |
+| **fog** | fog | Schaltet den Unterwassernebel um, um die Sicht zu maximieren | 4/5 |
+| **freecam** | freecam | Löst die Kamera, um nicht gerenderte Geometrie zu inspizieren | 3/5 |
+
+Die Verwendung dieser Navigationsbefehle ermöglicht es Ihnen, den langen, mühsamen Prozess des Ressourcensammelns und des Craftens von High-Tier-Tauchanzügen zu umgehen, die in diesem spezifischen Entwicklungs-Build möglicherweise nicht einmal korrekt funktionieren.
+
+| Spawn-Ziel | Spezifischer Code | Praktischer Nutzen | Notizen |
+|---|---|---|---|
+| **Cyclops U-Boot** | spawn cyclops | Hoch | Spawnt eine voll funktionsfähige mobile Basis |
+| **Seamoth Tauchboot** | spawn seamoth | Mittel | Schnelles Reisen, aber sehr anfällig für Tiefendruck |
+| **Strahlenschutzanzug** | item radiationsuit | Hoch | Essentiell für das Überleben in der Nähe der Aurora |
+| **Stasis-Gewehr** | item stasisrifle | Mittel | Nützlich zum Einfrieren aggressiver Fauna |
+
+<Callout type="tip" title="Profi-Tipp: Freecam-Erkundung">
+Wenn Sie tiefer als 800 Meter absteigen, nutzen Sie den Befehl `freecam`, um vorauszuspähen. Die Kollisionsgeometrie in der Proto-Lavazone ist unvollständig, und ein Sturz durch den Boden kann Ihren aktiven Spielstand beschädigen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung für den Abstieg mit Koordinaten">
+
+Um zum Boden des Hell Hole zu gelangen, ist eine präzise Ausführung erforderlich. Da der Karte moderne UI-Markierungen und Leuchtfeuer fehlen, ist das Folgen eines strukturierten Pfades unerlässlich, um sich nicht in der schwarzen Leere unter der Aurora zu verlieren.
+
+<Steps>
+  <Step num="1" title="Experimentellen Sandbox-Modus initialisieren">
+    Laden Sie ein neues Spiel im Kreativ- oder Freedom-Modus im Build vom Juli 2015. Sobald Sie in den Safe Shallows gespawnt sind, öffnen Sie die Entwicklerkonsole und geben Sie `nodamage` gefolgt von `oxygen` ein, um absolute Sicherheit während Ihres Abstiegs zu gewährleisten.
+  </Step>
+  <Step num="2" title="Benötigte Ausrüstung spawnen und ausrüsten">
+    Geben Sie den Code `item radiationsuit` ein, um sich gegen die nukleare Fallout-Zone um die Aurora zu schützen. Tippen Sie als Nächstes `spawn cyclops`, während Sie auf das offene Wasser blicken, um Ihr primäres Tiefsee-Transportfahrzeug zu generieren.
+  </Step>
+  <Step num="3" title="Eingang an der Aurora-Absturzstelle finden">
+    Steuern Sie Ihre Cyclops zur Steuerbordseite der Aurora. Navigieren Sie abwärts über die 300-Meter-Marke hinaus, bis Sie den massiven, rechteckigen Ausschnitt im Meeresboden finden. Dies ist der Eingang zum Hell Hole.
+  </Step>
+  <Step num="4" title="Tiefsee-Navigationscodes ausführen">
+    Wenn Sie den Abgrund betreten, wird das Wasser deutlich dunkler. Geben Sie den Befehl `fog` ein, um die Umgebungs-Rendering-Filter zu deaktivieren. Dies ermöglicht es Ihnen, die steilen Felswände zu sehen und Kollisionen mit untexturierten Wänden zu vermeiden.
+  </Step>
+  <Step num="5" title="Proto-Lavazone und Lavaschloss erkunden">
+    Setzen Sie den vertikalen Abstieg fort, bis Ihr Tiefenmesser etwa 1200 Meter anzeigt. Sie gelangen in eine massive Höhle mit primitiven, leuchtend orangefarbenen Lavatexturen und einer hohlen, geometrischen Struktur, die das frühe Lavaschloss darstellt.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Abgrund erreicht">
+Sobald Sie den Boden auf 1200 Metern erreicht haben, haben Sie den tiefsten Punkt des Legacy-Builds erfolgreich navigiert. Nutzen Sie diesen Bereich, um zu inspizieren, wie die frühen Entwickler die Umgebungen für die späten Phasen des Spiels geplant hatten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frühe Hell-Hole-Mechaniken vs. Modernes Subnautica">
+
+Die Analyse der strukturellen Unterschiede zwischen dem Hell Hole von Juli 2015 und dem modernen Release von Subnautica offenbart, wie die Entwickler den Weltaufbau und die Optimierung im Laufe der Zeit angegangen sind. Das ursprüngliche Design war stark vertikal ausgerichtet und priorisierte schnellen Tiefenfortschritt vor atmosphärischer Erkundung.
+
+<CardGrid cols={3}>
+  <Card title="Unfertiges Voxel-Terrain">
+    - **Hohle Geometrien**: Vielen Felsformationen fehlt die interne Kollision.
+    - **Plötzliche Abgründe**: Steile vertikale Wände ersetzen natürliche Hänge.
+    - **Trümmerhaufen**: Zufällige Steinsäulen blockieren unfertige Zonen.
+  </Card>
+  <Card title="Unregelmäßige Fauna-Platzierung">
+    - **Reaper-Schwärme**: Dutzende Reaper patrouillieren in engen Korridoren.
+    - **Keine See-Drachen**: Das Spitzenprädator der Tiefe war noch nicht programmiert.
+    - **Aggressive Sandhaie**: Finden sich viel tiefer als in ihrem natürlichen Habitat.
+  </Card>
+  <Card title="Nicht optimierte Beleuchtung">
+    - **Pechschwarze Leere**: Mangel an ambienter Biolumineszenz.
+    - **Flache Lavatexturen**: Vulkanische Ströme haben keine Hitzeverzerrungseffekte.
+    - **Keine Nebelskalierung**: Die Tiefe filtert das Licht nicht natürlich.
+  </Card>
+</CardGrid>
+
+Die Lore-Implikationen dieses frühen Layouts sind ebenfalls faszinierend. Im fertigen Spiel sind die Skelette von Reaper-Leviathanen über die Lavazone verteilt, wobei PDA-Einträge darauf hindeuten, dass See-Drachen-Leviathane sie von der Oberfläche herabgezogen haben, um sie zu fressen. Der weite, ungehinderte vertikale Schacht des Hell Hole bietet eine perfekte physische Erklärung dafür, wie diese massiven Kreaturen ihre Beute von der Oberfläche problemlos in die extremen Tiefen des Meeresbodens hätten transportieren können.
+
+| Feature-Vergleich | 2015 Hell-Hole-Anomalie | Moderne Tiefsee-Zonen |
+|---|---|---|
+| **Übergangsstil** | Direkter vertikaler Schacht | Windende, biom-basierte Höhlensysteme |
+| **Maximale Tiefengrenze** | Harter Stopp bei 1200 Metern | Erstreckt sich über 1700 Meter hinaus |
+| **Vulkanische Strukturen** | Hohles, ungerendertes Lavaschloss | Hochdetaillierte Vulkanschlote |
+| **Atmosphärisches Audio** | Generische Tiefsee-Ambiente-Loops | Einzigartige biomspezifische Soundtracks |
+| **Navigationskomfort** | Extrem schwierig ohne Codes | Mit Standardfahrzeugen machbar |
+
+<Callout type="info" title="Entwicklungsgeschichte">
+Das Hell Hole wurde letztendlich entfernt, da die Voxel-basierte Terrain-Engine schwere Einbrüche der Bildrate verursachte. Die Entwickler wechselten zu einem statischen, handgefertigten Map-Design, um eine stabile Performance auf Endverbraucher-Hardware zu gewährleisten.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Überlebens-Checkliste und Best Practices">
+
+Bevor Sie versuchen, Legacy-Builds auszuführen und Entwicklerbefehle zu nutzen, ist es wichtig, Ihr System vorzubereiten und die Einschränkungen früher Spielversionen zu verstehen. Diesen Builds fehlen die Sicherheitsnetze und Auto-Save-Funktionen moderner Versionen.
+
+<Checklist
+  id="pre-flight-checklist"
+  title="Vorbereitung der Legacy-Erkundung:"
+  items={[
+    "Sichern Sie Ihre modernen Subnautica-Spielstände, um Verzeichniskonflikte zu vermeiden.",
+    "Wählen Sie den Build vom Juli 2015 über das Steam-Beta-Optionsmenü aus.",
+    "Überprüfen Sie die Integrität der Spieldateien, bevor Sie die Legacy-Anwendung starten.",
+    "Aktivieren Sie die Entwicklerkonsole sofort nach dem Spawnen in den Shallows."
+  ]}
+/>
+
+Um sicherzustellen, dass Sie keinen Fortschritt verlieren oder Ihr Client bei der Erkundung des Abgrunds abstürzt, orientieren Sie sich an dieser optimierten Ausrüstungsliste. Das Spawnen dieser Gegenstände mittels Konsolenbefehlen garantiert maximale Überlebensfähigkeit gegen die instabile Physik des frühen Builds.
+
+| Ausrüstungsgegenstand | Konsolen-Spawn-Code | Priorität | Zweck der Erkundung |
+|---|---|---|---|
+| **Verstärkter Tauchanzug** | item reinforceddivingsuit | Hoch | Schützt vor Kollisionsbugs früher Builds |
+| **Ultra-Gleitflossen** | item ultraglidefins | Mittel | Maximiert die Schwimmgeschwindigkeit in engen Höhlen |
+| **Seaglide** | spawn seaglide | Hoch | Essentiell für schnellen vertikalen Aufstieg bei Fahrzeug-Glitches |
+| **Schweißgerät (Reparaturtool)** | item welder | Hoch | Repariert die Cyclops bei Schäden durch Terrain-Clipping |
+
+<Callout type="warning" title="Warnung zum Spielstand">
+Versuchen Sie nicht, einen modernen Spielstand zu laden, während der Build vom Juli 2015 läuft. Dies wird Ihre Speicherdaten aufgrund inkompatibler Terrain-Datenstrukturen dauerhaft beschädigen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen">
+
+<Callout type="tip" title="Brauchen Sie Hilfe?">
+Wenn Sie Probleme bei der Aktivierung der Entwicklerkonsole oder der Ausführung von Befehlen haben, lesen Sie die folgenden häufig gestellten Fragen für schnelle Problemlösungsschritte.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wie aktiviere ich Hellhole-Codes, wenn sich die Konsole nicht öffnet?",
+    answer: "Im Build vom Juli 2015 müssen Sie F3 und dann F8 drücken, um Ihren Mauszeiger freizugeben. Deaktivieren Sie das Feld 'Disable Console' im Menü oben links. Nachdem Sie die Menüs geschlossen haben, drücken Sie die Tilde (~) oder die Enter-Taste, um das Befehlseingabefeld zu öffnen."
+  },
+  {
+    question: "Warum nimmt meine Cyclops im Hell Hole ständig Schaden?",
+    answer: "Die physischen Grenzen des Hell Hole in frühen Builds sind höchst instabil. Das Schiff kollidiert oft mit unsichtbarem, ungerendertem Terrain. Aktivieren Sie den Befehl 'nodamage' in der Konsole, um zu verhindern, dass Ihr U-Boot explodiert."
+  },
+  {
+    question: "Kann ich das Hell Hole in der modernen Version von Subnautica betreten?",
+    answer: "Nein, das Hell Hole wurde vollständig entfernt und durch den Lost River und die Inaktive Lavazone ersetzt. Um es zu erkunden, müssen Sie die Steam-Beta-Eigenschaften nutzen, um den Legacy-Build vom Juli 2015 herunterzuladen."
+  },
+  {
+    question: "Gibt es einzigartige Kreaturen im Legacy-Lavaschloss?",
+    answer: "In diesem speziellen Build ist das Lavaschloss völlig hohl und frei von einzigartiger Fauna oder Ressourcen. Der See-Drachen-Leviathan und die Lavalechsen waren noch nicht implementiert, obwohl man vereinzelte Reaper finden kann, die durch die Wände geglitcht sind."
+  }
+]} />
+
+</Section>

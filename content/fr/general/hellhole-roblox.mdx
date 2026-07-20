@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Hellhole Roblox : Guide du débutant et stratégies de descente",
+  description: "Maîtrisez les sombres profondeurs d'Hellhole Roblox. Apprenez les mécanismes de survie essentiels, les améliorations d'armes, les patterns des ennemis et la progression étage par étage.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/991b1b/fff?text=Hellhole+Roblox+Survival+Guide",
+  date: "2026-07-20",
+  author: "L'équipe du Wiki hellhole"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Hellhole Roblox** exige des joueurs qu'ils descendent étage par étage dans un monde souterrain démoniaque, sombre et dangereux.
+- **La seule issue** est vers le bas, ce qui signifie qu'une progression constante est nécessaire pour débloquer de meilleurs équipements.
+- **Économisez les munitions** et les ressources de soin dans les premiers étages pour survivre aux affrontements contre les boss des profondeurs.
+- **Priorisez les améliorations d'armes** entre les parties pour augmenter vos dégâts face à des ennemis démoniaques de plus en plus agressifs.
+- **Apprenez les patterns des ennemis** afin d'éviter de subir des dégâts inutiles en naviguant dans des couloirs étroits et sombres.
+</Callout>
+
+<Section icon={Map} title="Mécanismes de descente et boucle principale">
+
+Survivre dans les profondeurs sombres et oppressantes d'**hellhole roblox** requiert des réflexes aiguisés, une gestion tactique des ressources et une compréhension approfondie des mécanismes de jeu de tir d'horreur PvE. Conçu comme une expérience d'horreur coopérative hors du commun, le jeu met les joueurs au défi de descendre étage par étage dans un monde souterrain démoniaque. La philosophie fondamentale de cet environnement brutal est simple : la seule issue est vers le bas. Pour survivre à la descente, vous devez vous adapter à des niveaux de menace croissants, gérer des munitions limitées et travailler en cohésion pour vaincre les terrifiantes créatures qui rôdent dans l'ombre.
+
+La boucle de gameplay principale consiste à entrer dans un étage, remplir des objectifs, éliminer les menaces hostiles et localiser l'ascenseur ou la trappe de descente pour progresser plus profondément. Chaque étage augmente la difficulté, introduisant des ennemis plus rapides, des hordes plus denses et des dangers environnementaux qui peuvent rapidement mettre fin à une partie prometteuse.
+
+| Étages | Niveau de menace | Dangers principaux | Équipement recommandé |
+| :--- | :--- | :--- | :--- |
+| Étages 1 à 5 | Faible | Couloirs sombres, ennemis de base | Pistolet de départ, lampe torche de base |
+| Étages 6 à 10 | Moyen | Démons rapides, pièges au sol | Arme principale améliorée, fournitures de soin |
+| Étages 11 à 15 | Élevé | Hordes agressives, zones toxiques | Armes à dégâts élevés, améliorations d'armure |
+| Étages 16+ | Extrême | Affrontements de boss, forces d'élite | Équipement maxé, mouvements coordonnés |
+
+Pour progresser efficacement, les joueurs doivent équilibrer l'exploration et la vitesse. Passer trop de temps sur un seul étage peut épuiser vos ressources, tandis que foncer tête baissée sans accumuler de monnaie vous laissera sous-équipé pour les défis à venir. Trouver le bon équilibre est la clé pour maîtriser la descente.
+
+<Callout type="info" title="Règle de descente">
+N'oubliez pas qu'il est impossible de revenir en arrière une fois descendu à l'étage suivant. Assurez-vous toujours que votre équipe est entièrement soignée et rechargée avant d'activer le mécanisme de descente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Armes essentielles et stratégie de combat">
+
+Le combat dans ce jeu de tir démoniaque est impitoyable. Les munitions sont rares et recharger au mauvais moment peut entraîner une défaite rapide. Choisir les bonnes armes et comprendre leurs forces est vital pour survivre. L'armurerie propose une variété d'armes à feu, allant des pistolets de précision aux fusils à pompe à fort impact et aux fusils d'assaut à tir rapide.
+
+Améliorer vos armes entre les parties est le moyen le plus fiable d'augmenter votre puissance. Investir dans les dégâts infligés, la capacité du chargeur et la vitesse de rechargement vous garantit de pouvoir faire face aux hordes de démons plus grandes et plus résistantes des étages plus profonds.
+
+| Classe d'arme | Dégâts | Portée | Cas d'utilisation optimal |
+| :--- | :--- | :--- | :--- |
+| Pistolet principal | Modérés | Moyenne | Survie dans les premiers étages, économie de munitions |
+| Fusil à pompe | Élevés | Courte | Contrôle de foule au corps à corps, cibles à haute menace |
+| Fusil d'assaut | Élevés | Moyenne-Longue | Dégâts continus contre les hordes agressives |
+| Arme spéciale | Très élevés | Courte-Moyenne | Affrontements de boss, élimination de démons d'élite |
+
+Pour maximiser votre efficacité au combat, envisagez de spécialiser votre équipement en fonction de votre style de jeu préféré. Les équipes coordonnées devraient avoir des membres remplissant différents rôles pour couvrir tous les scénarios de combat.
+
+<CardGrid cols={3}>
+  <Card title="Chasseur agressif">
+    - **Dégâts de rafale élevés**
+    - Utilise des fusils à pompe pour le combat rapproché
+    - Style de jeu à haut risque et haute récompense
+  </Card>
+  <Card title="Survivant défensif">
+    - **Armure et utilité élevées**
+    - Utilise des fusils d'assaut pour le contrôle
+    - Progression sûre et régulière
+  </Card>
+  <Card title="Spécialiste tactique">
+    - **Configuration économe en ressources**
+    - Se concentre sur les pistolets de précision
+    - Idéal pour les joueurs solo
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Gestion du rechargement">
+Rechargez toujours vos armes pendant les brefs moments de calme. Se faire surprendre avec un chargeur vide au moment où une horde de démons apparaît est la cause la plus fréquente d'échec dans les premiers étages.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comportements des ennemis et tactiques de survie">
+
+Le monde souterrain démoniaque est peuplé d'une variété de créatures hostiles, chacune possédant des patterns d'attaque et des comportements uniques. Comprendre comment ces ennemis se déplacent et attaquent est crucial pour éviter les dégâts et préserver vos points de vie.
+
+Les ennemis se divisent généralement en trois catégories : les créatures hostiles standard, les démons agressifs et les boss d'étage à haute menace. Les créatures standard s'appuient sur le nombre pour submerger les joueurs, tandis que les démons utilisent des charges rapides et de lourdes attaques au corps à corps pour briser les positions défensives.
+
+| Catégorie d'ennemi | Pattern d'attaque | Faiblesse | Tactique de combat |
+| :--- | :--- | :--- | :--- |
+| Créatures hostiles | Estocades au corps à corps, comportement de meute | Tirs à la tête, explosion à courte portée | Garder ses distances, utiliser des fusils à pompe |
+| Ennemis démoniaques | Charge à grande vitesse, corps à corps lourd | Étourdissement, tir à fort impact | Esquiver latéralement, recharger pendant la préparation de l'attaque |
+| Menaces d'élite | Projectiles à distance, PV élevés | Points faibles exposés, rotation lente | Utiliser les abris, concentrer les tirs avec des armes à dégâts élevés |
+
+La conscience de l'espace est votre meilleure défense. De nombreuses zones contiennent des goulots d'étranglement étroits et des impasses où les joueurs peuvent facilement se retrouver piégés par des hordes naissantes. Gardez toujours un œil sur vos voies de repli et évitez de vous faire coincer.
+
+<Callout type="warning" title="Alerte de danger">
+Évitez de rester trop longtemps dans les couloirs étroits. Certains démons peuvent charger en ligne droite, ce qui rend extrêmement difficile l'esquive de leurs attaques de mêlée dévastatrices.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide étape par étape pour votre première descente dans Hellhole Roblox">
+
+Se lancer dans sa première partie peut être intimidant. Suivez ce parcours de progression structuré pour établir des bases solides, obtenir des améliorations rapides et survivre à vos premières descentes dans l'obscurité.
+
+<Steps>
+  <Step num="1" title="Maîtrisez les commandes de base">
+    Avant de monter dans l'ascenseur, passez quelques instants dans la zone de départ pour vous familiariser avec les commandes de mouvement, de visée et de rechargement. Une visée précise est essentielle pour réussir des tirs à la tête sur des cibles rapides.
+  </Step>
+  <Step num="2" title="Initiez votre première descente">
+    Entrez prudemment dans le premier étage. Balayez les coins sombres avec votre lampe de poche et avancez groupés si vous jouez en escouade. Évitez de vous précipiter dans des pièces non explorées.
+  </Step>
+  <Step num="3" title="Engagez le combat et éliminez les menaces">
+    Lorsque des ennemis apparaissent, maintenez vos distances. Utilisez des tirs à fort impact pour étourdir les démons agressifs et passez à votre arme secondaire si votre arme principale est vide pendant un combat chaotique.
+  </Step>
+  <Step num="4" title="Collectez de l'argent et des ressources">
+    Fouillez minutieusement les pièces nettoyées pour trouver de la monnaie éparpillée et des boîtes de munitions. Chaque pièce collectée contribue directement à votre capacité à acheter des améliorations vitales entre les parties.
+  </Step>
+  <Step num="5" title="Améliorez votre équipement">
+    Une fois de retour dans la zone de préparation, dépensez votre argent durement gagné dans des améliorations d'armes, une plus grande capacité de munitions et un meilleur équipement de survie avant de tenter une descente plus profonde.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mission accomplie">
+Terminer avec succès les cinq premiers étages débloque l'accès à des niveaux d'armes avancés dans la boutique, améliorant considérablement vos capacités de combat pour les descentes plus profondes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objectifs de progression et jalons">
+
+Le succès à long terme dans ce jeu de tir d'horreur PvE repose sur la définition d'objectifs de progression clairs. À mesure que vous accumulez de la monnaie et de l'expérience, vous passerez du statut de survivant fragile à celui de chasseur de démons lourdement armé. Concentrez-vous sur l'atteinte de jalons clés pour débloquer systématiquement l'équipement le plus puissant du jeu.
+
+La courbe de progression équilibre les risques et les récompenses. Bien que les étages plus profonds offrent des gains nettement plus élevés, ils comportent également un risque beaucoup plus grand de perdre vos bonus de partie accumulés. Les joueurs avisés investissent leurs premiers gains dans la survivabilité avant de tenter des descentes profondes à haut risque et à haute récompense.
+
+<Checklist
+  id="hellhole-progression"
+  title="Jalons de descente :"
+  items={[
+    "Débloquer les armes de rang 2 dans la boutique de l'armurerie",
+    "Survivre au-delà de l'étage 10 en une seule partie continue",
+    "Vaincre le premier affrontement majeur de boss d'étage",
+    "Maximiser vos munitions de départ et votre capacité d'équipement utilitaire",
+    "Accumuler 5 000 pièces de monnaie pour des améliorations d'équipement avancées"
+  ]}
+/>
+
+<Callout type="tip" title="Conseil d'efficacité">
+Concentrez-vous d'abord sur l'amélioration des dégâts de votre arme principale. Éliminer les ennemis plus rapidement réduit la quantité de munitions que vous devez dépenser, rendant vos parties beaucoup plus rentables.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+Pour vous aider à naviguer dans les couloirs sombres du monde souterrain démoniaque, voici les réponses aux questions les plus fréquemment posées par les joueurs.
+
+<FAQ items={[
+  {
+    question: "Comment puis-je m'échapper du monde souterrain dans Hellhole Roblox ?",
+    answer: "Il n'y a pas d'échappatoire vers le haut. La mécanique principale du jeu exige que les joueurs continuent de descendre étage par étage pour trouver des points de passage plus profonds, accomplir des objectifs et finalement vaincre le boss final."
+  },
+  {
+    question: "Quelle est la meilleure arme pour les joueurs solo ?",
+    answer: "Le fusil à pompe est fortement recommandé pour les joueurs solo en raison de ses dégâts de rafale massifs à courte portée, qui permettent d'éliminer rapidement les démons agressifs avant qu'ils ne vous submergent."
+  },
+  {
+    question: "Puis-je sauvegarder ma progression et ma monnaie entre les parties ?",
+    answer: "Oui, la monnaie gagnée et les armes débloquées dans l'armurerie sont sauvegardées de manière permanente sur votre profil, ce qui vous permet de constituer progressivement un équipement plus solide au fil de vos tentatives."
+  },
+  {
+    question: "Comment gérer les étages sombres avec une visibilité limitée ?",
+    answer: "Priorisez l'amélioration de votre lampe de poche ou de votre équipement utilitaire dès le début. Rester proche de vos coéquipiers et utiliser les sources de lumière environnementales peut également vous aider à naviguer en toute sécurité dans les zones à faible visibilité."
+  }
+]} />
+
+<Callout type="info" title="Mises à jour de la communauté">
+Gardez un œil sur les annonces officielles pour les sorties de nouveaux étages, les ajustements d'équilibrage des armes et les défis communautaires à durée limitée offrant des récompenses de progression exclusives.
+</Callout>
+
+</Section>

@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Comment jouer à Hellhole : Guide complet pour débutants 2026 et astuces de survie",
+  description: "Apprenez à maîtriser Hellhole avec notre guide 2026 couvrant les mécaniques de combat, la gestion des ressources et les stratégies de survie essentielles pour les nouveaux joueurs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Hellhole+Survival+Guide",
+  date: "2026-07-20",
+  author: "Équipe du Wiki Hellhole"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Comment jouer à Hellhole** : Maîtrisez la descente en équilibrant les ressources lumineuses, la discrétion et le pillage agressif de ressources.
+- **Mécanique centrale** : Gérez votre **jauge de santé mentale** en restant près des sources de lumière et en évitant tout contact prolongé avec l'obscurité.
+- **Meilleure stratégie** : Donnez la priorité aux **améliorations d'endurance** en début de partie pour vous assurer de pouvoir distancer les menaces de haut niveau.
+- **Conseil critique** : N'entrez jamais dans un nouvel étage sans au moins deux **packs de fusées éclairantes** et une arme de mêlée entièrement réparée.
+- **Meilleur choix** : La **classe Éclaireur** est recommandée pour les débutants en raison de sa vitesse de déplacement inhérente et de ses bonus de détection.
+</Callout>
+
+<Section icon={Map} title="Pour commencer : Comment jouer à Hellhole">
+
+Comprendre **comment jouer à Hellhole** nécessite un changement fondamental dans votre approche du genre survival-horror. Contrairement aux dungeon crawlers traditionnels, ce jeu met l'accent sur la conscience environnementale et la préservation des ressources plutôt que sur la puissance de combat brute. Votre objectif principal est de descendre à travers les différentes couches d'un abîme souterrain en perpétuel changement tout en maintenant votre santé physique et votre stabilité mentale.
+
+<CardGrid cols={3}>
+  <Card title="L'Éclaireur">
+    - **Haute mobilité**
+    - Visibilité améliorée dans la pénombre
+    - Idéal pour l'exploration en solo
+  </Card>
+  <Card title="L'Exécuteur">
+    - **Haute durabilité**
+    - Dégâts de mêlée accrus
+    - Idéal pour la défense en équipe
+  </Card>
+  <Card title="Le Technicien">
+    - **Efficacité des ressources**
+    - Répare les sources de lumière plus rapidement
+    - Essentiel pour la survie à long terme
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil de pro">
+Lors de la sélection de votre équipement initial, privilégiez toujours une **lampe torche haute intensité** plutôt que des munitions supplémentaires. Dans les profondeurs, la visibilité est votre atout défensif le plus précieux.
+</Callout>
+
+Avant de plonger dans les profondeurs, vous devez comprendre les éléments de base de l'interface utilisateur. Votre **Santé** est représentée par une barre rouge, tandis que votre **Endurance** est bleue. Plus important encore, la **jauge de santé mentale** (violette) dicte la façon dont votre personnage perçoit l'environnement. Une santé mentale faible entraîne des hallucinations et une augmentation des dégâts subis par les risques environnementaux.
+
+| Type de ressource | Utilisation principale | Méthode d'acquisition | Rareté |
+| :--- | :--- | :--- | :--- |
+| **Cristaux de lumière** | Alimenter les lampes permanentes | Miner les nœuds muraux | Courant |
+| **Rations** | Restaurer santé/endurance | Fouiller les caisses | Peu courant |
+| **Pilules de santé mentale** | Restaurer la santé mentale | Casiers médicaux | Rare |
+| **Ferraille** | Réparer équipement/armes | Casser l'environnement | Courant |
+| **Réservoirs d'oxygène** | Survie en zone profonde | Largages de ravitaillement | Épique |
+
+</Section>
+
+<Section icon={Target} title="Boucle de gameplay et progression">
+
+Le cœur du jeu réside dans le cycle de descente, de récupération et de sécurisation. Pour maîtriser les mécaniques, vous devez suivre une approche disciplinée pour chaque étage. Chaque niveau de l'abîme est généré de manière procédurale, ce qui signifie que la disposition change à chaque partie, mais la logique fondamentale de survie reste constante.
+
+<Steps>
+  <Step num="1" title="Établir une tête de pont">
+    Dès votre entrée dans un nouvel étage, localisez le **hub de zone sécurisée** le plus proche. Utilisez vos ressources pour activer le pilier lumineux central, qui fournit un point de réapparition et un endroit pour stocker le surplus de butin.
+  </Step>
+  <Step num="2" title="Récupération systématique">
+    Déplacez-vous vers l'extérieur depuis le hub selon un motif en spirale. Marquez les couloirs explorés avec des **marques à la craie** pour éviter de vous perdre dans la géométrie changeante. Collectez toute la ferraille et les consommables visibles.
+  </Step>
+  <Step num="3" title="Extraction des ressources">
+    Une fois votre inventaire rempli à 80 %, retournez au hub. Donnez la priorité à l'amélioration de votre **filtre à oxygène** et de la **durée de lumière** avant de tenter de trouver la sortie vers le niveau suivant.
+  </Step>
+  <Step num="4" title="La descente finale">
+    Localisez l'**ascenseur d'extraction**. Cela implique généralement un événement de type "Défense de zone" où vous devez protéger l'ascenseur contre des vagues d'ennemis pendant qu'il se met en marche.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avertissement critique">
+L'environnement devient nettement plus hostile pendant la phase d'extraction. Assurez-vous que toutes vos tourelles défensives sont entièrement réparées avant de lancer la séquence de l'ascenseur.
+</Callout>
+
+La survie ne consiste pas seulement à se battre, c'est aussi savoir quand se cacher. La "mécanique de discrétion" vous permet de contourner les ennemis de haut niveau en restant dans l'ombre, bien que cela épuise lentement votre santé mentale. Équilibrer ces deux risques est le défi principal de l'expérience de milieu de partie.
+
+| Action | Coût en endurance | Impact sur la santé mentale | Niveau de bruit |
+| :--- | :--- | :--- | :--- |
+| **Sprinter** | Élevé | Neutre | Élevé |
+| **Se baisser/Marcher** | Faible | Faible perte | Silencieux |
+| **Coup de mêlée** | Moyen | Neutre | Modéré |
+| **Utiliser une fusée** | Aucun | Gain élevé | Modéré |
+| **Se cacher dans un casier** | Récupération | Forte perte | Silencieux |
+
+</Section>
+
+<Section icon={Swords} title="Stratégies de combat et gestion des ennemis">
+
+Le combat dans l'abîme est brutal et souvent fatal s'il est abordé avec négligence. La plupart des ennemis ont des schémas et des faiblesses spécifiques qui peuvent être exploités. Engager plusieurs ennemis à la fois est presque toujours une condamnation à mort, à moins que vous ne disposiez d'armes à zone d'effet (AOE) de haut niveau.
+
+<Callout type="info" title="Informations tactiques">
+Utilisez l'**environnement** à votre avantage. De nombreux ennemis sont sensibles à la lumière ; lancer une fusée éclairante dans une pièce sombre peut les étourdir, offrant une fenêtre pour une exécution rapide ou une retraite en toute sécurité.
+</Callout>
+
+Le combat au corps à corps utilise un "système de poids". Les armes plus lourdes comme le **marteau-pilon** infligent des dégâts massifs et peuvent briser les armures, mais vous laissent vulnérable aux "Traqueurs" rapides. Les armes plus légères comme le **couteau de combat** permettent des frappes rapides et des parades, mais nécessitent de la précision pour toucher les points faibles des ennemis.
+
+| Type d'ennemi | Niveau de menace | Faiblesse principale | Arme recommandée |
+| :--- | :--- | :--- | :--- |
+| **Traqueur de l'ombre** | Faible | Lumière vive / Fusées | Toute arme de mêlée |
+| **La Brute** | Élevé | Point faible dorsal | Fusil à pompe / Hache lourde |
+| **Sirène** | Moyen | Attaques à distance | Fusil de précision |
+| **Essaimeurs** | Faible | Feu / Explosifs | Molotov / Lance-flammes |
+| **Le Gardien** | Extrême | Pièges environnementaux | Artillerie lourde |
+
+Face à une **Brute**, n'attaquez jamais de face. Attendez son coup écrasant, esquivez sur la gauche et frappez les pustules lumineuses sur son dos. Pour les **Sirènes**, soyez attentifs au bourdonnement aigu. Elles peuvent vous étourdir à distance, donc briser la ligne de vue est votre première priorité avant de réduire la distance.
+
+</Section>
+
+<Section icon={Shield} title="Équipement et essentiels de l'artisanat">
+
+Votre équipement est la seule chose qui vous sépare des horreurs de la fosse. Le système d'artisanat est modulaire, vous permettant d'attacher différents "Augments" à vos armes et armures de base. Ces augmentations peuvent modifier les types de dégâts, augmenter la durabilité ou ajouter des fonctions utilitaires comme l'imagerie thermique.
+
+| Pièce d'équipement | Statistique de base | Priorité d'amélioration | Capacité spéciale |
+| :--- | :--- | :--- | :--- |
+| **Gilet renforcé** | +20 Défense | Élevée | Résistance aux explosions |
+| **Ceinture utilitaire** | +4 Emplacements | Moyenne | Rechargement rapide |
+| **Lunettes vision nocturne** | Visibilité | Faible | Suivi thermique |
+| **Bottes lourdes** | +10 Endurance | Moyenne | Immunité aux dangers |
+| **Masque à oxygène** | Temps de respiration | Extrême | Filtre à gaz toxique |
+
+<Callout type="success" title="Conseil d'optimisation">
+Ayez toujours au moins un **kit de réparation** sur vous. Les armes perdent de leur efficacité lorsque leur durabilité tombe en dessous de 50 %, et une arme cassée au milieu d'un combat de boss entraîne généralement l'échec de la partie.
+</Callout>
+
+L'artisanat s'effectue aux **établis** trouvés dans les zones sécurisées. Vous pouvez démanteler le butin indésirable pour obtenir des composants pour des recettes de haut niveau. Dans la méta 2026, l'augmentation "Inducteur de choc" est très appréciée pour les armes de mêlée, car elle offre un effet de contrôle de foule constant contre les types d'ennemis les plus courants.
+
+| Recette d'artisanat | Matériaux nécessaires | Objet résultant | Durée/Utilisation |
+| :--- | :--- | :--- | :--- |
+| **Kit médical avancé** | 2 Tissus, 1 Alcool | Restauration santé complète | Usage unique |
+| **Fusée robuste** | 1 Magnésium, 1 Plastique | Lumière longue durée | 5 minutes |
+| **Plaque d'armure** | 3 Ferrailles | Répare 25 % d'armure | Usage unique |
+| **Breuvage mental** | 2 Champignons, 1 Eau | Restaure 50 % de santé mentale | Usage unique |
+| **Boîte de munitions** | 5 Plombs, 2 Poudres | Remplissage munitions aléatoire | Usage unique |
+
+</Section>
+
+<Section icon={Trophy} title="Étapes de progression et liste de contrôle">
+
+Pour suivre votre succès dans l'abîme, vous devez viser des étapes spécifiques qui débloquent des bonus de compte permanents. Ces "Améliorations héritées" persistent même si votre personnage actuel meurt, rendant les parties suivantes nettement plus faciles.
+
+<Checklist
+  id="hellhole-progression"
+  title="Objectifs de survie essentiels :"
+  items={[
+    "Atteindre la troisième couche de l'abîme",
+    "Extraire avec succès avec un inventaire plein",
+    "Vaincre le boss Gardien sans perdre un membre",
+    "Débloquer l'établi de niveau 3",
+    "Maintenir 90 % de santé mentale pendant tout un étage",
+    "Collecter les 10 journaux de savoir dans la première zone"
+  ]}
+/>
+
+<Callout type="info" title="Récompenses héritées">
+Terminer l'étape "Vaincre le Gardien" débloque le **réservoir d'oxygène permanent**, qui augmente votre temps de respiration de base de 25 % pour tous les futurs personnages. C'est un changement majeur pour les zones en eau profonde ou à gaz toxique.
+</Callout>
+
+À mesure que vous progressez plus profondément, le "Niveau de corruption" du monde augmente. Cette mécanique introduit de nouveaux risques environnementaux comme les **Rifts du Vide** et la **Pourriture des membres**. Avoir un ensemble d'équipements diversifié à interchanger est crucial pour survivre aux défis variés des profondeurs inférieures.
+
+</Section>
+
+<Section icon={Sparkles} title="Questions fréquemment posées">
+
+<FAQ items={[
+  {
+    question: "Quelle est la meilleure façon de s'entraîner à jouer à Hellhole ?",
+    answer: "Commencez en 'Mode Explorateur' pour apprendre les dispositions des cartes et les schémas des ennemis sans la pression de la mort permanente. Concentrez-vous d'abord sur la maîtrise du timing de parade pour les Traqueurs de l'ombre."
+  },
+  {
+    question: "Puis-je jouer à Hellhole avec des amis ?",
+    answer: "Oui, le jeu prend en charge la coopération jusqu'à 4 joueurs. La difficulté s'adapte au nombre de joueurs, donc la communication et la spécialisation des rôles (Médecin, Tank, Éclaireur) deviennent vitales."
+  },
+  {
+    question: "Comment empêcher ma santé mentale de diminuer si vite ?",
+    answer: "Restez dans le rayon des sources de lumière permanentes, utilisez régulièrement des breuvages mentaux et évitez de regarder directement les 'Horreurs Eldritch' trouvées dans les couches plus profondes."
+  },
+  {
+    question: "Que se passe-t-il quand je meurs dans l'abîme ?",
+    answer: "En mode standard, vous perdez votre inventaire actuel et l'équipement équipé. Cependant, toutes les 'Améliorations héritées' ou les objets stockés dans votre hub de zone sécurisée restent disponibles pour votre prochain personnage."
+  }
+]} />
+
+<Callout type="tip" title="Conseil final">
+Ne vous précipitez jamais. L'abîme punit l'impatience. Prenez votre temps pour nettoyer chaque recoin, gérez vos ressources et ayez toujours une stratégie de sortie avant d'entrer dans une nouvelle pièce.
+</Callout>
+
+</Section>

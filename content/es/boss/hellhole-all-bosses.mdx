@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Todos los Jefes de Hellhole: Estrategias de Combate Piso por Piso",
+  description: "Conquista a cada jefe demoníaco en Roblox Hellhole. Nuestra guía de supervivencia cubre patrones de ataque, transiciones de fase y equipamientos de armas óptimos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a090b/fff?text=Hellhole+All+Bosses+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Hellhole",
+  keywords: "hellhole, jefes, guía de combate, roblox, estrategias"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Derrotar a todos los jefes de Hellhole**: Concéntrate en aprender las animaciones de ataque distintivas y mantener la distancia máxima durante las fases críticas.
+- **Progresión de pisos**: Prepárate para una dificultad creciente a medida que desciendes piso por piso hacia el inframundo demoníaco.
+- **Equipamientos óptimos**: Prioriza armas con un alto DPS a un solo objetivo y velocidades de recarga confiables para los encuentros intensos con jefes.
+- **Gestión de recursos**: Reserva tus objetos de curación y munición pesada exclusivamente para las peleas contra los jefes principales de cada piso.
+- **El movimiento es clave**: Evita quedarte quieto durante el combate; se requiere un desplazamiento lateral continuo para evadir los ataques de proyectiles teledirigidos.
+</Callout>
+
+<Section icon={Map} title="Resumen de la progresión de todos los jefes de Hellhole">
+
+Descender al oscuro y demoníaco inframundo de *Hellhole*, el emocionante shooter de terror PvE en Roblox, es una prueba de resistencia, reflejos y planificación táctica. El ciclo principal del juego requiere que los jugadores luchen piso por piso, mejorando su equipo y dominando las mecánicas de supervivencia. Debido a que la única salida es hacia abajo, entender cómo derrotar a **todos los jefes de hellhole** es la clave definitiva para progresar.
+
+Cada piso de hito importante presenta un guardián jefe único que se interpone entre tú y los sectores más profundos y ricos en recursos del inframundo. Estos encuentros están diseñados para poner a prueba tus capacidades de combate, velocidad de movimiento y gestión de recursos. Derrotar a estos jefes desbloquea materiales raros necesarios para fabricar armas y armaduras de primer nivel, lo que te permite sobrevivir en los entornos cada vez más hostiles de los niveles inferiores.
+
+| Piso | Nombre del Jefe | Dificultad | Tipo de Amenaza Principal |
+|---|---|---|---|
+| Piso 5 | El Chillón (The Screecher) | Baja | Ondas sónicas de alta frecuencia y embestidas cuerpo a cuerpo rápidas |
+| Piso 10 | El Guardián Abisal (The Abyssal Warden) | Media | Ataques de golpe en área y peligros ambientales |
+| Piso 15 | La Amalgama de Fuego Infernal (The Hellfire Amalgam) | Alta | Ráfagas de proyectiles teledirigidos y charcos de magma rastreadores |
+| Piso 20 | El Archidemonio Primigenio (The Archdemon Prime) | Muy Alta | Combate multifase, teletransportación y hordas de invocación |
+
+<Callout type="info" title="Mecánica de Descenso">
+Derrotar al jefe de un piso es obligatorio para desbloquear el elevador hacia el siguiente conjunto de pisos. Cada victoria también te recompensa con una cantidad sustancial de moneda y componentes de artesanía raros.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Jefes de los primeros pisos y estrategias">
+
+Los primeros pisos de *Hellhole* introducen a los jugadores en las mecánicas fundamentales del combate contra jefes. Estas peleas se centran en el posicionamiento básico, el reconocimiento de señales visuales y auditivas, y la gestión eficiente de las reservas de munición.
+
+### El Chillón (Piso 5)
+El Chillón es el primer gran obstáculo para los nuevos jugadores. Este jefe depende en gran medida de la velocidad y de ataques sónicos disruptivos que pueden distorsionar tu pantalla y desorientar tu movimiento. La clave de esta pelea es utilizar los pilares de piedra esparcidos por la arena para bloquear las ráfagas sónicas lineales. Cuando el jefe eche la cabeza hacia atrás y emita un brillo amarillo intenso por la boca, esquiva inmediatamente detrás de una cobertura.
+
+### El Guardián Abisal (Piso 10)
+El Guardián Abisal es un bruto lento pero increíblemente poderoso que empuña mazos de piedra duales. Sus ataques infligen un daño masivo en área (AoE), lo que hace que el combate a corta distancia sea muy arriesgado. Mantén la distancia y provoca su golpe pesado contra el suelo. Una vez que el Guardián golpea sus mazos contra el suelo, permanecerá inmovilizado durante varios segundos, exponiendo el punto débil brillante en su espalda.
+
+| Jefe | Ataque Clave | Señal Visual | Mejor Estrategia de Contraataque |
+|---|---|---|---|
+| El Chillón | Ráfaga Sónica | La cabeza se inclina hacia atrás, boca brillante | Corre lateralmente para evitar la trayectoria de la onda de choque lineal |
+| El Chillón | Embestida Frenética | Sonido de chirrido agudo | Realiza un desplazamiento rápido o salta detrás de una cobertura sólida |
+| El Guardián Abisal | Golpe de Suelo | Levanta los pesados mazos duales | Salta justo antes del impacto para evitar las ondas de choque terrestres |
+| El Guardián Abisal | Esporas Oscuras | Sacude las púas de la espalda | Mantén la distancia y dispara a las esporas antes de que exploten |
+
+Para sobrevivir a estos primeros encuentros, debes llevar un equipamiento equilibrado que permita tanto movilidad como una producción de daño constante.
+
+<CardGrid cols={3}>
+  <Card title="Rifle de Alta Capacidad">
+    - **DPS constante**
+    - Capacidad de munición generosa
+    - Ideal para desgaste a media distancia
+  </Card>
+  <Card title="Escopeta Táctica">
+    - **Daño de ráfaga extremo**
+    - Perfecta para ventanas de aturdimiento
+    - Requiere posicionamiento a corta distancia
+  </Card>
+  <Card title="Botiquín de Utilidad">
+    - **Objeto esencial de supervivencia**
+    - Recuperación rápida de salud
+    - Se recomienda usar durante los cambios de fase
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Mecánica de Aturdimiento">
+Inflige daño constante al punto débil de un jefe (generalmente la cabeza o el núcleo brillante) para activar un estado de aturdimiento, lo que te otorga una ventana de daño gratuito de 5 segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Jefes de pisos intermedios y tácticas avanzadas">
+
+A medida que desciendes más allá del Piso 10, el entorno mismo se convierte en un peligro. Los jefes de nivel intermedio utilizan daño elemental, invocan esbirros menores para distraerte y alteran el diseño de la arena en mitad de la pelea.
+
+### La Amalgama de Fuego Infernal (Piso 15)
+La Amalgama de Fuego Infernal es un demonio elemental que controla el magma circundante. Durante la pelea, el jefe hará que surjan géiseres de lava aleatorios del suelo, reduciendo significativamente las áreas seguras para estar de pie en la arena. Para derrotar a la Amalgama, los jugadores deben utilizar armamento con infusión criogénica para congelar temporalmente su armadura exterior, permitiendo que el daño físico estándar penetre en su núcleo.
+
+| Jefe | Debilidad Elemental | Arma Recomendada | Botín de Artesanía Clave |
+|---|---|---|---|
+| Amalgama de Fuego Infernal | Escarcha / Crio | Rifle con infusión criogénica | Núcleo de Obsidiana (Usado para mejoras de armadura de Nivel 4) |
+| Portador de la Plaga | Fuego / Incendiario | Lanzallamas | Glándula Pútrida (Usada para fabricar munición de alta toxicidad) |
+| Acechador del Vacío | Luz / Energía | Carabina Láser | Fragmento del Vacío (Requerido para desbloquear miras de armas avanzadas) |
+
+Cuando luches contra el Portador de la Plaga, limpia siempre las nubes de esporas tóxicas que deja atrás. Permanecer en estas nubes aplica un efecto negativo de veneno con daño en el tiempo que puede agotar rápidamente tu barra de salud. Usa armas incendiarias para detonar las nubes de gas desde una distancia segura.
+
+<Callout type="warning" title="Riesgos Ambientales">
+Las arenas de los jefes intermedios a menudo cuentan con plataformas móviles o zonas seguras que se reducen. Prioriza siempre el posicionamiento y el juego de pies sobre infligir el máximo daño.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Desafíos de pisos profundos y jefes demoníacos finales">
+
+Los sectores más profundos de *Hellhole* albergan a las entidades más aterradoras. Los encuentros con los jefes finales son pruebas de resistencia de varias fases que requieren una ejecución precisa de mecánicas de combate avanzadas, cambio rápido de armas y una coordinación de movimiento excepcional.
+
+El Archidemonio Primigenio en el Piso 20 es el desafío definitivo del juego. Este encuentro combina todas las mecánicas aprendidas anteriormente, incluyendo proyectiles teledirigidos, hordas invocadas y peligros ambientales que cambian dinámicamente a medida que disminuye la salud del jefe.
+
+<Steps>
+  <Step num="1" title="Fase Uno: Destruir los Generadores">
+    Mantén la distancia y concéntrate en destruir los generadores de escudo ubicados en las cuatro esquinas de la arena mientras esquivas esferas de energía de movimiento lento.
+  </Step>
+  <Step num="2" title="Fase Dos: Limpiar la Horda Invocada">
+    Cuando el jefe se retire a un estado invulnerable, cambia inmediatamente a un arma de efecto de área para eliminar rápidamente al enjambre de demonios entrantes.
+  </Step>
+  <Step num="3" title="Fase Tres: Esquivar la Lluvia de Fuego Infernal">
+    Observa cuidadosamente los marcadores del suelo; cuando aparezcan círculos rojos, corre continuamente en un patrón de zigzag para evitar los impactos de meteoritos rastreadores.
+  </Step>
+  <Step num="4" title="Fase Cuatro: Apuntar al Núcleo">
+    Durante la fase final, el jefe expondrá el núcleo brillante de su pecho. Desata tu arma de mayor DPS y utiliza objetos de potenciación de daño aquí.
+  </Step>
+</Steps>
+
+| Fase | Rango de PS del Jefe | Comportamiento Principal | Nivel de Peligro |
+|---|---|---|---|
+| Fase 1 | 100% - 70% | Spam de proyectiles a distancia y teletransportación | Moderado |
+| Fase 2 | 70% - 30% | Escudo de invulnerabilidad, invoca hordas de demonios menores | Alto |
+| Fase 3 | 30% - 0% | Modo berserk, mayor velocidad de ataque, fuego continuo en la arena | Extremo |
+
+Durante la Fase Tres, el Archidemonio Primigenio entra en un estado berserk, aumentando su velocidad de ataque en un 50%. El suelo de la arena se llenará gradualmente de fuego, dejando solo estrechos caminos de seguridad. Los jugadores deben coordinar su movimiento para evitar atraparse unos a otros en las esquinas.
+
+<Callout type="tip" title="Sinergia Cooperativa">
+Si juegas en escuadrón, designa a un jugador como señuelo para atraer la atención del jefe mientras los demás jugadores se concentran por completo en destruir los puntos débiles desde atrás.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Equipamientos recomendados y rutas de mejora">
+
+Para derrotar eficientemente a **todos los jefes de hellhole**, debes optimizar la progresión de tu equipo. Invertir la moneda ganada con esfuerzo en las rutas de mejora de armas correctas acortará drásticamente los tiempos de pelea y aumentará tus tasas de supervivencia general.
+
+| Nombre del Arma | Clase de Arma | Rendimiento en Pelea de Jefes | Mejor Mod de Mejora |
+|---|---|---|---|
+| Apex Predator | Rifle de Asalto | ★★★★★ (Nivel S) | Cargador extendido y estabilizador de retroceso |
+| Cañón Vulcan | ametralladora pesada | ★★★★☆ (Nivel A) | Cañón de disipación de calor |
+| Escopeta Reaper | Escopeta | ★★★★☆ (Nivel A) | Cartuchos de aliento de dragón |
+| Sniper Phantom | Rifle de Francotirador | ★★★☆☆ (Nivel B) | Balas perforantes |
+
+Antes de entrar en cualquier arena de jefe principal, asegúrate de haber completado los preparativos necesarios. Entrar en una pelea con poco equipo o sin los consumibles adecuados probablemente resultará en un intento fallido.
+
+<Checklist
+  id="pre-boss-prep"
+  title="Lista de verificación esencial antes del jefe:"
+  items={[
+    "Mejora completamente tu arma principal al nivel máximo disponible.",
+    "Abastécete con las reservas máximas de munición para armas primarias y secundarias.",
+    "Equipa al menos tres objetos de curación de alto grado en tus ranuras de acceso rápido.",
+    "Verifica que la durabilidad de tu armadura esté completamente reparada en el taller del hub."
+  ]}
+/>
+
+<Callout type="success" title="Consejo de Economía">
+No desperdicies dinero mejorando armas de bajo nivel. Ahorra tus recursos para desbloquear el Apex Predator o el Cañón Vulcan temprano en tu progresión.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+Dominar los encuentros con los jefes en *Hellhole* requiere práctica, paciencia y las estrategias adecuadas. A continuación, se presentan algunas de las preguntas más comunes que tienen los jugadores al prepararse para estas intensas batallas.
+
+<FAQ items={[
+  {
+    question: "¿Puedo derrotar a todos los jefes en Hellhole en solitario?",
+    answer: "Sí, todos los jefes en Hellhole pueden ser derrotados en solitario. Sin embargo, debes tener el equipo completamente mejorado y un conocimiento profundo de los patrones de ataque de los jefes para sobrevivir solo en los pisos más profundos."
+  },
+  {
+    question: "¿Qué pasa si muero durante una pelea contra un jefe?",
+    answer: "Morir en una arena de jefe reinicia el encuentro. Perderás cualquier potenciador temporal y consumibles utilizados durante ese intento, pero tus mejoras de armas permanentes y tu moneda permanecerán intactas."
+  },
+  {
+    question: "¿Los jefes sueltan armas únicas?",
+    answer: "Los jefes no sueltan armas completamente ensambladas directamente. En su lugar, sueltan materiales de artesanía raros como Núcleos de Obsidiana y Fragmentos del Vacío, que son necesarios para fabricar y mejorar armamento de primer nivel en el hub."
+  },
+  {
+    question: "¿Cómo desbloqueo el encuentro con el jefe final?",
+    answer: "Debes completar con éxito todos los objetivos de los pisos precedentes y derrotar a los guardianes de los Pisos 5, 10 y 15 para desbloquear el camino hacia el jefe final en el Piso 20."
+  }
+]} />
+
+<Callout type="info" title="Actualizaciones y Parches">
+El escalado de salud de los jefes y las tasas de botín están sujetos a actualizaciones de equilibrio. Consulta la página oficial del juego en Roblox con regularidad para ver las últimas notas del parche.
+</Callout>
+
+</Section>

@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Wiki hellhole : Guide de progression des niveaux et de stratégie de survie",
+  description: "Maîtrisez les profondeurs obscures de Hellhole grâce à notre guide officiel de progression des niveaux, de configurations de classes et de stratégies de survie.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b1c1c/fff?text=Hellhole+Wiki+Guide",
+  date: "2026-07-20",
+  author: "Équipe du Wiki hellhole",
+  keywords: "hellhole, survie, progression, classes, guide, stratégie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Utilisez le **wiki hellhole** pour maîtriser les itinéraires de progression, optimiser les builds de classe et localiser efficacement l'équipement de survie caché.
+- Choisissez la **classe Éclaireur** pour une grande mobilité et une navigation rapide sur la carte pendant les phases d'exploration en début de jeu.
+- Priorisez l'amélioration des **boucliers défensifs** et des dégâts des armes pour survivre aux vagues de haute intensité dans les secteurs plus profonds.
+- Suivez les **jalons de progression** structurés pour débloquer des recettes d'artisanat avancées et des paliers d'équipement légendaire.
+</Callout>
+
+<Section icon={Map} title="Introduction à Hellhole et aux mécaniques de base">
+
+Naviguer dans les environnements dangereux de ce jeu de survie exigeant nécessite une solide compréhension de la gestion des ressources, des systèmes de combat et de la navigation environnementale. Ce guide compile des données mécaniques essentielles, des systèmes de progression et des plans stratégiques pour aider les joueurs à survivre dans les secteurs sombres. Rester en vie dépend du maintien de vos systèmes vitaux opérationnels tout en vous défendant contre les entités hostiles qui patrouillent dans les couloirs.
+
+**Points forts de la vidéo :**
+- Aperçu du thème infernal et des dangers environnementaux que les joueurs rencontreront.
+- Un aperçu de l'humour noir et des rencontres chaotiques caractéristiques du cadre.
+- Démonstration visuelle des itinéraires d'évasion et des tactiques d'évitement des dangers.
+
+<YouTubeEmbed videoId="Il4dC4OfAYw" title="Eddsworld - Hello Hellhole" />
+
+La boucle de jeu exige une vigilance constante. Les joueurs doivent équilibrer la santé, l'endurance et l'intégrité de l'armure tout en naviguant dans des couloirs changeants. Connaître la disposition de chaque secteur évite les retours en arrière inutiles et l'épuisement des ressources. Reportez-vous à la structure des modes de jeu ci-dessous pour sélectionner le niveau de difficulté approprié pour votre équipe.
+
+| Mode | Difficulté | Temps cible | Taux de ressources | Mort permanente |
+| :--- | :--- | :--- | :--- | :--- |
+| **Éclaireur** | Facile | 20 min | **150%** | Désactivée |
+| **Survivant** | Normale | 35 min | **100%** | Désactivée |
+| **Exécuteur** | Difficile | 50 min | **75%** | Activée |
+| **Cauchemar** | Extrême | 90 min | **50%** | Activée |
+
+<Callout type="warning" title="Alerte de Danger">
+Jouer en mode Exécuteur ou Cauchemar active la mort permanente. Assurez-vous que votre équipement est entièrement amélioré avant de tenter ces secteurs.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sélection de classe et stratégie de configuration">
+
+Choisir la bonne classe détermine vos capacités actives, vos bonus passifs et votre équipement de départ. Chaque archétype excelle dans des scénarios spécifiques, ce qui rend la composition de l'équipe cruciale pour les matchs multijoueurs. Les joueurs solo doivent se concentrer sur des builds équilibrés combinant l'auto-subsistance avec des capacités offensives décentes pour gérer les rencontres imprévisibles.
+
+<CardGrid cols={3}>
+  <Card title="Classe Survivant">
+    - **Statistiques équilibrées** pour le jeu en solo
+    - Accès à des compétences d'auto-guérison
+    - Indices d'armure modérés
+  </Card>
+  <Card title="Classe Éclaireur">
+    - **Attributs de vitesse de mouvement élevés**
+    - Détection avancée des ressources
+    - Mécaniques de furtivité pour l'évasion
+  </Card>
+  <Card title="Classe Exécuteur">
+    - **Capacités d'armure lourde**
+    - Seuil de dégâts élevé
+    - Capacités de contrôle de foule
+  </Card>
+</CardGrid>
+
+Après avoir sélectionné une classe, les joueurs doivent optimiser leurs configurations. Les armes et les objets utilitaires peuvent être personnalisés au terminal principal avant le déploiement. Combiner des équipements complémentaires garantit que vous pouvez gérer à la fois les boss à cible unique et les grandes hordes d'ennemis.
+
+| Classe | Santé | Vitesse | Armure | Arme de départ | Capacité spéciale |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Survivant** | **120** | Normale | Moyenne | Pistolet | Régén. santé |
+| **Éclaireur** | **90** | **Rapide** | Légère | SMG | Scan radar |
+| **Exécuteur** | **150** | Lente | **Lourde** | Fusil à pompe | Mur de boucliers |
+
+<Callout type="tip" title="Bonus de Synergie">
+Associer un Éclaireur à un Exécuteur permet à l'Éclaireur de marquer les cibles tandis que l'Exécuteur absorbe les dégâts et nettoie les groupes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progression par étapes dans les secteurs">
+
+La progression à travers les secteurs nécessite d'accomplir des objectifs spécifiques dans un ordre strict. Se précipiter vers la sortie sans sécuriser les ressources clés vous laissera sous-alimenté pour les rencontres avec les boss. Suivez cette feuille de route structurée pour maximiser votre taux de survie et débloquer des récompenses de haut niveau.
+
+<Steps>
+  <Step num="1" title="Sécuriser la zone d'atterrissage">
+    Nettoyez la zone immédiate des ennemis mineurs et activez le réseau électrique local pour alimenter les terminaux.
+  </Step>
+  <Step num="2" title="Collecter les ressources essentielles">
+    Localisez les réservoirs d'oxygène, les batteries et la ferraille pour fabriquer l'équipement de survie de base et des munitions.
+  </Step>
+  <Step num="3" title="Établir une base avancée">
+    Déployez des tourelles défensives et des barricades près de l'ascenseur du secteur pour vous défendre contre les vagues entrantes.
+  </Step>
+  <Step num="4" title="Déverrouiller la porte du secteur">
+    Piratez le terminal de sécurité principal tout en défendant la position, puis passez à la couche suivante.
+  </Step>
+</Steps>
+
+Chaque étape offre des récompenses uniques et des points d'expérience. L'accumulation de ces ressources vous permet d'acheter des améliorations permanentes au hub principal, rendant les sessions suivantes nettement plus faciles.
+
+| Secteur | Objectif principal | Danger clé | Palier de récompense | XP accordée |
+| :--- | :--- | :--- | :--- | :--- |
+| **Secteur 1** | Activation énergie | Gaz toxique | Commun | **1 000 XP** |
+| **Secteur 2** | Contournement sécurité | Vagues de chaleur | Rare | **2 500 XP** |
+| **Secteur 3** | Stabilisation noyau | Radiation | **Épique** | **5 000 XP** |
+| **Secteur 4** | Élimination boss | Tempête du vide | **Légendaire** | **10 000 XP** |
+
+<Callout type="success" title="Jalon Atteint">
+Atteindre le secteur 4 débloque les plans de fabrication pour les armes de palier Légendaire au terminal du hub principal.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tactiques de survie avancées">
+
+Pour survivre dans les secteurs les plus profonds, les joueurs doivent maîtriser des mécaniques avancées telles que la gestion de l'endurance, l'atténuation des dangers et le "kiting" des ennemis. Les dangers environnementaux posent une menace tout aussi grande que les entités hostiles. Comprendre comment contrer ces éléments fait la différence entre une session réussie et un échec total.
+
+| Type de danger | Effet | Contre-mesure | Équipement recommandé |
+| :--- | :--- | :--- | :--- |
+| **Gaz toxique** | Dégâts sur la durée | Masque à gaz | Amélioration filtre |
+| **Chaleur extrême** | Épuisement endurance | Pack de refroidissement | Armure cryo |
+| **Radiation** | Réduction santé max | Bouclier anti-rad | Placage en plomb |
+| **Tempête du vide** | Perturbation bouclier | Tige de mise à la terre | Bottes isolantes |
+
+Gardez toujours une liste de contrôle des objectifs actifs pendant une session. Se concentrer sur ces objectifs garantit que vous ne perdez pas un temps précieux à errer dans des zones dangereuses. Utilisez la liste ci-dessous pour suivre vos progrès lors des opérations standard.
+
+<Checklist
+  id="survival-checklist"
+  title="Objectifs opérationnels standard :"
+  items={[
+    "Sécuriser trois cellules d'énergie dans la zone",
+    "Améliorer l'arme principale au niveau 3",
+    "Déployer deux tourelles de défense automatisées",
+    "S'extraire en toute sécurité avec tout le fret collecté"
+  ]}
+/>
+
+<Callout type="info" title="Gestion des ressources">
+Gardez toujours au moins une batterie en réserve pour alimenter les portes de secours pendant les verrouillages.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ et ressources du wiki hellhole">
+
+Naviguer dans les systèmes complexes de cette expérience de survie peut être difficile pour les nouveaux joueurs. La communauté a compilé des réponses aux questions les plus fréquentes pour vous aider à démarrer rapidement. Reportez-vous à ces solutions chaque fois que vous rencontrez un obstacle dans votre progression.
+
+<FAQ items={[
+  {
+    question: "Où puis-je trouver la base de données officielle du wiki hellhole ?",
+    answer: "Le wiki officiel de hellhole est maintenu par la communauté pour fournir des statistiques à jour, des notes de patch et des cartes détaillées de l'emplacement des objets."
+  },
+  {
+    question: "Comment débloquer le mode de difficulté Cauchemar ?",
+    answer: "Vous devez réussir un parcours complet en difficulté Exécuteur avec la mort permanente active pour débloquer le mode Cauchemar."
+  },
+  {
+    question: "Quelle est la meilleure combinaison d'armes pour les joueurs solo ?",
+    answer: "Le fusil à pompe associé à la grenade cryogénique offre un excellent contrôle de foule et des dégâts instantanés élevés pour la survie en solo."
+  },
+  {
+    question: "Puis-je réinitialiser le niveau de mon personnage ou mes compétences de classe ?",
+    answer: "Oui, vous pouvez réinitialiser votre arbre de compétences au terminal du hub principal contre une petite somme de ferraille collectée."
+  }
+]} />
+
+<Callout type="tip" title="Conseil de la communauté">
+Rejoignez les canaux de discussion officiels pour partager vos configurations d'équipement et coordonner des sessions multijoueurs avec d'autres survivants.
+</Callout>
+
+</Section>

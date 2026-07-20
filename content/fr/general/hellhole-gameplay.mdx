@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gameplay de Hellhole : Guide de Descente et de Survie Étape par Étape",
+  description: "Maîtrisez les sombres profondeurs du gameplay de Hellhole avec notre guide de descente complet. Apprenez les stratégies de combat, les améliorations d'armes et les tactiques contre les boss.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/991b1b/fff?text=Hellhole+Gameplay+Guide",
+  date: "2026-07-20",
+  author: "Équipe du Wiki Hellhole"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Le gameplay de Hellhole** exige que les joueurs descendent étage par étage dans un monde souterrain hostile infesté de démons.
+- **Économisez vos munitions** et vos ressources de santé lors des premiers étages pour survivre aux défis des couches profondes.
+- **Priorisez les améliorations d'armes** en utilisant l'argent récolté lors des sessions réussies pour augmenter vos dégâts.
+- **Apprenez les patterns des ennemis** et maintenez vos distances pour minimiser les dégâts lors des rencontres agressives avec les démons.
+</Callout>
+
+<Section icon={Swords} title="Mécaniques de Base du Gameplay de Hellhole">
+
+Survivre dans les profondeurs du **gameplay de Hellhole** nécessite une solide compréhension de sa boucle principale : descendre à travers des étages de plus en plus hostiles, combattre des entités démoniaques et améliorer votre équipement. Dans ce shooter d'horreur PvE, le slogan est simple mais impitoyable : "La seule issue est vers le bas." Pour progresser, vous devez maîtriser la gestion des ressources et le positionnement tactique dès l'instant où vous entrez dans le premier ascenseur.
+
+Le jeu est structuré autour d'une séquence d'étages souterrains. Chaque étage présente une disposition unique remplie de couloirs étroits, de coins sombres et d'apparitions soudaines d'ennemis. Votre objectif principal à chaque étage est de localiser l'ascenseur de sortie tout en vous défendant contre des créatures agressives. À mesure que vous descendez plus profondément, les dangers environnementaux se multiplient et les monstres deviennent plus rapides et plus résistants.
+
+| Système | Objectif Principal | Action Clé du Joueur |
+| :--- | :--- | :--- |
+| Descente d'étage | Atteindre les niveaux profonds | Localiser l'ascenseur de sortie |
+| Combat PvE | Éliminer les démons hostiles | Gérer les munitions et l'espace |
+| Économie | Collecter des ressources | Gagner de l'argent par session |
+| Progression | Améliorer les taux de survie | Acheter de l'équipement permanent |
+
+Pour financer votre descente, vous devez collecter de l'argent et des ressources dispersés dans l'environnement ou lâchés par les ennemis vaincus. Cette économie est l'épine dorsale de votre survie à long terme. L'argent gagné pendant une session peut être dépensé entre les tentatives pour débloquer des armes principales plus puissantes, augmenter la capacité de munitions et booster votre santé maximale. Sans améliorations constantes, progresser au-delà des premiers étages devient presque impossible.
+
+<Callout type="warning" title="Augmentation du Niveau de Danger">
+Chaque étage que vous descendez augmente l'agressivité et la santé des ennemis. Ne vous précipitez jamais dans de nouvelles pièces sans avoir rechargé votre arme et inspecté les coins.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guide de Descente pour Débutants">
+
+Pour les joueurs qui pénètrent dans le monde souterrain démoniaque pour la première fois, une approche structurée est essentielle pour éviter une élimination rapide. Les premiers étages servent de terrain d'entraînement où vous devez acquérir de bonnes habitudes, comme vérifier votre environnement, conserver vos munitions et apprendre à "kiter" efficacement les ennemis.
+
+Les premières minutes d'une session donnent le ton pour toute la descente. Foncer aveuglément vers l'avant vous mènera rapidement à être encerclé par des créatures rapides. Au lieu de cela, déplacez-vous délibérément de pièce en pièce, en gardant le dos tourné aux zones nettoyées et en maintenant une ligne de vue dégagée sur les points de passage potentiels.
+
+<Steps>
+  <Step num="1" title="Apprendre les Commandes de Base">
+    Familiarisez-vous avec les déplacements, la visée, le tir et l'interaction avec l'environnement avant de descendre.
+  </Step>
+  <Step num="2" title="Commencer Votre Première Descente">
+    Entrez au premier étage et explorez avec prudence, en écoutant les indices sonores qui signalent l'approche d'ennemis.
+  </Step>
+  <Step num="3" title="Combattre et Survivre">
+    Affrontez les créatures hostiles à distance, en utilisant les obstacles pour ralentir leur approche.
+  </Step>
+  <Step num="4" title="Collecter de l'Argent et des Ressources">
+    Fouillez chaque recoin de l'étage pour trouver des ressources précieuses et de la monnaie avant de vous diriger vers l'ascenseur.
+  </Step>
+  <Step num="5" title="Améliorer Votre Équipement">
+    Dépensez vos fonds accumulés dans la boutique pour acheter des armes plus puissantes et des améliorations de survie vitales.
+  </Step>
+</Steps>
+
+Lorsque vous dépensez votre argent durement gagné, concentrez-vous sur les améliorations qui offrent une valeur immédiate au combat. Augmenter vos dégâts est généralement plus efficace que d'augmenter votre santé au début, car vaincre les ennemis rapidement les empêche de vous infliger des dégâts en premier lieu.
+
+| Élément d'Amélioration | Tranche de Prix | Priorité d'Amélioration | Bénéfice Principal |
+| :--- | :--- | :--- | :--- |
+| Arme Principale | Moyen | Haute | Élimination plus rapide aux premiers étages |
+| Capacité de Munitions | Bas | Haute | Réduit le risque de se retrouver à sec |
+| Boost de Santé | Haut | Moyenne | Permet de survivre à des coups supplémentaires |
+| Vitesse de Déplacement | Moyen | Basse | Aide à esquiver les boss rapides |
+
+<Callout type="tip" title="Préservation des Ressources">
+Si un ennemi peut être contourné sans subir de dégâts, ne gaspillez pas de munitions sur lui. Gardez vos balles pour les événements de horde obligatoires et les combats de boss.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Armes et Stratégies de Combat">
+
+Le combat dans ce monde souterrain sombre est rapide et impitoyable. Votre choix d'armement et votre positionnement lors des engagements détermineront si vous atteindrez le prochain ascenseur ou si vous périrez dans l'obscurité. Comprendre les forces et les faiblesses de chaque catégorie d'armes est crucial pour constituer un équipement efficace.
+
+Différents scénarios de combat nécessitent différentes approches tactiques. Alors que les armes à longue portée vous permettent d'éliminer des cibles en toute sécurité à distance, les armes de combat rapproché sont essentielles pour nettoyer les couloirs étroits où les ennemis peuvent facilement vous coincer. Équilibrer ces styles est la clé d'une session réussie.
+
+<CardGrid cols={3}>
+  <Card title="Armes Principales">
+    Ce sont vos outils principaux pour infliger des dégâts constants. Concentrez-vous sur des armes avec une précision fiable et des vitesses de rechargement modérées pour gérer les groupes d'ennemis standards.
+  </Card>
+  <Card title="Stratégie Longue Portée">
+    Maintenez vos distances et utilisez les longues lignes de vue. Cette approche vous permet d'éliminer les cibles à haute menace avant qu'elles ne puissent réduire l'écart.
+  </Card>
+  <Card title="Survie en Combat Rapproché">
+    Lorsque vous êtes acculé, utilisez des mouvements rapides et des armes secondaires à fort impact. Ne restez jamais immobile lorsque les ennemis parviennent à s'approcher de vous.
+  </Card>
+</CardGrid>
+
+Pour maximiser votre efficacité au combat, vous devez analyser le profil de portée et la production de dégâts de vos armes à feu disponibles. Se reposer sur un seul type d'arme pour chaque rencontre vous laissera vulnérable dans des situations spécifiques, comme face à des cibles à haute santé dans des espaces restreints.
+
+| Classe d'Arme | Profil de Portée | Dégâts | Vitesse de Recharge | Meilleur Scénario de Combat |
+| :--- | :--- | :--- | :--- | :--- |
+| Fusils d'Assaut | Moyenne à Longue | Élevés | Modérée | Contrôle de foule général |
+| Fusils à Pompe | Courte Portée | Très Élevés | Lente | Dégâts de burst sur cible unique |
+| Pistolets | Courte à Moyenne | Modérés | Rapide | Situations d'urgence en secours |
+
+<Callout type="info" title="Gestion du Rechargement">
+Rechargez toujours vos armes pendant les moments de calme. Tomber à court de munitions au milieu d'une charge de démons agressifs est la cause de mort la plus fréquente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Types d'Ennemis et Rencontres de Boss">
+
+Le monde souterrain est peuplé d'une variété de créatures hostiles, chacune possédant des patterns d'attaque et des comportements uniques. Pour survivre, vous devez apprendre à identifier ces menaces à vue et déployer immédiatement la contre-stratégie appropriée.
+
+Les ennemis standards tenteront de vous submerger par le nombre, tandis que les démons d'élite utilisent une poursuite agressive et des attaques à hauts dégâts pour vous forcer à perdre votre position. Les rencontres les plus dangereuses sont cependant les boss d'étage. Ces entités massives gardent les points de transition vers les couches plus profondes et nécessitent une exécution précise pour être vaincues.
+
+| Catégorie d'Ennemi | Comportement | Niveau de Menace | Stratégie Recommandée |
+| :--- | :--- | :--- | :--- |
+| Créatures Hostiles | Nuée en grand nombre, peu de PV | Faible | Utiliser des armes automatiques, bouger |
+| Ennemis Démoniaques | Poursuite agressive, hauts dégâts | Moyen | Viser les points faibles, garder ses distances |
+| Boss d'Étage | Attaques de zone, PV massifs | Élevé | Apprendre les signaux d'attaque, esquiver |
+
+Avant de tenter un combat de boss, vous devez vous assurer que votre personnage est pleinement préparé. Entrer dans une arène de boss avec peu de santé ou des munitions insuffisantes est un moyen garanti de terminer votre session prématurément.
+
+<Checklist
+  id="boss-prep"
+  title="Liste de Vérification Pré-Boss :"
+  items={[
+    "Réapprovisionner complètement les munitions principales et secondaires",
+    "S'assurer que votre barre de santé est totalement remplie",
+    "Équiper vos armes améliorées infligeant le plus de dégâts",
+    "Identifier les routes d'échappement et de kiting dans l'arène"
+  ]}
+/>
+
+<Callout type="success" title="Conseil de Victoire contre les Boss">
+Les boss présentent toujours des indices visuels ou sonores distincts avant de lancer des attaques lourdes. Concentrez-vous entièrement sur l'esquive pendant ces phases de préparation, puis ripostez pendant leurs phases de récupération.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Améliorations Avancées et Progression">
+
+À mesure que vous progressez plus profondément dans le jeu, les tactiques standards et l'équipement de base ne suffiront plus. Passer de la survie en début de partie à la maîtrise des sessions profondes nécessite une approche systématique des améliorations permanentes et de la gestion des ressources.
+
+La progression à long terme repose sur la prise de décisions intelligentes dans le menu de la boutique entre les sessions. Au lieu d'acheter des boosts temporaires qui ne durent que pour une seule tentative, concentrez vos fonds sur les améliorations d'armes permanentes et les augmentations de statistiques de personnage qui persistent indéfiniment.
+
+| Étape de Progression | Étages Cibles | Équipement Requis | Focus Principal |
+| :--- | :--- | :--- | :--- |
+| Début de Descente | Étages 1 à 5 | Armes de base, petites amélio. | Collecte de ressources |
+| Profondeurs Moyennes | Étages 6 à 10 | Arme principale améliorée, boosts PV | Tactiques contre les élites |
+| Abysse Profond | Étages 11+ | Équipement personnalisé, munitions max | Exécution des boss |
+
+Gérer vos améliorations efficacement garantit que la puissance de votre personnage suit l'échelle de difficulté croissante des étages plus profonds. Priorisez d'abord les dégâts bruts, suivis de la capacité de munitions, et enfin les améliorations utilitaires défensives comme la santé et la vitesse de déplacement.
+
+<Callout type="tip" title="Dépenses Intelligentes">
+Ne thésaurisez pas votre argent. Dépenser vos fonds immédiatement dans des améliorations permanentes augmente votre taux de survie, vous permettant de gagner encore plus d'argent lors des sessions suivantes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ de Survie">
+
+Pour vous aider à maîtriser les profondeurs, nous avons compilé des réponses aux questions les plus courantes concernant la survie, le combat et les stratégies de progression.
+
+<FAQ items={[
+  {
+    question: "Comment survivre aux étages les plus profonds dans le gameplay de Hellhole ?",
+    answer: "Survivre aux étages profonds nécessite une arme principale entièrement améliorée, une excellente conservation des ressources aux étages précédents et une compréhension approfondie des patterns d'attaque ennemis."
+  },
+  {
+    question: "Que dois-je acheter en priorité dans la boutique ?",
+    answer: "Priorisez les améliorations permanentes de dégâts pour votre arme principale et les augmentations de capacité de munitions. Ces améliorations offrent le meilleur retour sur investissement au début."
+  },
+  {
+    question: "Puis-je ignorer les ennemis pour atteindre l'ascenseur rapidement ?",
+    answer: "Bien que certains ennemis standards puissent être contournés, foncer aveuglément conduit souvent à se retrouver piégé dans des couloirs étroits par des variantes de démons plus rapides et agressives."
+  },
+  {
+    question: "Comment gérer efficacement les combats de boss ?",
+    answer: "Concentrez-vous sur l'apprentissage des signaux d'attaque du boss. Priorisez l'esquive de leurs attaques de zone à hauts dégâts, et ne tirez que pendant leurs fenêtres de récupération."
+  }
+]} />
+
+<Callout type="info" title="Note Finale de Survie">
+La coordination d'équipe et la conscience spatiale sont vos plus grands atouts. Partagez les ressources avec vos alliés et couvrez différents angles pour assurer une descente réussie dans l'abysse.
+</Callout>
+
+</Section>

@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hellhole All Enemies: 2026 Bestiary & Combat Strategy Guide",
+  description: "Master every encounter in Hellhole with our comprehensive 2026 enemy guide. Learn attack patterns, boss mechanics, and the best upgrades to survive.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hellhole+All+Enemies+Guide",
+  date: "2026-07-20",
+  author: "hellhole Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Hellhole all enemies** range from basic **Charred Zombies** to complex **Brute Wizards** and floor bosses.
+- **Priority Targets**: Always eliminate **Gremlins** and **Spitters** first due to their high speed and area-denial poison.
+- **Combat Essentials**: Use **Recon Optics** to track remaining enemies and prioritize **Reload Healing** perks for sustain.
+- **Boss Strategy**: Keep moving in the small arena to avoid poison pools and focus on high-RPM weapons for the 4,000+ HP pool.
+- **Floor Progression**: Each floor (Magma Core, Sunken Ruins, Fungal Depths) introduces unique elemental variants and hazards.
+</Callout>
+
+<Section icon={Map} title="Hellhole Bestiary: Understanding the Horde">
+
+To survive the descent in Hellhole, players must understand that the environment is just as lethal as the creatures within it. As you progress through the various layers—starting from the Magma Core and reaching the Ancient Tomb—the complexity of enemy behaviors increases significantly. Recognizing these threats early allows your crew to manage resources effectively and avoid unnecessary revives.
+
+**Video Highlights:**
+- **Enemy Varieties**: Overview of standard, elite, and boss-level threats across multiple floors.
+- **Upgrade Synergy**: How to choose crits, damage, and fire rate to counter specific enemy types.
+- **Solo vs Party**: Differences in enemy scaling and health pools when playing alone.
+- **Boss Mechanics**: A walkthrough of the arena fight including movement patterns and ground hazards.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="HELLHOLE FULL GUIDE! (Enemies, Upgrades, Money)" />
+
+<Callout type="tip" title="Strategic Awareness">
+Equipping the **Recon Optics** perk at Rank 1 is vital for new players. It provides a UI counter at the top of the screen showing exactly how many **hellhole all enemies** remain in a wave, preventing you from being blindsided by a lone Gremlin hiding in the shadows.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Standard Enemy Types and Behaviors">
+
+Most encounters in Hellhole consist of "trash mobs" that serve to chip away at your health before you reach the floor boss. While individually weak, their strength lies in numbers and environmental synergy. For example, a **Charred Zombie** is slow, but when paired with a **Spitter Skeleton**, you may find your movement restricted by acid pools, making you an easy target for the melee horde.
+
+| Enemy Name | Primary Attack | Danger Level | Movement Speed | Special Traits |
+|:---|:---|:---|:---|:---|
+| **Charred Zombie** | Melee Swipe | Low | Slow | High health, basic fodder |
+| **Spitter Skeleton** | Acid Projectile | Medium | Moderate | Leaves poison pools on ground |
+| **Gremlin** | Rapid Melee | High | Very Fast | Small hitbox, difficult to track |
+| **Skeleton Archer** | Ranged Arrow | Medium | Moderate | High accuracy, stays at range |
+| **Frozen Variant** | Chilling Touch | Medium | Slow | Can slow player movement speed |
+| **Withered One** | Life Drain | High | Moderate | Found in Ancient Tomb floors |
+
+<Callout type="warning" title="Acid Hazard">
+The poison pools left by **Spitter Skeletons** deal damage over time. In narrow corridors or small treasure rooms, these can quickly end a run if you do not have enough **Speed Boost** upgrades to maneuver around them.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Elite Threats and Special Entities">
+
+As you reach deeper floors like the **Fungal Depths** or the **Ancient Tomb**, the game introduces Elite enemies. These units often have special abilities that require specific counter-strategies. The **Brute Wizard**, for instance, combines high health with magical projectiles, forcing players to balance defensive positioning with aggressive damage output.
+
+<CardGrid cols={3}>
+  <Card title="Brute Wizard">
+    - **High HP Pool**: Requires sustained fire.
+    - **Spellcasting**: Launches homing or area-effect magic.
+    - **Priority**: High. Kill before they clutter the arena.
+  </Card>
+  <Card title="The Withered">
+    - **Stealthy Movement**: Often blends into the dark environment.
+    - **Debuffing**: Can reduce player damage output temporarily.
+    - **Spawn Rate**: Increases in the orange-layer Ancient Tombs.
+  </Card>
+  <Card title="Drowned Souls">
+    - **Water Synergy**: Found in Sunken Ruins.
+    - **Resistance**: High resistance to standard bullet impact.
+    - **Weakness**: Vulnerable to critical hits and burn effects.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Weapon Recommendation">
+The **Lava Weapon** (available for 5,000 Credits) is particularly effective against Elite enemies. Its legendary passive applies a **Burn** effect, which deals percentage-based damage over time, making it ideal for high-health targets like Brutes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Boss Encounter: The Arena Guide">
+
+The climax of a successful descent is the boss fight, usually occurring in a small, enclosed arena. This encounter scales based on your party size. A solo player will face a boss with approximately 4,000 HP, whereas a full crew will face a much larger health pool. The primary challenge is not just the boss's health, but the lack of space to avoid their area-of-effect (AoE) attacks.
+
+<Steps>
+  <Step num="1" title="Pre-Boss Preparation">
+    Visit the final shop before the arena. Prioritize **Max HP** and **Speed Boosts**. If you have enough gears, purchase **Fire Rate** or **Accuracy** upgrades to maximize your DPS in the confined space.
+  </Step>
+  <Step num="2" title="Constant Mobility">
+    The boss frequently spits poison or launches projectiles that cover the ground. Never stand still. Circle the perimeter of the arena to keep the boss centered while staying clear of the hazards.
+  </Step>
+  <Step num="3" title="Magazine Management">
+    With a solo HP pool of 4,000, you will need multiple reloads. Use the **Reload Heals** perk to recover 5 HP every time you swap mags, ensuring you stay topped off even if you take a stray hit.
+  </Step>
+  <Step num="4" title="Execute and Descend">
+    Once the boss reaches 25% health, they may enter a frantic state. Focus all fire on the head for critical damage (especially if you have the **Deadly Crits** upgrade) to finish the fight quickly.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Scaling Mechanics">
+Boss health scales dynamically. If teammates leave mid-run, the boss health may remain at the higher party scaling, making soloing significantly more difficult. Ensure your team is committed before entering the final descent.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimal Upgrades for Enemy Management">
+
+Choosing the right upgrades at the end of each floor is the difference between a successful run and a premature end. Since **hellhole all enemies** have different weaknesses, a balanced build is usually superior to stacking a single stat. However, certain "Epic" tier upgrades should always be prioritized.
+
+| Upgrade Type | Effect | Best Against | Priority |
+|:---|:---|:---|:---|
+| **Deadly Crits** | +25% Crit Chance | Bosses and Brutes | High |
+| **Heavy Rounds** | Increased Knockback | Gremlins and Zombies | Medium |
+| **Adrenaline** | Speed on Kill | Large Hordes | Medium |
+| **Magazine Size** | +5 to +10 Rounds | All Enemies | High |
+| **Drill Bullets** | Hits second enemy | Packed Waves | Very High |
+| **Acid Resistance** | Reduced DoT | Spitters and Bosses | Situational |
+
+<Callout type="tip" title="Reload Synergy">
+The **Reload Heals** perk is arguably the strongest sustain tool in the game. By combining it with **Magazine Size** and **Fire Rate** upgrades, you can effectively "spam" reloads to keep your health at maximum while dealing consistent damage to the horde.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist and FAQ">
+
+To become a master of Hellhole, you should aim to unlock all perks and weapons by increasing your Rank. Each run provides Gears (Credits) and XP, even if you don't reach the final floor.
+
+<Checklist
+  id="hellhole-progression"
+  title="Survival Milestones:"
+  items={[
+    "Reach Rank 5 to unlock basic movement perks",
+    "Acquire the Lava Weapon for 5,000 Credits",
+    "Successfully solo a Floor 7 Boss encounter",
+    "Complete a run with the Recon Optics perk equipped",
+    "Unlock the Drill Bullets perk at Rank 35"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "How do I deal with the small, fast Gremlins in Hellhole?",
+    answer: "Gremlins are high-priority targets. Use the Heavy Rounds upgrade for knockback or high-RPM weapons to track their movement. If you have the Recon Optics perk, watch the enemy counter to ensure none are sneaking up behind you."
+  },
+  {
+    question: "What is the best way to farm Gears for new weapons?",
+    answer: "Focus on clearing Treasure Rooms and opening Gold/Silver chests. Playing in a full party increases the total loot found, and completing daily quests (like defeating 80 enemies) provides significant gear bonuses."
+  },
+  {
+    question: "Can I revive if I am killed by hellhole all enemies?",
+    answer: "Yes, you can revive by using Robux or watching an ad depending on the platform. However, if your entire party is wiped, the run ends. It is better to use the Reload Heals perk to maintain health throughout the descent."
+  },
+  {
+    question: "Which floor is the most difficult for beginners?",
+    answer: "The Fungal Depths often catch beginners off guard due to the explosive spore hazards and the introduction of faster enemy variants like the Gremlins. Ensure you have at least one Speed upgrade before entering this floor."
+  }
+]} />
+
+</Section>

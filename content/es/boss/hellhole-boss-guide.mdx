@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de jefes de Hellhole: Tácticas de expertos para cada encuentro de piso",
+  description: "Domina cada encuentro de piso con nuestra guía de jefes de Hellhole. Aprende patrones de ataque de demonios, equipamientos recomendados y estrategias de supervivencia para el meta de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7f1d1d/fff?text=Hellhole+Boss+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Hellhole"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía de jefes de Hellhole**: El éxito depende de identificar los patrones de ataque telegrafiados y mantener la distancia durante las fases de demonios de alta presión.
+- **Mecánica principal**: Los jefes utilizan un sistema de escalado por descenso de piso, lo que significa que la dificultad y la cantidad de vida aumentan significativamente a medida que desciendes.
+- **Mejor estrategia**: Prioriza las mejoras de velocidad de movimiento y resistencia al principio para asegurarte de poder esquivar los agresivos ataques de área de efecto (AoE).
+- **Consejo crítico**: Nunca entres a la arena de un jefe con menos del 50% de munición; el agotamiento de recursos es la causa principal de los intentos fallidos en el inframundo demoníaco.
+- **La mejor opción**: Un equipamiento equilibrado que incluya un arma principal de alta capacidad y una secundaria enfocada en daño de ráfaga es óptimo para la mayoría de los guardianes de piso.
+</Callout>
+
+<Section icon={Target} title="Comprendiendo las mecánicas de los jefes de Hellhole">
+
+En el oscuro mundo de Hellhole, el mantra "La única salida es hacia abajo" se aplica de manera más estricta a los encuentros con jefes. Estas grandes amenazas actúan como guardianes entre pisos, poniendo a prueba tu habilidad de combate, gestión de recursos y mejoras de equipamiento. A diferencia de las criaturas hostiles estándar, los jefes cuentan con barras de salud de múltiples fases y peligros ambientales únicos que requieren algo más que simple potencia de fuego para ser superados.
+
+<CardGrid cols={3}>
+  <Card title="Reconocimiento de patrones">
+    - **Ataques telegrafiados**: Presta atención a los brillos rojos o animaciones específicas.
+    - **Transiciones de fase**: Los jefes se vuelven más agresivos al llegar al 50% de salud.
+    - **Conciencia de la arena**: Evita arrinconarte en zonas oscuras.
+  </Card>
+  <Card title="Gestión de recursos">
+    - **Escasez de munición**: Los jefes absorben muchas balas; cada disparo cuenta.
+    - **Ventanas de curación**: Cúrate solo durante animaciones específicas de enfriamiento.
+    - **Control de resistencia**: Guarda los desplazamientos para ataques pesados inevitables.
+  </Card>
+  <Card title="Escalado de equipamiento">
+    - **Impacto de las mejoras**: Los pisos más profundos requieren armamento de Tier 2 o superior.
+    - **Sinergia de equipamiento**: Combina tu arma secundaria con la debilidad del jefe.
+    - **Eficiencia del dinero**: Reinvierte las recompensas de los jefes en aumentos inmediatos de DPS.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo profesional">
+Antes de enfrentarte a cualquier jefe, despeja el perímetro inmediato de demonios estándar. Las peleas contra jefes en Hellhole a menudo generan un ruido ambiental que atrae a las "Amenazas del piso" cercanas, lo que puede resultar en una situación abrumadora si no tienes cuidado.
+</Callout>
+
+| Tipo de encuentro | Calificación de dificultad | Amenaza principal | Estrategia recomendada |
+| :--- | :--- | :--- | :--- |
+| **Guardián de piso inicial** | ★★☆☆☆ | Embestidas cuerpo a cuerpo | Mantener la distancia, usar fuego principal |
+| **Jefe demonio de élite** | ★★★☆☆ | Ráfagas de proyectiles | Desplazamiento lateral, daño de ráfaga |
+| **Acechador de piso profundo** | ★★★★☆ | Peligros ambientales | Alta movilidad, conservación de recursos |
+| **Archidemonio abisal** | ★★★★★ | AoE de múltiples fases | Equipamiento mejorado, sincronización perfecta |
+
+</Section>
+
+<Section icon={Swords} title="Encuentros con jefes de piso: Estrategias de combate">
+
+El jefe de piso estándar representa el primer obstáculo importante para los jugadores que descienden al inframundo demoníaco. Estos encuentros se centran en comportamientos básicos de "Enemigos demoníacos" pero amplificados por enormes barras de salud y ataques cuerpo a cuerpo de alto daño. Esta **guía de jefes de Hellhole** enfatiza que la clave para estas victorias tempranas es la paciencia en lugar de la agresividad.
+
+**Puntos destacados del video:**
+- Cómo identificar el telégrafo de "Embestida" de los demonios de los primeros pisos.
+- Técnicas eficientes de kiting para minimizar el daño recibido.
+- Cuándo cambiar de armas principales a herramientas secundarias de alto daño.
+
+<YouTubeEmbed videoId="mPnmG7ZqwrA" title="Guía de enemigos y jefes de Hellhole" />
+
+Los primeros jefes suelen depender de un ciclo predecible. Intentarán cerrar la distancia con una carga, seguida de un combo de tres golpes. Una vez que concluye el combo, el jefe entra en un estado "Vulnerable" durante aproximadamente 3 segundos. Esta es tu oportunidad para desatar tus ataques más fuertes.
+
+| Fase del jefe | Patrón de comportamiento | Respuesta del jugador |
+| :--- | :--- | :--- |
+| **Fase 1 (100-50%)** | Embestidas a un solo objetivo, recuperación lenta | Desplazamiento lateral y daño constante |
+| **Transición** | Efecto de rugido/retroceso | Desplazarse hacia atrás inmediatamente |
+| **Fase 2 (50-0%)** | Ataques más rápidos, invoca esbirros | Enfocarse primero en los esbirros, luego en el jefe |
+
+<Callout type="warning" title="Advertencia">
+Los jefes demoníacos en Hellhole obtienen una mejora de "Ira" si la pelea dura más de tres minutos. Esto aumenta su velocidad de movimiento en un 25%, haciendo que sea casi imposible escapar de ellos sin mejoras de resistencia al máximo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Desafíos de pisos profundos: Sobrevivir al abismo">
+
+A medida que desciendes más profundamente en Hellhole, los desafíos cambian de un combate simple a complejos acertijos de supervivencia. Los jefes de los pisos profundos introducen mecánicas ambientales, como baldosas del suelo que se convierten en lava o nubes de oscuridad que oscurecen tu visión. Estos encuentros exigen un alto nivel de "Preparación para incursiones profundas".
+
+<Steps>
+  <Step num="1" title="Explora la arena">
+    Antes de que aparezca el jefe, identifica las "Zonas seguras" que estén libres de peligros ambientales. Estas suelen ser plataformas elevadas o áreas con mejor iluminación.
+  </Step>
+  <Step num="2" title="Gestiona los esbirros">
+    Los jefes de pisos profundos suelen invocar demonios menores. Usa tu arma principal para eliminar a estos esbirros rápidamente y evitar que te abrumen mientras te concentras en el objetivo principal.
+  </Step>
+  <Step num="3" title="Explota las debibilidades ambientales">
+    Algunas arenas contienen barriles explosivos o trampas de luz. Atraer al jefe a estas áreas puede causarle un daño masivo y aturdirlo por un tiempo.
+  </Step>
+  <Step num="4" title="Ejecuta la fase final">
+    El último 20% de la salud de un jefe de piso profundo es el más peligroso. Usa tu habilidad "Definitiva" o tus armas secundarias más fuertes para superar esta fase lo más rápido posible.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia exitosa">
+Los jugadores que invierten en las mejoras de "Visión nocturna" o "Escáner" encuentran a los jefes de pisos profundos significativamente más fáciles, ya que estas herramientas revelan la posición del jefe incluso a través de las cortinas de humo demoníaco.
+</Callout>
+
+| Tipo de mejora | Prioridad | Beneficio para jefes | Eficiencia de costo |
+| :--- | :--- | :--- | :--- |
+| **Daño de arma** | **Alta** | Acorta la duración de la pelea | Excelente |
+| **Salud máxima** | **Media** | Permite cometer más errores | Buena |
+| **Velocidad de recarga** | **Alta** | Esencial para un DPS sostenido | Esencial |
+| **Regeneración de resistencia** | **Muy alta** | Crítica para esquivar AoE | El mejor valor |
+
+</Section>
+
+<Section icon={Shield} title="Equipamientos recomendados para derrotar jefes">
+
+Tus elecciones de equipamiento en Hellhole dictan tus posibilidades de supervivencia más que tu habilidad mecánica. Un equipamiento adecuado debe equilibrar el daño constante para limpiar esbirros y un alto potencial de ráfaga para las ventanas de daño al jefe. Basado en el meta de 2026, se recomiendan las siguientes configuraciones de equipo para varias etapas de tu descenso.
+
+<CardGrid cols={2}>
+  <Card title="La Vanguardia (Descenso inicial)">
+    - **Principal**: Fusil semiautomático (Precisión)
+    - **Secundaria**: Escopeta recortada (Ráfaga)
+    - **Enfoque de mejora**: Daño y capacidad de munición
+    - **Ideal para**: Jefes de los pisos 1 al 10
+  </Card>
+  <Card title="El Exterminador (Descenso profundo)">
+    - **Principal**: Carabina automática (Sostenido)
+    - **Secundaria**: Lanzagranadas pesado (AoE)
+    - **Enfoque de mejora**: Velocidad de recarga y movilidad
+    - **Ideal para**: Archidemonios de piso 20 o superior
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Información">
+El dinero ganado en las incursiones estándar siempre debe priorizarse hacia las mejoras de "Crecimiento a largo plazo". Las mejoras temporales son útiles, pero los aumentos permanentes de nivel de arma son la única forma de sobrevivir a la salud escalada de los jefes más profundos.
+</Callout>
+
+| Clase de arma | Mejor caso de uso contra jefes | Debilidad |
+| :--- | :--- | :--- |
+| **Fusiles** | Kiting a larga distancia | Bajo daño de ráfaga |
+| **Escopetas** | Ventanas de vulnerabilidad a corta distancia | Alto riesgo, tiempo de recarga |
+| **Explosivos** | Limpieza de esbirros y aturdimientos | Munición limitada, daño a uno mismo |
+| **Energía** | Traspasar la armadura demoníaca | Alto costo de recursos |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de preparación para jefes">
+
+El éxito en Hellhole se determina incluso antes de apretar el gatillo. Usa esta lista de verificación para asegurarte de estar completamente preparado para los desafíos que te esperan abajo.
+
+<Checklist
+  id="boss-prep"
+  title="Requisitos previos al jefe:"
+  items={[
+    "Reservas de munición al 90% o más",
+    "Al menos dos objetos de curación en las ranuras rápidas",
+    "Arma principal mejorada al nivel del piso actual",
+    "Barra de resistencia completamente cargada",
+    "Área cercana despejada de demonios errantes"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo de experto">
+Si te encuentras fallando constantemente en un jefe específico, deja de intentar descender más. Dedica de 2 a 3 incursiones a "farmear" pisos más fáciles para acumular suficiente dinero para una mejora significativa de nivel de arma. En Hellhole, las estadísticas puras a menudo superan las diferencias de habilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo sé cuándo un jefe está a punto de atacar?",
+    answer: "La mayoría de los jefes en Hellhole tienen una mecánica de 'Brillo'. Sus ojos o pecho parpadearán con una luz roja aproximadamente 1.5 segundos antes de un ataque importante. Aprender estas señales visuales específicas es el núcleo de cualquier guía de jefes de Hellhole."
+  },
+  {
+    question: "¿Puedo saltarme las peleas de jefes para llegar más rápido a los pisos más profundos?",
+    answer: "No. Los jefes actúan como barreras obligatorias. Debes derrotar al guardián del piso para desbloquear el ascensor o la escalera que lleva al siguiente nivel. Saltarse las peleas no es una opción en el bucle PvE actual."
+  },
+  {
+    question: "¿Cuál es la mejor mejora para las peleas contra jefes?",
+    answer: "La velocidad de movimiento es, posiblemente, la mejor mejora. Aunque el daño es importante, la mayoría de los ataques de los jefes en Hellhole se pueden esquivar por completo si tu velocidad de movimiento base es lo suficientemente alta como para salir del radio del AoE."
+  },
+  {
+    question: "¿Los jefes sueltan botín único?",
+    answer: "Los jefes proporcionan la mayor concentración de dinero y, ocasionalmente, sueltan 'Fragmentos de demonio' (Demon Shards) que se usan para las mejoras de armas en el juego tardío. Son la fuente principal de moneda de progresión."
+  }
+]} />
+
+</Section>

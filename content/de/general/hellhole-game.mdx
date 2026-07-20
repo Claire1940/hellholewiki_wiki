@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hellhole-Spiel: Schritt-für-Schritt-Überlebenshandbuch & Beste Loadouts",
+  description: "Meistere den Abstieg im Hellhole-Spiel mit unserem Überlebenshandbuch. Lerne Etagen-Mechaniken, Waffen-Upgrades und Boss-Strategien für diesen Roblox PvE-Horror-Shooter.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/b91c1c/fff?text=Hellhole+Survival+Guide",
+  date: "2026-07-20",
+  author: "hellhole Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Hellhole** ist ein hochintensiver Roblox PvE-Horror-Shooter, bei dem das Hauptziel darin besteht, durch immer gefährlichere unterirdische Etagen hinabzusteigen.
+- **Kernschleife**: Bekämpfe feindselige Kreaturen, sammle Ressourcen und investiere zwischen den Runden in Waffen-Upgrades, um tiefere Ebenen zu erreichen.
+- **Überlebensstrategie**: Priorisiere Munitionsschonung und Bewegung; Stillstehen ist der schnellste Weg, um einen Durchlauf in der dämonischen Unterwelt zu beenden.
+- **Schlüsselmechanik**: Das „Der einzige Weg hinaus führt nach unten“-System zwingt Spieler dazu, sich vorwärts ins Unbekannte zu bewegen, anstatt zurückzugehen.
+- **Top-Tipp**: Verbessere immer zuerst die Zuverlässigkeit deiner Primärwaffe, bevor du dich auf reinen Schaden konzentrierst, um anhaltende Gegnerwellen zu bewältigen.
+</Callout>
+
+<Section icon={Map} title="Hellhole-Spiel: Überlebensgrundlagen für Anfänger">
+
+Das **Hellhole-Spiel** bietet eine einzigartige Mischung aus taktischem Shooter und atmosphärischem Horror in der Roblox-Engine. Als PvE-Erfahrung hängt dein Erfolg ganz von deiner Fähigkeit ab, Gegnermuster zu lesen und deine begrenzten Ressourcen zu verwalten, während du Etage für Etage hinabsteigst. Im Gegensatz zu traditionellen Shootern betont Hellhole den Schrecken des Unbekannten, wo jede Aufzugsfahrt nach unten aggressivere Dämonen und Umweltgefahren mit sich bringt.
+
+**Video-Highlights:**
+- **Grundlegende Bewegung**: Meistere den Übergang vom Sprinten zum Zielen für sich schnell bewegende Ziele.
+- **Ressourcen-Spawns**: Identifiziere, wo Munitionskisten und Medipacks normalerweise auf den frühen Etagen erscheinen.
+- **Gegner-Aggro**: Wie man einzelne Gegner aus einer Gruppe weglockt, um nicht überwältigt zu werden.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="Hellhole Anfänger-Leitfaden und Gameplay" />
+
+Bevor du deinen ersten Abstieg beginnst, musst du dich mit der Benutzeroberfläche und den grundlegenden Interaktionsmechaniken vertraut machen. Das Spiel nutzt, wo immer möglich, ein diegetisches UI, um dich in den dunklen, steintexturierten Umgebungen versinken zu lassen.
+
+| Aktion | Steuerung (PC) | Prioritätsstufe | Notizen |
+| :--- | :--- | :--- | :--- |
+| **Bewegung** | WASD-Tasten | Hoch | Essenziell zum Kiten von Dämonen |
+| **Interaktion** | E-Taste | Mittel | Wird für Türen und Beute verwendet |
+| **Nachladen** | R-Taste | Hoch | Nach Kämpfen immer nachladen |
+| **Inventar** | G / Tab | Mittel | Ressourcen und Upgrades überprüfen |
+| **Taschenlampe** | F-Taste | Essenziell | Entscheidend für die Navigation auf dunklen Etagen |
+
+<Callout type="tip" title="Profi-Tipp für Einsteiger">
+Stürze dich nicht direkt in die Mitte einer neuen Etage. Halte dich an die Wände und säubere zuerst den Außenbereich. Dies verhindert, dass Gegner dich flankieren, während du dich auf das Plündern zentraler Kisten konzentrierst.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kernspielmechaniken und Etagensysteme">
+
+Der Fortschritt im **Hellhole-Spiel** ist linear, aber unerbittlich. Jede Etage stellt eine in sich geschlossene Herausforderung dar, die bewältigt werden muss, um den Weg nach unten freizuschalten. Die Skalierung des Schwierigkeitsgrads ist aggressiv, was bedeutet, dass Taktiken, die auf Etage 1 funktionierten, auf Etage 5 wahrscheinlich fehlschlagen werden. Das Verständnis des „Abstiegssystems“ ist entscheidend für den langfristigen Fortschritt.
+
+<CardGrid cols={3}>
+  <Card title="Etagenabstieg">
+    - **Steigende Gefahr**: Gegner gewinnen an Leben und Geschwindigkeit.
+    - **Begrenztes Licht**: Tiefer liegende Etagen bieten mehr Dunkelheit.
+    - **Kein Zurückgehen**: Sobald du unten bist, bleibst du unten.
+  </Card>
+  <Card title="PvE-Kampf">
+    - **Projektilphysik**: Kugeln haben Flugzeit und fallen ab.
+    - **Schwachpunkt-System**: Kopfschüsse verursachen 2,5-fachen Schaden.
+    - **Taumel-Mechanik**: Schwere Waffen können Angriffe unterbrechen.
+  </Card>
+  <Card title="Wirtschaftssystem">
+    - **Geld-Drops**: Verdient durch das Töten von Dämonen.
+    - **Beutekisten**: Enthalten temporäre Buffs oder Munition.
+    - **Upgrade-Stationen**: Zu finden in Sicherheitszonen zwischen den Etagen.
+  </Card>
+</CardGrid>
+
+Die Umgebung selbst ist oft genauso gefährlich wie die Monster. Einige Etagen weisen „Höllenrisse“ (Hellcracks) auf – glühend rote Spalten, die über Zeit Schaden verursachen, wenn man ihnen zu nahe kommt.
+
+| Gefahrenart | Visueller Hinweis | Effekt | Gegenmaßnahme |
+| :--- | :--- | :--- | :--- |
+| **Höllenrisse** | Glühend roter Boden | Schaden über Zeit | Bleibe auf den schwarzen Steinpfaden |
+| **Neblige Lüftungsschlitze** | Graue Rauchwolken | Reduzierte Sicht | Taschenlampe / Leuchtstäbe nutzen |
+| **Leere-Gruben** | Tiefschwarze Löcher | Sofortiger Tod | Vorsichtiges Platforming |
+| **Verfluchte Totems** | Schwebende Totenköpfe | Gegner-Buff-Aura | Totem zuerst zerstören |
+
+<Callout type="warning" title="Umweltgefahr">
+Sei vorsichtig auf Etagen mit dem Modifikator „Eklipse“. Deine Taschenlampenbatterie entlädt sich doppelt so schnell und die Erkennungsreichweite der Gegner ist deutlich erhöht.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Waffenhandbuch und Kampfstrategie">
+
+Der Kampf im **Hellhole-Spiel** erfordert ein Gleichgewicht aus Aggressivität und Vorsicht. Deine Startausrüstung ist dürftig, aber der Upgrade-Pfad ermöglicht spezialisierte Builds. Ob du einen „Glaskanonen“-Ansatz oder ein robusteres „Tanky Survivor“-Setup bevorzugst, deine Waffenwahl wird deinen Durchlauf definieren.
+
+<Steps>
+  <Step num="1" title="Auswahl der Startausrüstung">
+    Beginne mit dem Standardgewehr. Es hat ausgewogene Werte und nutzt gängige Munitionstypen, was es zum zuverlässigsten Werkzeug für die ersten drei Etagen macht.
+  </Step>
+  <Step num="2" title="Ressourcen ansammeln">
+    Konzentriere dich auf „saubere Kills“ (Kopfschüsse), um die Gelddrops zu maximieren. Vermeide es, Granaten gegen einzelne Ziele einzusetzen; hebe sie für die Schwärme auf, die in der Nähe von Aufzugstoren erscheinen.
+  </Step>
+  <Step num="3" title="Strategisches Upgraden">
+    Besuche die Upgrade-Station nach Etage 3. Priorisiere anfangs „Magazinkapazität“ und „Nachladegeschwindigkeit“ gegenüber reinem Schaden. Einen Schwarm zu überleben ist einfacher, wenn du nicht in einer Nachladeanimation feststeckst.
+  </Step>
+  <Step num="4" title="Spezialisierte Waffen">
+    Wechsle bis Etage 7 zu einer Sekundärwaffe wie der Schrotflinte für Dämonenbegegnungen im Nahkampf oder dem Scharfschützengewehr, um „Kreischer“ aus der Ferne auszuschalten.
+  </Step>
+</Steps>
+
+| Waffenklasse | Bester Einsatzzweck | Schadensausstoß | Schwierigkeit |
+| :--- | :--- | :--- | :--- |
+| **Sturmgewehr** | Allzweck | Moderat | Einfach |
+| **Schrotflinte** | Nahkampf / Bosse | Sehr hoch | Moderat |
+| **MP** | Gegnergruppen beseitigen | Niedrig (Hohe DPS) | Einfach |
+| **Scharfschützengewehr** | Fernkampfbedrohungen | Extrem | Schwer |
+| **Pistole** | Notfall-Backup | Niedrig | Moderat |
+
+<Callout type="info" title="Munitionsverwaltung">
+In einigen Versionen des Spiels wird die Munition von verschiedenen Waffenklassen geteilt. Überprüfe regelmäßig dein Inventar, um sicherzustellen, dass du deine Reserven nicht mit einer schnell feuernden MP verbrauchst, bevor du einen Boss erreichst.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gegner-Enzyklopädie und Boss-Taktiken">
+
+Die Bewohner des **Hellhole-Spiels** sind vielfältig und reichen von geistlosen Hüllen bis hin zu intelligenten Dämonenkommandanten. Jeder Gegnertyp hat ein spezifisches akustisches Signal – diese zu lernen entscheidet über Leben und Tod.
+
+**Video-Highlights:**
+- **Boss-Angriffsmuster**: Identifiziere den visuellen Hinweis („Telegraph“), bevor ein großer Flächenangriff erfolgt.
+- **Schwachstellen-Offenlegung**: Wenn der Boss von Etage 10 seine Brusthöhle für maximalen Schaden öffnet.
+- **Bewegungstaktiken**: Nutze die „Circle Strafe“-Methode, um projektilspeienden Gegnern auszuweichen.
+
+<YouTubeEmbed videoId="mPnmG7ZqwrA" title="Hellhole Gegner- und Boss-Leitfaden" />
+
+<Checklist
+  id="boss-prep"
+  title="Checkliste vor dem Bosskampf:"
+  items={[
+    "Lade alle Primär- und Sekundärwaffen vollständig nach",
+    "Stelle sicher, dass deine Gesundheit bei 90 % oder höher liegt",
+    "Rüste mindestens zwei Sprengkörper aus",
+    "Überprüfe den Batteriestand der Taschenlampe",
+    "Identifiziere die nächste Deckung in der Boss-Arena"
+  ]}
+/>
+
+| Gegnername | Verhalten | Strategie | Schwachstelle |
+| :--- | :--- | :--- | :--- |
+| **Hülle** | Langsam, nahkampforientiert | Abstand halten; Kopfschuss | Geringes Leben |
+| **Springer** | Springt von Wänden | Auf Landung warten; Schrotflinte | Verwundbarkeit in der Luft |
+| **Speier** | Säure-Fernangriff | Projektilen seitlich ausweichen | Glühende Kehle |
+| **Kommandant** | Bufft nahegelegene Hüllen | Zuerst fokussieren | Auf dem Rücken montierte Batterie |
+| **Der Torwächter** | Boss von Etage 5 | Phasenbasierter Kampf | Auge während der Laseraufladung |
+
+<Callout type="success" title="Sieg-Tipp">
+Konzentriere dich während der Bosskämpfe nicht nur auf den Boss. Kümmere dich um die „Adds“ (kleinere Gegner), die der Boss beschwört. Wenn die Arena zu voll wird, verlierst du die nötige Mobilität, um den schweren Angriffen des Bosses auszuweichen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fortschritt und Meta-Upgrades">
+
+Langfristiger Erfolg im **Hellhole-Spiel** hängt nicht nur vom Können des Spielers ab; es geht auch um die permanenten Upgrades, die du über mehrere Durchläufe hinweg freischaltest. Selbst ein gescheiterter Durchlauf bringt „Seelensplitter“ oder Währung ein, mit denen du deine Basiswerte verbessern kannst.
+
+<CardGrid cols={2}>
+  <Card title="Permanente Status-Boosts">
+    - **Gesundheitspool**: Erhöhe deine maximalen LP, um einen zusätzlichen Treffer zu überleben.
+    - **Ausdauer**: Renne länger und weiche häufiger aus.
+    - **Startmunition**: Beginne Durchläufe mit zusätzlichen Magazinen.
+  </Card>
+  <Card title="Nützliche Freischaltungen">
+    - **Verbesserte Taschenlampe**: Breiterer Lichtkegel und längere Batterielaufzeit.
+    - **Medikit-Effizienz**: Heilgegenstände stellen 20 % mehr Gesundheit wieder her.
+    - **Plünderersinn**: Hebe Beutekisten durch Wände hervor.
+  </Card>
+</CardGrid>
+
+Es wird dringend empfohlen, frühzeitig in den „Plünderer“-Zweig zu investieren. Indem du auf den frühen Etagen mehr Ressourcen findest, kannst du dir viel schneller hochrangige Waffen-Upgrades leisten, was den Abstieg im späten Spiel erheblich reibungsloser macht.
+
+<Callout type="tip" title="Upgrade-Priorität">
+Wenn du Probleme mit dem Überleben hast, konzentriere dich ganz auf **Ausdauer**-Upgrades. In Hellhole ist es oft wertvoller, einer Bedrohung davonlaufen zu können, als sie schnell töten zu können.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Ist das Hellhole-Spiel kostenlos spielbar?",
+    answer: "Ja, Hellhole ist ein kostenlos spielbares Roblox-Erlebnis, obwohl es optionale In-Game-Käufe für Kosmetika oder schnelleren Fortschritt anbieten kann."
+  },
+  {
+    question: "Kann ich Hellhole alleine spielen oder ist es nur im Koop-Modus möglich?",
+    answer: "Obwohl das Spiel für eine anspruchsvolle Solo-Erfahrung konzipiert ist, wird das Spielen in einer Gruppe von 2–4 Spielern für tiefere Etagen dringend empfohlen, da dort die Gegnerdichte zunimmt."
+  },
+  {
+    question: "Was passiert, wenn ich in Hellhole sterbe?",
+    answer: "Der Tod führt normalerweise zum Ende des aktuellen Durchlaufs. Du verlierst deinen temporären Etagenfortschritt, behältst aber alle permanenten Währungen oder Meta-Upgrades, die du während des Abstiegs verdient hast."
+  },
+  {
+    question: "Wie viele Etagen gibt es derzeit im Hellhole-Spiel?",
+    answer: "Seit den neuesten Updates von 2026 bietet das Spiel mehrere thematische Ebenen mit Dutzenden von Etagen, die alle fünf bis zehn Level in einzigartigen Bossbegegnungen gipfeln."
+  }
+]} />
+
+</Section>

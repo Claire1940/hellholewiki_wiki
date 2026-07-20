@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mejoras de Armas en Hellhole: Guía de Combate y Progresión 2026",
+  description: "Domina las mejoras de armas en Hellhole con nuestra guía detallada sobre desbloqueos de la armería, potenciadores durante la partida y ventajas esenciales para sobrevivir en los niveles más profundos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7f1d1d/fff?text=Weapon+Upgrades+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Hellhole",
+  keywords: "hellhole, mejoras de armas, guía de combate, roblox, progresión"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Las mejoras de armas de Hellhole** se dividen entre desbloqueos permanentes de la Armería y potenciadores aleatorios (RNG) durante la partida.
+- **Las estadísticas prioritarias** para la mayoría de las partidas incluyen Daño, Probabilidad de Crítico y Tamaño del Cargador para manejar las hordas en el juego tardío.
+- **Las ventajas esenciales** como "Reload Heals" (Curación al recargar) proporcionan una sostenibilidad vital al explorar pisos profundos como la Tumba Antigua.
+- **La gestión de divisas** es clave; ahorra Engranajes (Gears) para desbloqueos de armas y usa Oro para potenciadores en la tienda a mitad de la partida.
+- **El escalado de los jefes** depende del tamaño de tu grupo, lo que hace que las partidas en solitario sean desafiantes pero manejables con una alta Cadencia de Fuego.
+</Callout>
+
+<Section icon={Swords} title="Desbloqueos Permanentes de la Armería y Selección de Armas">
+
+La base de tu éxito en el foso comienza en la Armería. A diferencia de los potenciadores temporales que encuentras mientras desciendes, los desbloqueos de la Armería representan una progresión permanente para tu personaje. Comienzas tu viaje con una pistola predeterminada, que ofrece munición ilimitada pero requiere recargas frecuentes. Para enfrentarte a los pisos más difíciles como las Ruinas Sumergidas o las Profundidades Fúngicas, debes invertir los Engranajes que tanto te ha costado ganar en una potencia de fuego superior.
+
+**Puntos destacados del video:**
+- Descripción general del sistema de Armería y estadísticas de armas (Daño, RPM, Cargador).
+- Demostración del Arma de Lava y su pasiva de quemadura legendaria.
+- Explicación del sistema de rangos y cómo bloquea las ventajas de alto nivel.
+- Consejos para completar misiones diarias y farmear Engranajes de manera eficiente.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="¡GUÍA COMPLETA DE HELLHOLE! (Enemigos, Mejoras, Dinero) - Roblox" />
+
+Cada arma en la Armería presenta estadísticas distintas que definen su estilo de juego. Por ejemplo, el arma de Lava, que cuesta 5,000 Engranajes, es una opción de primer nivel debido a su pasiva "Burn" (Quemadura), que inflige daño con el tiempo. Esto es particularmente efectivo contra objetivos con mucha vida como el Mago Bruto o los jefes que se encuentran en el piso siete.
+
+| Tipo de Arma | Daño Base | Pasiva Especial | Costo en Engranajes |
+| :--- | :--- | :--- | :--- |
+| **Pistola Inicial** | Moderado | Ninguna (Munición ilimitada) | Gratis |
+| **Rifle de Lava** | Alto | Quemadura Legendaria (DOT) | 5,000 |
+| **Subfusil Gélido** | Bajo | Ralentiza enemigos al impactar | 3,500 |
+| **Arco Marchito** | Muy Alto | Penetración de armadura | 4,500 |
+
+<Callout type="warning" title="Requisitos de Rango">
+Muchas armas y ventajas de alto nivel están bloqueadas según tu Rango de cuenta. Asegúrate de completar las misiones diarias, como derrotar a 80 enemigos o dos jefes, para obtener la XP necesaria para alcanzar el Rango 35 y superior.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Mejoras de Armas en Partida y Mecánicas de RNG">
+
+Una vez que desciendes al Núcleo de Magma, tu enfoque cambia a las **mejoras de armas de Hellhole** que aparecen dinámicamente durante la partida. Estas mejoras se encuentran en "Salas de Mejora" específicas y ofrecen una elección entre tres potenciadores aleatorios. Comprender la sinergia entre estos potenciadores es la diferencia entre una partida fallida y llegar al piso de Cristal.
+
+Las mejoras se categorizan por rareza: Común, Rara y Épica. Una mejora de Daño Épica puede proporcionar un aumento masivo del 16%, que escala significativamente a medida que lo acumulas con modificadores de daño crítico.
+
+| Nombre de Mejora | Descripción del Efecto | Nivel de Rareza |
+| :--- | :--- | :--- |
+| **Críticos Mortales** | Aumenta la probabilidad de golpe crítico en un 25% | Rara |
+| **Balas Pesadas** | Aumenta la producción de daño base bruto | Común/Rara |
+| **Adrenalina** | Aumenta la velocidad de recarga tras una baja | Común |
+| **Daño Épico** | Aumento masivo de +16% a todo el daño | Épica |
+| **Cargador Extendido** | Añade +5 balas al cargador actual | Común |
+| **Fuego Rápido** | Aumenta la cadencia de fuego (RPM) en un 12% | Rara |
+
+<Callout type="tip" title="Estrategia de Sinergia">
+Si estás usando la pistola predeterminada, prioriza el **Tamaño del Cargador** y la **Velocidad de Recarga**. Dado que la pistola tiene un cargador base pequeño, aumentarlo a 17 o 22 balas te permite activar las ventajas de "al recargar" con menos frecuencia, pero te mantiene en la pelea por más tiempo durante las hordas de Gremlins.
+</Callout>
+
+Al elegir tu camino, revisa siempre los iconos de las salas. Si ves un icono de Mejora y un icono de sala de Tesoro juntos, prioriza la mejora primero para asegurarte de ser lo suficientemente fuerte como para despejar la siguiente oleada de combate.
+
+</Section>
+
+<Section icon={Shield} title="Ventajas Estratégicas y Personalización de Personajes">
+
+Las ventajas (Perks) son la capa secundaria de tu configuración. Antes de comenzar una partida, puedes equipar ventajas específicas que alteran tus mecánicas de juego. A medida que subes de rango, desbloqueas más ranuras y opciones más poderosas. En el meta actual de 2026, la sostenibilidad y la movilidad son los rasgos más valorados.
+
+<CardGrid cols={3}>
+  <Card title="Óptica de Reconocimiento">
+    - **Efecto**: Ver enemigos restantes
+    - **Ideal para**: Posicionamiento táctico
+    - **Desbloqueo**: Rango 1
+  </Card>
+  <Card title="Recarga Curativa">
+    - **Efecto**: Cura +5 HP al recargar
+    - **Ideal para**: Supervivencia en solitario
+    - **Desbloqueo**: Rango inicial
+  </Card>
+  <Card title="Balas Perforantes">
+    - **Efecto**: Las balas atraviesan a un enemigo
+    - **Ideal para**: Control de masas
+    - **Desbloqueo**: Rango 35
+  </Card>
+</CardGrid>
+
+La ventaja "Reload Heals" (Recarga Curativa) es posiblemente la más importante para principiantes. En Hellhole, las curaciones que sueltan los enemigos son inconsistentes. Al equipar esta ventaja, cada recarga se convierte en una fuente de curación, permitiéndote recuperarte de errores cometidos durante intensas peleas contra jefes.
+
+| Nombre de Ventaja | Tipo de Utilidad | Recomendación Estratégica |
+| :--- | :--- | :--- |
+| **Inicio Adinerado** | Economía | Comienza con 150 de Oro extra |
+| **Reflejo Rápido** | Movilidad | Potenciador permanente de velocidad de movimiento |
+| **Caparazón Endurecido** | Defensa | Aumenta el HP máximo en un 15% |
+
+<Callout type="info" title="Observación de Expertos">
+La velocidad de movimiento a menudo se pasa por alto, pero es crítica. Muchos enemigos, como los Gremlins, son increíblemente rápidos. Si tu velocidad de movimiento es demasiado baja, te verán abrumado independientemente del daño de tu arma.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para Maximizar la Obtención de Engranajes">
+
+Para permitirte las mejores **mejoras de armas de Hellhole**, necesitas un flujo constante de Engranajes. Los Engranajes son la divisa principal utilizada en la tienda del menú principal, y se ganan principalmente a través del rendimiento y la exploración.
+
+<Steps>
+  <Step num="1" title="Limpia las Salas de Tesoro">
+    Busca siempre los cofres dorados y plateados escondidos en las salas laterales. Estos proporcionan tanto Oro inmediato para la partida como Engranajes para tu cuenta permanente.
+  </Step>
+  <Step num="2" title="Completa Misiones Diarias">
+    Revisa la parte inferior izquierda de la pantalla del lobby para ver tus tareas diarias. Estas suelen recompensar con 100-500 Engranajes al completarlas y se reinician cada 24 horas.
+  </Step>
+  <Step num="3" title="Alcanza Pisos más Profundos">
+    La cantidad de Engranajes recompensados escala con la profundidad de tu partida. Llegar a la Tumba Antigua o al piso de Cristal otorga significativamente más divisa que morir en el Núcleo de Magma.
+  </Step>
+  <Step num="4" title="Derrota a los Jefes">
+    Los jefes sueltan un gran alijo de Engranajes. Incluso si mueres poco después de una pelea contra un jefe, la divisa ganada por esa baja se añade permanentemente a tu cuenta.
+  </Step>
+</Steps>
+
+| Fuente de Divisa | Rendimiento Promedio | Dificultad |
+| :--- | :--- | :--- |
+| **Cofres Plateados** | 10-20 Engranajes | Muy Fácil |
+| **Cofres Dorados** | 50-100 Engranajes | Fácil |
+| **Misiones Diarias** | 200+ Engranajes | Media |
+| **Jefes de Piso** | 500+ Engranajes | Difícil |
+
+<Callout type="success" title="Consejo de Economía">
+Si tienes dificultades para ganar Engranajes, enfócate en hacer "Speedruns" hasta el piso 3. La dificultad es baja y puedes recoger cofres rápidamente y reiniciar para maximizar tus ingresos de Engranajes por hora.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Tiendas Durante la Partida y Potenciadores de Supervivencia">
+
+Mientras exploras las diversas capas del foso, encontrarás tiendas de NPC. Estas tiendas utilizan el Oro que recolectas *durante esa partida específica*. A diferencia de los Engranajes, el Oro se pierde cuando termina la partida, por lo que debes gastarlo generosamente para asegurar tu supervivencia en el siguiente piso.
+
+<Checklist
+  id="shop-priorities"
+  title="Prioridad de Compra en la Tienda:"
+  items={[
+    "Gran Aumento de Velocidad (Alta prioridad para esquivar jefes)",
+    "Aumento de HP Máximo (Esencial para el escalado en el juego tardío)",
+    "Curación Completa (Solo si tienes menos del 40% de vida)",
+    "Pequeño Aumento de Velocidad (Si el Oro es limitado)"
+  ]}
+/>
+
+El inventario de la tienda es consistente, pero los precios pueden variar ligeramente. Gestionar tu Oro de manera efectiva te permite acumular potenciadores de HP Máximo, duplicando potencialmente tu salud inicial para cuando llegues al jefe final.
+
+| Objeto de Tienda | Costo (Oro) | ¿Permanente en la Partida? |
+| :--- | :--- | :--- |
+| **Curación Completa** | 50-100 | No (Instantáneo) |
+| **HP Máximo +15** | 250-400 | Sí |
+| **Velocidad Menor** | 150-200 | Sí |
+| **Velocidad Mayor** | 500+ | Sí |
+
+<Callout type="tip" title="Estrategia Pro de Tienda">
+Mantén siempre al menos 100 de Oro en reserva para una curación de emergencia. Si entras en una sala de jefe con poca vida y sin Oro, tus posibilidades de supervivencia caen drásticamente, incluso con las mejores mejoras.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo obtengo las mejores mejoras de armas en Hellhole?",
+    answer: "Las mejores mejoras se encuentran en cofres de rareza Épica o en Salas de Mejora. Busca 'Daño Épico' o 'Críticos Mortales' para maximizar tu DPS. Además, ahorra Engranajes en el menú principal para desbloquear armas legendarias como el Rifle de Lava."
+  },
+  {
+    question: "¿Las mejoras se mantienen después de morir?",
+    answer: "No. Las mejoras obtenidas durante la partida (como +16% de Daño) y el Oro se pierden al morir. Solo los desbloqueos de armas de la Armería, las Ventajas y los Engranajes son permanentes."
+  },
+  {
+    question: "¿Cuál es la mejor arma para jugadores en solitario?",
+    answer: "La pistola predeterminada es sorprendentemente fuerte para jugadores en solitario cuando se combina con la ventaja 'Recarga Curativa'. Sin embargo, el Subfusil Gélido es excelente para jugar solo, ya que ralentiza a los enemigos rápidos como los Gremlins, dándote más tiempo para reaccionar."
+  },
+  {
+    question: "¿Cómo escala la vida de los jefes en Hellhole?",
+    answer: "La vida de los jefes escala según el tamaño de tu grupo. Un jugador en solitario se enfrentará a un jefe con aproximadamente 4,000 HP, mientras que un grupo completo de cuatro se enfrentará a un jefe con una vida significativamente mayor para mantener el desafío."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+El meta para las **mejoras de armas de Hellhole** continúa evolucionando a medida que se añaden nuevos pisos. Experimenta siempre con diferentes combinaciones de ventajas para encontrar un estilo de juego que se adapte a tu nivel de habilidad mecánica.
+</Callout>
+
+</Section>

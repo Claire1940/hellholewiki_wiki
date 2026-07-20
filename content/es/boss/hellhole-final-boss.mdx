@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jefe final de hellhole: Guía de tácticas de supervivencia y descenso profundo",
+  description: "Domina al jefe final de hellhole con nuestra guía de 2026. Aprende patrones de ataque, los mejores equipamientos de armas y estrategias de supervivencia para los pisos más profundos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7f1d1d/fff?text=Final+Boss+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de hellhole"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Jefe final de hellhole**: El encuentro definitivo que se encuentra en los niveles más profundos del inframundo demoníaco.
+- **Preparación**: Maximiza el daño de tu arma principal y abastécete de recursos de curación antes del descenso final.
+- **Estrategia principal**: Concéntrate en el reconocimiento de patrones y en mantener la distancia durante las fases de alta agresividad.
+- **Recompensa clave**: Derrotar al jefe otorga una enorme cantidad de dinero para mejoras de equipo permanentes y desbloqueos.
+- **Lema de supervivencia**: Recuerda, en Hellhole, la única salida es hacia abajo.
+</Callout>
+
+<Section icon={Map} title="El descenso al encuentro final">
+
+El viaje hacia el **jefe final de hellhole** es una prueba extenuante de resistencia, gestión de recursos y habilidad de combate. Como juego de disparos de terror PvE en Roblox, Hellhole requiere que los jugadores naveguen piso tras piso con una dificultad cada vez mayor. Para cuando alcances las profundidades finales, los peligros ambientales y los enemigos estándar ya habrán agotado gran parte de tu utilidad. El éxito depende de llegar a la arena final con un equipamiento optimizado y una comprensión clara de la letalidad del jefe.
+
+Para sobrevivir al descenso, debes equilibrar la velocidad y la minuciosidad. Correr a través de los pisos puede ahorrar salud, pero carecerás de los fondos necesarios para las mejoras críticas. Por el contrario, quedarse demasiado tiempo aumenta el riesgo de ser abrumado por las hordas de demonios.
+
+| Nivel de piso | Dificultad | Amenaza principal | Acción recomendada |
+| :--- | :--- | :--- | :--- |
+| **Pisos superiores** | Baja | Reptadores básicos | Conservar munición, farmear dinero |
+| **Profundidades medias** | Media | Demonios a distancia | Usar cobertura, mejorar armadura |
+| **Pisos profundos** | Alta | Centinelas de élite | Gran daño de ráfaga, mantenerse móvil |
+| **Arena final** | Extrema | **Jefe final de hellhole** | Esquivar a la perfección, mejoras al máximo |
+
+<Callout type="warning" title="Gestión de recursos">
+Nunca entres a los últimos tres pisos con menos del 50% de capacidad de munición. La densidad de enemigos aumenta significativamente, y quedarse sin munición antes del encuentro con el jefe es un estado de fallo garantizado.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Los mejores equipamientos para sobrevivir al jefe">
+
+Enfrentarse al **jefe final de hellhole** requiere una configuración de equipo especializada. Aunque las armas de uso general funcionan para limpiar pasillos, el encuentro final exige un alto daño sostenido y una utilidad defensiva confiable. Los jugadores deben priorizar armas que ofrezcan un equilibrio entre cadencia de tiro y poder de parada para interrumpir animaciones específicas del jefe.
+
+En el meta actual de 2026, el enfoque se ha desplazado hacia construcciones de alta movilidad que permiten a los jugadores escapar de los ataques de área de efecto (AoE) del jefe sin sacrificar el DPS (daño por segundo).
+
+<CardGrid cols={3}>
+  <Card title="La construcción de vanguardia">
+    - **Principal**: Escopeta pesada
+    - **Utilidad**: Placas de armadura
+    - **Enfoque**: Ráfagas a corta distancia y alta durabilidad para resistir golpes.
+  </Card>
+  <Card title="La construcción de tirador">
+    - **Principal**: Fusil de precisión
+    - **Utilidad**: Aumento de resistencia
+    - **Enfoque**: Seguridad a larga distancia y daño constante a puntos débiles.
+  </Card>
+  <Card title="La construcción de especialista">
+    - **Principal**: Carabina de energía
+    - **Utilidad**: Curación rápida
+    - **Enfoque**: Daño elemental y recuperación rápida durante los cambios de fase.
+  </Card>
+</CardGrid>
+
+| Tipo de arma | Daño | Alcance | Efectividad contra el jefe |
+| :--- | :--- | :--- | :--- |
+| **Escopeta pesada** | ★★★★★ | Corto | Excelente para transiciones de fase |
+| **Fusil de precisión** | ★★★★☆ | Largo | Ideal para ventanas de daño seguras |
+| **Carabina de energía** | ★★★☆☆ | Medio | Excelente para eliminar esbirros del jefe |
+| **Pistola estándar** | ★★☆☆☆ | Medio | Solo para uso de emergencia |
+
+<Callout type="tip" title="Sinergia de armas">
+Si juegas en escuadrón, asegúrate de que al menos un jugador lleve un arma capaz de aturdir al jefe. Esto crea "ventanas seguras" para que el resto del equipo recargue y se cure.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecánicas y fases del jefe final">
+
+La batalla contra el **jefe final de hellhole** se estructura en varias fases distintas, cada una con una complejidad creciente. Comprender las señales visuales de estos ataques marca la diferencia entre una partida exitosa y un viaje rápido de regreso al lobby. El jefe utiliza una mezcla de golpes físicos, proyectiles demoníacos y manipulación ambiental.
+
+Durante la fase inicial, el jefe permanece relativamente estacionario, confiando en golpes de largo alcance y esbirros invocados. A medida que su salud disminuye, se vuelve significativamente más móvil, llegando a cubrir la arena con "Fuego infernal", lo que limita tus opciones de movimiento.
+
+<Steps>
+  <Step num="1" title="Fase de observación">
+    El jefe utiliza golpes contra el suelo predecibles. Mantente a media distancia y concentra el fuego en la cavidad brillante del pecho para provocar el primer aturdimiento.
+  </Step>
+  <Step num="2" title="Invocación de esbirros">
+    El jefe se retira a las sombras y genera demonios de élite. Cambia a armas de gran capacidad para limpiar los enemigos adicionales rápidamente antes de que el jefe regrese.
+  </Step>
+  <Step num="3" title="Estado de enfurecimiento">
+    Al 30% de salud, el jefe brilla en rojo. La velocidad de movimiento aumenta en un 50%. Usa tus aumentos de resistencia aquí para evitar el ataque de embestida "Devorador de mundos".
+  </Step>
+  <Step num="4" title="La última resistencia">
+    La arena comienza a colapsar. Todo el daño debe concentrarse en la cabeza del jefe. Ignora a los enemigos menores y gasta toda la munición restante.
+  </Step>
+</Steps>
+
+| Nombre del ataque | Señal visual | Efecto | Contramedida |
+| :--- | :--- | :--- | :--- |
+| **Golpe demoníaco** | El jefe levanta ambos brazos | Daño masivo en área | Saltar o deslizarse hacia atrás |
+| **Rayo de alma** | Brillo morado en los ojos | Proyectil teledirigido | Romper la línea de visión con los pilares |
+| **Rugido abismal** | La pantalla tiembla ligeramente | Aturdimiento y retroceso | Mantener la distancia, no dejarse acorralar |
+| **Lluvia de fuego infernal** | El jefe grita al techo | Charcos de fuego en el suelo | Movimiento constante, vigilar los pies |
+
+<Callout type="success" title="Consejo de victoria">
+El jefe es más vulnerable inmediatamente después del "Rugido abismal". Aprovecha esta ventana de 3 segundos para desplegar tus habilidades de mayor daño o explosivos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de supervivencia avanzadas">
+
+Sobrevivir al **jefe final de hellhole** no se trata solo de disparar; se trata de un movimiento inteligente y de la conciencia del entorno. La arena está diseñada para atrapar a los jugadores que se quedan quietos por demasiado tiempo. Utilizar la verticalidad del entorno y la limitada cobertura disponible es esencial para el juego de alto nivel.
+
+Los jugadores experimentados suelen utilizar una técnica de "desplazamiento lateral circular", manteniendo al jefe en el centro de la arena mientras giran a lo largo del borde exterior. Esto minimiza la posibilidad de ser golpeado por los ataques frontales principales del jefe mientras se mantiene despejado el camino de salida.
+
+| Componente de estrategia | Importancia | Detalle de ejecución |
+| :--- | :--- | :--- |
+| **Gestión de resistencia** | Crítica | Nunca dejes que tu barra llegue a cero; mantén una reserva para deslizamientos de emergencia. |
+| **Uso de cobertura** | Alta | Usa los pilares de piedra para bloquear proyectiles, pero muévete antes de que se desmoronen. |
+| **Posicionamiento del equipo** | Media | Dispérsense para asegurarse de que el jefe solo pueda apuntar a un jugador a la vez. |
+| **Conservación de munición** | Alta | Usa armas secundarias para los esbirros; guarda la munición principal para el jefe. |
+
+<Callout type="info" title="Consejo de experto">
+Mejora tu "Velocidad de recarga" y "Velocidad de movimiento" en el menú de progresión antes de intentar un descenso profundo. Estas dos estadísticas son más impactantes que la salud bruta en el encuentro final.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas tras la batalla y progresión">
+
+Derrotar al **jefe final de hellhole** es la forma principal de progresar hacia los modos "Nueva partida plus" o "Infinito" de Hellhole. Las recompensas por completarlo son sustanciales, proporcionando los recursos necesarios para enfrentar versiones aún más difíciles del inframundo en intentos posteriores.
+
+La tabla de botín del jefe final incluye diseños de armas exclusivos, dinero de alto nivel y "Artefactos" que otorgan mejoras permanentes de estadísticas a tu personaje.
+
+<Checklist
+  id="boss-completion-goals"
+  title="Lista de tareas post-jefe:"
+  items={[
+    "Recoge la 'Esencia del infierno' de los restos del jefe.",
+    "Gasta el dinero obtenido con el comerciante de las profundidades antes de salir.",
+    "Revisa el panel de logros para ver 'Cazador de las profundidades'.",
+    "Equipa cualquier artefacto nuevo en la pantalla de equipamiento del menú principal.",
+    "Prepárate para el próximo descenso con modificadores de dificultad aumentados."
+  ]}
+/>
+
+| Tipo de recompensa | Probabilidad de obtención | Beneficio |
+| :--- | :--- | :--- |
+| **Créditos demoníacos** | 100% | Se utilizan para todas las mejoras permanentes de la tienda |
+| **Artefacto de jefe** | 25% | Mejora permanente de +5% de daño o salud |
+| **Diseño de arma de élite** | 5% | Prestigio cosmético para tu equipamiento |
+| **Materiales de mejora** | 100% | Requeridos para mejoras de armas de nivel 5 o superior |
+
+<Callout type="success" title="Hito de progresión">
+Completar al jefe final por primera vez desbloquea la dificultad "Infernal", que aumenta la salud de los enemigos en un 200% pero triplica las recompensas de dinero.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes del jefe final">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor arma para usar contra el jefe final de hellhole?",
+    answer: "La escopeta pesada es actualmente la más efectiva para el daño bruto, pero la carabina de energía es mejor para los jugadores que tienen dificultades con la gestión de esbirros durante la pelea."
+  },
+  {
+    question: "¿Puedo luchar contra el jefe final en solitario?",
+    answer: "Sí, el jefe se escala según el número de jugadores. Aunque el juego en solitario es más difícil al ser el único objetivo, el jefe tiene significativamente menos salud que en el juego en grupo."
+  },
+  {
+    question: "¿Qué pasa si muero durante la pelea contra el jefe final?",
+    answer: "En Hellhole, la muerte es penalizadora. Perderás una parte del dinero de tu intento actual y deberás reiniciar el descenso desde el último piso de control."
+  },
+  {
+    question: "¿Cómo desbloqueo la arena del jefe final?",
+    answer: "Debes completar con éxito todos los pisos anteriores y recolectar las tres 'Llaves del guardián' que se encuentran en los niveles de profundidad media del juego."
+  }
+]} />
+
+</Section>

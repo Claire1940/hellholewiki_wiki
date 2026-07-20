@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hellhole Codes: Essential Console Commands for the Forgotten Build",
+  description: "Master the essential hellhole codes and console commands to access, navigate, and survive the legendary forgotten Hell Hole anomaly in Subnautica.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Hellhole+Codes+Guide",
+  date: "2026-07-20",
+  author: "hellhole Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Hellhole codes** allow players to bypass restrictions and explore the deep 2015 early access map anomaly.
+- **Console commands** like teleportation and spawning are required to navigate the unstable geometry safely.
+- **Lava Castle** structures and proto-lava zones can be accessed directly using specific depth coordinates.
+- **Safety measures** must be taken as multiple Reaper Leviathans guard the entrance under the Aurora.
+</Callout>
+
+<Section icon={Map} title="Exploring the July 2015 Build with Hellhole Codes">
+
+During the early development phases of Subnautica, specifically around the July 2015 Early Access build, the map featured several unique terrain layouts that were later modified or entirely removed. The most legendary of these anomalies is the "Hell Hole," a massive, vertical abyss located directly beneath the crash site of the Aurora. Unlike the modern version of the game where the seabed under the Aurora is relatively shallow and flat, this historic build contained a sheer drop-off descending past 1200 meters into an unfinished, proto-Lava Zone.
+
+To successfully access and explore this terrifying geological feature, players rely on specialized **hellhole codes**—developer console commands that bypass physical barriers, spawn high-tier vehicles instantly, and prevent sudden death from environmental hazards or aggressive fauna. Because this build utilized an early iteration of the Unity engine's voxel-based terrain, navigating the abyss without these commands often results in falling through the map or getting trapped in unrendered geometry.
+
+**Video Highlights:**
+- **Terrain Anomalies**: Discovering blocked-off stone pits in the Grassy Plateaus that indicate early developmental testing.
+- **Reaper Clusters**: Navigating past abnormally high concentrations of Reaper Leviathans guarding the Aurora transition zone.
+- **The Descent**: Visualizing the sheer vertical drop from 400 meters down to the unoptimized 1200-meter floor.
+- **Proto-Lava Zone**: Exploring the early, hollow iteration of the Lava Castle structure before modern textures were applied.
+
+<YouTubeEmbed videoId="NwvtlZIVE-o" title="I Found The Terrifying HELL HOLE In A FORGOTTEN Subnautica Build" />
+
+The transition from the safe shallows to the deep ocean in this 2015 build highlights how radically the developers altered the map's structural flow. In the finished release, the path to the Lava Zone is a series of interconnected, organic cave systems like the Lost River. In contrast, the Hell Hole was a direct, brutal vertical shaft cut straight out of the map's grid.
+
+| Build Aspect | Early Access Specification | Modern Release Status | Stability Level |
+|---|---|---|---|
+| **Primary Depth** | 400m to 1200m vertical drop | Replaced by Lost River | Highly Unstable |
+| **Terrain Style** | Sheer voxel cut-out | Smooth organic transitions | Low Performance |
+| **Main Hazard** | Dense Reaper Leviathan spawns | Ghost Leviathans & Heat | High Danger |
+| **Access Method** | Legacy build selection & codes | Standard progression | Experimental |
+
+<Callout type="warning" title="Danger: Leviathan Spawns">
+The area surrounding the entrance to the Hell Hole under the Aurora features an extremely high density of Reaper Leviathans that spawn instantly. Ensure you have activated invincibility codes before attempting a direct descent.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Core Hellhole Codes for Navigation and Spawning">
+
+Activating the developer console is the first step to executing **hellhole codes** in legacy builds. To open the console in the July 2015 build, press the **F3** key to bring up the graphics settings menu, then press **F8** to unlock your mouse cursor. Uncheck the box labeled "Disable Console" at the top left of the screen. Once unlocked, you can open the text input box by pressing either the **Tilde (~)** key or the **Enter** key.
+
+Because the physics engine in early builds is highly experimental, you will frequently encounter situations where your vehicle becomes lodged in unfinished terrain or the environment fails to load entirely. The following tables outline the most critical developer codes required to navigate, survive, and analyze this forgotten deep-sea sector.
+
+| Command | Syntax | Primary Function | Safety Rating |
+|---|---|---|---|
+| **nodamage** | nodamage | Toggles invincibility for player and vehicles | 5/5 |
+| **nocost** | nocost | Allows free crafting and building | 5/5 |
+| **oxygen** | oxygen | Grants unlimited oxygen supply | 5/5 |
+| **fog** | fog | Toggles underwater fog to maximize visibility | 4/5 |
+| **freecam** | freecam | Detaches camera to inspect unrendered geometry | 3/5 |
+
+Using these navigation commands allows you to bypass the long, tedious process of gathering resources and crafting high-tier diving suits that may not even function correctly in this specific developmental build. 
+
+| Spawn Target | Specific Code | Practical Utility | Notes |
+|---|---|---|---|
+| **Cyclops Submarine** | spawn cyclops | High | Spawns a fully functional mobile base |
+| **Seamoth Submersible** | spawn seamoth | Medium | Fast travel, but highly vulnerable to depth crush |
+| **Radiation Suit** | item radiationsuit | High | Essential for surviving the Aurora's proximity |
+| **Stasis Rifle** | item stasisrifle | Medium | Useful for freezing aggressive fauna |
+
+<Callout type="tip" title="Pro Tip: Freecam Exploration">
+When descending past 800 meters, use the `freecam` command to scout ahead. The collision geometry in the proto-Lava Zone is incomplete, and falling through the floor can corrupt your active save file.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Descent Guide Using Coordinates">
+
+Getting to the bottom of the Hell Hole requires precise execution. Because the map lacks modern UI markers and beacons, following a structured path is essential to avoid getting lost in the black void beneath the Aurora.
+
+<Steps>
+  <Step num="1" title="Initialize Experimental Sandbox Mode">
+    Load into a new Creative or Freedom mode game in the July 2015 build. Once spawned in the Safe Shallows, open the developer console and input `nodamage` followed by `oxygen` to ensure complete safety during your descent.
+  </Step>
+  <Step num="2" title="Spawn and Equip Necessary Gear">
+    Input the code `item radiationsuit` to equip yourself against the nuclear fallout zone surrounding the Aurora. Next, type `spawn cyclops` while facing open water to generate your primary deep-sea transport vehicle.
+  </Step>
+  <Step num="3" title="Locate the Aurora Crash Site Entrance">
+    Pilot your Cyclops toward the starboard side of the Aurora. Navigate downward past the 300-meter mark until you find the massive, rectangular cut-out in the ocean floor. This is the entrance to the Hell Hole.
+  </Step>
+  <Step num="4" title="Execute Deep-Sea Navigation Codes">
+    As you enter the abyss, the water will darken significantly. Input the `fog` command to disable environmental rendering filters. This will allow you to see the sheer rock faces and avoid crashing into the untextured walls.
+  </Step>
+  <Step num="5" title="Explore the Proto-Lava Zone and Lava Castle">
+    Continue descending vertically until your depth gauge reads approximately 1200 meters. You will emerge into a massive cavern featuring primitive, bright orange lava textures and a hollow, geometric structure representing the early Lava Castle.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Abyss Reached">
+Once you reach the 1200-meter floor, you have successfully navigated the deepest point of the legacy build. Use this area to inspect how early developers planned the game's late-stage progression environments.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Early Hell Hole Mechanics vs Modern Subnautica">
+
+Analyzing the structural differences between the July 2015 Hell Hole and the modern release of Subnautica reveals how the developers approached world-building and optimization over time. The original design was highly vertical, prioritizing rapid depth progression over atmospheric exploration.
+
+<CardGrid cols={3}>
+  <Card title="Unfinished Voxel Terrain">
+    - **Hollow Geometries**: Many rock formations lack internal collision.
+    - **Sudden Drop-offs**: Sheer vertical walls replace natural slopes.
+    - **Debris Piles**: Random stone pillars block off unfinished zones.
+  </Card>
+  <Card title="Erratic Fauna Placement">
+    - **Reaper Swarms**: Dozens of Reapers patrol tight corridors.
+    - **No Sea Dragons**: The apex predator of the deep was not yet coded.
+    - **Aggressive Sandsharks**: Found much deeper than their natural habitat.
+  </Card>
+  <Card title="Unoptimized Lighting">
+    - **Pitch Black Voids**: Lack of ambient bioluminescence.
+    - **Flat Lava Textures**: Volcanic flows lack heat distortion effects.
+    - **No Fog Scaling**: Depth does not naturally filter light.
+  </Card>
+</CardGrid>
+
+The lore implications of this early layout are also fascinating. In the final game, the skeletons of Reaper Leviathans are scattered throughout the Lava Zone, with PDA entries suggesting that Sea Dragon Leviathans dragged them down from the surface to feed. The wide, unobstructed vertical shaft of the Hell Hole provides a perfect physical explanation for how these massive creatures could have easily transported surface prey down to the extreme depths of the ocean floor.
+
+| Feature Comparison | 2015 Hell Hole Anomaly | Modern Deep-Sea Zones |
+|---|---|---|
+| **Transition Style** | Direct vertical shaft | Winding, biomic cave networks |
+| **Max Depth Boundary** | Hard stop at 1200 meters | Extends past 1700 meters |
+| **Volcanic Structures** | Hollow, unrendered Lava Castle | Highly detailed volcanic vents |
+| **Atmospheric Audio** | Generic deep-sea ambient loops | Unique biome-specific soundtracks |
+| **Navigational Ease** | Extremely difficult without codes | Manageable with standard vehicles |
+
+<Callout type="info" title="Developmental History">
+The Hell Hole was ultimately removed because the voxel-based terrain engine caused severe frame-rate drops. The developers transitioned to a static, hand-crafted map design to ensure stable performance on consumer hardware.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Checklist and Best Practices">
+
+Before attempting to run legacy builds and execute developer commands, it is vital to prepare your system and understand the limitations of early game versions. These builds lack the safety nets and auto-save features present in modern releases.
+
+<Checklist
+  id="pre-flight-checklist"
+  title="Legacy Exploration Prep:"
+  items={[
+    "Backup your modern Subnautica save files to prevent directory conflicts.",
+    "Select the July 2015 build from your Steam beta options menu.",
+    "Verify game file integrity before launching the legacy executable.",
+    "Enable the developer console immediately upon spawning in the shallows."
+  ]}
+/>
+
+To ensure you do not lose progress or crash your client while exploring the deep abyss, reference this optimized equipment loadout. Spawning these items using console commands guarantees maximum survivability against the unstable physics of the early build.
+
+| Equipment Item | Console Spawn Code | Priority | Exploration Purpose |
+|---|---|---|---|
+| **Reinforced Dive Suit** | item reinforceddivingsuit | High | Protects against early-build collision bugs |
+| **Ultra Glide Fins** | item ultraglidefins | Medium | Maximizes swim speed in tight cave sectors |
+| **Seaglide** | spawn seaglide | High | Essential for rapid vertical ascent if vehicles glitch |
+| **Welder (Repair Tool)** | item welder | High | Repairs the Cyclops when damaged by terrain clipping |
+
+<Callout type="warning" title="Save File Warning">
+Do not attempt to load a modern save file while running the July 2015 build. Doing so will permanently corrupt your save data due to incompatible terrain data structures.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<Callout type="tip" title="Need Help?">
+If you encounter issues activating the developer console or executing commands, review the frequently asked questions below for quick troubleshooting steps.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I activate hellhole codes if the console won't open?",
+    answer: "In the July 2015 build, you must press F3, then F8 to free your mouse cursor. Uncheck the 'Disable Console' box in the top-left menu. After closing the menus, press the Tilde (~) or Enter key to open the command input box."
+  },
+  {
+    question: "Why does my Cyclops keep taking damage inside the Hell Hole?",
+    answer: "The physical boundaries of the Hell Hole in early builds are highly unstable. The ship often collides with invisible, unrendered terrain. Activate the 'nodamage' command in the console to prevent your submarine from exploding."
+  },
+  {
+    question: "Can I access the Hell Hole in the modern version of Subnautica?",
+    answer: "No, the Hell Hole was completely removed and replaced with the Lost River and Inactive Lava Zone systems. To explore it, you must use Steam's beta properties to download the legacy July 2015 build."
+  },
+  {
+    question: "Are there any unique creatures inside the legacy Lava Castle?",
+    answer: "In this specific build, the Lava Castle is completely hollow and devoid of unique fauna or resources. The Sea Dragon Leviathan and Lava Lizards had not yet been implemented, though you may find stray Reapers that glitched through the walls."
+  }
+]} />
+
+</Section>

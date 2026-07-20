@@ -1,1 +1,682 @@
-{}
+{
+  "de": {
+    "boss": [
+      {
+        "slug": "hellhole-all-bosses",
+        "file": "hellhole-all-bosses"
+      },
+      {
+        "slug": "hellhole-boss-fight-tips",
+        "file": "hellhole-boss-fight-tips"
+      },
+      {
+        "slug": "hellhole-boss-guide",
+        "file": "hellhole-boss-guide"
+      },
+      {
+        "slug": "hellhole-final-boss",
+        "file": "hellhole-final-boss"
+      },
+      {
+        "slug": "hellhole-secret-bosses",
+        "file": "hellhole-secret-bosses"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "hellhole-active-codes",
+        "file": "hellhole-active-codes"
+      },
+      {
+        "slug": "hellhole-codes-2025",
+        "file": "hellhole-codes-2025"
+      },
+      {
+        "slug": "hellhole-codes",
+        "file": "hellhole-codes"
+      },
+      {
+        "slug": "hellhole-how-to-redeem-codes",
+        "file": "hellhole-how-to-redeem-codes"
+      },
+      {
+        "slug": "hellhole-wiki-codes",
+        "file": "hellhole-wiki-codes"
+      }
+    ],
+    "enemies": [
+      {
+        "slug": "hellhole-all-enemies",
+        "file": "hellhole-all-enemies"
+      },
+      {
+        "slug": "hellhole-demon-enemies",
+        "file": "hellhole-demon-enemies"
+      },
+      {
+        "slug": "hellhole-enemy-guide",
+        "file": "hellhole-enemy-guide"
+      },
+      {
+        "slug": "hellhole-enemy-types",
+        "file": "hellhole-enemy-types"
+      },
+      {
+        "slug": "hellhole-hardest-enemies",
+        "file": "hellhole-hardest-enemies"
+      }
+    ],
+    "floors": [
+      {
+        "slug": "hellhole-all-floors",
+        "file": "hellhole-all-floors"
+      },
+      {
+        "slug": "hellhole-deepest-floor",
+        "file": "hellhole-deepest-floor"
+      },
+      {
+        "slug": "hellhole-floor-guide",
+        "file": "hellhole-floor-guide"
+      },
+      {
+        "slug": "hellhole-floor-progression",
+        "file": "hellhole-floor-progression"
+      },
+      {
+        "slug": "hellhole-map-guide",
+        "file": "hellhole-map-guide"
+      }
+    ],
+    "general": [
+      {
+        "slug": "hellhole-game",
+        "file": "hellhole-game"
+      },
+      {
+        "slug": "hellhole-gameplay",
+        "file": "hellhole-gameplay"
+      },
+      {
+        "slug": "hellhole-review",
+        "file": "hellhole-review"
+      },
+      {
+        "slug": "hellhole-roblox",
+        "file": "hellhole-roblox"
+      },
+      {
+        "slug": "hellhole-wiki",
+        "file": "hellhole-wiki"
+      }
+    ],
+    "guides": [
+      {
+        "slug": "hellhole-how-to-play",
+        "file": "hellhole-how-to-play"
+      },
+      {
+        "slug": "hellhole-strategy-guide",
+        "file": "hellhole-strategy-guide"
+      },
+      {
+        "slug": "hellhole-tips-and-tricks",
+        "file": "hellhole-tips-and-tricks"
+      },
+      {
+        "slug": "hellhole-walkthrough",
+        "file": "hellhole-walkthrough"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "hellhole-best-upgrades",
+        "file": "hellhole-best-upgrades"
+      },
+      {
+        "slug": "hellhole-how-to-get-money-fast",
+        "file": "hellhole-how-to-get-money-fast"
+      },
+      {
+        "slug": "hellhole-money-guide",
+        "file": "hellhole-money-guide"
+      },
+      {
+        "slug": "hellhole-progression-guide",
+        "file": "hellhole-progression-guide"
+      },
+      {
+        "slug": "hellhole-upgrade-guide",
+        "file": "hellhole-upgrade-guide"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "hellhole-all-weapons",
+        "file": "hellhole-all-weapons"
+      },
+      {
+        "slug": "hellhole-best-weapons",
+        "file": "hellhole-best-weapons"
+      },
+      {
+        "slug": "hellhole-how-to-unlock-weapons",
+        "file": "hellhole-how-to-unlock-weapons"
+      },
+      {
+        "slug": "hellhole-weapon-tier-list",
+        "file": "hellhole-weapon-tier-list"
+      },
+      {
+        "slug": "hellhole-weapon-upgrades",
+        "file": "hellhole-weapon-upgrades"
+      }
+    ]
+  },
+  "en": {
+    "boss": [
+      {
+        "slug": "hellhole-all-bosses",
+        "file": "hellhole-all-bosses"
+      },
+      {
+        "slug": "hellhole-boss-fight-tips",
+        "file": "hellhole-boss-fight-tips"
+      },
+      {
+        "slug": "hellhole-boss-guide",
+        "file": "hellhole-boss-guide"
+      },
+      {
+        "slug": "hellhole-final-boss",
+        "file": "hellhole-final-boss"
+      },
+      {
+        "slug": "hellhole-secret-bosses",
+        "file": "hellhole-secret-bosses"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "hellhole-active-codes",
+        "file": "hellhole-active-codes"
+      },
+      {
+        "slug": "hellhole-codes-2025",
+        "file": "hellhole-codes-2025"
+      },
+      {
+        "slug": "hellhole-codes",
+        "file": "hellhole-codes"
+      },
+      {
+        "slug": "hellhole-how-to-redeem-codes",
+        "file": "hellhole-how-to-redeem-codes"
+      },
+      {
+        "slug": "hellhole-wiki-codes",
+        "file": "hellhole-wiki-codes"
+      }
+    ],
+    "enemies": [
+      {
+        "slug": "hellhole-all-enemies",
+        "file": "hellhole-all-enemies"
+      },
+      {
+        "slug": "hellhole-demon-enemies",
+        "file": "hellhole-demon-enemies"
+      },
+      {
+        "slug": "hellhole-enemy-guide",
+        "file": "hellhole-enemy-guide"
+      },
+      {
+        "slug": "hellhole-enemy-types",
+        "file": "hellhole-enemy-types"
+      },
+      {
+        "slug": "hellhole-hardest-enemies",
+        "file": "hellhole-hardest-enemies"
+      }
+    ],
+    "floors": [
+      {
+        "slug": "hellhole-all-floors",
+        "file": "hellhole-all-floors"
+      },
+      {
+        "slug": "hellhole-deepest-floor",
+        "file": "hellhole-deepest-floor"
+      },
+      {
+        "slug": "hellhole-floor-guide",
+        "file": "hellhole-floor-guide"
+      },
+      {
+        "slug": "hellhole-floor-progression",
+        "file": "hellhole-floor-progression"
+      },
+      {
+        "slug": "hellhole-map-guide",
+        "file": "hellhole-map-guide"
+      }
+    ],
+    "general": [
+      {
+        "slug": "hellhole-game",
+        "file": "hellhole-game"
+      },
+      {
+        "slug": "hellhole-gameplay",
+        "file": "hellhole-gameplay"
+      },
+      {
+        "slug": "hellhole-review",
+        "file": "hellhole-review"
+      },
+      {
+        "slug": "hellhole-roblox",
+        "file": "hellhole-roblox"
+      },
+      {
+        "slug": "hellhole-wiki",
+        "file": "hellhole-wiki"
+      }
+    ],
+    "guides": [
+      {
+        "slug": "hellhole-beginner-guide",
+        "file": "hellhole-beginner-guide"
+      },
+      {
+        "slug": "hellhole-how-to-play",
+        "file": "hellhole-how-to-play"
+      },
+      {
+        "slug": "hellhole-strategy-guide",
+        "file": "hellhole-strategy-guide"
+      },
+      {
+        "slug": "hellhole-tips-and-tricks",
+        "file": "hellhole-tips-and-tricks"
+      },
+      {
+        "slug": "hellhole-walkthrough",
+        "file": "hellhole-walkthrough"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "hellhole-best-upgrades",
+        "file": "hellhole-best-upgrades"
+      },
+      {
+        "slug": "hellhole-how-to-get-money-fast",
+        "file": "hellhole-how-to-get-money-fast"
+      },
+      {
+        "slug": "hellhole-money-guide",
+        "file": "hellhole-money-guide"
+      },
+      {
+        "slug": "hellhole-progression-guide",
+        "file": "hellhole-progression-guide"
+      },
+      {
+        "slug": "hellhole-upgrade-guide",
+        "file": "hellhole-upgrade-guide"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "hellhole-all-weapons",
+        "file": "hellhole-all-weapons"
+      },
+      {
+        "slug": "hellhole-best-weapons",
+        "file": "hellhole-best-weapons"
+      },
+      {
+        "slug": "hellhole-how-to-unlock-weapons",
+        "file": "hellhole-how-to-unlock-weapons"
+      },
+      {
+        "slug": "hellhole-weapon-tier-list",
+        "file": "hellhole-weapon-tier-list"
+      },
+      {
+        "slug": "hellhole-weapon-upgrades",
+        "file": "hellhole-weapon-upgrades"
+      }
+    ]
+  },
+  "es": {
+    "boss": [
+      {
+        "slug": "hellhole-all-bosses",
+        "file": "hellhole-all-bosses"
+      },
+      {
+        "slug": "hellhole-boss-fight-tips",
+        "file": "hellhole-boss-fight-tips"
+      },
+      {
+        "slug": "hellhole-boss-guide",
+        "file": "hellhole-boss-guide"
+      },
+      {
+        "slug": "hellhole-final-boss",
+        "file": "hellhole-final-boss"
+      },
+      {
+        "slug": "hellhole-secret-bosses",
+        "file": "hellhole-secret-bosses"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "hellhole-active-codes",
+        "file": "hellhole-active-codes"
+      },
+      {
+        "slug": "hellhole-codes-2025",
+        "file": "hellhole-codes-2025"
+      },
+      {
+        "slug": "hellhole-codes",
+        "file": "hellhole-codes"
+      },
+      {
+        "slug": "hellhole-how-to-redeem-codes",
+        "file": "hellhole-how-to-redeem-codes"
+      },
+      {
+        "slug": "hellhole-wiki-codes",
+        "file": "hellhole-wiki-codes"
+      }
+    ],
+    "enemies": [
+      {
+        "slug": "hellhole-all-enemies",
+        "file": "hellhole-all-enemies"
+      },
+      {
+        "slug": "hellhole-demon-enemies",
+        "file": "hellhole-demon-enemies"
+      },
+      {
+        "slug": "hellhole-enemy-types",
+        "file": "hellhole-enemy-types"
+      }
+    ],
+    "floors": [
+      {
+        "slug": "hellhole-all-floors",
+        "file": "hellhole-all-floors"
+      },
+      {
+        "slug": "hellhole-deepest-floor",
+        "file": "hellhole-deepest-floor"
+      },
+      {
+        "slug": "hellhole-floor-guide",
+        "file": "hellhole-floor-guide"
+      },
+      {
+        "slug": "hellhole-floor-progression",
+        "file": "hellhole-floor-progression"
+      }
+    ],
+    "general": [
+      {
+        "slug": "hellhole-game",
+        "file": "hellhole-game"
+      },
+      {
+        "slug": "hellhole-review",
+        "file": "hellhole-review"
+      },
+      {
+        "slug": "hellhole-roblox",
+        "file": "hellhole-roblox"
+      },
+      {
+        "slug": "hellhole-wiki",
+        "file": "hellhole-wiki"
+      }
+    ],
+    "guides": [
+      {
+        "slug": "hellhole-beginner-guide",
+        "file": "hellhole-beginner-guide"
+      },
+      {
+        "slug": "hellhole-how-to-play",
+        "file": "hellhole-how-to-play"
+      },
+      {
+        "slug": "hellhole-strategy-guide",
+        "file": "hellhole-strategy-guide"
+      },
+      {
+        "slug": "hellhole-tips-and-tricks",
+        "file": "hellhole-tips-and-tricks"
+      },
+      {
+        "slug": "hellhole-walkthrough",
+        "file": "hellhole-walkthrough"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "hellhole-best-upgrades",
+        "file": "hellhole-best-upgrades"
+      },
+      {
+        "slug": "hellhole-how-to-get-money-fast",
+        "file": "hellhole-how-to-get-money-fast"
+      },
+      {
+        "slug": "hellhole-money-guide",
+        "file": "hellhole-money-guide"
+      },
+      {
+        "slug": "hellhole-progression-guide",
+        "file": "hellhole-progression-guide"
+      },
+      {
+        "slug": "hellhole-upgrade-guide",
+        "file": "hellhole-upgrade-guide"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "hellhole-all-weapons",
+        "file": "hellhole-all-weapons"
+      },
+      {
+        "slug": "hellhole-best-weapons",
+        "file": "hellhole-best-weapons"
+      },
+      {
+        "slug": "hellhole-how-to-unlock-weapons",
+        "file": "hellhole-how-to-unlock-weapons"
+      },
+      {
+        "slug": "hellhole-weapon-tier-list",
+        "file": "hellhole-weapon-tier-list"
+      },
+      {
+        "slug": "hellhole-weapon-upgrades",
+        "file": "hellhole-weapon-upgrades"
+      }
+    ]
+  },
+  "fr": {
+    "boss": [
+      {
+        "slug": "hellhole-all-bosses",
+        "file": "hellhole-all-bosses"
+      },
+      {
+        "slug": "hellhole-boss-fight-tips",
+        "file": "hellhole-boss-fight-tips"
+      },
+      {
+        "slug": "hellhole-boss-guide",
+        "file": "hellhole-boss-guide"
+      },
+      {
+        "slug": "hellhole-final-boss",
+        "file": "hellhole-final-boss"
+      },
+      {
+        "slug": "hellhole-secret-bosses",
+        "file": "hellhole-secret-bosses"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "hellhole-active-codes",
+        "file": "hellhole-active-codes"
+      },
+      {
+        "slug": "hellhole-codes-2025",
+        "file": "hellhole-codes-2025"
+      },
+      {
+        "slug": "hellhole-codes",
+        "file": "hellhole-codes"
+      },
+      {
+        "slug": "hellhole-how-to-redeem-codes",
+        "file": "hellhole-how-to-redeem-codes"
+      },
+      {
+        "slug": "hellhole-wiki-codes",
+        "file": "hellhole-wiki-codes"
+      }
+    ],
+    "enemies": [
+      {
+        "slug": "hellhole-demon-enemies",
+        "file": "hellhole-demon-enemies"
+      },
+      {
+        "slug": "hellhole-enemy-types",
+        "file": "hellhole-enemy-types"
+      },
+      {
+        "slug": "hellhole-hardest-enemies",
+        "file": "hellhole-hardest-enemies"
+      }
+    ],
+    "floors": [
+      {
+        "slug": "hellhole-all-floors",
+        "file": "hellhole-all-floors"
+      },
+      {
+        "slug": "hellhole-deepest-floor",
+        "file": "hellhole-deepest-floor"
+      },
+      {
+        "slug": "hellhole-floor-guide",
+        "file": "hellhole-floor-guide"
+      },
+      {
+        "slug": "hellhole-floor-progression",
+        "file": "hellhole-floor-progression"
+      },
+      {
+        "slug": "hellhole-map-guide",
+        "file": "hellhole-map-guide"
+      }
+    ],
+    "general": [
+      {
+        "slug": "hellhole-game",
+        "file": "hellhole-game"
+      },
+      {
+        "slug": "hellhole-gameplay",
+        "file": "hellhole-gameplay"
+      },
+      {
+        "slug": "hellhole-review",
+        "file": "hellhole-review"
+      },
+      {
+        "slug": "hellhole-roblox",
+        "file": "hellhole-roblox"
+      },
+      {
+        "slug": "hellhole-wiki",
+        "file": "hellhole-wiki"
+      }
+    ],
+    "guides": [
+      {
+        "slug": "hellhole-how-to-play",
+        "file": "hellhole-how-to-play"
+      },
+      {
+        "slug": "hellhole-strategy-guide",
+        "file": "hellhole-strategy-guide"
+      },
+      {
+        "slug": "hellhole-tips-and-tricks",
+        "file": "hellhole-tips-and-tricks"
+      },
+      {
+        "slug": "hellhole-walkthrough",
+        "file": "hellhole-walkthrough"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "hellhole-best-upgrades",
+        "file": "hellhole-best-upgrades"
+      },
+      {
+        "slug": "hellhole-how-to-get-money-fast",
+        "file": "hellhole-how-to-get-money-fast"
+      },
+      {
+        "slug": "hellhole-money-guide",
+        "file": "hellhole-money-guide"
+      },
+      {
+        "slug": "hellhole-progression-guide",
+        "file": "hellhole-progression-guide"
+      },
+      {
+        "slug": "hellhole-upgrade-guide",
+        "file": "hellhole-upgrade-guide"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "hellhole-all-weapons",
+        "file": "hellhole-all-weapons"
+      },
+      {
+        "slug": "hellhole-best-weapons",
+        "file": "hellhole-best-weapons"
+      },
+      {
+        "slug": "hellhole-how-to-unlock-weapons",
+        "file": "hellhole-how-to-unlock-weapons"
+      },
+      {
+        "slug": "hellhole-weapon-tier-list",
+        "file": "hellhole-weapon-tier-list"
+      },
+      {
+        "slug": "hellhole-weapon-upgrades",
+        "file": "hellhole-weapon-upgrades"
+      }
+    ]
+  }
+}

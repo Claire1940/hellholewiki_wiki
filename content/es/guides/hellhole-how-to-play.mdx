@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cómo jugar Hellhole: Guía para principiantes de 2026 y consejos de supervivencia",
+  description: "Aprende a dominar Hellhole con nuestra guía de 2026 que cubre mecánicas de combate, gestión de recursos y estrategias de supervivencia esenciales para nuevos jugadores.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Hellhole+Survival+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Hellhole",
+  keywords: "Hellhole, guía, cómo jugar, supervivencia, combate, recursos"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Cómo jugar Hellhole**: Domina el descenso equilibrando los recursos de luz, el sigilo y la recolección agresiva de suministros.
+- **Mecánica principal**: Gestiona tu **Medidor de cordura** permaneciendo cerca de fuentes de luz y evitando el contacto prolongado con la oscuridad.
+- **Mejor estrategia**: Prioriza las **Mejoras de resistencia** al principio del juego para asegurarte de poder huir de las amenazas de alto nivel.
+- **Consejo crítico**: Nunca entres en un piso nuevo sin al menos dos **Paquetes de bengalas** y un arma cuerpo a cuerpo completamente reparada.
+- **Mejor opción**: Se recomienda la **Clase Explorador** para principiantes debido a su velocidad de movimiento intrínseca y sus bonificaciones de detección.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos: Cómo jugar Hellhole">
+
+Entender **cómo jugar Hellhole** requiere un cambio fundamental en la forma de abordar el género de terror de supervivencia. A diferencia de los rastreadores de mazmorras tradicionales, este juego enfatiza la conciencia ambiental y la preservación de recursos por encima del poder de combate puro. Tu objetivo principal es descender a través de varias capas de un abismo subterráneo en constante cambio mientras mantienes tu salud física y estabilidad mental.
+
+<CardGrid cols={3}>
+  <Card title="El Explorador">
+    - **Alta movilidad**
+    - Visibilidad mejorada con poca luz
+    - Ideal para la exploración en solitario
+  </Card>
+  <Card title="El Ejecutor">
+    - **Alta durabilidad**
+    - Mayor daño cuerpo a cuerpo
+    - Ideal para la defensa en equipo
+  </Card>
+  <Card title="El Técnico">
+    - **Eficiencia de recursos**
+    - Puede reparar fuentes de luz más rápido
+    - Esencial para la supervivencia a largo plazo
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo profesional">
+Al seleccionar tu equipamiento inicial, prioriza siempre una **Linterna de alta intensidad** sobre la munición extra. En las profundidades inferiores, la visibilidad es tu activo defensivo más valioso.
+</Callout>
+
+Antes de sumergirte en las profundidades, debes comprender los elementos básicos de la interfaz de usuario. Tu **Salud** está representada por una barra roja, mientras que tu **Resistencia** es azul. Lo más importante es que el **Medidor de cordura** (púrpura) dicta cómo percibe tu personaje el entorno. Una cordura baja provoca alucinaciones y un aumento del daño recibido por los peligros ambientales.
+
+| Tipo de recurso | Uso principal | Método de obtención | Rareza |
+| :--- | :--- | :--- | :--- |
+| **Cristales de luz** | Combustible para lámparas permanentes | Minería de nodos en paredes | Común |
+| **Raciones** | Restaurar salud/resistencia | Saqueo de cajas | Poco común |
+| **Pastillas de cordura** | Restaurar salud mental | Casilleros médicos | Raro |
+| **Chatarra** | Reparar equipo/armas | Romper el entorno | Común |
+| **Tanques de oxígeno** | Supervivencia en zonas profundas | Suministros aéreos | Épico |
+
+</Section>
+
+<Section icon={Target} title="Ciclo de juego principal y progresión">
+
+El corazón del juego reside en el ciclo de descender, recolectar y asegurar. Para dominar las mecánicas, debes seguir un enfoque disciplinado en cada piso. Cada nivel del abismo se genera proceduralmente, lo que significa que el diseño cambia en cada partida, pero la lógica fundamental de la supervivencia permanece constante.
+
+<Steps>
+  <Step num="1" title="Establecer una cabeza de puente">
+    Al entrar en un nuevo piso, localiza el **Centro de zona segura** más cercano. Usa tus recursos para activar el pilar de luz central, que proporciona un punto de reaparición y un lugar para almacenar el botín sobrante.
+  </Step>
+  <Step num="2" title="Recolección sistemática">
+    Muévete hacia afuera desde el centro en un patrón espiral. Marca los pasillos explorados con **Marcas de tiza** para evitar perderte en la geometría cambiante. Recoge toda la chatarra y consumibles visibles.
+  </Step>
+  <Step num="3" title="Extracción de recursos">
+    Una vez que tu inventario esté al 80% de su capacidad, regresa al centro. Prioriza la mejora de tu **Filtro de oxígeno** y la **Duración de la luz** antes de intentar encontrar la salida a la siguiente capa.
+  </Step>
+  <Step num="4" title="El descenso final">
+    Localiza el **Ascensor de extracción**. Esto suele implicar un evento de "Defender la posición" donde debes proteger el ascensor de oleadas de enemigos mientras se carga.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia crítica">
+El entorno se vuelve significativamente más hostil durante la fase de "Extracción". Asegúrate de que todas tus torretas defensivas estén completamente reparadas antes de iniciar la secuencia del ascensor.
+</Callout>
+
+Sobrevivir no se trata solo de luchar; se trata de saber cuándo esconderse. La "Mecánica de sigilo" te permite evitar enemigos de alta amenaza permaneciendo en las sombras, aunque esto agotará lentamente tu cordura. Equilibrar estos dos riesgos es el desafío central de la experiencia a mitad del juego.
+
+| Acción | Coste de resistencia | Impacto en cordura | Nivel de ruido |
+| :--- | :--- | :--- | :--- |
+| **Correr** | Alto | Neutral | Alto |
+| **Caminar agachado** | Bajo | Drenaje leve | Silencioso |
+| **Golpe de combate** | Medio | Neutral | Moderado |
+| **Usar bengala** | Ninguno | Gran ganancia | Moderado |
+| **Esconderse en casillero** | Recuperación | Gran drenaje | Silencioso |
+
+</Section>
+
+<Section icon={Swords} title="Estrategias de combate y gestión de enemigos">
+
+El combate en el abismo es brutal y a menudo fatal si se aborda con descuido. La mayoría de los enemigos tienen patrones y debilidades específicos que pueden ser explotados. Enfrentarse a varios enemigos a la vez es casi siempre una sentencia de muerte, a menos que tengas armas de área de efecto (AOE) de alto nivel.
+
+<Callout type="info" title="Información táctica">
+Usa el **Entorno** a tu favor. Muchos enemigos son sensibles a la luz; lanzar una bengala en una habitación oscura puede aturdirlos, proporcionando una ventana para una ejecución rápida o una retirada segura.
+</Callout>
+
+El combate cuerpo a cuerpo utiliza un "Sistema de peso". Las armas más pesadas como el **Mazo** infligen un daño masivo y pueden romper armaduras, pero te dejan vulnerable a los "Acechadores" rápidos. Las armas más ligeras como el **Cuchillo de combate** permiten ataques y paradas rápidos, pero requieren precisión para golpear los puntos débiles del enemigo.
+
+| Tipo de enemigo | Nivel de amenaza | Debilidad principal | Arma recomendada |
+| :--- | :--- | :--- | :--- |
+| **Acechador de las sombras** | Bajo | Luz brillante / Bengalas | Cualquier arma cuerpo a cuerpo |
+| **El Bruto** | Alto | Punto débil trasero | Escopeta / Hacha pesada |
+| **Sirena** | Medio | Ataques a distancia | Rifle de francotirador |
+| **Enjambres** | Bajo | Fuego / Explosivos | Molotov / Lanzallamas |
+| **El Guardián** | Extremo | Trampas ambientales | Artillería pesada |
+
+Cuando te enfrentes a un **Bruto**, nunca ataques de frente. Espera a su golpe descendente, esquiva a la izquierda y golpea las pústulas brillantes en su espalda. Para las **Sirenas**, escucha el zumbido agudo. Pueden aturdirte desde la distancia, por lo que romper la línea de visión es tu primera prioridad antes de cerrar la brecha.
+
+</Section>
+
+<Section icon={Shield} title="Equipamiento y elementos esenciales de fabricación">
+
+Tu equipo es lo único que se interpone entre tú y los horrores del foso. El sistema de fabricación es modular, lo que te permite añadir diferentes "Aumentos" a tus armas y armaduras base. Estos aumentos pueden cambiar los tipos de daño, aumentar la durabilidad o añadir funciones de utilidad como la imagen térmica.
+
+| Pieza de equipo | Estadística base | Prioridad de mejora | Habilidad especial |
+| :--- | :--- | :--- | :--- |
+| **Chaleco reforzado** | +20 Defensa | Alta | Resistencia a explosiones |
+| **Cinturón de utilidad** | +4 Ranuras | Media | Recarga rápida |
+| **Gafas de visión nocturna** | Visibilidad | Baja | Rastreo térmico |
+| **Botas pesadas** | +10 Resistencia | Media | Inmunidad a peligros |
+| **Máscara de oxígeno** | Tiempo de respiración | Extrema | Filtro de gas tóxico |
+
+<Callout type="success" title="Consejo de optimización">
+Lleva siempre al menos un **Kit de reparación**. Las armas pierden efectividad cuando su durabilidad cae por debajo del 50%, y un arma rota en medio de una pelea contra un jefe suele resultar en una partida fallida.
+</Callout>
+
+La fabricación se realiza en los **Bancos de trabajo** que se encuentran en las zonas seguras. Puedes desmantelar el botín no deseado para obtener componentes para recetas de alto nivel. En el meta de 2026, el aumento de "Inducción de choque" es muy favorecido para las armas cuerpo a cuerpo, ya que proporciona un efecto de control de masas constante contra los tipos de enemigos más comunes.
+
+| Receta de fabricación | Materiales necesarios | Objeto resultante | Duración/Usos |
+| :--- | :--- | :--- | :--- |
+| **Botiquín avanzado** | 2 Tela, 1 Alcohol | Restauración de salud total | Un solo uso |
+| **Bengala resistente** | 1 Magnesio, 1 Plástico | Luz de larga duración | 5 Minutos |
+| **Placa de armadura** | 3 Chatarra | Reparar 25% de armadura | Un solo uso |
+| **Brebaje de cordura** | 2 Hongos, 1 Agua | 50% de restauración de cordura | Un solo uso |
+| **Caja de munición** | 5 Plomo, 2 Pólvora | Relleno de munición aleatorio | Un solo uso |
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de progresión y lista de verificación">
+
+Para seguir tu éxito en el abismo, debes apuntar a hitos específicos que desbloquean bonificaciones de cuenta permanentes. Estas "Mejoras de legado" persisten incluso si tu personaje actual muere, lo que hace que las siguientes partidas sean significativamente más fáciles.
+
+<Checklist
+  id="hellhole-progression"
+  title="Objetivos de supervivencia esenciales:"
+  items={[
+    "Llegar a la tercera capa del abismo",
+    "Extraer con éxito con un inventario completo",
+    "Derrotar al jefe Guardián sin perder una extremidad",
+    "Desbloquear la estación de fabricación de nivel 3",
+    "Mantener un 90% de cordura durante todo un piso",
+    "Recoger los 10 registros de historia en la primera zona"
+  ]}
+/>
+
+<Callout type="info" title="Recompensas de legado">
+Completar el hito "Derrotar al Guardián" desbloquea el **Tanque de oxígeno permanente**, que aumenta tu tiempo de respiración base en un 25% para todos los personajes futuros. Esto cambia las reglas del juego para las zonas de mar profundo o gases tóxicos.
+</Callout>
+
+A medida que avanzas más profundamente, el "Nivel de corrupción" del mundo aumenta. Esta mecánica introduce nuevos peligros ambientales como **Grietas del vacío** y **Putrefacción de extremidades**. Tener un conjunto diverso de equipos para intercambiar es crucial para sobrevivir a los variados desafíos de las profundidades inferiores.
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de practicar cómo jugar Hellhole?",
+    answer: "Comienza en el 'Modo Explorador' para aprender los diseños de los mapas y los patrones de los enemigos sin la presión de la muerte permanente. Concéntrate primero en dominar el tiempo de parada para los Acechadores de las sombras."
+  },
+  {
+    question: "¿Puedo jugar Hellhole con amigos?",
+    answer: "Sí, el juego admite el modo cooperativo de hasta 4 jugadores. La dificultad escala con el número de jugadores, por lo que la comunicación y la especialización de roles (Médico, Tanque, Explorador) se vuelven vitales."
+  },
+  {
+    question: "¿Cómo evito que mi cordura se agote tan rápido?",
+    answer: "Mantente dentro del radio de las fuentes de luz permanentes, usa brebajes de cordura regularmente y evita mirar directamente a los 'Horrores Eldritch' que se encuentran en las capas más profundas."
+  },
+  {
+    question: "¿Qué pasa cuando muero en el abismo?",
+    answer: "En el modo estándar, pierdes tu inventario actual y el equipo equipado. Sin embargo, cualquier 'Mejora de legado' o los objetos almacenados en tu centro de zona segura seguirán estando disponibles para tu próximo personaje."
+  }
+]} />
+
+<Callout type="tip" title="Consejo final">
+Nunca te apresures. El abismo castiga la impaciencia. Tómate tu tiempo para despejar cada esquina, gestiona tus recursos y ten siempre una estrategia de salida antes de entrar en una nueva habitación.
+</Callout>
+
+</Section>

@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de mejoras de Hellhole: Mejor progresión de armas y ventajas",
+  description: "Domina las profundidades con nuestra guía de mejoras de Hellhole. Conoce las mejores ventajas de rango, desbloqueos de armas y mejoras de combate en partida para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hellhole+Upgrade+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Hellhole"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de mejoras de Hellhole**: Concéntrate en equilibrar la **Velocidad de movimiento** y el **Tamaño del cargador** para sobrevivir en los pisos más altos.
+- **Ventajas de rango**: Equipar **Óptica de reconocimiento** y **Curación por recarga** al principio proporciona la mayor supervivencia para jugadores en solitario.
+- **Gestión de divisas**: Guarda Engranajes para el **Arma de lava** (5,000 créditos) para obtener la legendaria pasiva de quemadura.
+- **Estrategia en partida**: Prioriza las **Salas de mejora** sobre las Salas del tesoro una vez que tu velocidad de movimiento sea suficiente.
+- **Combate contra jefes**: La vida del jefe se escala según el tamaño del grupo; los combates en solitario requieren un constante "kiting" en arenas pequeñas.
+</Callout>
+
+<Section icon={Map} title="Dominando el sistema de rango y las ventajas">
+
+Navegar por las profundidades de esta desafiante experiencia de Roblox requiere una comprensión fundamental de cómo se mantiene la progresión entre partidas. El núcleo de tu poder a largo plazo radica en el sistema de Rango. A medida que completas misiones diarias —como derrotar a 80 enemigos o abrir cofres del tesoro— ganas experiencia que aumenta tu rango, desbloqueando poderosas ventajas permanentes.
+
+**Puntos destacados del video:**
+- Recorrido detallado de la **Armería** y las estadísticas de las armas.
+- Explicación del **Sistema de rango** hasta el nivel 35.
+- Demostración de la ventaja de **Curación por recarga** en combate activo.
+- Estrategias para navegar por el **Núcleo de magma** y las **Ruinas hundidas**.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="HELLHOLE FULL GUIDE! (Enemies, Upgrades, Money) - Roblox" />
+
+El sistema de rango te permite equipar ventajas específicas antes de que comience una partida. Estas no dependen del RNG, sino que se obtienen mediante el juego constante. Por ejemplo, alcanzar el Rango 35 desbloquea la capacidad de que las balas atraviesen a los enemigos y golpeen a un segundo objetivo, lo que cambia las reglas del juego para el control de masas.
+
+| Rango | Nombre de la ventaja | Descripción del efecto |
+|------|-----------|--------------------|
+| **1** | Óptica de reconocimiento | Muestra el número de enemigos restantes en la oleada |
+| **1** | Capital inicial | Comienza cada partida con 150 monedas de bonificación |
+| **5** | Recarga finalizadora | Recargar con éxito restaura 5 de PS |
+| **35** | Balas perforantes | Las balas atraviesan y golpean a un segundo enemigo |
+
+<Callout type="tip" title="Recomendación para el inicio del juego">
+Si estás empezando, prioriza la ventaja **Óptica de reconocimiento**. Saber exactamente cuántos enemigos quedan te permite gestionar tus recargas y la regeneración de salud de manera más efectiva durante las transiciones intensas de piso.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="La armería: Mejoras permanentes de armas">
+
+Aunque las mejoras en partida son temporales, las armas que desbloqueas en la Armería son adiciones permanentes a tu equipamiento. Comienzas con una pistola predeterminada que cuenta con munición ilimitada pero requiere recargas frecuentes. Para progresar más rápido, debes recolectar **Engranajes** (la moneda meta) para comprar armas de fuego superiores.
+
+<CardGrid cols={3}>
+  <Card title="Pistola predeterminada">
+    - **Daño**: Estándar
+    - **RPM**: Moderado
+    - **Cargador**: 12 rondas
+    - **Coste**: Gratis
+  </Card>
+  <Card title="Arma de lava">
+    - **Daño**: Alto
+    - **Pasiva**: Daño por quemadura
+    - **Rareza**: Legendaria
+    - **Coste**: 5,000 Engranajes
+  </Card>
+  <Card title="Armas de utilidad">
+    - **Enfoque**: Control de masas
+    - **RPM**: Alto
+    - **Cargador**: Grande
+    - **Coste**: Más de 2,500 Engranajes
+  </Card>
+</CardGrid>
+
+El arma de lava es actualmente la mejora más codiciada en el meta de la **guía de mejoras de Hellhole** debido a su pasiva legendaria de quemadura. Esto te permite infligir daño a lo largo del tiempo, lo cual es esencial para acabar con enemigos resistentes como el Mago bruto o los jefes en los pisos posteriores.
+
+<Callout type="warning" title="Gestión de créditos">
+No gastes tus Engranajes en armas de nivel medio si estás cerca de la marca de los 5,000. El salto de poder de un arma de fuego estándar a un arma Legendaria con pasivas elementales es significativamente mayor que las mejoras incrementales que se encuentran en la tienda intermedia.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejoras de combate en partida y RNG">
+
+Cada vez que entras en un piso, te encuentras con Salas de mejora. Estas proporcionan tres ventajas aleatorias de distintas rarezas (Común, Rara, Épica). Elegir la combinación correcta es lo que determina si puedes llegar al Piso 7 y más allá.
+
+| Tipo de mejora | Rareza | Efecto | Nota de estrategia |
+|--------------|--------|--------|---------------|
+| **Críticos mortales** | Rara | +25% de probabilidad de golpe crítico | Se combina mejor con una alta cadencia de fuego |
+| **Rondas pesadas** | Rara | +16% de aumento de daño plano | Esencial para el escalado al final del juego |
+| **Cargador ampliado** | Común | +5 de capacidad del cargador | Reduce el tiempo de inactividad durante las recargas |
+| **Adrenalina** | Épica | Mayor cadencia de fuego y velocidad | La mejor opción para jugadores en solitario |
+| **Precisión** | Común | Dispersión de bala reducida | Solo útil para salas de largo alcance |
+
+Al seleccionar mejoras, concéntrate en una "build" (configuración) en lugar de elegir objetos aleatorios de alta rareza. Si ya has invertido en la probabilidad de golpe crítico, busca mejoras de Cadencia de fuego para maximizar la cantidad de críticos que asestas por segundo.
+
+<Steps>
+  <Step num="1" title="Base de daño inicial">
+    Elige al menos una mejora de daño plano en los dos primeros pisos para asegurarte de no ser abrumado por los zombis básicos.
+  </Step>
+  <Step num="2" title="Utilidad y velocidad">
+    Para el piso 3, busca Velocidad de movimiento o Tamaño del cargador. Los enemigos Gremlin se mueven rápido y necesitas la movilidad para hacerles "kite".
+  </Step>
+  <Step num="3" title="Acumulación de críticos al final del juego">
+    En las Profundidades fúngicas y más allá, acumula probabilidad de golpe crítico para derretir las mayores reservas de salud de los enemigos Marchitos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="La sinergia de recarga">
+Si estás usando la ventaja **Recarga finalizadora**, prioriza las mejoras de **Tamaño del cargador** y **Cadencia de fuego**. Esto te permite vaciar tu cargador rápidamente y activar la curación de 5 de PS con más frecuencia, haciéndote casi inmortal en oleadas largas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetos de la tienda y salas del tesoro">
+
+Las monedas que ganas dentro de una partida se gastan en la Tienda, que aparece periódicamente entre pisos. A diferencia de los Engranajes, estas monedas no se conservan, por lo que debes gastarlas agresivamente para aumentar tus posibilidades de supervivencia inmediata.
+
+| Objeto de la tienda | Coste | Beneficio |
+|-----------|------|---------|
+| **Velocidad menor** | 50 monedas | Pequeño impulso al movimiento |
+| **Velocidad mayor** | 150 monedas | Incremento significativo de la movilidad |
+| **Aumento de PS máx** | 200 monedas | Aumenta la reserva total de salud |
+| **Curación completa** | 100 monedas | Restaura toda la salud actual |
+
+Las Salas del tesoro son vitales para financiar estas compras en la tienda. Limpia siempre la Sala del tesoro antes de descender, ya que el oro que encuentres allí puede marcar la diferencia entre comprar una mejora de PS máx o entrar a un combate contra un jefe con poca salud.
+
+<Checklist
+  id="run-optimization"
+  title="Lista de verificación antes del piso:"
+  items={[
+    "Busca cofres ocultos cerca del ascensor de descenso",
+    "Identifica la ruta de salida antes de que comience el combate",
+    "Asegúrate de que tu salud esté por encima del 80% antes de entrar a la arena del jefe",
+    "Verifica si se pueden completar misiones diarias en el piso actual"
+  ]}
+/>
+
+<Callout type="info" title="Escalado en solitario vs. en grupo">
+El juego escala la salud de los enemigos y de los jefes según el tamaño de tu grupo. Si un compañero de equipo se va, la dificultad puede parecer elevada al principio, pero los PS del jefe serán menores que en un escuadrón completo de cuatro personas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Bestiario de enemigos y tácticas contra jefes">
+
+A medida que desciendes por el Núcleo de magma, las Ruinas hundidas y las Profundidades fúngicas, la variedad de enemigos aumenta. Cada tipo de enemigo requiere un enfoque táctico diferente para evitar recibir daño innecesario.
+
+| Nombre del enemigo | Amenaza principal | Estrategia de contraataque |
+|------------|----------------|------------------|
+| **Gremlin** | Alta velocidad, caja de colisión pequeña | Usa alta cadencia de fuego o daño de área |
+| **Escupidor** | Charcos de ácido a distancia | Movimiento constante; no te quedes quieto |
+| **Mago bruto** | PS altos, hechizos mágicos | Concentra el fuego e interrumpe el lanzamiento de hechizos |
+| **Zombi carbonizado** | Enjambre cuerpo a cuerpo | Retrocede mientras disparas |
+
+El encuentro con el jefe final en la Tumba antigua es una prueba de tu velocidad de movimiento. La arena es pequeña y el jefe coloca con frecuencia veneno o ácido en el suelo. Debes mantener un patrón de "kiting" circular, deteniéndote a recargar solo cuando estés en una zona despejada.
+
+<Callout type="warning" title="Peligros de ácido">
+Los charcos de ácido que dejan los Escupidores y los jefes infligen daño a lo largo del tiempo. Si tienes la mejora de velocidad, puedes saltar sobre charcos pequeños, pero siempre es más seguro rodearlos, incluso si eso significa tomar una ruta más larga hacia la salida.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo gano más Engranajes para la Armería?",
+    answer: "Los Engranajes se obtienen al completar pisos y abrir cofres del tesoro de plata u oro. Completar misiones diarias es la forma más eficiente de farmear grandes cantidades de Engranajes rápidamente."
+  },
+  {
+    question: "¿Cuál es la mejor arma para desbloquear primero en la guía de mejoras de Hellhole?",
+    answer: "La mayoría de los jugadores recomiendan ahorrar para el Arma de lava debido a su pasiva de quemadura. Sin embargo, si tienes problemas para sobrevivir, cualquier arma con un cargador más grande que la pistola inicial es una inversión que vale la pena."
+  },
+  {
+    question: "¿Puedo revivir si muero a mitad de la partida?",
+    answer: "Sí, puedes revivir usando Robux o viendo un anuncio, dependiendo de la versión actual del juego. Si estás en un grupo, tus compañeros de equipo también pueden ayudarte a sobrevivir limpiando la sala."
+  },
+  {
+    question: "¿Se restablece el rango después de cada partida?",
+    answer: "No, tu Rango y los Engranajes que ganas son permanentes. Solo las monedas, las mejoras en partida y el progreso de los pisos se restablecen cuando mueres o terminas una partida."
+  }
+]} />
+
+</Section>

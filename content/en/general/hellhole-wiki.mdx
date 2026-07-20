@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "hellhole wiki: Level Progression & Survival Strategy Guide",
+  description: "Master the dark depths of Hellhole with our official level progression, class loadouts, and survival strategy guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b1c1c/fff?text=Hellhole+Wiki+Guide",
+  date: "2026-07-20",
+  author: "hellhole Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- Use the **hellhole wiki** to master progression routes, optimize class builds, and locate hidden survival gear efficiently.
+- Choose the **Scout class** for high mobility and fast map navigation during early game exploration phases.
+- Prioritize upgrading **defensive shields** and weapon damage to survive high-intensity waves in deeper sectors.
+- Follow the structured **progression milestones** to unlock advanced crafting recipes and legendary gear tiers.
+</Callout>
+
+<Section icon={Map} title="Introduction to Hellhole & Core Mechanics">
+
+Navigating the hazardous environments of this challenging survival game requires a solid understanding of resource management, combat systems, and environmental navigation. This guide compiles essential mechanical data, progression systems, and strategy blueprints to help players survive the dark sectors. Staying alive depends on keeping your vital systems operational while defending against hostile entities that patrol the corridors.
+
+**Video Highlights:**
+- Overview of the hellish theme and environmental hazards players will encounter.
+- Insights into the dark humor and chaotic encounters characteristic of the setting.
+- Visual demonstration of escape routes and hazard avoidance tactics.
+
+<YouTubeEmbed videoId="Il4dC4OfAYw" title="Eddsworld - Hello Hellhole" />
+
+The game loop demands constant vigilance. Players must balance health, stamina, and armor integrity while navigating shifting corridors. Knowing the layout of each sector prevents unnecessary backtracking and resource depletion. Refer to the game mode structure below to select the appropriate difficulty level for your team.
+
+| Mode | Difficulty | Target Time | Resource Rate | Permadeath |
+| :--- | :--- | :--- | :--- | :--- |
+| **Scout** | Easy | 20 mins | **150%** | Disabled |
+| **Survivor** | Normal | 35 mins | **100%** | Disabled |
+| **Enforcer** | Hard | 50 mins | **75%** | Enabled |
+| **Nightmare** | Extreme | 90 mins | **50%** | Enabled |
+
+<Callout type="warning" title="Hazard Alert">
+Playing on Enforcer or Nightmare mode activates permanent death. Ensure your gear is fully upgraded before attempting these sectors.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Class Selection & Loadout Strategy">
+
+Choosing the right class determines your active abilities, passive bonuses, and starting equipment. Each archetype excels in specific scenarios, making team composition crucial for multiplayer matches. Solo players should focus on balanced builds that combine self-sustain with decent offensive capabilities to handle unpredictable encounters.
+
+<CardGrid cols={3}>
+  <Card title="Survivor Class">
+    - **Balanced stats** for solo play
+    - Access to self-healing skills
+    - Moderate armor ratings
+  </Card>
+  <Card title="Scout Class">
+    - **High movement speed** attributes
+    - Advanced resource detection
+    - Stealth mechanics for evasion
+  </Card>
+  <Card title="Enforcer Class">
+    - **Heavy armor capabilities**
+    - High damage output threshold
+    - Crowd control abilities
+  </Card>
+</CardGrid>
+
+After selecting a class, players must optimize their loadouts. Weapons and utility items can be customized at the main terminal before deploying. Combining complementary gear ensures that you can handle both single-target bosses and large hordes of enemies.
+
+| Class | Health | Speed | Armor | Starting Weapon | Special Ability |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Survivor** | **120** | Normal | Medium | Pistol | Health Regen |
+| **Scout** | **90** | **Fast** | Light | SMG | Radar Scan |
+| **Enforcer** | **150** | Slow | **Heavy** | Shotgun | Shield Wall |
+
+<Callout type="tip" title="Synergy Bonus">
+Pairing a Scout with an Enforcer allows the Scout to mark targets while the Enforcer absorbs damage and clears groups.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Sector Progression">
+
+Progression through the sectors requires completing specific objectives in a strict order. Rushing to the exit without securing key resources will leave you underpowered for the boss encounters. Follow this structured roadmap to maximize your survival rate and unlock high-tier rewards.
+
+<Steps>
+  <Step num="1" title="Secure the Landing Zone">
+    Clear the immediate area of minor hostiles and activate the local power grid to power up terminals.
+  </Step>
+  <Step num="2" title="Gather Essential Resources">
+    Locate oxygen tanks, battery packs, and scrap metal to craft basic survival gear and ammunition.
+  </Step>
+  <Step num="3" title="Establish a Forward Base">
+    Deploy defensive turrets and barricades near the sector elevator to defend against incoming waves.
+  </Step>
+  <Step num="4" title="Unlock the Sector Gate">
+    Hack the primary security terminal while defending the position, then proceed to the next layer.
+  </Step>
+</Steps>
+
+Each step provides unique rewards and experience points. Accumulating these resources allows you to purchase permanent upgrades at the main hub, making subsequent runs significantly easier.
+
+| Sector | Primary Objective | Key Hazard | Reward Tier | XP Granted |
+| :--- | :--- | :--- | :--- | :--- |
+| **Sector 1** | Power Activation | Toxic Gas | Common | **1,000 XP** |
+| **Sector 2** | Security Override | Heat Waves | Rare | **2,500 XP** |
+| **Sector 3** | Core Stabilization | Radiation | **Epic** | **5,000 XP** |
+| **Sector 4** | Boss Elimination | Void Storm | **Legendary** | **10,000 XP** |
+
+<Callout type="success" title="Milestone Complete">
+Reaching Sector 4 unlocks the crafting blueprints for Legendary-tier weapons at the main hub terminal.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Advanced Survival Tactics">
+
+To survive the deepest sectors, players must master advanced mechanics such as stamina management, hazard mitigation, and enemy kiting. Environmental hazards pose just as much threat as the hostile entities. Understanding how to counter these elements is the difference between a successful run and a wipe.
+
+| Hazard Type | Effect | Countermeasure | Recommended Gear |
+| :--- | :--- | :--- | :--- |
+| **Toxic Gas** | Damage over time | Gas Mask | Filter Upgrade |
+| **Extreme Heat** | Stamina drain | Cooling Pack | Cryo Armor |
+| **Radiation** | Max health reduction | Rad Shield | Lead Plating |
+| **Void Storm** | Shield disruption | Grounding Rod | Insulated Boots |
+
+Always keep a checklist of active goals during a run. Focusing on these objectives ensures that you do not waste valuable time wandering through dangerous zones. Use the checklist below to track your progress during standard operations.
+
+<Checklist
+  id="survival-checklist"
+  title="Standard Operational Goals:"
+  items={[
+    "Secure three power cells in the area",
+    "Upgrade primary weapon to Level 3",
+    "Deploy two automated defense turrets",
+    "Extract safely with all collected cargo"
+  ]}
+/>
+
+<Callout type="info" title="Resource Management">
+Always keep at least one battery pack in reserve to power up emergency doors during lockouts.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="hellhole wiki FAQ & Resources">
+
+Navigating the complex systems of this survival experience can be challenging for new players. The community has compiled answers to the most frequent inquiries to help you get started quickly. Refer to these solutions whenever you encounter a roadblock in your progression.
+
+<FAQ items={[
+  {
+    question: "Where can I find the official hellhole wiki database?",
+    answer: "The official hellhole wiki is maintained by the community to provide up-to-date stats, patch notes, and detailed item location maps."
+  },
+  {
+    question: "How do I unlock the Nightmare difficulty mode?",
+    answer: "You must successfully complete a full run on Enforcer difficulty with permadeath active to unlock the Nightmare mode."
+  },
+  {
+    question: "What is the best weapon combination for solo players?",
+    answer: "The Shotgun paired with the Cryo Grenade offers excellent crowd control and high burst damage for solo survival."
+  },
+  {
+    question: "Can I reset my character level or class skills?",
+    answer: "Yes, you can reset your skill tree at the main hub terminal for a small fee of collected scrap metal."
+  }
+]} />
+
+<Callout type="tip" title="Community Tip">
+Join the official discussion channels to share loadout designs and coordinate multiplayer runs with other survivors.
+</Callout>
+
+</Section>

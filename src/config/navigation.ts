@@ -1,4 +1,14 @@
 import type { LucideIcon } from 'lucide-react'
+import {
+	BookOpen,
+	Swords,
+	Skull,
+	Crown,
+	Layers,
+	TrendingUp,
+	Gift,
+	Sparkles,
+} from 'lucide-react'
 
 export interface NavigationItem {
 	key: string // 用于翻译键，如 'codes' -> t('nav.codes')
@@ -7,13 +17,22 @@ export interface NavigationItem {
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-// 导航配置（后续 part 会按 Hellhole 主题内容类型补充）
-export const NAVIGATION_CONFIG: NavigationItem[] = []
+// 导航配置 - Hellhole 8 分类（与 content/ 目录、关键词.json 分类一一对应）
+export const NAVIGATION_CONFIG: NavigationItem[] = [
+	{ key: 'codes', path: '/codes', icon: Gift, isContentType: true },
+	{ key: 'guides', path: '/guides', icon: BookOpen, isContentType: true },
+	{ key: 'weapons', path: '/weapons', icon: Swords, isContentType: true },
+	{ key: 'enemies', path: '/enemies', icon: Skull, isContentType: true },
+	{ key: 'boss', path: '/boss', icon: Crown, isContentType: true },
+	{ key: 'floors', path: '/floors', icon: Layers, isContentType: true },
+	{ key: 'upgrades', path: '/upgrades', icon: TrendingUp, isContentType: true },
+	{ key: 'general', path: '/general', icon: Sparkles, isContentType: true },
+]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map(
 	(item) => item.path.slice(1),
-) // 移除开头的 '/' -> []
+) // 移除开头的 '/' -> ['codes','guides','weapons','enemies','boss','floors','upgrades','general']
 
 export type ContentType = (typeof CONTENT_TYPES)[number]
 

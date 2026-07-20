@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Améliorations d'armes Hellhole : Guide de combat et progression 2026",
+  description: "Maîtrisez les améliorations d'armes de Hellhole avec notre guide détaillé sur les déblocages de l'armurerie, les bonus en cours de partie et les atouts essentiels pour survivre aux étages les plus profonds.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7f1d1d/fff?text=Weapon+Upgrades+Guide",
+  date: "2026-07-20",
+  author: "Équipe Wiki de Hellhole",
+  keywords: "Hellhole, améliorations d'armes, armurerie, progression, guide de combat, Roblox"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Les améliorations d'armes dans Hellhole** sont divisées entre les déblocages permanents de l'armurerie et les bonus aléatoires (RNG) obtenus pendant une partie.
+- **Les statistiques prioritaires** pour la plupart des sessions incluent les Dégâts, les Chances de coup critique et la Taille du chargeur pour gérer les essaims de fin de partie.
+- **Les atouts essentiels** comme « Soins au rechargement » offrent une durabilité vitale lors de l'exploration d'étages profonds comme le Tombeau Ancien.
+- **La gestion de la monnaie** est cruciale ; économisez les Engrenages pour les déblocages d'armes et utilisez l'Or pour les bonus de boutique en cours de partie.
+- **La puissance des boss** s'adapte à la taille de votre groupe, rendant les sessions en solo difficiles mais gérables avec une cadence de tir élevée.
+</Callout>
+
+<Section icon={Swords} title="Déblocages permanents de l'armurerie et sélection d'armes">
+
+Le fondement de votre succès dans le gouffre commence à l'Armurerie. Contrairement aux bonus temporaires que vous trouvez en descendant, les déblocages de l'Armurerie représentent une progression permanente pour votre personnage. Vous commencez votre voyage avec un pistolet par défaut, qui offre des munitions illimitées mais nécessite des rechargements fréquents. Pour affronter les étages plus difficiles comme les Ruines Englouties ou les Profondeurs Fongiques, vous devez investir vos Engrenages durement gagnés dans une puissance de feu supérieure.
+
+**Points forts de la vidéo :**
+- Présentation du système d'Armurerie et des statistiques d'armes (Dégâts, RPM, Chargeur).
+- Démonstration de l'Arme de Lave et de son passif de brûlure légendaire.
+- Explication du système de rang et comment il limite l'accès aux atouts de haut niveau.
+- Conseils sur la réalisation des quêtes quotidiennes pour farmer les Engrenages efficacement.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="HELLHOLE FULL GUIDE! (Enemies, Upgrades, Money) - Roblox" />
+
+Chaque arme de l'Armurerie possède des statistiques distinctes qui définissent son style de jeu. Par exemple, l'arme de Lave, coûtant 5 000 Engrenages, est un choix de premier ordre grâce à son passif « Brûlure », qui inflige des dégâts sur la durée. C'est particulièrement efficace contre les cibles à PV élevés comme le Sorcier Brute ou les boss rencontrés à l'étage sept.
+
+| Type d'arme | Dégâts de base | Passif spécial | Coût en Engrenages |
+| :--- | :--- | :--- | :--- |
+| **Pistolet par défaut** | Modérés | Aucun (Munitions illimitées) | Gratuit |
+| **Fusil de lave** | Élevés | Brûlure légendaire (DOT) | 5 000 |
+| **PM gelé** | Faibles | Ralentit les ennemis à l'impact | 3 500 |
+| **Arc flétri** | Très élevés | Pénétration d'armure | 4 500 |
+
+<Callout type="warning" title="Exigences de Rang">
+De nombreuses armes et atouts de haut niveau sont verrouillés derrière votre rang de compte. Assurez-vous de terminer les quêtes quotidiennes, comme vaincre 80 ennemis ou deux boss, pour gagner l'XP nécessaire pour atteindre le rang 35 et au-delà.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Améliorations d'armes Hellhole en cours de partie et mécaniques RNG">
+
+Une fois que vous descendez dans le Cœur de Magma, votre attention se porte sur les **améliorations d'armes Hellhole** qui apparaissent dynamiquement pendant la partie. Ces améliorations se trouvent dans des « Salles d'Amélioration » spécifiques et offrent un choix entre trois bonus aléatoires. Comprendre la synergie entre ces bonus fait toute la différence entre une partie ratée et l'accès à l'étage de Cristal.
+
+Les améliorations sont classées par rareté : Commun, Rare et Épique. Une amélioration de Dégâts Épique peut fournir un boost massif de 16 %, qui augmente considérablement lorsque vous le cumulez avec des modificateurs de dégâts critiques.
+
+| Nom de l'amélioration | Description de l'effet | Niveau de rareté |
+| :--- | :--- | :--- |
+| **Critiques mortels** | Augmente les chances de coup critique de 25 % | Rare |
+| **Munitions lourdes** | Augmente les dégâts de base bruts | Commun/Rare |
+| **Adrénaline** | Booste la vitesse de rechargement après une élimination | Commun |
+| **Dégâts épiques** | Boost massif de +16 % à tous les dégâts | Épique |
+| **Chargeur étendu** | Ajoute +5 balles au chargeur actuel | Commun |
+| **Tir rapide** | Augmente la cadence de tir (RPM) de 12 % | Rare |
+
+<Callout type="tip" title="Stratégie de Synergie">
+Si vous utilisez le pistolet par défaut, donnez la priorité à la **Taille du chargeur** et à la **Vitesse de rechargement**. Comme le pistolet a un petit chargeur de base, l'augmenter à 17 ou 22 balles vous permet de déclencher les atouts « au rechargement » moins fréquemment mais de rester plus longtemps dans le combat lors des invasions de Gremlins.
+</Callout>
+
+Lorsque vous choisissez votre chemin, vérifiez toujours les icônes des salles. Si vous voyez une icône d'Amélioration et une icône de Salle au Trésor ensemble, privilégiez d'abord l'amélioration pour vous assurer d'être assez fort pour nettoyer la vague de combat suivante.
+
+</Section>
+
+<Section icon={Shield} title="Atouts stratégiques et personnalisation du personnage">
+
+Les atouts sont la deuxième couche de votre build. Avant de commencer un match, vous pouvez équiper des atouts spécifiques qui modifient vos mécaniques de jeu. À mesure que vous augmentez votre rang, vous débloquez plus d'emplacements et d'options plus puissantes. Dans la méta actuelle de 2026, la durabilité et la mobilité sont les traits les plus précieux.
+
+<CardGrid cols={3}>
+  <Card title="Optiques de reconnaissance">
+    - **Effet** : Voir les ennemis restants
+    - **Idéal pour** : Positionnement tactique
+    - **Déblocage** : Rang 1
+  </Card>
+  <Card title="Soins au rechargement">
+    - **Effet** : Soigne +5 PV au rechargement
+    - **Idéal pour** : Survivabilité en solo
+    - **Déblocage** : Bas rang
+  </Card>
+  <Card title="Balles perforantes">
+    - **Effet** : Les balles traversent un ennemi
+    - **Idéal pour** : Contrôle des foules
+    - **Déblocage** : Rang 35
+  </Card>
+</CardGrid>
+
+L'atout « Soins au rechargement » est sans doute le plus important pour les débutants. Dans Hellhole, les butins de santé sur les ennemis sont incohérents. En équipant cet atout, chaque rechargement devient une source de guérison, vous permettant de récupérer des erreurs commises lors de combats de boss intenses.
+
+| Nom de l'atout | Type d'utilité | Recommandation stratégique |
+| :--- | :--- | :--- |
+| **Départ fortuné** | Économie | Commence avec 150 pièces d'Or supplémentaires |
+| **Réflexes rapides** | Mobilité | Bonus permanent de vitesse de déplacement |
+| **Carapace renforcée** | Défense | Augmente les PV max de 15 % |
+
+<Callout type="info" title="Observation d'expert">
+La vitesse de déplacement est souvent négligée mais elle est critique. De nombreux ennemis, comme les Gremlins, sont incroyablement rapides. Si votre vitesse de déplacement est trop faible, vous serez submergé quels que soient les dégâts de votre arme.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide étape par étape pour maximiser les gains d'Engrenages">
+
+Pour vous offrir les meilleures **améliorations d'armes Hellhole**, vous avez besoin d'un flux constant d'Engrenages. Les Engrenages sont la monnaie principale utilisée dans la boutique du menu principal, et ils sont gagnés principalement par la performance et l'exploration.
+
+<Steps>
+  <Step num="1" title="Vider les Salles au Trésor">
+    Cherchez toujours les coffres dorés et argentés cachés dans les salles latérales. Ils fournissent à la fois de l'Or immédiat pour la partie et des Engrenages pour votre compte permanent.
+  </Step>
+  <Step num="2" title="Terminer les missions quotidiennes">
+    Vérifiez en bas à gauche de l'écran du lobby vos tâches quotidiennes. Celles-ci récompensent souvent de 100 à 500 Engrenages une fois terminées et se réinitialisent toutes les 24 heures.
+  </Step>
+  <Step num="3" title="Atteindre les étages plus profonds">
+    Le nombre d'Engrenages récompensés augmente avec la profondeur de votre exploration. Atteindre le Tombeau Ancien ou l'étage de Cristal rapporte nettement plus de monnaie que de mourir dans le Cœur de Magma.
+  </Step>
+  <Step num="4" title="Vaincre les Boss">
+    Les boss lâchent un large butin d'Engrenages. Même si vous mourez peu après un combat de boss, la monnaie gagnée lors de cette élimination est ajoutée de façon permanente à votre compte.
+  </Step>
+</Steps>
+
+| Source de devise | Gain moyen | Difficulté |
+| :--- | :--- | :--- |
+| **Coffres en argent** | 10-20 Engrenages | Très facile |
+| **Coffres dorés** | 50-100 Engrenages | Facile |
+| **Quêtes quotidiennes** | 200+ Engrenages | Moyenne |
+| **Boss d'étage** | 500+ Engrenages | Difficile |
+
+<Callout type="success" title="Conseil Économique">
+Si vous avez du mal à gagner des Engrenages, concentrez-vous sur des « Speedruns » jusqu'à l'étage 3. La difficulté est faible, et vous pouvez rapidement ramasser des coffres et réinitialiser pour maximiser votre revenu horaire d'Engrenages.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Boutiques en cours de partie et bonus de survie">
+
+En explorant les différentes couches du gouffre, vous rencontrerez des boutiques de PNJ. Ces boutiques utilisent l'Or que vous collectez *pendant cette partie spécifique*. Contrairement aux Engrenages, l'Or est perdu à la fin de la partie, vous devez donc le dépenser généreusement pour assurer votre survie à l'étage suivant.
+
+<Checklist
+  id="shop-priorities"
+  title="Priorité d'achat en cours de partie :"
+  items={[
+    "Grand Boost de Vitesse (Priorité élevée pour esquiver les boss)",
+    "Augmentation des PV Max (Essentiel pour la progression en fin de partie)",
+    "Soin complet (Uniquement si en dessous de 40 % de PV)",
+    "Petit Boost de Vitesse (Si l'Or est limité)"
+  ]}
+/>
+
+L'inventaire de la boutique est constant mais les prix peuvent varier légèrement. Gérer votre Or efficacement vous permet de cumuler des bonus de PV Max, doublant potentiellement votre santé de départ au moment où vous atteignez le boss final.
+
+| Objet de boutique | Coût (Or) | Permanent pour la run ? |
+| :--- | :--- | :--- |
+| **Soin complet** | 50-100 | Non (Instantané) |
+| **PV Max +15** | 250-400 | Oui |
+| **Vitesse mineure** | 150-200 | Oui |
+| **Grande vitesse** | 500+ | Oui |
+
+<Callout type="tip" title="Stratégie de Boutique Pro">
+Gardez toujours au moins 100 pièces d'Or en réserve pour un soin d'urgence. Si vous entrez dans une salle de boss avec peu de PV et pas d'Or, vos chances de survie chutent considérablement, même avec les meilleures améliorations.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Comment obtenir les meilleures améliorations d'armes dans Hellhole ?",
+    answer: "Les meilleures améliorations se trouvent dans les coffres de rareté Épique ou les Salles d'Amélioration. Cherchez 'Dégâts épiques' ou 'Critiques mortels' pour maximiser vos DPS. De plus, économisez des Engrenages dans le menu principal pour débloquer des armes légendaires comme le Fusil de lave."
+  },
+  {
+    question: "Les améliorations restent-elles après ma mort ?",
+    answer: "Non. Les améliorations en cours de partie (comme +16 % de Dégâts) et l'Or sont perdus à votre mort. Seuls les déblocages d'armes de l'Armurerie, les Atouts et les Engrenages sont permanents."
+  },
+  {
+    question: "Quelle est la meilleure arme pour les joueurs solo ?",
+    answer: "Le pistolet par défaut est étonnamment fort pour les joueurs solo lorsqu'il est associé à l'atout 'Soins au rechargement'. Cependant, le PM gelé est excellent car il ralentit les ennemis rapides comme les Gremlins, vous donnant plus de temps pour réagir."
+  },
+  {
+    question: "Comment la santé des boss évolue-t-elle dans Hellhole ?",
+    answer: "La santé des boss s'adapte à la taille de votre groupe. Un joueur solo affrontera un boss avec environ 4 000 PV, tandis qu'un groupe complet de quatre fera face à un boss avec une santé nettement plus élevée pour maintenir le défi."
+  }
+]} />
+
+<Callout type="info" title="Note Finale">
+La méta des **améliorations d'armes Hellhole** continue d'évoluer à mesure que de nouveaux étages sont ajoutés. Expérimentez toujours différentes combinaisons d'atouts pour trouver un style de jeu qui correspond à votre niveau de compétence technique.
+</Callout>
+
+</Section>

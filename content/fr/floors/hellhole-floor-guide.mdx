@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide des étages de Hellhole : Soluce & Conseils de progression",
+  description: "Maîtrisez chaque niveau de Hellhole grâce à notre guide des étages 2026. Apprenez les patterns des ennemis, les meilleurs atouts et les stratégies de boss en solo ou en équipe.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hellhole+Floor+Guide",
+  date: "2026-07-20",
+  author: "Équipe du Wiki de Hellhole"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Guide des étages de Hellhole** : La progression repose sur l'équilibre entre les améliorations d'armes, la sélection des atouts et les tactiques de combat spécifiques aux biomes.
+- **Mécanique clé** : Utilisez l'atout **Soin au rechargement** (Reload Heal) pour maintenir votre santé lors des runs en solo intenses.
+- **Meilleure stratégie** : Priorisez les améliorations de **Vitesse de déplacement** et de **Dégâts critiques** dans les premières boutiques pour distancer les ennemis rapides.
+- **Conseil crucial** : La difficulté des étages s'adapte à la taille du groupe ; les boss en solo ont des barres de vie réduites (ex : 4 000 PV).
+- **Meilleur choix** : L'**Arme de lave** (Lava Weapon) est la méta actuelle grâce à son effet passif de brûlure légendaire.
+</Callout>
+
+<Section icon={Map} title="Guide des étages de Hellhole : Naviguer dans les profondeurs">
+
+Pénétrer dans l'abysse de Hellhole demande plus que de simples réflexes rapides ; cela exige une compréhension profonde de la transition entre les étages et de l'évolution de votre personnage au cours d'une partie. Ce **guide des étages de Hellhole** décortique le système de progression, du salon initial aux couches de cristal les plus profondes. Lorsque vous rejoignez le jeu pour la première fois, un rang vous est attribué. Celui-ci détermine votre accès à des atouts puissants et à des armes avancées dans l'armurerie. Les quêtes quotidiennes, comme éliminer un nombre spécifique d'ennemis ou ouvrir des coffres au trésor, fournissent les engrenages (gears) essentiels pour débloquer des équipements de haut niveau comme le pistolet de lave (Lava pistol).
+
+**Points forts de la vidéo :**
+- **Mécaniques du salon** : Comment utiliser l'armurerie et la boutique d'atouts avant de descendre.
+- **Transitions d'étages** : Guide visuel du Cœur de magma (Magma Core), des Ruines englouties (Sunken Ruins) et des Profondeurs fongiques (Fungal Depths).
+- **Stratégie de combat** : Démonstration de l'efficacité de l'atout de soin au rechargement.
+- **Mécaniques de boss** : Une soluce en solo du combat final dans l'arène.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="GUIDE COMPLET HELLHOLE ! (Ennemis, Améliorations, Argent) - Roblox" />
+
+Comprendre la hiérarchie des étages est vital pour survivre. Chaque descente apporte un nouvel environnement avec des dangers et des types d'ennemis uniques.
+
+| Nom de l'étage | Type d'environnement | Niveau de difficulté | Dangers clés |
+| :--- | :--- | :--- | :--- |
+| **Cœur de magma (Magma Core)** | Volcanique/Feu | 1/5 | Zombies calcinés, couloirs étroits |
+| **Ruines englouties (Sunken Ruins)** | Aquatique/Luxuriant | 2/5 | Dangers aquatiques, apparitions accrues |
+| **Profondeurs fongiques (Fungal Depths)** | Caverne/Champignons | 3/5 | Spores empoisonnées, Gremlins |
+| **Tombeau antique (Ancient Tomb)** | Os/Temple | 4/5 | Esprits flétris, Sorciers brutes |
+| **Palais de cristal (Crystal Place)** | Haute technologie/Gemmes | 5/5 | Squelettes d'élite, haute densité |
+
+<Callout type="tip" title="Progression de rang">
+N'ignorez pas votre rang. Atteindre le rang 35 débloque l'atout "Foret" (Drill), permettant aux balles de traverser les ennemis pour toucher des cibles secondaires, ce qui est essentiel pour nettoyer les étages de fin de partie.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Maîtrise du combat et bestiaire des ennemis">
+
+Le combat dans Hellhole est une danse effrénée entre rechargement et repositionnement. Bien que le pistolet par défaut offre des munitions illimitées, son chargeur de 12 cartouches nécessite des pauses fréquentes. Le succès dans les étages supérieurs dépend de votre capacité à identifier immédiatement les cibles hautement menaçantes. Les Gremlins sont particulièrement redoutables en raison de leur petite hitbox et de leur vitesse de déplacement élevée, ce qui en fait une priorité dans les pièces bondées.
+
+| Type d'ennemi | Style d'attaque | Niveau de menace | Meilleur contre |
+| :--- | :--- | :--- | :--- |
+| **Gremlins** | Mêlée/Nuée | Élevé | Tir rapide / Vitesse de déplacement |
+| **Squelettes cracheurs (Spitter Skeletons)** | À distance/Acide | Moyen | Déplacement latéral, haute précision |
+| **Sorcier brute (Brute Wizard)** | Magique/Lourd | Très élevé | Coups critiques, utilisation des abris |
+| **Zombie calciné (Charred Zombie)** | Mêlée | Faible | Recul, tirs à la tête |
+| **Esprit flétri (Withered Spirit)** | Éthéré/Rapide | Moyen | Zone d'effet, cadence de tir élevée |
+
+<Callout type="warning" title="Dangers acides">
+Les ennemis cracheurs laissent des flaques d'acide vert brillant sur le sol. Celles-ci infligent des dégâts sur la durée et peuvent rapidement mettre fin à une partie si vous êtes acculé dans une petite salle au trésor.
+</Callout>
+
+Le bestiaire (zone BC) dans le salon suit vos rencontres. Si vous n'avez pas encore vu un ennemi spécifique, comme les variantes Noyé (Drowned) ou Gelé (Frozen), c'est probablement parce que vous n'avez pas encore atteint leurs étages respectifs. Une progression constante est le seul moyen de compléter votre collection et de gagner de l'expérience de rang.
+
+</Section>
+
+<Section icon={Sparkles} title="Synergie des atouts et des améliorations">
+
+Votre build dans Hellhole est déterminé par les atouts que vous équipez dans le salon et les améliorations que vous sélectionnez lors de votre descente. Ce **guide des étages de Hellhole** recommande de se concentrer sur la survivabilité pour vos premiers rangs. La synergie entre vos atouts passifs et les améliorations d'étage peut faire toute la différence entre une sortie à l'étage 3 et une victoire à l'étage 10.
+
+<CardGrid cols={3}>
+  <Card title="Build de survie">
+    - **Atout** : Le rechargement final soigne (Finishing Reload Heals)
+    - **Amélioration** : Boost de PV max (Max HP Boost)
+    - **Focus** : Combat prolongé dans les longs étages.
+  </Card>
+  <Card title="Build Speedrunner">
+    - **Atout** : Commencer avec 150 pièces
+    - **Amélioration** : Grand boost de vitesse (Big Speed Boost)
+    - **Focus** : Nettoyage rapide des pièces pour obtenir des engrenages.
+  </Card>
+  <Card title="Build DPS">
+    - **Atout** : Optique de reconnaissance (Recon Optics)
+    - **Amélioration** : Critiques mortels (Deadly Crits)
+    - **Focus** : Élimination rapide des boss et des brutes d'élite.
+  </Card>
+</CardGrid>
+
+Les améliorations apparaissent dans des salles spécialisées et se déclinent en différentes raretés : Commune, Rare, Épique et Légendaire. Vérifiez toujours la rareté avant de choisir, mais ne négligez pas un bonus de dégâts Rare au profit d'une utilité Légendaire si vous manquez actuellement de dégâts.
+
+| Nom de l'amélioration | Effet | Rareté | Recommandé pour |
+| :--- | :--- | :--- | :--- |
+| **Adrénaline (Adrenaline)** | Cadence de tir accrue | Rare | Armes à faible cadence |
+| **Munitions lourdes (Heavy Rounds)** | Augmentation brute des dégâts | Épique | Tous les builds |
+| **Critiques mortels (Deadly Crits)** | +25% de chances de coup critique | Rare | Jeu de haute précision |
+| **Balles foreuses (Drill Bullets)** | Transperce les ennemis | Légendaire | Contrôle des foules |
+| **Boost de vitesse (Speed Boost)** | +15% de vitesse de déplacement | Commun | Éviter l'acide |
+
+<Callout type="success" title="La méta du soin au rechargement">
+L'atout "Le rechargement final soigne de 5 PV" (Finishing Reload Heals 5 HP) est actuellement le plus fort pour les joueurs solo. Comme le pistolet a un petit chargeur, vous rechargerez constamment, ce qui vous assurera un flux régulier de santé.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gestion des ressources : Boutiques et Salles au trésor">
+
+Les engrenages (Gears) sont votre monnaie permanente, tandis que les pièces (Coins) sont votre monnaie spécifique à chaque run. Gérer efficacement vos pièces au cours d'une seule partie est le cœur de la stratégie de ce **guide des étages de Hellhole**. Les salles au trésor sont indiquées sur votre HUD et ne doivent jamais être évitées. Elles contiennent des coffres en or et en argent qui fournissent la majeure partie de votre pouvoir d'achat.
+
+<Steps>
+  <Step num="1" title="Accumulation initiale de pièces">
+    Nettoyez les deux premiers étages du Cœur de magma. Concentrez-vous sur l'ouverture de chaque coffre. Ne dépensez pas de pièces dans la première boutique à moins d'avoir besoin d'un soin immédiat.
+  </Step>
+  <Step num="2" title="Investissement dans la vitesse et la santé">
+    Dans la deuxième ou troisième boutique, donnez la priorité à la **Grande vitesse** (Big Speed) et aux **PV max** (Max HP). La vitesse vous permet de distancer les Gremlins, tandis que les PV max augmentent le plafond de votre soin au rechargement.
+  </Step>
+  <Step num="3" title="Optimisation en fin de partie">
+    À l'étage 5 (Tombeau antique), vos pièces devraient être investies dans la **Taille du chargeur** (Magazine Size) et la **Précision** (Accuracy). Ces statistiques garantissent que vous ne serez pas submergé par les vagues à haute densité.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mécaniques de la boutique">
+Les boutiques apparaissent avant chaque descente et parfois au sein des étages. Elles proposent une sélection tournante de bonus. Si vous avez plus de 1 500 pièces, achetez immédiatement les améliorations de vitesse et de santé.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Stratégie de boss : La descente finale">
+
+Le combat de boss dans Hellhole se déroule dans une arène fermée après plusieurs étages de descente. La difficulté et les points de vie du boss s'adaptent à la taille de votre groupe. Pour un joueur solo, le boss a généralement environ 4 000 PV. L'arène est petite, ce qui fait de la vitesse de déplacement votre atout le plus précieux.
+
+**Tactiques clés contre le boss :**
+- **Kiting** : Ne vous arrêtez jamais de bouger. Le boss laisse souvent des traînées de poison ou d'acide qui restreignent la zone de jeu.
+- **Discipline de chargeur** : Ne videz pas votre chargeur si le boss est sur le point de lancer une attaque au sol. Vous devez être capable de tirer tout en bougeant.
+- **Gestion de la santé** : Utilisez l'atout de soin au rechargement en tirant un seul coup puis en rechargeant si votre santé descend en dessous de 50 %.
+
+| Attaque du boss | Indice visuel | Comment esquiver |
+| :--- | :--- | :--- |
+| **Crachat d'acide (Acid Spit)** | Le boss se penche en arrière | Se déplacer latéralement en formant un grand cercle |
+| **Écrasement au sol (Ground Slam)** | Le boss saute en l'air | Se déplacer de l'autre côté de l'arène |
+| **Invocation de sbires (Summon Minions)** | Le boss rugit | Éliminer les petits monstres avant de cibler le boss |
+
+<Callout type="warning" title="Vulnérabilité en solo">
+Si vous jouez en solo et que vous êtes mis à terre, vous pouvez ressusciter en utilisant des Robux ou en regardant une publicité. Cependant, il est préférable de jouer prudemment et de compter sur vos bonus de vitesse.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle finale pour un run réussi">
+
+Avant de vous lancer dans votre prochaine partie, assurez-vous d'être pleinement préparé à affronter la difficulté croissante des étages inférieurs. Suivre cette liste de contrôle du **guide des étages de Hellhole** maximisera vos gains d'engrenages et votre expérience de rang.
+
+<Checklist
+  id="hellhole-run-prep"
+  title="Liste de contrôle avant le run :"
+  items={[
+    "Consulter les quêtes quotidiennes pour des récompenses d'engrenages faciles",
+    "Équiper l'atout 'Le rechargement final soigne' dans le salon",
+    "Vérifier les améliorations d'armes dans l'armurerie",
+    "Vider la salle au trésor à chaque étage",
+    "Prioriser les améliorations de vitesse dans la boutique de mi-parcours",
+    "Atteindre au moins l'étage 7 pour maximiser l'XP de rang"
+  ]}
+/>
+
+<Callout type="success" title="Conseil de pro : Le cap de l'étage 7">
+Atteindre l'étage 7 (Le Palais de cristal) est le point de référence actuel pour un run efficace. Au-delà de ce point, la densité d'ennemis augmente considérablement, nécessitant un build hautement optimisé.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment débloquer l'arme de lave dans Hellhole ?",
+    answer: "L'arme de lave se trouve dans l'armurerie et coûte 5 000 engrenages. Elle possède un effet passif de brûlure légendaire qui inflige des dégâts sur la durée aux ennemis."
+  },
+  {
+    question: "Quel est le meilleur atout pour les débutants dans ce guide des étages de Hellhole ?",
+    answer: "L'atout 'Le rechargement final soigne' (Finishing Reload Heals) est le meilleur pour les débutants, car il offre un moyen fiable de récupérer de la santé sans dépendre des apparitions aléatoires de cœurs."
+  },
+  {
+    question: "La santé du boss change-t-elle si je joue avec des amis ?",
+    answer: "Oui, la santé du boss s'adapte à la taille du groupe. Un boss en solo a environ 4 000 PV, tandis qu'un groupe complet affrontera une version beaucoup plus résistante de l'ennemi."
+  },
+  {
+    question: "Comment voir combien d'ennemis il reste dans une pièce ?",
+    answer: "Vous devez équiper l'atout 'Optique de reconnaissance' (Recon Optics) depuis la boutique du salon. Cela ajoute un compteur en haut de votre écran indiquant les ennemis restants dans la vague actuelle."
+  }
+]} />
+
+</Section>

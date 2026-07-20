@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Hellhole : Tous les Boss - Stratégies de combat étage par étage",
+  description: "Triomphez de chaque boss démoniaque dans Hellhole sur Roblox. Notre guide de survie couvre les modèles d'attaque, les phases de transition et les équipements optimaux.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a090b/fff?text=Hellhole+All+Bosses+Guide",
+  date: "2026-07-20",
+  author: "Équipe du Wiki Hellhole"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Vaincre tous les boss de Hellhole** : Concentrez-vous sur l'apprentissage des animations d'attaque distinctes et maintenez une distance maximale pendant les phases critiques.
+- **Progression des étages** : Préparez-vous à une difficulté croissante à mesure que vous descendez plus profondément dans les enfers démoniaques, étage par étage.
+- **Équipements optimaux** : Donnez la priorité aux armes ayant un DPS élevé sur cible unique et des vitesses de rechargement fiables pour les combats de boss intenses.
+- **Gestion des ressources** : Économisez vos objets de soin et vos munitions lourdes exclusivement pour les combats contre les boss majeurs des étages.
+- **Le mouvement est essentiel** : Évitez de rester immobile pendant le combat ; un déplacement latéral continu est nécessaire pour esquiver les attaques de projectiles à tête chercheuse.
+</Callout>
+
+<Section icon={Map} title="Aperçu de la progression des boss dans Hellhole">
+
+Descendre dans les sombres enfers démoniaques de *Hellhole*, le jeu de tir d'horreur PvE palpitant sur Roblox, est un test d'endurance, de réflexes et de planification tactique. La boucle de gameplay principale du jeu exige des joueurs qu'ils combattent étage par étage, améliorant leur équipement et maîtrisant les mécanismes de survie. Parce que la seule issue est vers le bas, comprendre comment vaincre **tous les boss de Hellhole** est la clé ultime de la progression.
+
+Chaque étage charnière présente un boss gardien unique qui se dresse entre vous et les secteurs plus profonds et riches en ressources des enfers. Ces rencontres sont conçues pour tester vos capacités de combat, votre vitesse de déplacement et votre gestion des ressources. Vaincre ces boss débloque des matériaux rares nécessaires pour fabriquer des armes et des armures de haut niveau, vous permettant de survivre dans des environnements de plus en plus hostiles.
+
+| Étage | Nom du Boss | Difficulté | Type de menace principale |
+|---|---|---|---|
+| Étage 5 | Le Hurleur (The Screecher) | Faible | Ondes soniques haute fréquence et ruées au corps à corps rapides |
+| Étage 10 | Le Gardien Abyssal | Moyenne | Attaques de zone (AoE) et dangers environnementaux |
+| Étage 15 | L'Amalgame de Feu Infernal | Élevée | Barrages de projectiles à tête chercheuse et flaques de magma suivies |
+| Étage 20 | L'Archidémon Prime | Très élevée | Combat multi-phases, téléportation et invocation de hordes |
+
+<Callout type="info" title="Mécanique de descente">
+Vaincre un boss d'étage est obligatoire pour débloquer l'ascenseur vers le prochain ensemble d'étages. Chaque victoire vous récompense également avec une quantité substantielle de monnaie et de composants de fabrication rares.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Boss des premiers étages et stratégies">
+
+Les premiers étages de *Hellhole* présentent aux joueurs les mécanismes fondamentaux du combat contre les boss. Ces combats se concentrent sur le positionnement de base, la reconnaissance des indices visuels et auditifs, et la gestion efficace de vos réserves de munitions.
+
+### Le Hurleur (Étage 5)
+Le Hurleur est le premier obstacle majeur pour les nouveaux joueurs. Ce boss repose fortement sur la vitesse et des attaques soniques perturbatrices qui peuvent déformer votre écran et désorienter vos mouvements. La clé de ce combat est d'utiliser les piliers en pierre éparpillés dans l'arène pour bloquer les ondes soniques linéaires. Lorsque le boss incline la tête en arrière et émet une lueur jaune vive depuis sa bouche, mettez-vous immédiatement à couvert.
+
+### Le Gardien Abyssal (Étage 10)
+Le Gardien Abyssal est une brute lente mais incroyablement puissante qui manie deux massues en pierre. Ses attaques infligent d'énormes dégâts de zone (AoE), rendant le combat à courte portée très risqué. Gardez vos distances et appâtez son lourd coup au sol. Une fois que le Gardien a abattu ses massues au sol, il restera immobilisé pendant plusieurs secondes, exposant le point faible brillant sur son dos.
+
+| Boss | Attaque clé | Indice visuel | Meilleure stratégie de contre |
+|---|---|---|---|
+| Le Hurleur | Explosion sonique | Tête en arrière, bouche brillante | Courez latéralement pour éviter la trajectoire de l'onde de choc |
+| Le Hurleur | Ruée frénétique | Cri perçant | Utilisez une esquive rapide ou sautez derrière un abri solide |
+| Le Gardien Abyssal | Coup au sol | Soulève ses lourdes massues | Sautez juste avant l'impact pour éviter les ondes de choc |
+| Le Gardien Abyssal | Spores sombres | Secoue ses épines dorsales | Gardez vos distances et tirez sur les spores avant qu'elles n'explosent |
+
+Pour survivre à ces rencontres précoces, vous devez apporter un équipement équilibré qui permet à la fois la mobilité et des dégâts constants.
+
+<CardGrid cols={3}>
+  <Card title="Fusil à grande capacité">
+    - **DPS constant**
+    - Capacité de munitions généreuse
+    - Idéal pour le harcèlement à moyenne portée
+  </Card>
+  <Card title="Fusil à pompe tactique">
+    - **Dégâts explosifs extrêmes**
+    - Parfait pour les fenêtres d'étourdissement
+    - Nécessite un positionnement à courte portée
+  </Card>
+  <Card title="Kit de soin utilitaire">
+    - **Objet de survie essentiel**
+    - Récupération de santé rapide
+    - À utiliser de préférence pendant les changements de phase
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Mécanique d'étourdissement">
+Infligez des dégâts constants au point faible d'un boss (généralement la tête ou le cœur brillant) pour déclencher un état d'étourdissement, vous offrant une fenêtre de dégâts gratuite de 5 secondes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Boss de milieu d'étage et tactiques avancées">
+
+À mesure que vous descendez au-delà de l'étage 10, l'environnement lui-même devient un danger. Les boss de milieu de jeu utilisent des dégâts élémentaires, invoquent des serviteurs pour vous distraire et modifient la disposition de l'arène en plein combat.
+
+### L'Amalgame de Feu Infernal (Étage 15)
+L'Amalgame de Feu Infernal est un démon élémentaire qui contrôle le magma environnant. Tout au long du combat, le boss provoquera l'éruption aléatoire de geysers de lave depuis le sol, réduisant considérablement les zones de sécurité dans l'arène. Pour vaincre l'Amalgame, les joueurs doivent utiliser des armes infusées de cryo pour geler temporairement son armure extérieure, permettant aux dégâts physiques standard de pénétrer son cœur.
+
+| Boss | Faiblesse élémentaire | Arme recommandée | Drop de craft clé |
+|---|---|---|---|
+| Amalgame de Feu Infernal | Glace / Cryo | Fusil infusé de Cryo | Cœur d'obsidienne (utilisé pour les armures de niveau 4) |
+| Porteur de peste | Feu / Incendiaire | Lance-flammes | Glande putride (utilisée pour les munitions hautement toxiques) |
+| Rôdeur du Vide | Lumière / Énergie | Carabine laser | Éclat du Vide (requis pour débloquer les lunettes avancées) |
+
+Lorsque vous combattez le Porteur de peste, nettoyez toujours les nuages de spores toxiques qu'il laisse derrière lui. Rester dans ces nuages applique un debuff de poison cumulatif qui peut rapidement vider votre barre de santé. Utilisez des armes incendiaires pour faire détoner les nuages de gaz à une distance sécurisée.
+
+<Callout type="warning" title="Dangers environnementaux">
+Les arènes des boss de milieu de jeu comportent souvent des plates-formes mobiles ou des zones de sécurité qui rétrécissent. Donnez toujours la priorité au positionnement et aux déplacements plutôt qu'aux dégâts maximums.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Défis des étages profonds et boss démoniaques finaux">
+
+Les secteurs les plus profonds de *Hellhole* abritent les entités les plus terrifiantes. Les rencontres avec les boss finaux sont des tests d'endurance multi-phases qui nécessitent une exécution précise des mécaniques de combat avancées, un changement d'arme rapide et une coordination de mouvement exceptionnelle.
+
+L'Archidémon Prime à l'étage 20 est le défi ultime du jeu. Cette rencontre combine toutes les mécaniques apprises précédemment, y compris les projectiles à tête chercheuse, les hordes invoquées et les dangers environnementaux qui changent dynamiquement à mesure que la santé du boss diminue.
+
+<Steps>
+  <Step num="1" title="Phase 1 : Détruisez les générateurs">
+    Gardez vos distances et concentrez-vous sur la destruction des générateurs de bouclier situés dans les quatre coins de l'arène tout en esquivant les sphères d'énergie lentes.
+  </Step>
+  <Step num="2" title="Phase 2 : Éliminez la horde invoquée">
+    Lorsque le boss se retire dans un état invulnérable, passez immédiatement à une arme de zone pour éliminer rapidement la nuée de démons entrante.
+  </Step>
+  <Step num="3" title="Phase 3 : Esquivez la pluie de feu infernal">
+    Surveillez attentivement les marqueurs au sol ; lorsque des cercles rouges apparaissent, sprintez continuellement en zigzag pour éviter les frappes de météores suivies.
+  </Step>
+  <Step num="4" title="Phase 4 : Visez le cœur">
+    Pendant la phase finale, le boss exposera son cœur de poitrine brillant. Déchaînez votre arme avec le plus haut DPS et utilisez des objets de boost de dégâts ici.
+  </Step>
+</Steps>
+
+| Phase | Plage PV du Boss | Comportement principal | Niveau de danger |
+|---|---|---|---|
+| Phase 1 | 100% - 70% | Spam de projectiles à distance et téléportation | Modéré |
+| Phase 2 | 70% - 30% | Bouclier d'invulnérabilité, invoque des hordes de démons | Élevé |
+| Phase 3 | 30% - 0% | Mode berserk, vitesse d'attaque accrue, feu continu dans l'arène | Extrême |
+
+Pendant la phase 3, l'Archidémon Prime entre dans un état berserk, augmentant sa vitesse d'attaque de 50%. Le sol de l'arène se remplira progressivement de feu, ne laissant que d'étroits chemins de sécurité. Les joueurs doivent coordonner leurs mouvements pour éviter de se coincer les uns les autres dans les coins.
+
+<Callout type="tip" title="Synergie coopérative">
+Si vous jouez en équipe, désignez un joueur comme leurre pour attirer l'aggro du boss tandis que les autres joueurs se concentrent entièrement sur la destruction des points faibles par derrière.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Équipements recommandés et chemins d'amélioration">
+
+Pour vaincre efficacement **tous les boss de Hellhole**, vous devez optimiser votre progression d'équipement. Investir votre monnaie durement gagnée dans les bons chemins d'amélioration d'armes réduira considérablement la durée des combats et augmentera vos taux de survie globaux.
+
+| Nom de l'arme | Classe d'arme | Performance contre les boss | Meilleur mod d'amélioration |
+|---|---|---|---|
+| Apex Predator | Fusil d'assaut | ★★★★★ (S-Tier) | Chargeur étendu et stabilisateur de recul |
+| Vulcan Cannon | Mitrailleuse lourde | ★★★★☆ (A-Tier) | Canon à dissipation thermique |
+| Reaper Shotgun | Fusil à pompe | ★★★★☆ (A-Tier) | Munitions souffle du dragon |
+| Phantom Sniper | Fusil de précision | ★★★☆☆ (B-Tier) | Munitions perforantes |
+
+Avant d'entrer dans n'importe quelle arène de boss majeure, assurez-vous d'avoir terminé les préparatifs nécessaires. Entrer dans un combat sous-équipé ou sans consommables appropriés entraînera probablement un échec.
+
+<Checklist
+  id="pre-boss-prep"
+  title="Liste de contrôle essentielle avant le boss :"
+  items={[
+    "Améliorez complètement votre arme principale au niveau maximum disponible.",
+    "Faites le plein de munitions pour vos armes principales et secondaires.",
+    "Équipez au moins trois objets de soin de haute qualité dans vos emplacements d'accès rapide.",
+    "Vérifiez que la durabilité de votre armure est entièrement réparée à l'atelier du hub."
+  ]}
+/>
+
+<Callout type="success" title="Conseil économique">
+Ne gaspillez pas votre argent à améliorer des armes de bas niveau. Économisez vos ressources pour débloquer l'Apex Predator ou le Vulcan Cannon tôt dans votre progression.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Questions fréquemment posées">
+
+Maîtriser les rencontres avec les boss dans *Hellhole* demande de la pratique, de la patience et les bonnes stratégies. Voici quelques-unes des questions les plus courantes que les joueurs se posent lorsqu'ils se préparent à ces batailles intenses.
+
+<FAQ items={[
+  {
+    question: "Puis-je vaincre tous les boss de Hellhole en solo ?",
+    answer: "Oui, chaque boss de Hellhole peut être vaincu en solo. Cependant, vous devez avoir un équipement entièrement amélioré et une compréhension intime des modèles d'attaque des boss pour survivre seul aux étages les plus profonds."
+  },
+  {
+    question: "Que se passe-t-il si je meurs pendant un combat de boss ?",
+    answer: "Mourir dans une arène de boss réinitialise la rencontre. Vous perdrez tous les buffs temporaires et consommables utilisés pendant cette tentative, mais vos améliorations d'armes permanentes et votre monnaie restent intactes."
+  },
+  {
+    question: "Les boss lâchent-ils des armes uniques ?",
+    answer: "Les boss ne lâchent pas directement des armes entièrement assemblées. Au lieu de cela, ils lâchent des matériaux de fabrication rares comme des Cœurs d'obsidienne et des Éclats du Vide, qui sont nécessaires pour fabriquer et améliorer des armes de haut niveau au hub."
+  },
+  {
+    question: "Comment débloquer la rencontre avec le boss final ?",
+    answer: "Vous devez réussir tous les objectifs des étages précédents et vaincre les gardiens des étages 5, 10 et 15 pour débloquer le chemin vers le boss final à l'étage 20."
+  }
+]} />
+
+<Callout type="info" title="Mises à jour et correctifs">
+L'échelle de santé des boss et les taux de drop sont sujets à des mises à jour d'équilibrage. Consultez régulièrement la page officielle du jeu Roblox pour connaître les dernières notes de mise à jour.
+</Callout>
+
+</Section>

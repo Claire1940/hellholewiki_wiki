@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Todos los enemigos de Hellhole: Bestiario y guía de estrategia de combate de 2026",
+  description: "Domina cada encuentro en Hellhole con nuestra completa guía de enemigos de 2026. Aprende patrones de ataque, mecánicas de jefes y las mejores mejoras para sobrevivir.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hellhole+All+Enemies+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Hellhole",
+  keywords: "hellhole, enemigos, guía, combate, bestiario, mejoras, jefe"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Todos los enemigos de Hellhole** varían desde los básicos **Zombis Calcinados** hasta los complejos **Magos Brutos** y jefes de piso.
+- **Objetivos prioritarios**: Elimina siempre a los **Gremlins** y **Escupidores** primero debido a su gran velocidad y veneno de denegación de área.
+- **Esenciales de combate**: Usa **Óptica de reconocimiento** para rastrear a los enemigos restantes y prioriza las ventajas de **Curación por recarga** para mantenerte con vida.
+- **Estrategia contra jefes**: Mantente en movimiento en la pequeña arena para evitar los charcos de veneno y concéntrate en armas de altas RPM para la barra de salud de más de 4,000 HP.
+- **Progresión de pisos**: Cada piso (Núcleo de Magma, Ruinas Hundidas, Profundidades Fúngicas) introduce variantes elementales y peligros únicos.
+</Callout>
+
+<Section icon={Map} title="Bestiario de Hellhole: Comprendiendo a la horda">
+
+Para sobrevivir al descenso en Hellhole, los jugadores deben comprender que el entorno es tan letal como las criaturas que lo habitan. A medida que avanzas por las distintas capas, desde el Núcleo de Magma hasta la Tumba Antigua, la complejidad de los comportamientos de los enemigos aumenta significativamente. Reconocer estas amenazas a tiempo permite a tu equipo gestionar los recursos de forma eficaz y evitar reanimaciones innecesarias.
+
+**Puntos destacados del video:**
+- **Variedades de enemigos**: Descripción general de las amenazas estándar, de élite y de nivel de jefe en múltiples pisos.
+- **Sinergia de mejoras**: Cómo elegir golpes críticos, daño y cadencia de fuego para contrarrestar tipos específicos de enemigos.
+- **Solo vs Grupo**: Diferencias en el escalado de enemigos y las barras de salud al jugar en solitario.
+- **Mecánicas del jefe**: Una guía del combate en la arena, incluidos los patrones de movimiento y los peligros del suelo.
+
+<YouTubeEmbed videoId="qZklb4F036k" title="¡GUÍA COMPLETA DE HELLHOLE! (Enemigos, mejoras, dinero)" />
+
+<Callout type="tip" title="Conciencia estratégica">
+Equipar la ventaja **Óptica de reconocimiento** en el rango 1 es vital para los nuevos jugadores. Proporciona un contador en la interfaz de usuario en la parte superior de la pantalla que muestra exactamente cuántos **enemigos de Hellhole** quedan en una oleada, evitando que te sorprenda un Gremlin solitario escondido en las sombras.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tipos de enemigos estándar y comportamientos">
+
+La mayoría de los encuentros en Hellhole consisten en enemigos comunes que sirven para desgastar tu salud antes de llegar al jefe del piso. Aunque individualmente son débiles, su fuerza radica en el número y en la sinergia con el entorno. Por ejemplo, un **Zombi Calcinado** es lento, pero cuando se combina con un **Esqueleto Escupidor**, es posible que veas tu movimiento limitado por charcos de ácido, convirtiéndote en un objetivo fácil para la horda cuerpo a cuerpo.
+
+| Nombre del enemigo | Ataque principal | Nivel de peligro | Velocidad de movimiento | Rasgos especiales |
+|:---|:---|:---|:---|:---|
+| **Zombi Calcinado** | Golpe cuerpo a cuerpo | Bajo | Lento | Salud alta, carne de cañón básica |
+| **Esqueleto Escupidor** | Proyectil de ácido | Medio | Moderada | Deja charcos de veneno en el suelo |
+| **Gremlin** | Cuerpo a cuerpo rápido | Alto | Muy rápido | Caja de colisión pequeña, difícil de rastrear |
+| **Esqueleto Arquero** | Flecha a distancia | Medio | Moderada | Alta precisión, se mantiene a distancia |
+| **Variante Congelada** | Toque gélido | Medio | Lento | Puede ralentizar la velocidad de movimiento del jugador |
+| **El Marchito** | Drenaje de vida | Alto | Moderada | Se encuentra en los pisos de la Tumba Antigua |
+
+<Callout type="warning" title="Peligro de ácido">
+Los charcos de veneno que dejan los **Esqueletos Escupidores** infligen daño a lo largo del tiempo. En pasillos estrechos o pequeñas salas de tesoros, estos pueden poner fin rápidamente a una partida si no tienes suficientes mejoras de **Aumento de velocidad** para maniobrar a su alrededor.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Amenazas de élite y entidades especiales">
+
+A medida que alcanzas pisos más profundos como las **Profundidades Fúngicas** o la **Tumba Antigua**, el juego introduce enemigos de Élite. Estas unidades suelen tener habilidades especiales que requieren estrategias de contraataque específicas. El **Mago Bruto**, por ejemplo, combina una gran cantidad de salud con proyectiles mágicos, lo que obliga a los jugadores a equilibrar el posicionamiento defensivo con una producción de daño agresiva.
+
+<CardGrid cols={3}>
+  <Card title="Mago Bruto">
+    - **Gran barra de HP**: Requiere fuego sostenido.
+    - **Lanzamiento de hechizos**: Lanza magia teledirigida o de efecto de área.
+    - **Prioridad**: Alta. Elíminalo antes de que sature la arena.
+  </Card>
+  <Card title="El Marchito">
+    - **Movimiento sigiloso**: A menudo se mezcla con el entorno oscuro.
+    - **Debilitamiento**: Puede reducir temporalmente la producción de daño del jugador.
+    - **Tasa de aparición**: Aumenta en las Tumbas Antiguas de la capa naranja.
+  </Card>
+  <Card title="Almas Ahogadas">
+    - **Sinergia con el agua**: Se encuentran en las Ruinas Hundidas.
+    - **Resistencia**: Alta resistencia al impacto de balas estándar.
+    - **Debilidad**: Vulnerable a golpes críticos y efectos de quemadura.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Recomendación de arma">
+El **Arma de lava** (disponible por 5,000 créditos) es especialmente eficaz contra los enemigos de Élite. Su pasiva legendaria aplica un efecto de **Quemadura**, que inflige daño porcentual a lo largo del tiempo, lo que la hace ideal para objetivos con mucha salud como los Brutos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Encuentro con el jefe: Guía de la arena">
+
+El clímax de un descenso exitoso es la pelea contra el jefe, que generalmente ocurre en una arena pequeña y cerrada. Este encuentro escala según el tamaño de tu grupo. Un jugador en solitario se enfrentará a un jefe con aproximadamente 4,000 HP, mientras que un equipo completo se enfrentará a una barra de salud mucho mayor. El desafío principal no es solo la salud del jefe, sino la falta de espacio para evitar sus ataques de área de efecto (AoE).
+
+<Steps>
+  <Step num="1" title="Preparación antes del jefe">
+    Visita la tienda final antes de la arena. Prioriza **HP Máximo** y **Aumentos de velocidad**. Si tienes suficientes engranajes, compra mejoras de **Cadencia de fuego** o **Precisión** para maximizar tu DPS en el espacio reducido.
+  </Step>
+  <Step num="2" title="Movilidad constante">
+    El jefe escupe veneno con frecuencia o lanza proyectiles que cubren el suelo. Nunca te quedes quieto. Da vueltas por el perímetro de la arena para mantener al jefe centrado mientras te mantienes alejado de los peligros.
+  </Step>
+  <Step num="3" title="Gestión del cargador">
+    Con una barra de salud en solitario de 4,000 HP, necesitarás recargar varias veces. Usa la ventaja **Curación por recarga** para recuperar 5 HP cada vez que cambies de cargador, asegurándote de mantener tu salud al máximo incluso si recibes un golpe inesperado.
+  </Step>
+  <Step num="4" title="Ejecutar y descender">
+    Una vez que el jefe llega al 25% de salud, puede entrar en un estado frenético. Concentra todo el fuego en la cabeza para infligir daño crítico (especialmente si tienes la mejora **Críticos mortales**) para terminar la pelea rápidamente.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mecánicas de escalado">
+La salud del jefe escala dinámicamente. Si tus compañeros de equipo abandonan a mitad de la partida, la salud del jefe puede permanecer en el escalado más alto para grupos, lo que hace que jugar en solitario sea significativamente más difícil. Asegúrate de que tu equipo esté comprometido antes de comenzar el descenso final.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejoras óptimas para la gestión de enemigos">
+
+Elegir las mejoras adecuadas al final de cada piso es la diferencia entre una partida exitosa y un final prematuro. Dado que **todos los enemigos de Hellhole** tienen diferentes debilidades, una construcción equilibrada suele ser superior a acumular una sola estadística. Sin embargo, siempre se debe dar prioridad a ciertas mejoras de nivel "Épico".
+
+| Tipo de mejora | Efecto | Mejor contra | Prioridad |
+|:---|:---|:---|:---|
+| **Críticos mortales** | +25% de probabilidad de crítico | Jefes y Brutos | Alta |
+| **Rondas pesadas** | Mayor retroceso | Gremlins y Zombis | Media |
+| **Adrenalina** | Velocidad al matar | Grandes hordas | Media |
+| **Tamaño del cargador** | De +5 a +10 rondas | Todos los enemigos | Alta |
+| **Balas perforadoras** | Golpea a un segundo enemigo | Oleadas densas | Muy alta |
+| **Resistencia al ácido** | Daño en el tiempo reducido | Escupidores y Jefes | Situacional |
+
+<Callout type="tip" title="Sinergia de recarga">
+La ventaja **Curación por recarga** es posiblemente la herramienta de sustento más fuerte del juego. Al combinarla con las mejoras de **Tamaño del cargador** y **Cadencia de fuego**, puedes realizar recargas continuas de manera efectiva para mantener tu salud al máximo mientras infliges un daño constante a la horda.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de progresión y preguntas frecuentes">
+
+Para convertirte en un maestro de Hellhole, debes intentar desbloquear todas las ventajas y armas aumentando tu rango. Cada partida otorga engranajes (créditos) y XP, incluso si no llegas al último piso.
+
+<Checklist
+  id="hellhole-progression"
+  title="Hitos de supervivencia:"
+  items={[
+    "Alcanza el rango 5 para desbloquear ventajas de movimiento básicas",
+    "Adquiere el Arma de lava por 5,000 créditos",
+    "Supera con éxito un encuentro con un jefe del piso 7 en solitario",
+    "Completa una partida con la ventaja Óptica de reconocimiento equipada",
+    "Desbloquea la ventaja Balas perforadoras en el rango 35"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Cómo lidio con los Gremlins pequeños y rápidos en Hellhole?",
+    answer: "Los Gremlins son objetivos de alta prioridad. Usa la mejora Rondas pesadas para el retroceso o armas de altas RPM para seguir su movimiento. Si tienes la ventaja Óptica de reconocimiento, vigila el contador de enemigos para asegurarte de que ninguno se te acerque sigilosamente por detrás."
+  },
+  {
+    question: "¿Cuál es la mejor manera de farmear engranajes para nuevas armas?",
+    answer: "Concéntrate en limpiar las salas de tesoros y abrir cofres de oro y plata. Jugar en un grupo completo aumenta el botín total encontrado, y completar misiones diarias (como derrotar a 80 enemigos) otorga importantes bonificaciones de engranajes."
+  },
+  {
+    question: "¿Puedo revivir si me matan los enemigos de Hellhole?",
+    answer: "Sí, puedes revivir usando Robux o viendo un anuncio según la plataforma. Sin embargo, si todo tu grupo es eliminado, la partida termina. Es mejor usar la ventaja Curación por recarga para mantener la salud durante todo el descenso."
+  },
+  {
+    question: "¿Qué piso es el más difícil para los principiantes?",
+    answer: "Las Profundidades Fúngicas a menudo toman por sorpresa a los principiantes debido a los peligros de esporas explosivas y la introducción de variantes de enemigos más rápidos como los Gremlins. Asegúrate de tener al menos una mejora de velocidad antes de ingresar a este piso."
+  }
+]} />
+
+</Section>

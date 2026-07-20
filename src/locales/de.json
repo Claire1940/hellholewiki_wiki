@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "codes": "Codes",
+    "guides": "Leitfäden",
+    "weapons": "Waffen",
+    "enemies": "Feinde",
+    "boss": "Bosse",
+    "floors": "Etagen",
+    "upgrades": "Upgrades",
+    "general": "Allgemein"
+  }
+}
