@@ -1,12 +1,15 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Hellhole Wiki - Guides, Secrets & Walkthrough",
+  "short_name": "Hellhole",
+  "description": "Hellhole Wiki provides horror game guides, walkthroughs, secrets, gameplay tips, and updates to help players explore the dark world of Hellhole.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#B91C1C",
+  "background_color": "#09090B",
+  "categories": ["games", "entertainment"],
+  "lang": "en",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

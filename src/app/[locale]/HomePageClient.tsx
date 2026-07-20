@@ -95,15 +95,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "Hellhole Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Hellhole Wiki provides horror game guides, walkthroughs, secrets, gameplay tips, and updates to help players explore the dark world of Hellhole, the Roblox PvE horror shooter.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
-          width: 1920,
-          height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          width: 1023,
+          height: 576,
+          caption: "Hellhole - Roblox PvE Horror Shooter",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +114,11 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Hellhole Wiki",
+        alternateName: "Hellhole",
         url: siteUrl,
         description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Hellhole Wiki resource hub for guides, walkthroughs, secrets, enemies, weapons, and survival tips for the Roblox PvE horror shooter Hellhole",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -128,43 +128,40 @@ export default function HomePageClient({
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
-          width: 1920,
-          height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          width: 1023,
+          height: 576,
+          caption: "Hellhole Wiki - Roblox PvE Horror Shooter",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://www.roblox.com/games/84568117169118/Hellhole",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
-        gamePlatform: ["PC", "Steam"],
+        name: "Hellhole",
+        gamePlatform: ["Roblox", "PC"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Horror", "Shooter", "PvE", "Survival"],
         numberOfPlayers: {
           minValue: 1,
-          maxValue: 1,
         },
         offers: {
           "@type": "Offer",
+          price: "0",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          url: "https://www.roblox.com/games/84568117169118/Hellhole",
         },
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "Hellhole - Full Gameplay Guide",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "Hellhole full gameplay guide covering enemies, upgrades, money, and survival strategies for the Roblox PvE horror shooter.",
+        uploadDate: "2025-11-01",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/qZklb4F036k",
+        url: "https://www.youtube.com/watch?v=qZklb4F036k",
       },
     ],
   };
@@ -247,7 +244,7 @@ export default function HomePageClient({
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://www.roblox.com/games/84568117169118/Hellhole"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
@@ -276,11 +273,11 @@ export default function HomePageClient({
 
       {/* Video Section */}
       <section className="px-4 py-10 md:py-12">
-        <div className="scroll-reveal container mx-auto max-w-5xl">
+        <div className="scroll-reveal container mx-auto max-w-6xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId="qZklb4F036k"
+              title="Hellhole - Full Gameplay Guide"
             />
           </div>
         </div>
