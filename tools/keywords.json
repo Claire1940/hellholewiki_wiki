@@ -1,47 +1,88 @@
 {
+  "topic_name": "hellhole",
+  "topic_clarification": "Roblox PvE Horror Shooter (2025). Floor-by-floor descent, boss battles, enemies, weapons, upgrades, money. NOT the 2022 Polish horror movie, not the West Virginia cave, not the CARV song, not FNF mod.",
   "categories": [
     {
-      "category": "Guides",
+      "category": "guides",
       "keywords": [
-        "lucid blocks guide"
+        "hellhole beginner guide",
+        "hellhole how to play",
+        "hellhole walkthrough",
+        "hellhole tips and tricks",
+        "hellhole strategy guide"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "weapons",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "hellhole best weapons",
+        "hellhole weapon tier list",
+        "hellhole all weapons",
+        "hellhole weapon upgrades",
+        "hellhole how to unlock weapons"
       ]
     },
     {
-      "category": "Items",
+      "category": "enemies",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "hellhole all enemies",
+        "hellhole enemy types",
+        "hellhole enemy guide",
+        "hellhole demon enemies",
+        "hellhole hardest enemies"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "boss",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "hellhole boss guide",
+        "hellhole all bosses",
+        "hellhole boss fight tips",
+        "hellhole final boss",
+        "hellhole secret bosses"
       ]
     },
     {
-      "category": "Building",
+      "category": "floors",
       "keywords": [
-        "lucid blocks qualia"
+        "hellhole all floors",
+        "hellhole floor guide",
+        "hellhole deepest floor",
+        "hellhole floor progression",
+        "hellhole map guide"
       ]
     },
     {
-      "category": "Support",
+      "category": "upgrades",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "hellhole money guide",
+        "hellhole best upgrades",
+        "hellhole how to get money fast",
+        "hellhole upgrade guide",
+        "hellhole progression guide"
+      ]
+    },
+    {
+      "category": "codes",
+      "keywords": [
+        "hellhole codes",
+        "hellhole active codes",
+        "hellhole codes 2025",
+        "hellhole wiki codes",
+        "hellhole how to redeem codes"
+      ]
+    },
+    {
+      "category": "general",
+      "keywords": [
+        "hellhole game",
+        "hellhole roblox",
+        "hellhole wiki",
+        "hellhole gameplay",
+        "hellhole review"
       ]
     }
-  ]
+  ],
+  "contentCountAfterMerging": 40,
+  "content_count_after_merge": 40
 }

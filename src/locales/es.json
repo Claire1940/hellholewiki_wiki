@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Hellhole Wiki - Guías, secretos y guías paso a paso",
+      "description": "Hellhole Wiki ofrece guías de juegos de terror, guías paso a paso, secretos, consejos de juego y actualizaciones para ayudar a los jugadores a explorar el oscuro mundo de Hellhole.",
+      "keywords": "Hellhole, Hellhole Wiki, juego de terror, guía paso a paso, secretos, guías",
+      "ogTitle": "Hellhole Wiki - Guías, secretos y guías paso a paso",
+      "ogDescription": "Hellhole Wiki ofrece guías de juegos de terror, guías paso a paso, secretos, consejos de juego y actualizaciones para ayudar a los jugadores a explorar el oscuro mundo de Hellhole, el shooter de terror PvE de Roblox.",
+      "twitterTitle": "Hellhole Wiki - Guías, secretos y guías paso a paso",
+      "twitterDescription": "Hellhole Wiki ofrece guías de juegos de terror, guías paso a paso, secretos y consejos de juego para el shooter de terror PvE de Roblox, Hellhole."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guides": "Guías",
@@ -8,5 +19,518 @@
     "floors": "Pisos",
     "upgrades": "Mejoras",
     "general": "General"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Shooter de terror PvE de Roblox",
+    "title": "Hellhole Wiki",
+    "description": "Hellhole es un shooter de terror PvE de Roblox donde los jugadores descienden piso por piso a un inframundo demoníaco, luchando contra enemigos y jefes, mejorando armas y sobreviviendo en las profundidades. La única salida es hacia abajo.",
+    "getFreeCodesCTA": "Consigue códigos gratis",
+    "playOnSteamCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "Profundo",
+        "label": "Descenso de pisos"
+      },
+      "stat2": {
+        "value": "PvE",
+        "label": "Shooter de terror"
+      },
+      "stat3": {
+        "value": "Cooperativo",
+        "label": "Supervivencia"
+      },
+      "stat4": {
+        "value": "2025",
+        "label": "Año de lanzamiento"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Hellhole",
+    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a extrañas criaturas en este sandbox de vóxeles de ensueño en Steam."
+  },
+  "tools": {
+    "title": "Hellhole",
+    "titleHighlight": "Recursos de la Wiki",
+    "subtitle": "Todo lo que necesitas para descender, sobrevivir y conquistar cada piso del inframundo de Hellhole.",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guía de Hellhole para principiantes",
+        "description": "Primeros controles, aspectos básicos del descenso y pasos iniciales de supervivencia"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Guía de jugabilidad de Hellhole",
+        "description": "Mecánicas principales, pisos, combate y ciclos de dinero"
+      },
+      {
+        "icon": "Swords",
+        "title": "Guía de armas de Hellhole",
+        "description": "Armas principales, mejoras y estrategia de combate"
+      },
+      {
+        "icon": "Skull",
+        "title": "Guía de enemigos de Hellhole",
+        "description": "Tipos de enemigos, comportamiento de los demonios y métodos de supervivencia"
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Consejos y trucos de Hellhole",
+        "description": "Movimiento, cómo ganar dinero y errores a evitar"
+      },
+      {
+        "icon": "Crown",
+        "title": "Guía de jefes de Hellhole",
+        "description": "Patrones de ataque de jefes, debilidades y equipamientos"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Mejoras de Hellhole",
+        "description": "Rutas de mejora, progresión y gasto eficiente"
+      },
+      {
+        "icon": "Clock",
+        "title": "Actualizaciones de Hellhole",
+        "description": "Nuevos pisos, jefes y últimas noticias del juego"
+      }
+    ]
+  },
+  "modules": {
+    "hellholeBeginnerGuide": {
+      "title": "Guía de Hellhole para principiantes",
+      "intro": "Hellhole es un shooter de terror PvE de Roblox donde los jugadores descienden por peligrosos pisos subterráneos, luchan contra criaturas hostiles, recolectan recursos y mejoran su equipamiento. Esta guía para principiantes explica los pasos esenciales que todo jugador nuevo debe entender antes de comenzar una partida.",
+      "steps": [
+        {
+          "title": "Aprende los controles básicos",
+          "description": "Comprende el movimiento, el apuntado, el disparo, la interacción con objetos y la gestión de tu equipamiento antes de entrar a zonas más profundas."
+        },
+        {
+          "title": "Comienza tu primer descenso",
+          "description": "Entra en Hellhole y explora cada piso con cuidado mientras aprendes el comportamiento de los enemigos y los peligros del entorno."
+        },
+        {
+          "title": "Lucha y sobrevive",
+          "description": "Usa tus armas de manera eficiente, evita combates innecesarios y concéntrate en sobrevivir a los encuentros con criaturas hostiles."
+        },
+        {
+          "title": "Recolecta dinero y recursos",
+          "description": "Reúne recompensas durante las partidas para mejorar tu equipamiento y prepararte para los pisos inferiores más difíciles."
+        },
+        {
+          "title": "Mejora tu equipamiento",
+          "description": "Mejora tu capacidad de combate eligiendo armas más fuertes y mejoras útiles para futuros intentos en pisos más profundos."
+        }
+      ],
+      "quickTips": [
+        "Tómate el tiempo de aprender los patrones de ataque de los enemigos antes de adentrarte en los pisos más profundos de Hellhole.",
+        "Ahorra tu dinero para mejoras significativas en lugar de gastarlo en cada opción disponible.",
+        "Vigila tu munición y tus recursos para estar listo ante encuentros repentinos con enemigos.",
+        "La única salida es hacia abajo, así que prepara tu equipamiento cuidadosamente antes de descender más."
+      ]
+    },
+    "hellholeGameplayGuide": {
+      "title": "Mecánicas de juego principales de Hellhole",
+      "intro": "El ciclo de juego principal de Hellhole se centra en descender a través de áreas peligrosas, derrotar enemigos, obtener recursos y mejorar tus posibilidades de alcanzar pisos más profundos. Los jugadores deben equilibrar la exploración, el combate y las mejoras para completar partidas exitosas.",
+      "cards": [
+        {
+          "name": "Sistema de descenso de pisos",
+          "description": "Los jugadores progresan a través de múltiples pisos subterráneos donde los desafíos se vuelven cada vez más peligrosos cuanto más profundo llegan."
+        },
+        {
+          "name": "Combate PvE",
+          "description": "Lucha contra monstruos hostiles usando armas y estrategias de movimiento mientras gestionas recursos limitados durante cada encuentro."
+        },
+        {
+          "name": "Encuentros con enemigos",
+          "description": "Cada partida presenta encuentros peligrosos que requieren un posicionamiento cuidadoso, sincronización y conciencia de tu entorno."
+        },
+        {
+          "name": "Dinero y recompensas",
+          "description": "Recolecta dinero durante el juego para mejorar tu equipo y aumentar tus posibilidades de supervivencia en futuras partidas."
+        },
+        {
+          "name": "Progresión de mejoras",
+          "description": "Usa los recursos obtenidos para fortalecer tu configuración y prepararte para los enemigos que esperan en los pisos más profundos."
+        }
+      ]
+    },
+    "hellholeWeaponsGuide": {
+      "title": "Armas y estrategia de combate en Hellhole",
+      "intro": "Las armas son esenciales para sobrevivir a los encuentros en Hellhole. Los jugadores deben entender su equipo disponible, gestionar la munición y seleccionar enfoques de combate efectivos al enfrentarse a diferentes situaciones enemigas en cada piso.",
+      "items": [
+        {
+          "type": "Primaria",
+          "name": "Armas primarias",
+          "description": "Herramientas de combate principales utilizadas para infligir daño constante durante los encuentros con enemigos a lo largo de tu descenso."
+        },
+        {
+          "type": "Mejora",
+          "name": "Mejoras de armas",
+          "description": "Mejora el rendimiento en combate invirtiendo recursos en opciones de equipo más fuertes para los pisos más profundos."
+        },
+        {
+          "type": "Corto alcance",
+          "name": "Estrategia de combate cuerpo a cuerpo",
+          "description": "Usa el posicionamiento y el movimiento con cuidado cuando los enemigos se acerquen a corta distancia en espacios subterráneos estrechos."
+        },
+        {
+          "type": "Largo alcance",
+          "name": "Estrategia de largo alcance",
+          "description": "Mantén la distancia y controla los encuentros con enemigos siempre que la disposición del piso lo permita."
+        },
+        {
+          "type": "Equipamiento",
+          "name": "Gestión del equipamiento",
+          "description": "Elige el equipo que se adapte a tu estilo de juego y a los desafíos específicos de los pisos que planeas explorar."
+        }
+      ]
+    },
+    "hellholeEnemiesGuide": {
+      "title": "Tipos de enemigos y consejos de supervivencia en Hellhole",
+      "intro": "Hellhole presenta criaturas hostiles que desafían a los jugadores a lo largo de su descenso. Entender el comportamiento de los enemigos, los patrones de ataque y los métodos de combate seguros ayuda a los jugadores a sobrevivir más tiempo y alcanzar pisos más profundos.",
+      "enemies": [
+        {
+          "enemy": "Criaturas hostiles",
+          "behavior": "Atacan a los jugadores durante la exploración y los encuentros de combate en cada piso.",
+          "strategy": "Mantén la atención, gestiona la distancia y evita recibir daño innecesario durante las peleas."
+        },
+        {
+          "enemy": "Enemigos demoníacos",
+          "behavior": "Usan ataques agresivos para presionar a los jugadores durante encuentros peligrosos.",
+          "strategy": "Observa los patrones de ataque con cuidado y usa tus armas de manera eficiente para romper su presión."
+        },
+        {
+          "enemy": "Amenazas de los pisos",
+          "behavior": "Diferentes áreas introducen peligros crecientes a medida que los jugadores descienden a pisos más profundos.",
+          "strategy": "Muévete con cuidado y prepara tu equipamiento antes de entrar a pisos con amenazas más fuertes."
+        }
+      ]
+    },
+    "hellholeTipsAndTricks": {
+      "title": "Consejos y trucos de Hellhole para mejores partidas",
+      "intro": "Hellhole recompensa el movimiento cuidadoso, la gestión inteligente de recursos y la toma de decisiones constante. Estos consejos ayudan a los jugadores a sobrevivir más tiempo, evitar errores comunes y progresar de manera más eficiente a través de los pisos peligrosos.",
+      "tips": [
+        {
+          "title": "Gestiona tus recursos con cuidado",
+          "content": "Evita desperdiciar munición y recursos de curación al principio de una partida. Guarda los suministros importantes para los encuentros más difíciles y los pisos más profundos de abajo."
+        },
+        {
+          "title": "Muévete con cuidado por los pisos",
+          "content": "Explora las áreas con cautela en lugar de avanzar apresuradamente. Revisar tu entorno ayuda a evitar encuentros inesperados con enemigos y situaciones peligrosas."
+        },
+        {
+          "title": "Aprende los patrones de los enemigos",
+          "content": "Presta atención al movimiento de los enemigos y al tiempo de sus ataques. Comprender los patrones te permite reaccionar más rápido y recibir menos daño durante los combates."
+        },
+        {
+          "title": "Mejora antes de avanzar más profundo",
+          "content": "Gasta el dinero ganado sabiamente entre partidas para mejorar tu equipamiento y aumentar tus posibilidades de sobrevivir en los pisos más difíciles de abajo."
+        },
+        {
+          "title": "Evita los errores comunes de los principiantes",
+          "content": "No te apresures a entrar en áreas desconocidas, no desperdicies recursos valiosos en combates fáciles ni ignores las mejoras de progresión que te ayudan a llegar a pisos más profundos."
+        }
+      ]
+    },
+    "hellholeBossGuide": {
+      "title": "Batallas de jefes y estrategias de Hellhole",
+      "intro": "Los encuentros con jefes son algunos de los momentos más desafiantes en Hellhole. Los jugadores deben reconocer los patrones de ataque, mantener la posición y preparar el equipamiento adecuado antes de enfrentarse a los enemigos más fuertes que esperan en los pisos más profundos.",
+      "bosses": [
+        {
+          "name": "Encuentros con jefes de piso",
+          "tier": "Jefe",
+          "difficulty": "Alto",
+          "strategy": "Concéntrate en aprender los patrones de ataque, evitar el daño innecesario y atacar durante las oportunidades seguras entre los ataques del jefe.",
+          "recommended": "Equipamiento equilibrado con daño confiable y suficientes recursos de supervivencia para un combate largo."
+        },
+        {
+          "name": "Desafíos de los pisos profundos",
+          "tier": "Avanzado",
+          "difficulty": "Muy alto",
+          "strategy": "Prepara equipamiento mejorado y coordina el movimiento con cuidado durante los encuentros peligrosos de los pisos más profundos.",
+          "recommended": "Usa tus mejoras más fuertes disponibles antes de intentar adentrarte en las secciones más profundas de Hellhole."
+        }
+      ]
+    },
+    "hellholeUpgradesAndProgress": {
+      "title": "Guía de mejoras y progresión de Hellhole",
+      "intro": "La progresión en Hellhole depende de tomar decisiones inteligentes de mejora y mejorar tu capacidad para sobrevivir a encuentros cada vez más difíciles. El gasto eficiente ayuda a los jugadores a llegar más rápido a las áreas más profundas y a lidiar con enemigos más fuertes.",
+      "upgrades": [
+        {
+          "code": "01",
+          "title": "Progresión temprana",
+          "description": "Prioriza las mejoras que aumenten la supervivencia y la consistencia durante tus primeras partidas en Hellhole."
+        },
+        {
+          "code": "02",
+          "title": "Gestión de recursos",
+          "description": "Usa el dinero ganado de manera estratégica en lugar de gastarlo todo de inmediato en ventajas temporales."
+        },
+        {
+          "code": "03",
+          "title": "Preparación para partidas profundas",
+          "description": "Prepara equipamientos más fuertes antes de intentar superar los pisos más difíciles y los enemigos más fuertes que te esperan abajo."
+        },
+        {
+          "code": "04",
+          "title": "Crecimiento a largo plazo",
+          "description": "Sigue mejorando a través de partidas repetidas y mejores opciones de mejora a medida que te adentras más profundamente."
+        }
+      ]
+    },
+    "hellholeUpdatesAndNews": {
+      "title": "Actualizaciones, cambios y noticias de Hellhole",
+      "intro": "Esta sección ayuda a los jugadores que regresan a consultar rápidamente los cambios principales de Hellhole, incluyendo nuevos pisos, mejoras de jugabilidad y anuncios de contenido futuro para el shooter de terror PvE de Roblox.",
+      "updates": [
+        {
+          "title": "Nuevos pisos y contenido",
+          "content": "Sigue las adiciones que expanden la experiencia de descenso con nuevas áreas, desafíos y encuentros en los pisos más profundos."
+        },
+        {
+          "title": "Cambios en la jugabilidad",
+          "content": "Sigue las actualizaciones de equilibrio, mejoras y cambios que afectan cómo los jugadores abordan cada partida de Hellhole."
+        },
+        {
+          "title": "Actualizaciones de jefes y enemigos",
+          "content": "Consulta los anuncios relacionados con nuevas amenazas, encuentros con jefes y ajustes de combate en los diferentes pisos."
+        },
+        {
+          "title": "Anuncios de la comunidad",
+          "content": "Mantente al día con los mensajes importantes de los desarrolladores e información para los jugadores activos de Hellhole."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Hellhole",
+    "titleHighlight": "Preguntas frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Hellhole, el shooter de terror PvE de Roblox.",
+    "questions": [
+      {
+        "question": "¿Qué es Hellhole en Roblox?",
+        "answer": "Hellhole es un shooter de terror PvE de Roblox donde los jugadores descienden piso por piso a un inframundo demoníaco, luchando contra enemigos y jefes mientras mejoran sus armas y sobreviven a las profundidades. La única salida es hacia abajo."
+      },
+      {
+        "question": "¿Es Hellhole un juego para un solo jugador o multijugador?",
+        "answer": "Hellhole es un shooter de terror PvE en Roblox. Los jugadores descienden a través de peligrosos pisos subterráneos, luchan contra criaturas hostiles y demonios, y mejoran su equipamiento a medida que se adentran más en el inframundo."
+      },
+      {
+        "question": "¿Dónde puedo jugar Hellhole?",
+        "answer": "Puedes jugar Hellhole directamente en Roblox a través de la página oficial del juego. Se ejecuta dentro de la plataforma Roblox en PC, dispositivos móviles y otros dispositivos compatibles."
+      },
+      {
+        "question": "¿Cómo funciona la progresión en Hellhole?",
+        "answer": "En Hellhole, los jugadores ganan dinero durante las partidas y lo gastan en mejoras de armas y equipamiento. Estas mejoras te ayudan a sobrevivir en los pisos más profundos, derrotar a enemigos más fuertes y enfrentarte a los jefes que esperan abajo."
+      },
+      {
+        "question": "¿A qué tipo de enemigos me enfrentaré en Hellhole?",
+        "answer": "Hellhole presenta criaturas hostiles y enemigos demoníacos a lo largo de múltiples pisos, con encuentros con jefes en los niveles más profundos que requieren preparación, lectura de patrones y un equipamiento mejorado para sobrevivir."
+      },
+      {
+        "question": "¿Recibe Hellhole actualizaciones con nuevo contenido?",
+        "answer": "Sí. Hellhole sigue recibiendo actualizaciones que añaden nuevos pisos, jefes, enemigos y mejoras en la jugabilidad, ofreciendo a los jugadores más desafíos para explorar a medida que descienden más en el inframundo."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para descender a Hellhole?",
+    "description": "Juega a Hellhole en Roblox y sigue nuestras guías para sobrevivir a cada piso del inframundo demoníaco.",
+    "joinCommunity": "Jugar en Roblox",
+    "joinGame": "Ver gameplay"
+  },
+  "footer": {
+    "title": "Wiki de Hellhole",
+    "description": "Tu centro de recursos completo para guías de Hellhole, tutoriales, secretos, enemigos, armas y consejos de supervivencia para el shooter de terror PvE de Roblox.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Jugar en Roblox",
+    "twitter": "Ver gameplay",
+    "steamCommunity": "Plataforma Roblox",
+    "steamStore": "Guía de jefes y enemigos",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Derechos de autor",
+    "copyright": "© 2026 Hellhole Wiki. No afiliado a los desarrolladores de Hellhole o Roblox Corporation.",
+    "disclaimer": "Sitio web de recursos hecho por fans y no oficial."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Hellhole",
+      "description": "Últimos códigos de Hellhole activos para gemas, monedas y recompensas gratis. Actualizado regularmente con códigos activos para el shooter de terror PvE de Roblox.",
+      "metaTitle": "Códigos de Hellhole - Gemas y recompensas gratis (2026)",
+      "metaDescription": "Obtén gemas, monedas y recompensas gratis con códigos activos de Hellhole. Actualizado con códigos verificados para el shooter de terror PvE de Roblox.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos de Hellhole?",
+      "whatIsDescription": "Los códigos de Hellhole son claves promocionales lanzadas por los desarrolladores que otorgan gemas, monedas, mejoras de armas y recursos de supervivencia gratis para ayudarte a profundizar en el inframundo demoníaco.",
+      "why": "¿Por qué canjear códigos?",
+      "whySteps": {
+        "step1Title": "Recursos gratuitos",
+        "step1Description": "Recibe gemas, monedas y mejoras al instante sin tener que repetir los primeros pisos",
+        "step2Title": "Progresión más rápida",
+        "step2Description": "Gasta los recursos ahorrados en armas más fuertes para sobrevivir a encuentros más difíciles",
+        "step3Title": "Mantente actualizado",
+        "step3Description": "Reclama cada código activo para mantener el ritmo con los nuevos pisos y los cambios de equilibrio"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los códigos"
+    },
+    "guides": {
+      "title": "Guías de Hellhole",
+      "description": "Guías completas de Hellhole que cubren controles, mecánicas de descenso, estrategias de supervivencia y consejos para jugadores nuevos y experimentados.",
+      "metaTitle": "Guías de Hellhole - Estrategias de principiante a avanzado",
+      "metaDescription": "Guías completas de Hellhole que cubren los conceptos básicos, mecánicas de descenso, estrategias de supervivencia y consejos de expertos para el shooter de terror PvE de Roblox.",
+      "categoryLabel": "GUÍAS DE JUEGO",
+      "whatIs": "¿Qué son las guías de Hellhole?",
+      "whatIsDescription": "Las guías de Hellhole te explican las mecánicas principales, el sistema de descenso piso por piso, los fundamentos del combate y las estrategias de supervivencia para que puedas progresar de manera eficiente y evitar errores comunes.",
+      "why": "¿Por qué leer las guías?",
+      "whySteps": {
+        "step1Title": "Aprende las mecánicas principales",
+        "step1Description": "Comprende los sistemas de descenso, combate y recursos antes de profundizar más",
+        "step2Title": "Sobrevive más tiempo",
+        "step2Description": "Sigue estrategias probadas para alcanzar pisos más profundos y jefes más difíciles",
+        "step3Title": "Evita errores",
+        "step3Description": "Evita las trampas de principiante que desperdician recursos y terminan las partidas antes de tiempo"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías"
+    },
+    "weapons": {
+      "title": "---",
+      "description": "Armas de Hellhole",
+      "metaTitle": "Guías detalladas de armas de Hellhole que cubren estadísticas, listas de niveles, rutas de mejora y estrategias de equipamiento para cada piso del descenso.",
+      "metaDescription": "Armas de Hellhole: Lista de niveles, estadísticas y mejoras",
+      "categoryLabel": "Domina cada arma de Hellhole con estadísticas detalladas, clasificaciones de niveles, rutas de mejora y estrategias de equipamiento para sobrevivir en cada piso.",
+      "whatIs": "ARMAS Y EQUIPAMIENTOS",
+      "whatIsDescription": "¿Qué son las armas de Hellhole?",
+      "why": "Las armas de Hellhole son tus herramientas principales para sobrevivir a encuentros hostiles en cada piso. Las guías cubren estadísticas de armas, rutas de mejora, gestión de munición y opciones de equipamiento para diferentes situaciones con enemigos y jefes.",
+      "whySteps": {
+        "step1Title": "¿Por qué estudiar las armas?",
+        "step1Description": "Elige el equipamiento adecuado",
+        "step2Title": "Elige armas que se adapten a los enemigos y al diseño de cada piso",
+        "step2Description": "Mejora de forma eficiente",
+        "step3Title": "Invierte recursos en armas que escalen bien hacia los pisos más profundos",
+        "step3Description": "Gestiona la munición"
+      },
+      "featured": "Equilibra el daño infligido con la conservación de munición para partidas largas",
+      "all": "Destacados y esenciales"
+    },
+    "enemies": {
+      "title": "Todas las armas",
+      "description": "Enemigos de Hellhole",
+      "metaTitle": "Bestiario completo de enemigos de Hellhole, incluyendo tipos de demonios, patrones de ataque, debilidades y estrategias de combate para cada piso.",
+      "metaDescription": "Enemigos de Hellhole: Bestiario y estrategias de combate",
+      "categoryLabel": "Conoce cada tipo de enemigo de Hellhole, incluyendo demonios, patrones de ataque, debilidades y estrategias de combate para sobrevivir en cada piso.",
+      "whatIs": "BESTIARIO DE ENEMIGOS",
+      "whatIsDescription": "¿Qué son los enemigos de Hellhole?",
+      "why": "Los enemigos de Hellhole son las criaturas hostiles y demonios que pueblan cada piso del inframundo. Las guías del bestiario cubren tipos de enemigos, patrones de ataque, niveles de amenaza y las estrategias más efectivas para eliminarlos.",
+      "whySteps": {
+        "step1Title": "¿Por qué conocer a los enemigos?",
+        "step1Description": "Identifica los patrones de ataque",
+        "step2Title": "Reconoce las señales de los enemigos para esquivar y contraatacar con eficacia",
+        "step2Description": "Explota las debilidades",
+        "step3Title": "Ataca las vulnerabilidades de los enemigos para ganar combates más rápido",
+        "step3Description": "Prioriza las amenazas"
+      },
+      "featured": "Identifica qué enemigos eliminar primero en encuentros caóticos",
+      "all": "Destacados y esenciales"
+    },
+    "boss": {
+      "title": "Todos los enemigos",
+      "description": "Jefes de Hellhole",
+      "metaTitle": "Guías de jefes de Hellhole que cubren patrones de ataque, fases, debilidades, equipamientos recomendados y estrategias para cada encuentro importante con jefes.",
+      "metaDescription": "Guía de jefes de Hellhole: Patrones, debilidades y estrategias",
+      "categoryLabel": "Domina a cada jefe de Hellhole con desgloses de patrones de ataque, debilidades, equipamientos recomendados y estrategias probadas para cada combate.",
+      "whatIs": "BATALLAS CONTRA JEFES",
+      "whatIsDescription": "¿Qué son los jefes de Hellhole?",
+      "why": "Los jefes de Hellhole son enemigos poderosos que custodian puntos clave de progresión en los pisos más profundos. Las guías de jefes desglosan patrones de ataque, fases de combate, debilidades y los equipamientos y tácticas necesarios para derrotarlos.",
+      "whySteps": {
+        "step1Title": "Aprende los patrones",
+        "step1Description": "Estudia cada secuencia de ataque de los jefes para encontrar ventanas de daño seguras",
+        "step2Title": "Crea el equipamiento adecuado",
+        "step2Description": "Equipa armas y mejoras adaptadas a las debilidades de cada jefe",
+        "step3Title": "Sobrevive a las fases",
+        "step3Description": "Adapta tu estrategia a medida que las batallas contra jefes escalan a través de múltiples fases"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los jefes"
+    },
+    "floors": {
+      "title": "Pisos de Hellhole",
+      "description": "Guías de los pisos de Hellhole que cubren la progresión, enemigos, jefes, botín y estrategias de supervivencia para cada nivel del descenso demoníaco.",
+      "metaTitle": "Pisos de Hellhole: Guía de progresión y recorrido",
+      "metaDescription": "Explora cada piso de Hellhole con guías de progresión, distribución de enemigos, encuentros con jefes, ubicaciones de botín y estrategias de supervivencia.",
+      "categoryLabel": "PROGRESIÓN DE PISOS",
+      "whatIs": "¿Qué son los pisos de Hellhole?",
+      "whatIsDescription": "Hellhole se basa en un descenso piso por piso donde cada capa es más peligrosa que la anterior. Las guías de pisos detallan la progresión, densidad de enemigos, ubicación de jefes y las rutas más seguras hacia los niveles más profundos.",
+      "why": "¿Por qué estudiar los pisos?",
+      "whySteps": {
+        "step1Title": "Planifica tu descenso",
+        "step1Description": "Conoce qué esperar en cada piso antes de descender a mayor profundidad",
+        "step2Title": "Encuentra el botín",
+        "step2Description": "Localiza recursos valiosos y mejoras ocultas en cada nivel",
+        "step3Title": "Llega a los pisos más profundos",
+        "step3Description": "Usa rutas probadas para avanzar más en el inframundo de forma segura"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los pisos"
+    },
+    "upgrades": {
+      "title": "Mejoras de Hellhole",
+      "description": "Guías de mejoras y progresión de Hellhole que cubren el farmeo de dinero, mejoras de armas, ventajas y estrategias de gasto eficiente.",
+      "metaTitle": "Mejoras de Hellhole: Dinero, armas y progresión",
+      "metaDescription": "Domina las mejoras de Hellhole con rutas de farmeo de dinero, rutas de mejora de armas, elección de ventajas y estrategias de gasto eficiente.",
+      "categoryLabel": "MEJORAS Y PROGRESO",
+      "whatIs": "¿Qué son las mejoras de Hellhole?",
+      "whatIsDescription": "Las mejoras de Hellhole te permiten fortalecer armas, desbloquear ventajas y mejorar tu equipamiento entre partidas usando el dinero y recursos obtenidos en el descenso. Las guías de mejoras cubren rutas de farmeo, prioridades de ventajas y gasto inteligente.",
+      "why": "¿Por qué optimizar las mejoras?",
+      "whySteps": {
+        "step1Title": "Farmea dinero más rápido",
+        "step1Description": "Usa rutas eficientes para ganar monedas y recursos rápidamente",
+        "step2Title": "Gasta estratégicamente",
+        "step2Description": "Prioriza las mejoras que ofrezcan el mayor aumento de supervivencia",
+        "step3Title": "Desarrolla poder a largo plazo",
+        "step3Description": "Crea una ruta de progresión que escale hacia los pisos más profundos"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las mejoras"
+    },
+    "general": {
+      "title": "Hellhole General",
+      "description": "Información general de Hellhole que cubre la descripción del juego, detalles de Roblox, análisis de reseñas y datos clave sobre el shooter de terror PvE.",
+      "metaTitle": "Hellhole General - Información y descripción general del juego",
+      "metaDescription": "Información general de Hellhole que incluye la descripción del juego, detalles de Roblox, análisis de reseñas y datos clave sobre el shooter de terror PvE.",
+      "categoryLabel": "INFORMACIÓN GENERAL",
+      "whatIs": "¿Qué es Hellhole?",
+      "whatIsDescription": "Hellhole es un shooter de terror PvE de Roblox en el que los jugadores descienden piso por piso a un inframundo demoníaco, luchando contra enemigos y jefes, mejorando armas y sobreviviendo a las profundidades. Las guías generales cubren el ciclo de juego principal, detalles de la plataforma y lo que hace que el juego sea único.",
+      "why": "¿Por qué empezar aquí?",
+      "whySteps": {
+        "step1Title": "Entiende el juego",
+        "step1Description": "Obtén una descripción general clara del ciclo de juego principal y el atractivo de Hellhole",
+        "step2Title": "Conoce la plataforma",
+        "step2Description": "Aprende cómo acceder y jugar a Hellhole en Roblox",
+        "step3Title": "Planifica tu primera partida",
+        "step3Description": "Usa la descripción general para elegir tus primeras guías y tu equipamiento"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos generales"
+    }
   }
 }
