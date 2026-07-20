@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Hellhole Wiki - Guides, Secrets & Walkthrough",
+      "description": "Hellhole Wiki provides horror game guides, walkthroughs, secrets, gameplay tips, and updates to help players explore the dark world of Hellhole.",
+      "keywords": "Hellhole, Hellhole Wiki, horror game, walkthrough, secrets, guides",
+      "ogTitle": "Hellhole Wiki - Guides, Secrets & Walkthrough",
+      "ogDescription": "Hellhole Wiki provides horror game guides, walkthroughs, secrets, gameplay tips, and updates to help players explore the dark world of Hellhole, the Roblox PvE horror shooter.",
+      "twitterTitle": "Hellhole Wiki - Guides, Secrets & Walkthrough",
+      "twitterDescription": "Hellhole Wiki provides horror game guides, walkthroughs, secrets, and gameplay tips for the Roblox PvE horror shooter Hellhole."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox PvE Horror Shooter",
+    "title": "Hellhole Wiki",
+    "description": "Hellhole is a Roblox PvE horror shooter where players descend floor by floor into a demonic underworld, battling enemies and bosses, upgrading weapons, and surviving the depths. The only way out is down.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Deep",
+        "label": "Floor Descent"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "PvE",
+        "label": "Horror Shooter"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "Co-op",
+        "label": "Survival"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "2025",
+        "label": "Release Year"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Descend into Hellhole?",
+    "description": "Play Hellhole on Roblox and follow our guides to survive every floor of the demonic underworld.",
+    "joinCommunity": "Play on Roblox",
+    "joinGame": "Watch Gameplay"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Hellhole Wiki",
+    "description": "Your complete resource hub for Hellhole guides, walkthroughs, secrets, enemies, weapons, and survival tips for the Roblox PvE horror shooter.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "Play on Roblox",
+    "twitter": "Watch Gameplay",
+    "steamCommunity": "Roblox Platform",
+    "steamStore": "Boss & Enemy Guide",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Hellhole Wiki. Not affiliated with the developers of Hellhole or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

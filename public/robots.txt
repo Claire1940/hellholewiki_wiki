@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block crawling of internal API/utility routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /search
+
+Sitemap: https://www.hellholewiki.wiki/sitemap.xml
