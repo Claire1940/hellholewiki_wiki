@@ -145,68 +145,68 @@
       ]
     },
     "hellholeGameplayGuide": {
-      "title": "La seule issue est vers le bas, alors préparez soigneusement votre équipement avant de descendre plus loin.",
+      "title": "Hellhole Core Gameplay Mechanics",
       "intro": "Mécaniques de jeu principales de Hellhole",
       "cards": [
         {
-          "name": "La boucle de gameplay principale de Hellhole se concentre sur la descente à travers des zones dangereuses, l'élimination d'ennemis, la récolte de ressources et l'amélioration de vos chances d'atteindre les étages inférieurs. Les joueurs doivent équilibrer exploration, combat et améliorations pour réussir leurs runs.",
+          "name": "Floor Descent System",
           "description": "Système de descente d'étages"
         },
         {
-          "name": "Les joueurs progressent à travers plusieurs étages souterrains où les défis deviennent de plus en plus dangereux à mesure qu'ils s'enfoncent.",
+          "name": "PvE Combat",
           "description": "Combat PvE"
         },
         {
-          "name": "Combattez des monstres hostiles en utilisant vos armes et des stratégies de mouvement tout en gérant des ressources limitées lors de chaque affrontement.",
+          "name": "Enemy Encounters",
           "description": "Rencontres ennemies"
         },
         {
-          "name": "Chaque run introduit des rencontres dangereuses qui nécessitent un positionnement précis, du timing et une vigilance constante de votre environnement.",
+          "name": "Money and Rewards",
           "description": "Argent et récompenses"
         },
         {
-          "name": "Récoltez de l'argent pendant le jeu pour améliorer votre équipement et augmenter vos chances de survie lors des prochaines tentatives.",
+          "name": "Upgrade Progression",
           "description": "Progression des améliorations"
         }
       ]
     },
     "hellholeWeaponsGuide": {
-      "title": "Utilisez les ressources gagnées pour renforcer votre configuration et vous préparer aux ennemis qui vous attendent dans les étages inférieurs.",
+      "title": "Hellhole Weapons and Combat Strategy",
       "intro": "Armes et stratégie de combat dans Hellhole",
       "items": [
         {
-          "type": "Les armes sont essentielles pour survivre aux rencontres dans Hellhole. Les joueurs doivent comprendre leur équipement disponible, gérer leurs munitions et choisir des approches de combat efficaces face aux différentes situations ennemies à chaque étage.",
+          "type": "Primary",
           "name": "Principale",
           "description": "Armes principales"
         },
         {
-          "type": "Outils de combat principaux utilisés pour infliger des dégâts réguliers lors des rencontres ennemies tout au long de votre descente.",
+          "type": "Upgrade",
           "name": "Améliorer",
           "description": "Améliorations d'armes"
         },
         {
-          "type": "Améliorez vos performances au combat en investissant des ressources dans des choix d'équipement plus puissants pour les étages inférieurs.",
+          "type": "Close Range",
           "name": "Courte portée",
           "description": "Stratégie de combat rapproché"
         },
         {
-          "type": "Utilisez prudemment votre positionnement et vos mouvements lorsque les ennemis s'approchent à courte portée dans des espaces souterrains exigus.",
+          "type": "Long Range",
           "name": "Longue portée",
           "description": "Stratégie à longue portée"
         },
         {
-          "type": "Maintenez vos distances et contrôlez les affrontements ennemis chaque fois que la configuration de l'étage le permet.",
+          "type": "Loadout",
           "name": "Équipement",
           "description": "Gestion de l'équipement"
         }
       ]
     },
     "hellholeEnemiesGuide": {
-      "title": "Choisissez un équipement qui correspond à votre style de jeu et aux défis spécifiques des étages que vous prévoyez d'explorer.",
+      "title": "Hellhole Enemy Types and Survival Tips",
       "intro": "Types d'ennemis et conseils de survie dans Hellhole",
       "enemies": [
         {
-          "enemy": "Hellhole regorge de créatures hostiles qui défient les joueurs tout au long de leur descente. Comprendre le comportement des ennemis, leurs patterns d'attaque et les méthodes de combat sûres aide les joueurs à survivre plus longtemps et à atteindre les étages les plus profonds.",
+          "enemy": "Hostile Creatures",
           "behavior": "Créatures hostiles",
           "strategy": "Attaquent les joueurs lors de l'exploration et des combats à chaque étage."
         },
@@ -239,7 +239,7 @@
           "content": "Prêtez attention aux mouvements des ennemis et au timing de leurs attaques. Comprendre leurs patterns vous permet de réagir plus rapidement et de subir moins de dégâts lors des combats."
         },
         {
-          "title": "Améliorez votre équipement avant de descendre plus profondément",
+          "title": "Upgrade Before Pushing Deeper",
           "content": "Dépensez l'argent gagné judicieusement entre les runs pour améliorer votre équipement et augmenter vos chances de survivre aux étages inférieurs les plus difficiles."
         },
         {
@@ -255,14 +255,14 @@
         {
           "name": "Rencontres avec les boss d'étage",
           "tier": "Boss",
-          "difficulty": "Élevé",
+          "difficulty": "High",
           "strategy": "Concentrez-vous sur l'apprentissage des patterns d'attaque, évitez les dégâts inutiles et attaquez lors des ouvertures sûres entre les attaques du boss.",
           "recommended": "Équipement équilibré avec des dégâts fiables et suffisamment de ressources de survie pour un long combat."
         },
         {
           "name": "Défis des étages profonds",
-          "tier": "Avancé",
-          "difficulty": "Très élevé",
+          "tier": "Advanced",
+          "difficulty": "Very High",
           "strategy": "Préparez un équipement amélioré et coordonnez soigneusement vos déplacements lors des rencontres dangereuses des étages les plus profonds.",
           "recommended": "Utilisez vos meilleures améliorations disponibles avant de tenter de vous aventurer dans les sections les plus profondes de Hellhole."
         }

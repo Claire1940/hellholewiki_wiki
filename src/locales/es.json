@@ -175,27 +175,27 @@
       "intro": "Las armas son esenciales para sobrevivir a los encuentros en Hellhole. Los jugadores deben entender su equipo disponible, gestionar la munición y seleccionar enfoques de combate efectivos al enfrentarse a diferentes situaciones enemigas en cada piso.",
       "items": [
         {
-          "type": "Primaria",
+          "type": "Primary",
           "name": "Armas primarias",
           "description": "Herramientas de combate principales utilizadas para infligir daño constante durante los encuentros con enemigos a lo largo de tu descenso."
         },
         {
-          "type": "Mejora",
+          "type": "Upgrade",
           "name": "Mejoras de armas",
           "description": "Mejora el rendimiento en combate invirtiendo recursos en opciones de equipo más fuertes para los pisos más profundos."
         },
         {
-          "type": "Corto alcance",
+          "type": "Close Range",
           "name": "Estrategia de combate cuerpo a cuerpo",
           "description": "Usa el posicionamiento y el movimiento con cuidado cuando los enemigos se acerquen a corta distancia en espacios subterráneos estrechos."
         },
         {
-          "type": "Largo alcance",
+          "type": "Long Range",
           "name": "Estrategia de largo alcance",
           "description": "Mantén la distancia y controla los encuentros con enemigos siempre que la disposición del piso lo permita."
         },
         {
-          "type": "Equipamiento",
+          "type": "Loadout",
           "name": "Gestión del equipamiento",
           "description": "Elige el equipo que se adapte a tu estilo de juego y a los desafíos específicos de los pisos que planeas explorar."
         }
@@ -254,15 +254,15 @@
       "bosses": [
         {
           "name": "Encuentros con jefes de piso",
-          "tier": "Jefe",
-          "difficulty": "Alto",
+          "tier": "Boss",
+          "difficulty": "High",
           "strategy": "Concéntrate en aprender los patrones de ataque, evitar el daño innecesario y atacar durante las oportunidades seguras entre los ataques del jefe.",
           "recommended": "Equipamiento equilibrado con daño confiable y suficientes recursos de supervivencia para un combate largo."
         },
         {
           "name": "Desafíos de los pisos profundos",
-          "tier": "Avanzado",
-          "difficulty": "Muy alto",
+          "tier": "Advanced",
+          "difficulty": "Very High",
           "strategy": "Prepara equipamiento mejorado y coordina el movimiento con cuidado durante los encuentros peligrosos de los pisos más profundos.",
           "recommended": "Usa tus mejoras más fuertes disponibles antes de intentar adentrarte en las secciones más profundas de Hellhole."
         }

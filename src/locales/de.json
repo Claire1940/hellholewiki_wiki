@@ -65,7 +65,7 @@
     "description": "Hellhole Gameplay"
   },
   "tools": {
-    "title": "Erkunde surreale Biome, verschmelze Gegenstände mit Apotheosis und überlebe seltsame Kreaturen in dieser traumhaften Voxel-Sandbox auf Steam.",
+    "title": "Hellhole",
     "titleHighlight": "Hellhole",
     "subtitle": "Wiki-Ressourcen",
     "cards": [
@@ -117,19 +117,19 @@
       "intro": "Hellhole Anfänger-Guide",
       "steps": [
         {
-          "title": "Hellhole ist ein Roblox PvE-Horror-Shooter, in dem Spieler durch gefährliche unterirdische Etagen absteigen, feindselige Kreaturen bekämpfen, Ressourcen sammeln und ihre Ausrüstung verbessern. Dieser Anfänger-Guide erklärt die wesentlichen Schritte, die jeder neue Spieler vor dem Start eines Runs verstehen sollte.",
+          "title": "Learn Basic Controls",
           "description": "Lerne die Grundsteuerung"
         },
         {
-          "title": "Verstehe Bewegung, Zielen, Schießen, Interagieren mit Objekten und Verwalten deiner Ausrüstung, bevor du tiefere Bereiche betrittst.",
+          "title": "Start Your First Descent",
           "description": "Starte deinen ersten Abstieg"
         },
         {
-          "title": "Betritt Hellhole und erkunde jede Etage vorsichtig, während du das Gegnerverhalten und die Gefahren der Umgebung kennenlernst.",
+          "title": "Fight and Survive",
           "description": "Kämpfen und Überleben"
         },
         {
-          "title": "Setze deine Waffen effizient ein, vermeide unnötige Kämpfe und konzentriere dich darauf, Begegnungen mit feindseligen Kreaturen zu überleben.",
+          "title": "Collect Money and Resources",
           "description": "Sammle Geld und Ressourcen"
         },
         {
@@ -175,7 +175,7 @@
       "intro": "Waffen sind überlebenswichtig für die Begegnungen in Hellhole. Spieler müssen ihre verfügbare Ausrüstung verstehen, mit Munition haushalten und effektive Kampfansätze wählen, wenn sie auf den einzelnen Ebenen mit unterschiedlichen Gegnersituationen konfrontiert werden.",
       "items": [
         {
-          "type": "Primär",
+          "type": "Primary",
           "name": "Primärwaffen",
           "description": "Hauptkampfwerkzeuge, mit denen du während deines Abstiegs bei Gegnerbegegnungen konstanten Schaden verursachst."
         },
@@ -185,12 +185,12 @@
           "description": "Verbessere deine Kampfleistung, indem du Ressourcen in stärkere Ausrüstungsoptionen für tiefere Ebenen investierst."
         },
         {
-          "type": "Nahbereich",
+          "type": "Close Range",
           "name": "Nahkampfstrategie",
           "description": "Nutze Positionierung und Bewegung vorsichtig, wenn sich Gegner in engen unterirdischen Räumen auf kurze Distanz nähern."
         },
         {
-          "type": "Fernbereich",
+          "type": "Long Range",
           "name": "Fernkampfstrategie",
           "description": "Halte Abstand und kontrolliere Gegnerbegegnungen, wann immer das Layout der Ebene es zulässt."
         },
@@ -255,14 +255,14 @@
         {
           "name": "Ebenen-Bossbegegnungen",
           "tier": "Boss",
-          "difficulty": "Hoch",
+          "difficulty": "High",
           "strategy": "Konzentriere dich darauf, Angriffsmuster zu lernen, unnötigen Schaden zu vermeiden und in sicheren Zeitfenstern zwischen den Bossangriffen anzugreifen.",
           "recommended": "Ausgewogenes Loadout mit verlässlichem Schaden und ausreichend Überlebensressourcen für einen langen Kampf."
         },
         {
           "name": "Herausforderungen der tiefen Ebenen",
-          "tier": "Fortgeschritten",
-          "difficulty": "Sehr hoch",
+          "tier": "Advanced",
+          "difficulty": "Very High",
           "strategy": "Bereite verbesserte Ausrüstung vor und koordiniere Bewegungen sorgfältig während der gefährlichen Begegnungen in den tiefsten Ebenen.",
           "recommended": "Nutze deine stärksten verfügbaren Upgrades, bevor du die tieferen Abschnitte von Hellhole versuchst."
         }
